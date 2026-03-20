@@ -1,0 +1,194 @@
+{{!-- Character Portrait and Summary --}}
+<section class="panel play-mode-summary">
+  <div class="play-mode-header">
+    <div class="portrait-frame">
+      <img src="{{actor.img}}" alt="{{actor.name}}" />
+    </div>
+    <div class="character-summary">
+      <h2>{{actor.name}}</h2>
+      <div class="summary-grid">
+        <div><span>Player</span><strong>{{system.playerName}}</strong></div>
+        <div><span>Species</span><strong>{{system.species}}</strong></div>
+        <div><span>Occupation</span><strong>{{system.occupation}}</strong></div>
+        <div><span>Power Level</span><strong>{{system.powerLevel}}</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{!-- Combat Dashboard --}}
+<section class="panel combat-dashboard">
+  <div class="panel-title">Combat Dashboard</div>
+  <div class="combat-grid">
+    <div class="combat-stat">
+      <label>Health</label>
+      <div class="resource-input">
+        <input type="number" name="system.resources.health.value" value="{{system.resources.health.value}}" />
+        <span>/</span><strong>{{system.resources.health.max}}</strong>
+      </div>
+    </div>
+    <div class="combat-stat">
+      <label>Energy</label>
+      <div class="resource-input">
+        <input type="number" name="system.resources.energy.value" value="{{system.resources.energy.value}}" />
+        <span>/</span><strong>{{system.resources.energy.max}}</strong>
+      </div>
+    </div>
+    <div class="combat-stat derived"><label>Attack CV</label><strong>{{system.combat.attack}}</strong></div>
+    <div class="combat-stat derived"><label>Defence CV</label><strong>{{system.combat.defence}}</strong></div>
+    <div class="combat-stat derived"><label>Damage Mult.</label><strong>x{{system.combat.damageMultiplier}}</strong></div>
+    <div class="combat-stat derived"><label>Armour</label><strong>{{system.combat.armourRating}}</strong></div>
+  </div>
+</section>
+
+{{!-- Quick Stats --}}
+<section class="panel">
+  <div class="panel-title">Stats</div>
+  <div class="stats-quick-view">
+    {{#each statRows}}
+      <div class="stat-card">
+        <span class="stat-label">{{this.label}}</span>
+        <strong class="stat-value">{{this.effective}}</strong>
+        <button type="button" class="roll-button" data-action="roll-stat" data-stat="{{this.id}}">
+          <i class="fas fa-dice"></i> Roll
+        </button>
+      </div>
+    {{/each}}
+  </div>
+</section>
+
+{{!-- Combat Actions --}}
+<section class="panel">
+  <div class="panel-title">Combat Actions</div>
+  <div class="button-group">
+    <button type="button" data-action="roll-initiative">Roll Initiative</button>
+  </div>
+</section>
+
+{{!-- Weapons Section --}}
+<section class="panel collapsible-section collapsed" data-section="weapons">
+  <div class="collapsible-header">
+    <div class="panel-title">Weapons</div>
+    <button type="button" class="collapse-toggle"><i class="fas fa-chevron-down"></i></button>
+  </div>
+  <div class="collapsible-content">
+    <table class="item-table">
+      <thead><tr><th>Name</th><th>Lvl</th><th>Mode</th><th>Atk</th><th>Dmg</th><th></th></tr></thead>
+      <tbody>
+        {{#each attacks}}
+          <tr>
+            <td>{{this.name}}</td>
+            <td>{{this.effectiveLevel}}</td>
+            <td>{{this.mode}}</td>
+            <td>{{this.attackBonus}}</td>
+            <td>{{this.damage}}</td>
+            <td class="row-actions">
+              <button type="button" data-action="roll-attack" data-item-id="{{this.id}}">Atk</button>
+              <button type="button" data-action="roll-damage" data-item-id="{{this.id}}">Dmg</button>
+            </td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+{{!-- Powers Section --}}
+<section class="panel collapsible-section collapsed" data-section="powers">
+  <div class="collapsible-header">
+    <div class="panel-title">Powers</div>
+    <button type="button" class="collapse-toggle"><i class="fas fa-chevron-down"></i></button>
+  </div>
+  <div class="collapsible-content">
+    <table class="item-table">
+      <thead><tr><th>Name</th><th>Spec</th><th>Lvl</th><th>Eff</th><th>Page</th></tr></thead>
+      <tbody>
+        {{#each attributes}}
+          <tr>
+            <td>{{this.name}}</td>
+            <td>{{this.specialization}}</td>
+            <td>{{this.level}}</td>
+            <td>{{this.effectiveLevel}}</td>
+            <td>{{this.page}}</td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+{{!-- Defects Section --}}
+<section class="panel collapsible-section collapsed" data-section="defects">
+  <div class="collapsible-header">
+    <div class="panel-title">Defects</div>
+    <button type="button" class="collapse-toggle"><i class="fas fa-chevron-down"></i></button>
+  </div>
+  <div class="collapsible-content">
+    <table class="item-table">
+      <thead><tr><th>Name</th><th>Rank</th><th>Page</th></tr></thead>
+      <tbody>
+        {{#each defects}}
+          <tr>
+            <td>{{this.name}}</td>
+            <td>{{this.rank}}</td>
+            <td>{{this.page}}</td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+{{!-- Gear Section --}}
+<section class="panel collapsible-section collapsed" data-section="gear">
+  <div class="collapsible-header">
+    <div class="panel-title">Gear</div>
+    <button type="button" class="collapse-toggle"><i class="fas fa-chevron-down"></i></button>
+  </div>
+  <div class="collapsible-content">
+    <table class="item-table">
+      <thead><tr><th>Name</th><th>Page</th></tr></thead>
+      <tbody>
+        {{#each gear}}
+          <tr>
+            <td>{{this.name}}</td>
+            <td>{{this.page}}</td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+</section>
+
+{{!-- Movement Section --}}
+<section class="panel collapsible-section collapsed" data-section="movement">
+  <div class="collapsible-header">
+    <div class="panel-title">Movement</div>
+    <button type="button" class="collapse-toggle"><i class="fas fa-chevron-down"></i></button>
+  </div>
+  <div class="collapsible-content">
+    <div class="derived-grid">
+      <div><span>Walk</span><strong>{{system.movement.walk}}</strong></div>
+      <div><span>Jog</span><strong>{{system.movement.jog}}</strong></div>
+      <div><span>Run</span><strong>{{system.movement.run}}</strong></div>
+      <div><span>Sprint</span><strong>{{system.movement.sprint}}</strong></div>
+      <div><span>Crawl</span><strong>{{system.movement.crawl}}</strong></div>
+      <div><span>Swim</span><strong>{{system.movement.swim}}</strong></div>
+      <div><span>Ground Max</span><strong>{{system.movement.groundMax}} kph</strong></div>
+      <div><span>Water Max</span><strong>{{system.movement.waterMax}} kph</strong></div>
+      <div><span>Flight Max</span><strong>{{system.movement.flightMax}} kph</strong></div>
+      <div><span>Spaceflight</span><strong>{{#if system.movement.spaceflightLevel}}Lv {{system.movement.spaceflightLevel}} {{system.movement.spaceflightLabel}}{{else}}None{{/if}}</strong></div>
+    </div>
+  </div>
+</section>
+
+{{!-- Notes Section --}}
+<section class="panel collapsible-section collapsed" data-section="notes">
+  <div class="collapsible-header">
+    <div class="panel-title">Notes</div>
+    <button type="button" class="collapse-toggle"><i class="fas fa-chevron-down"></i></button>
+  </div>
+  <div class="collapsible-content">
+    {{editor system.notes target="system.notes" button=true owner=owner editable=editable}}
+  </div>
+</section>

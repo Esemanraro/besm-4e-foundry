@@ -19,6 +19,7 @@ export class BesmActorSheet extends ActorSheet {
     this._libraryCategory = "attributes";
     this._libraryEntryId = null;
     this._pendingTemplateApplication = null;
+    this._playMode = this.actor.system.creationComplete || false;
   }
 
   static get defaultOptions() {
@@ -80,6 +81,10 @@ export class BesmActorSheet extends ActorSheet {
     data.library = this.#buildLibraryData(content);
     data.pendingTemplateApplication = this.#buildPendingTemplateApplication();
     data.editable = this.isEditable;
+    data.isPlayMode = this._playMode;
+    data.isCreationMode = !this._playMode;
+    data.canEditPoints = !this._playMode;
+    data.creationComplete = this.actor.system.creationComplete || false;
     return data;
   }
 
@@ -228,6 +233,44 @@ export class BesmActorSheet extends ActorSheet {
       this._pendingTemplateApplication = null;
       this.render(false);
     });
+
+    html.find("[data-action='toggle-play-mode']").on("click", () => this.#togglePlayMode());
+    html.find("[data-action='finish-creation']").on("click", () => this.#togglePlayMode());
+    html.find("[data-action='back-to-creation']").on("click", () => this.#togglePlayMode());
+
+    html.find(".collapse-toggle").on("click", (event) => {
+      const section = event.currentTarget.closest(".collapsible-section");
+      section.classList.toggle("collapsed");
+    });
+  }
+
+  async #togglePlayMode() {
+    const newState = !this._playMode;
+
+    if (newState) {
+      const dialog = new Dialog({
+        title: "Finish Character Creation",
+        content: "<p>Mark this character as complete and switch to play mode?</p><p>You can return to creation mode later if needed.</p>",
+        buttons: {
+          yes: {
+            label: "Yes, Finish Character",
+            callback: async () => {
+              await this.actor.update({ "system.creationComplete": true });
+              this._playMode = true;
+              this.render(false);
+            }
+          },
+          no: { label: "Cancel" }
+        },
+        default: "no"
+      });
+      dialog.render(true);
+    } else {
+      await this.actor.update({ "system.creationComplete": false });
+      this._playMode = false;
+      this._step = "scope";
+      this.render(false);
+    }
   }
 
   #decorateItem(item) {

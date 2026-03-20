@@ -87,6 +87,7 @@ export class BesmActorDataModel extends foundry.abstract.TypeDataModel {
         health: resourceSchema(),
         energy: resourceSchema()
       }),
+      creationComplete: new fields.BooleanField({ initial: false }),
       notes: new fields.HTMLField({ initial: "" })
     };
   }

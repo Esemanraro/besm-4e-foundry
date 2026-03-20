@@ -178,3 +178,194 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Play Mode Navigation */
+.play-mode-nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.75rem;
+}
+
+.mode-toggle {
+  padding: 0.35rem 0.75rem;
+  background: rgba(0, 128, 0, 0.1);
+  border: 1px solid rgba(0, 128, 0, 0.3);
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+/* Portrait and Summary */
+.play-mode-header {
+  display: flex;
+  gap: 1rem;
+}
+
+.portrait-frame {
+  width: 128px;
+  height: 128px;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.portrait-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.character-summary h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+.summary-grid {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.summary-grid div {
+  display: flex;
+  flex-direction: column;
+  padding: 0.35rem 0.45rem;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.summary-grid span {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+/* Combat Dashboard */
+.combat-dashboard {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(147, 51, 234, 0.1) 100%);
+}
+
+.combat-grid {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+
+.combat-stat {
+  padding: 0.5rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.combat-stat label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.resource-input {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.resource-input input {
+  width: 60px;
+  text-align: center;
+}
+
+.resource-input span {
+  opacity: 0.6;
+}
+
+.combat-stat.derived {
+  text-align: center;
+}
+
+.combat-stat.derived strong {
+  color: #3b82f6;
+  font-size: 1.25rem;
+}
+
+/* Quick Stats */
+.stats-quick-view {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
+
+.stat-card {
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  color: #3b82f6;
+}
+
+.roll-button {
+  margin-top: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.85rem;
+}
+
+/* Collapsible Sections */
+.collapsible-section {
+  transition: all 0.3s ease;
+}
+
+.collapsible-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.collapse-toggle {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.collapse-toggle i {
+  font-size: 0.9rem;
+}
+
+.collapsible-section.collapsed .collapse-toggle {
+  transform: rotate(-90deg);
+}
+
+.collapsible-content {
+  max-height: 500px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.collapsible-section.collapsed .collapsible-content {
+  max-height: 0;
+}
+
+/* Finish Button */
+.finish-button {
+  background: rgba(0, 128, 0, 0.15) !important;
+  border-color: rgba(0, 128, 0, 0.4) !important;
+}
+
+/* Disabled fields in play mode */
+input:disabled,
+select:disabled,
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

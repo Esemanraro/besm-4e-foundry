@@ -27,7 +27,7 @@
       </label>
       <label>
         <span>Power Level</span>
-        <select name="system.powerLevel">
+        <select name="system.powerLevel" {{#unless canEditPoints}}disabled{{/unless}}>
           {{#select system.powerLevel}}
             {{#each powerLevels}}
               <option value="{{this.id}}">{{this.name}}</option>
@@ -37,23 +37,32 @@
       </label>
       <label>
         <span>Size Rank</span>
-        <input type="number" name="system.size.rank" value="{{system.size.rank}}" min="-10" max="10" />
+        <input type="number" name="system.size.rank" value="{{system.size.rank}}" min="-10" max="10" {{#unless canEditPoints}}disabled{{/unless}} />
       </label>
       <label>
         <span>Target Points</span>
-        <input type="number" name="system.targetPoints" value="{{system.targetPoints}}" />
+        <input type="number" name="system.targetPoints" value="{{system.targetPoints}}" {{#unless canEditPoints}}disabled{{/unless}} />
       </label>
     </div>
   </header>
 
+  {{#if isCreationMode}}
   <nav class="builder-nav">
     {{#each steps}}
       <button type="button" class="{{#if this.active}}active{{/if}}" data-action="goto-step" data-step="{{this.id}}">{{this.label}}</button>
     {{/each}}
   </nav>
+  {{else}}
+  <nav class="play-mode-nav">
+    <button type="button" class="mode-toggle" data-action="back-to-creation">
+      <i class="fas fa-edit"></i> Back to Creation
+    </button>
+  </nav>
+  {{/if}}
 
   <section class="sheet-columns">
     <div class="column wide">
+      {{#if isCreationMode}}
       {{#if stepFlags.scope}}
         <section class="panel">
           <div class="panel-title">Campaign Scope</div>
@@ -84,7 +93,7 @@
                   <td>{{this.name}}</td>
                   <td>{{this.points}}</td>
                   <td>{{this.page}}</td>
-                  <td><button type="button" data-action="add-template" data-template-type="race" data-template-id="{{this.id}}">Add</button></td>
+                  <td><button type="button" data-action="add-template" data-template-type="race" data-template-id="{{this.id}}" {{#unless canEditPoints}}disabled{{/unless}}>Add</button></td>
                 </tr>
               {{/each}}
             </tbody>
@@ -100,7 +109,7 @@
                   <td>{{this.name}}</td>
                   <td>{{this.points}}</td>
                   <td>{{this.page}}</td>
-                  <td><button type="button" data-action="add-template" data-template-type="class" data-template-id="{{this.id}}">Add</button></td>
+                  <td><button type="button" data-action="add-template" data-template-type="class" data-template-id="{{this.id}}" {{#unless canEditPoints}}disabled{{/unless}}>Add</button></td>
                 </tr>
               {{/each}}
             </tbody>
@@ -119,8 +128,8 @@
                   <td>{{this.page}}</td>
                   <td class="row-actions">
                     <button type="button" data-action="library-open" data-category="templates" data-entry-id="{{this.item.system.templateId}}">Ref</button>
-                    <button type="button" data-action="edit-item" data-item-id="{{this.id}}">Edit</button>
-                    <button type="button" data-action="delete-item" data-item-id="{{this.id}}">X</button>
+                    <button type="button" data-action="edit-item" data-item-id="{{this.id}}" {{#unless canEditPoints}}disabled{{/unless}}>Edit</button>
+                    <button type="button" data-action="delete-item" data-item-id="{{this.id}}" {{#unless canEditPoints}}disabled{{/unless}}>X</button>
                   </td>
                 </tr>
               {{/each}}
@@ -171,7 +180,7 @@
               {{#each statRows}}
                 <tr>
                   <td>{{this.label}}</td>
-                  <td><input type="number" name="system.stats.{{this.id}}" value="{{this.base}}" /></td>
+                  <td><input type="number" name="system.stats.{{this.id}}" value="{{this.base}}" {{#unless canEditPoints}}disabled{{/unless}} /></td>
                   <td>{{this.templateBonus}}</td>
                   <td>{{this.attributeBonus}}</td>
                   <td>{{this.effective}}</td>
@@ -203,8 +212,8 @@
           <div class="panel-header">
             <div class="panel-title">Attributes and Powers</div>
             <div class="button-group">
-              <button type="button" data-action="create-item" data-type="attribute">Add Attribute</button>
-              <button type="button" data-action="create-item" data-type="attribute" data-catalog-id="weapon">Add Weapon</button>
+              <button type="button" data-action="create-item" data-type="attribute" {{#unless canEditPoints}}disabled{{/unless}}>Add Attribute</button>
+              <button type="button" data-action="create-item" data-type="attribute" data-catalog-id="weapon" {{#unless canEditPoints}}disabled{{/unless}}>Add Weapon</button>
             </div>
           </div>
           <table class="item-table">
@@ -220,8 +229,8 @@
                   <td>{{this.page}}</td>
                   <td class="row-actions">
                     <button type="button" data-action="library-open" data-category="attributes" data-entry-id="{{this.item.system.catalogId}}">Ref</button>
-                    <button type="button" data-action="edit-item" data-item-id="{{this.id}}">Edit</button>
-                    <button type="button" data-action="delete-item" data-item-id="{{this.id}}">X</button>
+                    <button type="button" data-action="edit-item" data-item-id="{{this.id}}" {{#unless canEditPoints}}disabled{{/unless}}>Edit</button>
+                    <button type="button" data-action="delete-item" data-item-id="{{this.id}}" {{#unless canEditPoints}}disabled{{/unless}}>X</button>
                   </td>
                 </tr>
               {{/each}}
@@ -234,7 +243,7 @@
         <section class="panel">
           <div class="panel-header">
             <div class="panel-title">Defects</div>
-            <button type="button" data-action="create-item" data-type="defect">Add Defect</button>
+            <button type="button" data-action="create-item" data-type="defect" {{#unless canEditPoints}}disabled{{/unless}}>Add Defect</button>
           </div>
           <table class="item-table">
             <thead><tr><th>Name</th><th>Rank</th><th>Pts</th><th>Page</th><th></th></tr></thead>
@@ -247,8 +256,8 @@
                   <td>{{this.page}}</td>
                   <td class="row-actions">
                     <button type="button" data-action="library-open" data-category="defects" data-entry-id="{{this.item.system.catalogId}}">Ref</button>
-                    <button type="button" data-action="edit-item" data-item-id="{{this.id}}">Edit</button>
-                    <button type="button" data-action="delete-item" data-item-id="{{this.id}}">X</button>
+                    <button type="button" data-action="edit-item" data-item-id="{{this.id}}" {{#unless canEditPoints}}disabled{{/unless}}>Edit</button>
+                    <button type="button" data-action="delete-item" data-item-id="{{this.id}}" {{#unless canEditPoints}}disabled{{/unless}}>X</button>
                   </td>
                 </tr>
               {{/each}}
@@ -262,9 +271,9 @@
           <div class="panel-header">
             <div class="panel-title">Weapons</div>
             <div class="button-group">
-              <button type="button" data-action="create-item" data-type="attribute" data-catalog-id="weapon">Add Weapon</button>
-              <button type="button" data-action="create-item" data-type="attribute" data-catalog-id="armour">Add Armour</button>
-              <button type="button" data-action="create-item" data-type="attribute" data-catalog-id="force-field">Add Force Field</button>
+              <button type="button" data-action="create-item" data-type="attribute" data-catalog-id="weapon" {{#unless canEditPoints}}disabled{{/unless}}>Add Weapon</button>
+              <button type="button" data-action="create-item" data-type="attribute" data-catalog-id="armour" {{#unless canEditPoints}}disabled{{/unless}}>Add Armour</button>
+              <button type="button" data-action="create-item" data-type="attribute" data-catalog-id="force-field" {{#unless canEditPoints}}disabled{{/unless}}>Add Force Field</button>
             </div>
           </div>
           <table class="item-table">
@@ -284,8 +293,8 @@
                     <button type="button" data-action="library-open" data-category="attributes" data-entry-id="{{this.item.system.catalogId}}">Ref</button>
                     <button type="button" data-action="roll-attack" data-item-id="{{this.id}}">Atk</button>
                     <button type="button" data-action="roll-damage" data-item-id="{{this.id}}">Dmg</button>
-                    <button type="button" data-action="edit-item" data-item-id="{{this.id}}">Edit</button>
-                    <button type="button" data-action="delete-item" data-item-id="{{this.id}}">X</button>
+                    <button type="button" data-action="edit-item" data-item-id="{{this.id}}" {{#unless canEditPoints}}disabled{{/unless}}>Edit</button>
+                    <button type="button" data-action="delete-item" data-item-id="{{this.id}}" {{#unless canEditPoints}}disabled{{/unless}}>X</button>
                   </td>
                 </tr>
               {{/each}}
@@ -295,7 +304,7 @@
         <section class="panel">
           <div class="panel-header">
             <div class="panel-title">Gear and Misc. Items</div>
-            <button type="button" data-action="create-item" data-type="gear">Add Gear</button>
+            <button type="button" data-action="create-item" data-type="gear" {{#unless canEditPoints}}disabled{{/unless}}>Add Gear</button>
           </div>
           <table class="item-table">
             <thead><tr><th>Name</th><th>Pts</th><th>Page</th><th></th></tr></thead>
@@ -306,8 +315,8 @@
                   <td>{{this.points}}</td>
                   <td>{{this.page}}</td>
                   <td class="row-actions">
-                    <button type="button" data-action="edit-item" data-item-id="{{this.id}}">Edit</button>
-                    <button type="button" data-action="delete-item" data-item-id="{{this.id}}">X</button>
+                    <button type="button" data-action="edit-item" data-item-id="{{this.id}}" {{#unless canEditPoints}}disabled{{/unless}}>Edit</button>
+                    <button type="button" data-action="delete-item" data-item-id="{{this.id}}" {{#unless canEditPoints}}disabled{{/unless}}>X</button>
                   </td>
                 </tr>
               {{/each}}
@@ -350,6 +359,11 @@
           </div>
           <div class="button-group review-actions">
             <button type="button" data-action="roll-initiative">Roll Initiative</button>
+            {{#unless creationComplete}}
+            <button type="button" data-action="finish-creation" class="finish-button">
+              <i class="fas fa-check"></i> Finish Character
+            </button>
+            {{/unless}}
           </div>
         </section>
         <section class="panel">
@@ -453,11 +467,16 @@
           </div>
         </section>
       {{/if}}
+      {{else}}
+      {{> "systems/besm4e/templates/actor/partials/play-mode.hbs"}}
+      {{/if}}
     </div>
   </section>
 
   <footer class="builder-footer">
+    {{#if isCreationMode}}
     <button type="button" data-action="step-prev">Previous</button>
     <button type="button" data-action="step-next">Next</button>
+    {{/if}}
   </footer>
 </form>
