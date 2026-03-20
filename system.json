@@ -2,9 +2,9 @@
   "id": "besm4e",
   "title": "BESM Fourth Edition",
   "description": "A Foundry VTT system scaffold for Big Eyes, Small Mouth Fourth Edition character creation and rules automation.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "manifest": "https://github.com/Esemanraro/besm-4e-foundry/releases/latest/download/system.json",
-  "download": "https://github.com/Esemanraro/besm-4e-foundry/releases/download/0.1.0/system.zip",
+  "download": "https://github.com/Esemanraro/besm-4e-foundry/releases/download/1.0.0/system.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13.351"
