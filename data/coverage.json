@@ -1,0 +1,16 @@
+{
+  "book": {
+    "title": "BESM 4e Core Rulebook 4th Edition",
+    "pdfPageOffset": 2
+  },
+  "counts": {
+    "attributes": 86,
+    "defects": 36,
+    "templates": 50,
+    "modifiers": 71,
+    "referenceTables": 5,
+    "itemSections": 9,
+    "itemBlueprints": 167,
+    "companions": 32
+  }
+}

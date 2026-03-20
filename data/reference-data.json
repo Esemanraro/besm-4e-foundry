@@ -1,0 +1,661 @@
+{
+  "stats": {
+    "definitions": [
+      {
+        "id": "body",
+        "name": "Body",
+        "sourcePage": 71
+      },
+      {
+        "id": "mind",
+        "name": "Mind",
+        "sourcePage": 71
+      },
+      {
+        "id": "soul",
+        "name": "Soul",
+        "sourcePage": 71
+      }
+    ],
+    "costRules": {
+      "breakpoint": 12,
+      "costPerRankToBreakpoint": 2,
+      "costPerRankAboveBreakpoint": 4,
+      "rulesText": "ASSIGN STATS\n\nStats (short for Statistics) are numerical assignments that reflect your character’s basic capabilities, with higher Stat\nvalues indicating an advanced level of accomplishment or achievement. More than any other values in BESM, Stats are\na measure of your character’s core competencies and provide the foundation upon which everything else is built. Dice\nrolls are compared to your Stats when you want your character to perform challenging tasks in BESM (page 176) to help\ndetermine if their attempt was successful or not.\n\nBESM uses three Stats to represent your character’s abilities: Body, Mind, and Soul. You may use some or all of your\nremaining Character Points when assigning Stat values to your character, and then add these values to any that were\nincluded in their assigned Race or Class Templates (page 36).\n\nBODY STAT\n\nBALANCED ABILITIES\n\nThe Body Stat measures the physical aspects of\nyour character. This includes overall health, strength,\nendurance, quickness, rate of healing, manual dexterity,\nand ability to withstand damage and trauma. A character\nwith a high Body is in good physical shape.\nBody values of nonhumans or super-powered\nhumans may still centre on a human average (unless they\nare also superhumanly fit). Superhuman or subhuman\nstrength, durability, and speed are all represented by\nspecific Attributes and Defects. For example, an out-\nof-shape giant might have a lower Body than an athletic\nteenage boy but the giant’s size may be reflected by other\nAttributes such as Armour (page 80), Superstrength\n(page 124), and Tough (page 128).\n\nStats in BESM assume as a baseline that characters\nare well-rounded, balanced individuals at their core.\nFor example, people who we would describe as athletic\nwould have Body Stats that reflects their physicality\nacross a wide range of Body aspects (strength, dexterity,\nflexibility, toughness, etc.). Similarly, characters who\nare pulled towards more academic pursuits would\nhave Mind Stats that reflect their brain power through\nmultiple avenues (intelligence, wit, critical thinking,\nperception, etc.). Creating balanced anime and manga\ncharacters in BESM is simplified by only having three\nStats that cover the physical, mental, and spiritual\naspects of your creation.\nIf one or more of your character’s Stats result from\nenhancements (such as technology, magic, paranormal\ntraining, divine intervention, etc.) rather than natural\nexpressions of experience and talent, their aptitude\ncan either be explained through the assignment of\nthe Augmented Attribute (page 80) or another more\ntargetted Attribute. A few examples of such specialised\nAttributes that fall outside the Stat range and can refine\nyour character concept for excelling in one particular\narea include:\n\nMIND STAT\n\nThe Mind Stat represents your character’s mental\nprowess and aptitude. High values indicate intelligent\nand witty characters who are keen critical thinkers\nand strategists. Your character’s Mind value does not\nnecessarily correlate with breadth of training and depth\nof experience, though. Your character can be highly\nskilled in a particular area, yet still have only an average\nMind Stat.\n\n»\nSuperstrength for a strength aspect (Body)\n»\nResilient for an immune system aspect (Body)\n»\nSpecial Movement: Fast for a running speed aspect\n(Body)\n»\nTough for a damage resistant aspect (Body)\n»\nHeightened Awareness for a perception aspect (Mind)\n»\nFeature: Eidetic Memory for a memory aspect (Mind)\n»\nMind Shield for a mental resistant aspect (Mind)\n»\nSixth Sense for an intuition aspect (Mind)\n»\nExorcism for an indomitable will aspect (Soul)\n»\nMulligan for a luck aspect (Soul)\n»\nInspire for a determination aspect (Soul)\n»\nSkill Group (select appropriate one) for composure\naspect (Soul)\n\nSOUL STAT\n\nThe\nSoul\nStat\nrepresents\nluck,\nwillpower,\ndetermination, and spirit, and can also represent\npsychic ability, empathy, and unity with nature. A high\nrating in the Soul Stat helps your character focus their\npersonal energies or life force to go beyond their normal\nlimits and to fuel special abilities. High Soul values are\na good way to represent the many anime heroes whose\nmain trait is their strength of character, pure heart, or\ninnocence.\n\nSTAT\n\nREADING STAT\nVALUES\n\nSTAT\n\nFor most games, Stats range from 1 to 12. A value\nof 4 in a Stat is the adult human average. Ratings under\n4 indicate decreasing competency and ratings over 4\ndesignate increasing superiority. For example, a person\nof average build, high intelligence, and above average\ndetermination might have Body 4, Mind 7, and Soul 5.\nUnder normal circumstances, characters and living\nbeings must have a value of at least 1 in each Stat.\nFurthermore, GMs are encouraged to require a solid\ncharacter concept before allowing Stats values to exceed\n9 in games focussed on regular humans, since these\nrepresent capabilities well beyond the human norm.\nTable-06: Stat Values shows the Character Points\nrequired to assign each Stat Value.\n\nSTAT COSTS\n\nYour starting Character Points (page 22) are used to\npurchase Stats; how you allocate your character’s Stats\nare your choice. Stats start with a value of 0 and raising\na Stat by one costs 2 Character Points. Most characters\nshould have values of at least 4 each in Stat if you want\nto represent at least average human capabilities.\nYou may wish to not spend all your Character Points\nassigning Stats, since any Points not spent on Stats can\nbe used to acquire very useful Templates (page 30) and\nAttributes (page 74) for your character. Of course, the\nGM may choose to set an absolute ceiling or floor on\nthe number of Character Points that can be allocated to\nStats to ensure characters have a balance between Stats\nand Attributes (see benchmarks in Table-02, page 24),\nor they may leave this decision to your discretion.\n\nu\nX\nSTATS ABOVE 12\nTATS ABOVE 12\n\nStats above 12 are not recommended for most BESM\ngames, since they tend to take away from the humanity\nof the characters involved, and can also be unbalancing\nby making it trivially easy to succeed at most tasks.\nAttributes that affect a single aspect of a Stat – such as\nMulligan, Superstrength, Superspeed, or Tough – are\nusually a better way to represent superhuman ability.\nNevertheless, if it is vital to a character concept, the\nGame Master may choose to design an NPC or even\npermit a player character to have a Stat above 12. For\nexample, a character who is defined as the most brilliant\nscientist in the solar system might have Mind Stat in\nthe 13-18 range.\n\nEXPENSIVE SUPERHUMAN STATS\n\nSTAT VALUES\n\nTo reflect their rarity, Stats above 12 are more\nexpensive than normal. Each +1 to a Stat over 12 costs\n4 Character Points instead of the normal 2 Character\nPoints. For example, Body 13 costs 28 Points, Body 14\ncosts 32 Points, Body 15 costs 36 Points, etc.\n\nStat\nValue\nPoint\nCost\nRank Description\n\n1\n2\nHighly inept; infant\n\nu\nX\nSHORTCOMING DEFECT\nHORTCOMING DEFECT\n\n2\n4\nSignificantly below adult human; child\n\n3\n6\nBelow adult human average; teenager\n\nAs mentioned previously, with only three game\nStats representing all physical, mental, and spiritual\ncapacity, BESM is obviously ideal for well-rounded,\nbalanced characters. But what if your character is\nweak in a particular area of a Stat? For example, your\ncharacter might be strong, healthy, and durable, but\nrather clumsy. Similarly, they could be intelligent and\nwitty, but forgetful; or strong-willed and composed, but\nunlucky.\nOn page 165, you will find the Shortcoming Defect,\nwhich was designed specifically to further divide the\nStats into subcategories as best fits the vision for your\ncharacter. Although you do not normally select Defects\nfor your character until Chapter 7, you may wish to\nbecome familiar with the Shortcoming Defect earlier\nif you need to define your character with specific\nprecision.\n\n4\n8\nAdult human average\n\n5\n10\nAbove adult human average\n\n6\n12\nSignificantly above adult human average\n\n7\n14\nHighly capable\n\n8\n16\nExtremely capable\n\n9\n18\nBest in the local region\n\n10\n20\nBest in the country or large region\n\n11\n22\nWorld-class ability\n\n12\n24\nMaximum normal human potential\n\n13+\n28+\nSpecial; see text for details\n\nSTAT\n\nATTRIBUTES\n\nADD ATTRIBUTES\n\nThe three Stats from Chapter 4 represent your character’s baseline abilities. More specialised aspects of your character\nare known as Attributes, which can represent innate talents, learned skills, racial traits, magical spells, psychic abilities,\nsuperpowers, technological enhancements, and more. Attributes can also be added to equipment (known as Items; page\n196) or entities (known as Companions; page 226) to create personal gear, artefacts, vehicles, pets, and assistants.\n\nThe amount of flexibility and customisation provided by Attributes is immense. You will probably spend more time\npouring over the Attribute options for your character than on any other stage of character creation. Take your time and\ncommunicate frequently with your Game Master if you have any questions about how specific Attributes will work in your\nupcoming game or if the GM has any suggestions to help guide your character development.\n\nAdding an Enhancement to an Attribute does not\nchange its Character Point cost but it does decrease the\neffective functioning Level of the Attribute by 1 Level.\nFor example, the Force Field Attribute (page 94)\ncosts 4 Points/Level and provides an\nArmour Rating of 10/Level. Adding\nthe Force Field Attribute at\nLevel 4 therefore costs\n16 Points and provides\na substantial 40\nArmour Rating.\n\nATTRIBUTE LEVELS\n\nSince you have already spent points to assign Stats\nand Templates to your character, you can now use\nyour remaining Character Points to acquire Attributes.\nThere are dozens of different Character Attributes, each\nrepresenting a particular talent or special ability. Think\ncarefully about the balance between a few high-Level\nAttributes and a large number of low-Level Attributes.\nMost Attributes are rated with a Level from 1 to 6, but\nwith GM permission and a solid character concept, you\ncan create your character with Attribute Levels beyond\nthis threshold. In particular, the GM may allow players\nto assign Attributes with one or more Enhancements\n(see below) exceeding the Level 6 limit since the effective\nfunctioning Level of the Attribute is lower. The Attribute\ndescriptions may note when it may be appropriate for\na character to exceed the recommended Level 6 limit.\nAttributes added to your character are combined\nwith those gained through Templates (page 30). For\nexample, the Android Battle-Maid Template (page 37)\nincludes 1 Level of the Superstrength Attribute. If you\nnow add an additional 3 Levels of Superstrength to\nyour character, their Superstrength is raised to Level 4\n(1+3=4).\n\nENHANCEMENTS AND\nLIMITERS\n\nSome Attributes include options to modify the\nfunctionality of your character’s ability beyond the\nbaseline description. Modifications that provide an\nadditional benefit or otherwise improve the Attribute\nare called Enhancements while those that impose\na drawback or weaken the impact of the Attribute\nare called Limiters. Each Enhancement or Limiter\ncan usually be assigned only once to your character’s\nAttribute unless noted in the description, although\nsome modifiers are sufficiently beneficial or detrimental\nthat they count for two, three, or even four slots.",
+      "sourcePage": 71
+    }
+  },
+  "powerLevels": [
+    {
+      "id": "sub-human",
+      "name": "Sub-Human",
+      "minimum": 0,
+      "maximum": 24,
+      "sourcePage": 22
+    },
+    {
+      "id": "human",
+      "name": "Human",
+      "minimum": 25,
+      "maximum": 49,
+      "sourcePage": 22
+    },
+    {
+      "id": "adventurer",
+      "name": "Adventurer",
+      "minimum": 50,
+      "maximum": 74,
+      "sourcePage": 22
+    },
+    {
+      "id": "heroic",
+      "name": "Heroic",
+      "minimum": 75,
+      "maximum": 99,
+      "sourcePage": 22
+    },
+    {
+      "id": "mythical",
+      "name": "Mythical",
+      "minimum": 100,
+      "maximum": 149,
+      "sourcePage": 22
+    },
+    {
+      "id": "superhuman",
+      "name": "Superhuman",
+      "minimum": 150,
+      "maximum": 199,
+      "sourcePage": 23
+    },
+    {
+      "id": "superpowered",
+      "name": "Superpowered",
+      "minimum": 200,
+      "maximum": 249,
+      "sourcePage": 23
+    },
+    {
+      "id": "godlike",
+      "name": "Godlike",
+      "minimum": 250,
+      "maximum": null,
+      "sourcePage": 23
+    }
+  ],
+  "powerLevelRulesText": "01\n02: CHARACTER BASICS\n\nCHARACTER\nPOWER LEVELS\n\nCOLLECTIVE CREATION\n\nWhen preparing for the launch of a new role-playing\ncampaign, players typically create their characters in\nisolation based on the setting information the GM\nprovides. This tendency may not produce the best\nresults for a strong start to the adventures, though, since\nboth the characters and the players lack cohesion for\nthis innately social activity.\nConsider the benefits that a group character creation\nsession provides to the team. Discussing the nature and\nroles of everyone’s character ideas together ensures that\nthe group dynamic is balanced and that every character\nhas unique benefits that will allow them to shine during\nthe game. Establishing character connections is also\neasier in this initial group meeting, since you can co-\ndevelop resonant backstories to provide friendship\ncontexts in the game setting. Finally, group character\ncreation reduces the chances of missed opportunities\nwhen designing your team (ie. having a hole in your\nparty). In a traditional swords-and-sorcery RPG,\nfor example, adventures may be significantly more\nchallenging if your group is missing a spell caster, healer,\nfighter, or thief!\nAfter scoping the game, spend the rest of session\nzero talking about the ideal composition of your\ncharacter team and the strengths and individuality\nthat each character member can bring to the group.\nEveryone should ideally be open to ideas they may not\nhave considered earlier and look at their character’s role\nin the larger context of the game. Spending additional\ntime with the players and Game Master at this stage of\ncharacter creation will yield great benefits compared to\nthe typical isolated development tendency.\n\nICS\n\nER BAS\n\nPower Level\nCharacter Points\n\nSub-Human\n0-24\nHuman\n25-49\nAdventurer\n50-74\nHeroic\n75-99\nMythical\n100-149\nSuperhuman\n150-199\nSuperpowered\n200-249\nGodlike\n250+\n\nCHARACT\n\nHUMAN (25-49 POINTS)\n\nThis power level is suitable for games in which\nmost of the characters will play brave but low-powered\nroles (such as those described above), with a few special\nabilities or powerful items to aid in their quests. It can\nalso be used for games featuring normal humans like\ndetectives, high school students, scientists, and soldiers.\n\nADVENTURER (50-74 POINTS)\n\nThe adventurer power level is suitable for games in\nwhich most of the characters are valiant and courageous\nbut otherwise normal humans or near-humans. They\nmay have some special abilities, but rarely exceed the\npower of a typical action movie hero. It is also suitable\nfor games where the characters play low-powered\ncharacters (for example, elementary school students)\nwho have some powerful abilities, such as pet monsters\nor the knowledge to cast magical spells.\n\nHEROIC (75-99 POINTS)\n\nPOWER LEVEL\n\nBESM players may find this power level the “sweet\nspot” for a wide variety of adventures, since heroic\ncharacters have a decent selection of moderate abilities\nplus some nifty items and other resources. At the same\ntime, the power level and Character Point totals aren’t\nso high that they might cause power balance issues or\ndifficulties presenting challenging adventures for every\ncharacter in the group. Heroic characters may reflect\nhumans at their peak performance with moderate\nspecial abilities, or capable non-human characters with\nsignificant technological or paranormal advantages.\n\nOnce the GM and players together have outlined the\ngeneral framework of the upcoming adventures, it’s time\nto discuss your characters’ power level. The characters’\nrelative capabilities and aptitudes determines the\nCharacter Point total from which they are constructed\n(covered in detail in Chapters 3-7). Consider which of\nthe eight power rankings described herein best align\nwith the vision your group created for your characters.\n\nSUB-HUMAN (0-24 POINTS)\n\nMYTHICAL (100-149 POINTS)\n\nRole-playing underpowered characters can be a\nhighly rewarding experience, with the game typically\nfocusing more on drama and less on action. Such roles\nmay include younger teens and children, wee creatures\n(such as pixies and sprites), or sentient small animals\n(like bunnies and squirrels).\n\nThe mythical power level is most suitable for games\nwhere the characters are notably more impressive than\nnormal humans, but can still be challenged by ordinary\nopponents (especially in large numbers). The characters\nmay still be human but are typically exceptionally\ntalented, such as a legendary martial arts master, the\n\n02: CHARACTER BASICS\n\ntoughest cop in the city, or an elite secret agent. They\ncould also be characters with significant supernatural or\npsychic powers, such as a magical girl or an experienced\nmage or psionic. Mythical level is ideally suited for\nindividuals with moderately powerful racial abilities:\na vampire, a ghost, a cyborg, a demon, etc. Finally, a\nmythical game can also cover characters that are above\naverage in capabilities, but individually or collectively\nhave access to very powerful gear. Example character\ntypes include a squad of giant robot mecha pilots or the\ncaptain and crew of a starship.\n\nSUPERHUMAN (150-199 POINTS)\n\nThis power level enables the characters to possess\nabilities far beyond the norm. A “human” individual\nbuilt at this power level will have legendary abilities – a\ncontender for the title of the world’s greatest thief or the\nworld’s best martial artist, for example. Alternatively,\nthe character may have true superhuman abilities, such\nas an arch-mage sorcerer, a dragon, an elder vampire,\na powerful psychic, an advanced combat android, or\na magical girl that has fully awakened her abilities. A\nsuperhuman character could also be a competent but\notherwise normal individual with a destiny and super\npowerful items such as a towering robot mecha or a\nmighty magical artefact.\n\nSUPERPOWERED (200-249 POINTS)\n\nSimilar to superhuman power level, but the\ncharacters are so powerful that ordinary humans seem\nlike ants underfoot. As with superhuman power, the\ncharacter’s abilities might come from paranormal\npowers, magic, racial abilities, or items ... or often a\ncombination of all of them. Such amazing characters will\nnot always be very experienced at wielding this power,\nhowever. Anime is full of ordinary teenagers who were\ngranted the power of a demigod thanks to: suddenly\ninheriting an ultra-powerful mecha, awakening psychic\npowers, a scientific experiment gone awry, or some\nother twist of fate. How the characters handle these\nenhanced responsibilities – or spectacularly fail to\nhandle them, with tragic results for all concerned – can\nbe more important than the power itself.\n\nGODLIKE (250+ POINTS)\n\nCHARACT\n\nWith this challenging power level, the character’s\nabilities are potentially forceful enough to single-\nhandedly change the world (or even worlds). Players\nshould be cautious about starting their adventures\nat this level of ability, since with great power comes\ngreat responsibility ... and also great complications.\nNevertheless, godlike does reflect the power levels of\nsome popular anime shows.\n\nER BAS\n\nICS",
+  "benchmarks": {
+    "sub-human": {
+      "maximumStat": 5,
+      "maximumAttributeLevel": 2,
+      "combat": {
+        "minimum": 1,
+        "maximum": 6
+      },
+      "resources": {
+        "minimum": 10,
+        "maximum": 40
+      },
+      "damageMultiplier": {
+        "minimum": 2,
+        "maximum": 4
+      },
+      "sourcePage": 24
+    },
+    "human": {
+      "maximumStat": 7,
+      "maximumAttributeLevel": 3,
+      "combat": {
+        "minimum": 2,
+        "maximum": 7
+      },
+      "resources": {
+        "minimum": 30,
+        "maximum": 60
+      },
+      "damageMultiplier": {
+        "minimum": 3,
+        "maximum": 6
+      },
+      "sourcePage": 24
+    },
+    "adventurer": {
+      "maximumStat": 9,
+      "maximumAttributeLevel": 4,
+      "combat": {
+        "minimum": 3,
+        "maximum": 8
+      },
+      "resources": {
+        "minimum": 40,
+        "maximum": 80
+      },
+      "damageMultiplier": {
+        "minimum": 4,
+        "maximum": 8
+      },
+      "sourcePage": 24
+    },
+    "heroic": {
+      "maximumStat": 10,
+      "maximumAttributeLevel": 5,
+      "combat": {
+        "minimum": 4,
+        "maximum": 9
+      },
+      "resources": {
+        "minimum": 50,
+        "maximum": 100
+      },
+      "damageMultiplier": {
+        "minimum": 4,
+        "maximum": 9
+      },
+      "sourcePage": 24
+    },
+    "mythical": {
+      "maximumStat": 12,
+      "maximumAttributeLevel": 6,
+      "combat": {
+        "minimum": 5,
+        "maximum": 10
+      },
+      "resources": {
+        "minimum": 60,
+        "maximum": 120
+      },
+      "damageMultiplier": {
+        "minimum": 5,
+        "maximum": 10
+      },
+      "sourcePage": 24
+    },
+    "superhuman": {
+      "maximumStat": 12,
+      "maximumAttributeLevel": 8,
+      "combat": {
+        "minimum": 6,
+        "maximum": 12
+      },
+      "resources": {
+        "minimum": 70,
+        "maximum": 140
+      },
+      "damageMultiplier": {
+        "minimum": 5,
+        "maximum": 11
+      },
+      "sourcePage": 24
+    },
+    "superpowered": {
+      "maximumStat": 12,
+      "maximumAttributeLevel": 9,
+      "combat": {
+        "minimum": 7,
+        "maximum": 12
+      },
+      "resources": {
+        "minimum": 80,
+        "maximum": 160
+      },
+      "damageMultiplier": {
+        "minimum": 6,
+        "maximum": 12
+      },
+      "sourcePage": 24
+    },
+    "godlike": {
+      "maximumStat": 12,
+      "maximumAttributeLevel": 10,
+      "combat": {
+        "minimum": 8,
+        "maximum": 12
+      },
+      "resources": {
+        "minimum": 100,
+        "maximum": 200
+      },
+      "damageMultiplier": {
+        "minimum": 6,
+        "maximum": 14
+      },
+      "sourcePage": 24
+    }
+  },
+  "targetNumbers": [
+    {
+      "id": "simple",
+      "label": "Simple",
+      "value": 6,
+      "sourcePage": 177
+    },
+    {
+      "id": "easy",
+      "label": "Easy",
+      "value": 9,
+      "sourcePage": 177
+    },
+    {
+      "id": "average",
+      "label": "Average",
+      "value": 12,
+      "sourcePage": 177
+    },
+    {
+      "id": "difficult",
+      "label": "Difficult",
+      "value": 15,
+      "sourcePage": 177
+    },
+    {
+      "id": "challenging",
+      "label": "Challenging",
+      "value": 18,
+      "sourcePage": 177
+    },
+    {
+      "id": "unlikely",
+      "label": "Unlikely",
+      "value": 21,
+      "sourcePage": 177
+    },
+    {
+      "id": "improbable",
+      "label": "Improbable",
+      "value": 24,
+      "sourcePage": 177
+    }
+  ],
+  "sizeRanks": {
+    "-10": {
+      "rank": -10,
+      "label": "Mote",
+      "pointCost": -100,
+      "strengthDamage": -100,
+      "defenceRangedMod": 20,
+      "attackRangedMod": 20,
+      "durability": -100,
+      "rangeSpeedMultiplier": 0.001,
+      "liftingMultiplier": 2e-07,
+      "sourcePage": 35
+    },
+    "-9": {
+      "rank": -9,
+      "label": "Speck",
+      "pointCost": -90,
+      "strengthDamage": -90,
+      "defenceRangedMod": 18,
+      "attackRangedMod": 18,
+      "durability": -90,
+      "rangeSpeedMultiplier": 0.002,
+      "liftingMultiplier": 1e-06,
+      "sourcePage": 35
+    },
+    "-8": {
+      "rank": -8,
+      "label": "Minute",
+      "pointCost": -80,
+      "strengthDamage": -80,
+      "defenceRangedMod": 16,
+      "attackRangedMod": 16,
+      "durability": -80,
+      "rangeSpeedMultiplier": 0.004,
+      "liftingMultiplier": 4e-06,
+      "sourcePage": 35
+    },
+    "-7": {
+      "rank": -7,
+      "label": "Wee",
+      "pointCost": -70,
+      "strengthDamage": -70,
+      "defenceRangedMod": 14,
+      "attackRangedMod": 14,
+      "durability": -70,
+      "rangeSpeedMultiplier": 0.008,
+      "liftingMultiplier": 2e-05,
+      "sourcePage": 35
+    },
+    "-6": {
+      "rank": -6,
+      "label": "Teeny",
+      "pointCost": -60,
+      "strengthDamage": -60,
+      "defenceRangedMod": 12,
+      "attackRangedMod": 12,
+      "durability": -60,
+      "rangeSpeedMultiplier": 0.016666666666666666,
+      "liftingMultiplier": 0.0001,
+      "sourcePage": 35
+    },
+    "-5": {
+      "rank": -5,
+      "label": "Fine",
+      "pointCost": -50,
+      "strengthDamage": -50,
+      "defenceRangedMod": 10,
+      "attackRangedMod": 10,
+      "durability": -50,
+      "rangeSpeedMultiplier": 0.03333333333333333,
+      "liftingMultiplier": 0.0004,
+      "sourcePage": 35
+    },
+    "-4": {
+      "rank": -4,
+      "label": "Diminutive",
+      "pointCost": -40,
+      "strengthDamage": -40,
+      "defenceRangedMod": 8,
+      "attackRangedMod": 8,
+      "durability": -40,
+      "rangeSpeedMultiplier": 0.06666666666666667,
+      "liftingMultiplier": 0.002,
+      "sourcePage": 35
+    },
+    "-3": {
+      "rank": -3,
+      "label": "Tiny",
+      "pointCost": -30,
+      "strengthDamage": -30,
+      "defenceRangedMod": 6,
+      "attackRangedMod": 6,
+      "durability": -30,
+      "rangeSpeedMultiplier": 0.125,
+      "liftingMultiplier": 0.01,
+      "sourcePage": 35
+    },
+    "-2": {
+      "rank": -2,
+      "label": "Small",
+      "pointCost": -20,
+      "strengthDamage": -20,
+      "defenceRangedMod": 4,
+      "attackRangedMod": 4,
+      "durability": -20,
+      "rangeSpeedMultiplier": 0.25,
+      "liftingMultiplier": 0.04,
+      "sourcePage": 35
+    },
+    "-1": {
+      "rank": -1,
+      "label": "Small",
+      "pointCost": -10,
+      "strengthDamage": -10,
+      "defenceRangedMod": 2,
+      "attackRangedMod": 2,
+      "durability": -10,
+      "rangeSpeedMultiplier": 0.5,
+      "liftingMultiplier": 0.2,
+      "sourcePage": 35
+    },
+    "0": {
+      "rank": 0,
+      "label": "Medium",
+      "pointCost": 0,
+      "strengthDamage": 0,
+      "defenceRangedMod": 0,
+      "attackRangedMod": 0,
+      "durability": 0,
+      "rangeSpeedMultiplier": 1,
+      "liftingMultiplier": 1,
+      "sourcePage": 35
+    },
+    "1": {
+      "rank": 1,
+      "label": "Large",
+      "pointCost": 10,
+      "strengthDamage": 10,
+      "defenceRangedMod": -2,
+      "attackRangedMod": -2,
+      "durability": 10,
+      "rangeSpeedMultiplier": 2,
+      "liftingMultiplier": 5,
+      "sourcePage": 35
+    },
+    "2": {
+      "rank": 2,
+      "label": "Huge",
+      "pointCost": 20,
+      "strengthDamage": 20,
+      "defenceRangedMod": -4,
+      "attackRangedMod": -4,
+      "durability": 20,
+      "rangeSpeedMultiplier": 4,
+      "liftingMultiplier": 25,
+      "sourcePage": 35
+    },
+    "3": {
+      "rank": 3,
+      "label": "Mammoth",
+      "pointCost": 30,
+      "strengthDamage": 30,
+      "defenceRangedMod": -6,
+      "attackRangedMod": -6,
+      "durability": 30,
+      "rangeSpeedMultiplier": 8,
+      "liftingMultiplier": 100,
+      "sourcePage": 35
+    },
+    "4": {
+      "rank": 4,
+      "label": "Gigantic",
+      "pointCost": 40,
+      "strengthDamage": 40,
+      "defenceRangedMod": -8,
+      "attackRangedMod": -8,
+      "durability": 40,
+      "rangeSpeedMultiplier": 15,
+      "liftingMultiplier": 500,
+      "sourcePage": 35
+    },
+    "5": {
+      "rank": 5,
+      "label": "Gargantuan",
+      "pointCost": 50,
+      "strengthDamage": 50,
+      "defenceRangedMod": -10,
+      "attackRangedMod": -10,
+      "durability": 50,
+      "rangeSpeedMultiplier": 30,
+      "liftingMultiplier": 2500,
+      "sourcePage": 35
+    },
+    "6": {
+      "rank": 6,
+      "label": "Colossal",
+      "pointCost": 60,
+      "strengthDamage": 60,
+      "defenceRangedMod": -12,
+      "attackRangedMod": -12,
+      "durability": 60,
+      "rangeSpeedMultiplier": 60,
+      "liftingMultiplier": 10000,
+      "sourcePage": 35
+    },
+    "7": {
+      "rank": 7,
+      "label": "Enormous",
+      "pointCost": 70,
+      "strengthDamage": 70,
+      "defenceRangedMod": -14,
+      "attackRangedMod": -14,
+      "durability": 70,
+      "rangeSpeedMultiplier": 125,
+      "liftingMultiplier": 50000,
+      "sourcePage": 35
+    },
+    "8": {
+      "rank": 8,
+      "label": "Monstrous",
+      "pointCost": 80,
+      "strengthDamage": 80,
+      "defenceRangedMod": -16,
+      "attackRangedMod": -16,
+      "durability": 80,
+      "rangeSpeedMultiplier": 250,
+      "liftingMultiplier": 250000,
+      "sourcePage": 35
+    },
+    "9": {
+      "rank": 9,
+      "label": "Titanic",
+      "pointCost": 90,
+      "strengthDamage": 90,
+      "defenceRangedMod": -18,
+      "attackRangedMod": -18,
+      "durability": 90,
+      "rangeSpeedMultiplier": 500,
+      "liftingMultiplier": 1000000,
+      "sourcePage": 35
+    },
+    "10": {
+      "rank": 10,
+      "label": "Monumental",
+      "pointCost": 100,
+      "strengthDamage": 100,
+      "defenceRangedMod": -20,
+      "attackRangedMod": -20,
+      "durability": 100,
+      "rangeSpeedMultiplier": 1000,
+      "liftingMultiplier": 5000000,
+      "sourcePage": 35
+    }
+  },
+  "skillGroups": [
+    {
+      "id": "academic",
+      "name": "Academic",
+      "costPerLevel": 1,
+      "category": "background",
+      "sourcePage": 120
+    },
+    {
+      "id": "artistic",
+      "name": "Artistic",
+      "costPerLevel": 1,
+      "category": "background",
+      "sourcePage": 120
+    },
+    {
+      "id": "domestic",
+      "name": "Domestic",
+      "costPerLevel": 1,
+      "category": "background",
+      "sourcePage": 120
+    },
+    {
+      "id": "occupation",
+      "name": "Occupation",
+      "costPerLevel": 1,
+      "category": "background",
+      "sourcePage": 120
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "costPerLevel": 2,
+      "category": "field",
+      "sourcePage": 121
+    },
+    {
+      "id": "social",
+      "name": "Social",
+      "costPerLevel": 2,
+      "category": "field",
+      "sourcePage": 121
+    },
+    {
+      "id": "street",
+      "name": "Street",
+      "costPerLevel": 2,
+      "category": "field",
+      "sourcePage": 121
+    },
+    {
+      "id": "technical",
+      "name": "Technical",
+      "costPerLevel": 2,
+      "category": "field",
+      "sourcePage": 121
+    },
+    {
+      "id": "adventuring",
+      "name": "Adventuring",
+      "costPerLevel": 3,
+      "category": "action",
+      "sourcePage": 121
+    },
+    {
+      "id": "detective",
+      "name": "Detective",
+      "costPerLevel": 3,
+      "category": "action",
+      "sourcePage": 121
+    },
+    {
+      "id": "military",
+      "name": "Military",
+      "costPerLevel": 3,
+      "category": "action",
+      "sourcePage": 121
+    },
+    {
+      "id": "scientific",
+      "name": "Scientific",
+      "costPerLevel": 3,
+      "category": "action",
+      "sourcePage": 121
+    }
+  ],
+  "referenceTables": [
+    {
+      "id": "character-power-levels",
+      "name": "Character Power Levels",
+      "heading": "CHARACTER POWER LEVELS",
+      "startPage": 22,
+      "endPage": 22,
+      "category": "character",
+      "sourcePage": 22,
+      "rulesText": "CHARACTER\nPOWER LEVELS\n\nCOLLECTIVE CREATION\n\nWhen preparing for the launch of a new role-playing\ncampaign, players typically create their characters in\nisolation based on the setting information the GM\nprovides. This tendency may not produce the best\nresults for a strong start to the adventures, though, since\nboth the characters and the players lack cohesion for\nthis innately social activity.\nConsider the benefits that a group character creation\nsession provides to the team. Discussing the nature and\nroles of everyone’s character ideas together ensures that\nthe group dynamic is balanced and that every character\nhas unique benefits that will allow them to shine during\nthe game. Establishing character connections is also\neasier in this initial group meeting, since you can co-\ndevelop resonant backstories to provide friendship\ncontexts in the game setting. Finally, group character\ncreation reduces the chances of missed opportunities\nwhen designing your team (ie. having a hole in your\nparty). In a traditional swords-and-sorcery RPG,\nfor example, adventures may be significantly more\nchallenging if your group is missing a spell caster, healer,\nfighter, or thief!\nAfter scoping the game, spend the rest of session\nzero talking about the ideal composition of your\ncharacter team and the strengths and individuality\nthat each character member can bring to the group.\nEveryone should ideally be open to ideas they may not\nhave considered earlier and look at their character’s role\nin the larger context of the game. Spending additional\ntime with the players and Game Master at this stage of\ncharacter creation will yield great benefits compared to\nthe typical isolated development tendency.\n\nICS\n\nER BAS\n\nPower Level\nCharacter Points\n\nSub-Human\n0-24\nHuman\n25-49\nAdventurer\n50-74\nHeroic\n75-99\nMythical\n100-149\nSuperhuman\n150-199\nSuperpowered\n200-249\nGodlike\n250+\n\nCHARACT\n\nHUMAN (25-49 POINTS)\n\nThis power level is suitable for games in which\nmost of the characters will play brave but low-powered\nroles (such as those described above), with a few special\nabilities or powerful items to aid in their quests. It can\nalso be used for games featuring normal humans like\ndetectives, high school students, scientists, and soldiers.\n\nADVENTURER (50-74 POINTS)\n\nThe adventurer power level is suitable for games in\nwhich most of the characters are valiant and courageous\nbut otherwise normal humans or near-humans. They\nmay have some special abilities, but rarely exceed the\npower of a typical action movie hero. It is also suitable\nfor games where the characters play low-powered\ncharacters (for example, elementary school students)\nwho have some powerful abilities, such as pet monsters\nor the knowledge to cast magical spells.\n\nHEROIC (75-99 POINTS)\n\nPOWER LEVEL\n\nBESM players may find this power level the “sweet\nspot” for a wide variety of adventures, since heroic\ncharacters have a decent selection of moderate abilities\nplus some nifty items and other resources. At the same\ntime, the power level and Character Point totals aren’t\nso high that they might cause power balance issues or\ndifficulties presenting challenging adventures for every\ncharacter in the group. Heroic characters may reflect\nhumans at their peak performance with moderate\nspecial abilities, or capable non-human characters with\nsignificant technological or paranormal advantages.\n\nOnce the GM and players together have outlined the\ngeneral framework of the upcoming adventures, it’s time\nto discuss your characters’ power level. The characters’\nrelative capabilities and aptitudes determines the\nCharacter Point total from which they are constructed\n(covered in detail in Chapters 3-7). Consider which of\nthe eight power rankings described herein best align\nwith the vision your group created for your characters.\n\nSUB-HUMAN (0-24 POINTS)\n\nMYTHICAL (100-149 POINTS)\n\nRole-playing underpowered characters can be a\nhighly rewarding experience, with the game typically\nfocusing more on drama and less on action. Such roles\nmay include younger teens and children, wee creatures\n(such as pixies and sprites), or sentient small animals\n(like bunnies and squirrels).\n\nThe mythical power level is most suitable for games\nwhere the characters are notably more impressive than\nnormal humans, but can still be challenged by ordinary\nopponents (especially in large numbers). The characters\nmay still be human but are typically exceptionally\ntalented, such as a legendary martial arts master, the"
+    },
+    {
+      "id": "size-modifiers",
+      "name": "Size Modifiers",
+      "heading": "SIZE MODIFIERS",
+      "startPage": 35,
+      "endPage": 35,
+      "category": "creation",
+      "sourcePage": 35,
+      "rulesText": "SIZE MODIFIERS\n\nRange\n& Speed\nMultiplier\nPoint\n-10\n100-400 µm\n1-40 µg\n÷ 5 M\n-100\n+100 damage\n+20\n÷ 1,000\nMote\n-9\n500-900 µm\n50-500 µg\n÷ 1 M\n-90\n+90 damage\n+18\n÷ 500\nSpeck\n-8\n1-4 mm\n1- 5mg\n÷ 250 k\n-80\n+80 damage\n+16\n÷ 250\nMinute\n-7\n5-9 mm\n6-40 mg\n÷ 50 k\n-70\n+70 damage\n+14\n÷ 125\nWee\n-6\n1-2 cm\n50-500 mg\n÷ 10 k\n-60\n+60 damage\n+12\n÷ 60\nTeeny\n-5\n3-4 cm\n1-5 g\n÷ 2.5 k\n-50\n+50 damage\n+10\n÷ 30\nFine\n-4\n5-9 cm\n6-30 g\n÷ 500\n-40\n+40 damage\n+8\n÷ 15\nDiminutive\n-3\n10-24 cm\n50-300 g\n÷ 100\n-30\n+30 damage\n+6\n÷ 8\nTiny\n-2\n25-49 cm\n500 g - 2 kg\n÷ 25\n-20\n+20 damage\n+4\n÷ 4\nSmall\n-1\n50-99 cm\n6-20 kg\n÷ 5\n-10\n+10 damage\n+2\n÷2\nMedium\n0\n1-2 m\n50 - 150 kg\n—\nLarge\n1\n3-4 m\n200 - 1,200 kg\nx 5\n+10\n+10 AR\n-2\nx 2\nHuge\n2\n5-8 m\n1.5 - 8 tonnes\nx 25\n+20\n+20 AR\n-4\nx 4\nMammoth\n3\n9-15 m\n10 - 60 tonnes\nx 100\n+30\n+30 AR\n-6\nx 8\nGigantic\n4\n16-30 m\n75 - 500 tonnes\nx 500\n+40\n+40 AR\n-8\nx 15\nGargantuan\n5\n31-60 m\n550 - 4,000 tonnes\nx 2.5 k\n+50\n+50 AR\n-10\nx 30\nColossal\n6\n61-125 m\n4 k – 30 k tonnes\nx 10 k\n+60\n+60 AR\n-12\nx 60\nEnormous\n7\n126-250 m\n40 k – 250 k tonnes\nx 50 k\n+70\n+70 AR\n-14\nx 125\nMonstrous\n8\n251-500 m\n300 k – 2 M tonnes\nx 250 k\n+80\n+80 AR\n-16\nx 250\nTitanic\n9\n500-1,000 m\n2 M – 15 M tonnes\nx 1 M\n+90\n+90 AR\n-18\nx 500\nMonumental\n10\n1-2 km\n15 M – 125 M tonnes\nx 5 M\n+100\n+100 AR\n-20\nx 1,000\n\nStrength\nDamage\nModifier\n\nArmour Rating or\nExtra Damage\nReceived\n\nRanged\nModifier to\nHit/Defend\n\nSize\nRank\nTypical\nHeight/Length\nTypical Mass\nLifting\nCapacity"
+    },
+    {
+      "id": "character-attributes-index",
+      "name": "Character Attributes Index",
+      "heading": "CHARACTER ATTRIBUTES",
+      "startPage": 77,
+      "endPage": 77,
+      "category": "attributes",
+      "sourcePage": 77,
+      "rulesText": "CHARACTER ATTRIBUTES\n\nAttribute Name\nLevel Cost\nPage\nAttribute Name\nLevel Cost\nPage\n\nAbsorption\n5\n78\nMetamorphosis\n2\n106\nAlternate Form\n4\n78\nMimic\n2\n107\nAlternate Identity\n1\n80\nMind Control\n5\n108\nArmour\n2\n80\nMind Shield *\n1\n109\nAttack Mastery *\n1\n80\nMinions *\n2\n109\nAugmented\n2\n80\nMulligan *\n1\n109\nCapacity\n1\n81\nNullify\n5\n110\nChange State\n3\n82\nPlant Control\n1\n110\nCognition\n2\n82\nPocket Dimension\n1\n112\nCombat Technique *\n1\n83\nPortal\n2\n112\nCompanion *\n4\n84\nPower Flux\n10\n113\nConnected *\n1\n84\nPower Variation\n4\n114\nControl Environment\n1\n86\nProjection\n3\n114\nConversion\n3\n86\nRanged Attack *\n1\n116\nData Access\n2\n88\nRanged Defence *\n1\n116\nDefence Mastery *\n1\n88\nRegeneration\n5\n117\nDimension Walk\n5\n89\nReincarnation\n2\n117\nDynamic Powers\n10\n89\nResilient\n2\n118\nElasticity\n1\n90\nSensory Block\n1\n119\nEnemy Attack *\n1\n90\nSixth Sense\n1\n119\nEnemy Defence *\n1\n90\nSize Change\n10\n120\nEnergised *\n1\n91\nSkill Group *\n1 / 2 / 3\n120\nExorcism\n1\n91\nSpaceflight\n1\n121\nExtra Actions *\n4\n92\nSpecial Movement\n1\n122\nExtra Arms\n1\n92\nSummon Creatures\n2\n122\nFeatures *\n1\n92\nSupersense\n1\n123\nFlight\n3\n94\nSuperspeed\n3\n123\nForce Field\n4\n94\nSuperstrength\n4\n124\nGear *\n1\n95\nSwarm\n2\n124\nGround Speed\n1\n96\nTelekinesis\n4\n125\nHealing\n1\n96\nTelepathy\n3\n126\nHeightened Awareness *\n1\n97\nTeleport\n3\n127\nHeightened Senses\n1\n97\nTough *\n1\n128\nIllusion\n1\n97\nTransfer\n3\n128\nImmunity\n3\n98\nTransmute\n3\n128\nImmutable\n1\n99\nTunnelling\n1\n129\nInspire *\n1\n99\nUnaffected\n2\n129\nItem *\nHalf\n101\nUndetectable\n2\n131\nJumping\n1\n101\nUnique Attribute *\n1-10\n131\nMassive Damage *\n3\n102\nUnknown Power *\nVariable\n123\nMelee Attack *\n1\n102\nWater Speed\n1\n132\nMelee Defence *\n1\n103\nWealth *\n3\n132\nMerge\n4\n103\nWeapon\n2\n132"
+    },
+    {
+      "id": "defects-index",
+      "name": "Defects Index",
+      "heading": "DEFECTS",
+      "startPage": 155,
+      "endPage": 155,
+      "category": "defects",
+      "sourcePage": 155,
+      "rulesText": "07: DEFECTS\n\nSELECT DEFECTS\n\nDefects are disadvantages through which your character must suffer in order to overcome the hardships of day-to-\nday life. Defects serve as an excellent (and sometimes comical) role-playing opportunity and offer interesting plot hooks\nfor your GM to use during adventures. They should only impede your character to a limited extent, though, and are\nnot intended to totally negate their many abilities. If assigned to Items (see page 101), Defects indicate built-in flaws or\ndrawbacks that make it more difficult to use or render it less effective than ideal.\n\nCarefully consider the number of Defects that burden your character. One to five Defects is normally appropriate since\nyour focus should be the capabilities of your character rather than their disadvantages. Additionally, it should be rare to\nassign a multitude of Defects above one Rank due to their restrictive nature (Size Templates excluded, page 32).\n\nu\nX\nDEFECT RANKS\nEFECT RANKS\n\nDEFECTS\n\nDefects have a negative Point cost that give back\nCharacter Points to your character, depending on how\nseverely the Defect will impact their life. Defects that do\nnot inflict a significant disadvantage (such as a weakness\nto bullets made from the ice of dwarf planet Pluto) are\nnot worth any negative Points. It’s easy to think of\nDefects as negative Attribute Levels that hinder rather\nthan help the character.\nDefects are therefore categorised into three groups,\ndepending on how much they reduce the final Point\ncost of the character:\nLesser – Lesser Defects reduce the final cost of your\ncharacter by 1, 2, or 3 Points (-1 Point/Rank).\nGreater – Greater Defects reduce the final cost of\nyour character by 2, 4, or 6 Points (-2 Points/Rank).\nSerious – Serious Defects reduce the final cost of\nyour character by 3, 6, or 9 Points (-3 Points/Rank).\n\nDefect Name\nCategory Points\nPage\n\nAchilles Heel\nGreater\n-2/-4/-6\n156\nAwkward Size\nGreater\nSpecial\n156\nBane\nGreater\n-2/-4/-6\n156\nBlind Fury\nGreater\n-2/-4/-6\n157\nConditional Ownership\nLesser\n-1/-2/-3\n157\nConfined\nSerious\n-3/-6/-9\n158\nCursed\nGreater\n-2/-4/-6\n158\nEasily Distracted\nLesser\n-1/-2/-3\n158\nFragile\nLesser\n-1/-2/-3\n158\nHounded\nGreater\n-2/-4/-6\n158\nImpaired Manipulation\nSerious\n-3/-6/-9\n158\nImpaired Speech\nSerious\n-3/-6/-9\n160\nInept Attack\nLesser\n-1/-2/-3\n160\nInept Defence\nLesser\n-1/-2/-3\n160\nInvoluntary Change\nLesser\n-1/-2/-3\n160\nIsm\nGreater\n-2/-4/-6\n160\nMagnet\nLesser\n-1/-2/-3\n161\nMarked\nLesser\n-1/-2/-3\n161\nNemesis\nLesser\n-1/-2/-3\n161\nNightmares\nLesser\n-1/-2/-3\n161\nObligated\nGreater\n-2/-4/-6\n163\nPhobia\nLesser\n-1/-2/-3\n163\nPhysical Impairment\nSerious\n-3/-6/-9\n163\nRed Tape\nLesser\n-1/-2/-3\n163\nReduced Damage\nSerious\n-3/-6/-9\n163\nSensory Impairment\nSerious\n-3/-6/-9\n164\nShortcoming\nLesser\n-1/-2/-3\n164\nSignificant Other\nLesser\n-1/-2/-3\n165\nSkeleton in the Closet\nGreater\n-2/-4/-6\n165\nSocial Fault\nLesser\n-1/-2/-3\n166\nSpecial Requirement\nSerious\n-3/-6/-9\n166\nUnappealing\nLesser\n-1/-2/-3\n166\nUnique Defect\nSpecial\n167\nVulnerability\nGreater\n-2/-4/-6\n167\nWanted\nGreater\n-2/-4/-6\n167\nWeak Point\nGreater\n-2/-4/-6\n167\n\nu\nX\nUNUSED POINTS\nNUSED POINTS\n\nIf after assigning a few Defects your character’s total\nCharacter Point cost is now less than the number of\nCharacter Points you were assigned by the GM, you\nhave three options:\n\nINCREASE YOUR BENEFITS\n\nYou can return to previous character creation steps\nand assign additional Stats, Templates, or Attributes,\nwhich increases your Character Point cost up to your\ncorrect starting total.\n\nADD UNKNOWN ELEMENTS\n\nYou can assign the unused Points to the Unknown\nPower Attribute (page 123), which allows the GM to\nassign hidden abilities to you that are appropriate for\nyour role in the game’s storyline.\n\nBANK FOR THE FUTURE\n\nYou can save the unused Character Points for future\nconsideration and allocate them at an appropriate time."
+    },
+    {
+      "id": "item-armour-ratings",
+      "name": "Item Armour Ratings",
+      "heading": "ITEM ARMOUR RATINGS",
+      "startPage": 223,
+      "endPage": 223,
+      "category": "items",
+      "sourcePage": 223,
+      "rulesText": "ITEM ARMOUR\nRATINGS\n\nBattles between powerful foes often result in a great\ndeal of collateral damage. How effective is a manhole\ncover as a shield? How much damage can a telephone\npole deliver before it breaks?\n\nObject\nArmour Rating\n\nBench/Table, Metal\n15\nBench/Table, Wood\n15\nCement Barrier\n30\nDoor, Car\n15\nDoor, Vault\n200\nDoor, Wooden\n15\nDumpster, Metal\n20\nFurniture, Wood\n10\nLadder, Metal\n5\nManhole Cover\n30\nSteel Cables\n20\nSteel Girder\n40\nStop Sign\n5\nTelephone Pole, Metal\n10\nTelephone Pole, Wood\n30\nTree, Giant\n100\nTree, Large\n50\nTree, Medium\n25\nTree, Small\n15\nArmour\nSee Tables-18: Armour\nShields\nSee Table-19: Shields\n\nu\nX\nITEM ARMOUR RATINGS\nTEM ARMOUR RATINGS\n\nThe Armour Rating of an Item indicates how much\ndamage the object can stop and it is dependent on the\nhardness and thickness of the material from which the\nobject is made, the size of the object, how fragile the\nworking parts may be, and how well it is constructed.\nFor example, a hollow, aluminium pole will be far weaker\nthan a solid aluminium pole of the same size. Table-20:\nItem Armour Ratings provides rough Armour Ratings\nfor common objects. GMs are encouraged to use this\nchart as a basis when determining the Armour Rating\nof other objects encountered in their games, adjusting\nfor the material from which the object is made, the\nthickness of the material, the quality of construction,\nand other similar factors. For Ranged Weapons,\n“working Weapons” – Items with delicate working\nmechanisms, like those found in guns and crossbows –\nare classified differently than “simple Weapons” (which\nare Items without working parts).\n\nMelee Weapons\nEqual to 2 times\nWeapon Level*\n(see Table-17: Weapons)\n\nu\nX\nITEM HEALTH POINTS\nTEM HEALTH POINTS\n\nSimple Ranged Weapons\nEqual to 2 times\nWeapon Level*\n(see Table-17: Weapons)\n\nAn Item’s Health Points are equal its Armour Rating.\nThis value can be increased or decreased with the Tough\nAttribute or Fragile Defect.\n\nWorking Ranged Weapons\nEqual to Weapon Level*\n(see Table-17: Weapons)\n\nBuildings\nSee Table-21: Building\nArmour Ratings\n\nu\nX\nITEM DAMAGE\nTEM DAMAGE\n\nPlanetary Objects\nSee Table-22: Planetoid\nArmour Ratings\n\nIf the Item suffers more damage than its Armour\nRating, the excess damage is deducted from its Health\nPoints. If its Health Points are ever reduced to zero,\nit ceases to function in its given task (ie. a car will no\nlonger run, a gun will no longer fire, etc.). The Item\nis not destroyed – it is simply rendered non-functional\nand can be repaired later and returned to normal.\nAdditionally, if the Item suffers five times its Armour\nRating in damage in one attack, regardless of how\nmany Health Points it has remaining, it is completely\ndestroyed – it is beyond repair and must be completely\nrebuilt or replaced. Finally, if an object suffers repeated\ndamage – roughly 5 to 10 times within a short period\nof time (GM discretion) – it has suffered sufficient\ndamage to break.\n\n*actual Weapon Level of the Item’s highest Weapon Attribute\n\nPENETRATING VS. ITEMS\n\nIf a Weapon with the Penetrating Enhancement\n(page 140) attacks an Item, the attack is more likely\nto destroy the Item. Each assignment of Penetrating\nreduces the multiplier required to destroy an Item by\n1. For example, if a Weapon hits a steel girder, the\ncharacter must inflict over 200 damage (Armour Rating\nof 40 times 5) to destroy it. If the Weapon had special\nclaws with Penetrating assigned three times, however,\nthe character only needs to inflict over 80 damage\n(Armour Rating of 40 times 2 [5 minus 3 due to three\nassignments of Penetrating= 2] = 80)."
+    }
+  ]
+}

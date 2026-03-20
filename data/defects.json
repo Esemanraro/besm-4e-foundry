@@ -1,0 +1,476 @@
+{
+  "entries": [
+    {
+      "key": "achilles-heel",
+      "id": "achilles-heel",
+      "name": "Achilles Heel",
+      "sourcePage": 156,
+      "category": "greater",
+      "pointsByRank": [
+        -2,
+        -4,
+        -6
+      ],
+      "rulesText": "ACHILLES HEEL"
+    },
+    {
+      "key": "awkward-size",
+      "id": "awkward-size",
+      "name": "Awkward Size",
+      "costType": "special",
+      "sourcePage": 156,
+      "category": "greater",
+      "rulesText": "Defects include both normal character flaws and\nsome that are more appropriate for more-than-human\ncharacters or equipment. Most Defects are appropriate\nfor all characters with the following exceptions: Achilles\nHeel, Awkward Size, Bane, Involuntary Change, and\nVulnerability. These Defects are most applicable to\nnonhuman or superhuman characters as well as to Items.\n\nA Greater Defect. The character loses twice as many\nHealth Points as normal from a particular attack form,\nwhich must fit with the character concept. It might be\nsomething with appropriate mystic resonance, such\nas wooden stakes for vampires or silver weapons for\nwerewolves. It could also reflect the character’s nature,\nsuch as a fire-based monster taking extra damage from\nwater attacks, or an alien’s weakness to weapons from\ntheir home planet.\n\nu\nX\nDEFECTS AND DUAL\nEFECTS AND DUAL\nIDENTITIES\n\n-2 Points\nThe attack form is rare\n-4 Points\nThe attack form is uncommon\n-6 Points\nThe attack form is common\n\nIf a character maintains a dual identity, some of their\nDefects may not affect them in one of the identities.\nFor example, a masked vigilante may be wanted by the\npolice on murder charges (the Wanted Defect), but\ntheir alternate identity may be a respected member of\nthe Tokyo political assembly. In these instances, the\ncharacter will receive fewer Points back from the Defect.\nIf either the character’s normal or secret identity (but\nnot both) suffers from a Defect, the value of the Defect\nis worth 1 Rank less. For example, if a character’s secret\nidentity has the Magnet Defect at -3 Points, it is only\nworth -2 Points to the character though it functions at\n-3 Points. In this way, single-identity Defects function\nin a similar way as Attribute Enhancements (page 145).\nIf both identities suffer from the identical Defect, at the\nsame or different Point values, use the one that returns\nthe greatest number of Points. If a character only has\none identity, the Defects return Points as normal.\n\nAWKWARD SIZE\n\nA Greater Defect. This Defect only applies to non-\nliving Items, since characters and creatures should\nacquire a Size Template instead (page 32). Awkward\nSize means the Item is notably larger and more massive\nthan an ordinary human. An Item with Awkward Size\nmay have trouble fitting through openings and moving\nthrough narrow alleys, and is much easier to notice.\nThe larger the Item, the more Points this Defect will be\nworth (-2 Points/Rank). Size usually refers to the Item’s\nlongest dimension.\nAdditionally, larger Items make bigger targets in\nranged combat. For every Awkward Size category the\ntarget is larger than the attacker, the attacker gains a\n+2 bonus to hit with a ranged weapon. Conversely, for\nevery Awkward Size category the target is smaller than\nthe attacker, the attacker receives a -2 penalty with a\nranged weapon. For example, if a Huge Size 2 Item and\na Gigantic Size 4 Item are in ranged combat, the Size 2\nItem gains a +4 bonus to hit while the Gigantic Size 4\nItem gains a -4 penalty to hit.\nTable-15 shows the progression of mass and height.\nSelect a size and then assign an appropriate mass (usually\nwithin the range provide). Size 0 (the usual human-sized\nMedium standard) is shown for comparison purposes.\n\nDEFECTS & SOCIAL\nAWARENESS\n\nAssigning Defects can align the game mechanics\nof BESM to your vision for your character, as well\nas create excellent opportunities for engaging\nrole-playing beyond hack-and-slash combat. It's\nimportant to approach the portrayal of Defects\nwith maturity and sensitivity when touching\nupon many real-life physical and social issues\nthat have far-reaching implications and impacts\non others. Anime stereotypes can provide many\nlaughs around the gaming table, but being\nmindful of the emotions and sensitivities of\nothers should always take priority."
+    },
+    {
+      "key": "bane",
+      "id": "bane",
+      "name": "Bane",
+      "sourcePage": 156,
+      "category": "greater",
+      "pointsByRank": [
+        -2,
+        -4,
+        -6
+      ],
+      "rulesText": "Defects include both normal character flaws and\nsome that are more appropriate for more-than-human\ncharacters or equipment. Most Defects are appropriate\nfor all characters with the following exceptions: Achilles\nHeel, Awkward Size, Bane, Involuntary Change, and\nVulnerability. These Defects are most applicable to\nnonhuman or superhuman characters as well as to Items.\n\nA Greater Defect. The character loses twice as many\nHealth Points as normal from a particular attack form,\nwhich must fit with the character concept. It might be\nsomething with appropriate mystic resonance, such\nas wooden stakes for vampires or silver weapons for\nwerewolves. It could also reflect the character’s nature,\nsuch as a fire-based monster taking extra damage from\nwater attacks, or an alien’s weakness to weapons from\ntheir home planet.\n\nu\nX\nDEFECTS AND DUAL\nEFECTS AND DUAL\nIDENTITIES\n\n-2 Points\nThe attack form is rare\n-4 Points\nThe attack form is uncommon\n-6 Points\nThe attack form is common\n\nIf a character maintains a dual identity, some of their\nDefects may not affect them in one of the identities.\nFor example, a masked vigilante may be wanted by the\npolice on murder charges (the Wanted Defect), but\ntheir alternate identity may be a respected member of\nthe Tokyo political assembly. In these instances, the\ncharacter will receive fewer Points back from the Defect.\nIf either the character’s normal or secret identity (but\nnot both) suffers from a Defect, the value of the Defect\nis worth 1 Rank less. For example, if a character’s secret\nidentity has the Magnet Defect at -3 Points, it is only\nworth -2 Points to the character though it functions at\n-3 Points. In this way, single-identity Defects function\nin a similar way as Attribute Enhancements (page 145).\nIf both identities suffer from the identical Defect, at the\nsame or different Point values, use the one that returns\nthe greatest number of Points. If a character only has\none identity, the Defects return Points as normal.\n\nAWKWARD SIZE\n\nA Greater Defect. This Defect only applies to non-\nliving Items, since characters and creatures should\nacquire a Size Template instead (page 32). Awkward\nSize means the Item is notably larger and more massive\nthan an ordinary human. An Item with Awkward Size\nmay have trouble fitting through openings and moving\nthrough narrow alleys, and is much easier to notice.\nThe larger the Item, the more Points this Defect will be\nworth (-2 Points/Rank). Size usually refers to the Item’s\nlongest dimension.\nAdditionally, larger Items make bigger targets in\nranged combat. For every Awkward Size category the\ntarget is larger than the attacker, the attacker gains a\n+2 bonus to hit with a ranged weapon. Conversely, for\nevery Awkward Size category the target is smaller than\nthe attacker, the attacker receives a -2 penalty with a\nranged weapon. For example, if a Huge Size 2 Item and\na Gigantic Size 4 Item are in ranged combat, the Size 2\nItem gains a +4 bonus to hit while the Gigantic Size 4\nItem gains a -4 penalty to hit.\nTable-15 shows the progression of mass and height.\nSelect a size and then assign an appropriate mass (usually\nwithin the range provide). Size 0 (the usual human-sized\nMedium standard) is shown for comparison purposes.\n\nDEFECTS & SOCIAL\nAWARENESS\n\nAssigning Defects can align the game mechanics\nof BESM to your vision for your character, as well\nas create excellent opportunities for engaging\nrole-playing beyond hack-and-slash combat. It's\nimportant to approach the portrayal of Defects\nwith maturity and sensitivity when touching\nupon many real-life physical and social issues\nthat have far-reaching implications and impacts\non others. Anime stereotypes can provide many\nlaughs around the gaming table, but being\nmindful of the emotions and sensitivities of\nothers should always take priority.\n\nBANE\n\nA Greater Defect. A character with the Bane Defect\nis vulnerable to an otherwise non-damaging substance\nsuch as water or sunlight, or a specific element, material,\nor object. The Bane should relate to the character’s\nbackground or Attributes in some way. The character\nsuffers damage if their skin is physically touched by\nthe Bane. If the Bane does not require direct physical\ncontact (such as sunlight, seeing one’s reflection,\nhearing the noise of a temple bell, or having the Bane\nin close proximity), the exposure damage is halved.\nAlternatively, if the Bane only affects the character when\n\nRole-playing is about having fun with friends. No\none should ever feel marginalised, ridiculed, or\ntargetted because a character's portrayal fails to\nconsider how it may impact others.\n\n07: DEFECTS"
+    },
+    {
+      "key": "blind-fury",
+      "id": "blind-fury",
+      "name": "Blind Fury",
+      "sourcePage": 157,
+      "category": "greater",
+      "pointsByRank": [
+        -2,
+        -4,
+        -6
+      ],
+      "rulesText": "-2 Points\nInitiating the Blind Fury is difficult;\nreverting to a normal emotional state\nis easy\n-4 Points\nInitiating the Blind Fury and reverting\nto a normal emotional state are both\nmoderately difficult\n-6 Points\nInitiating the Blind Fury is easy;\nreverting to a normal emotional state\nis difficult\n\ningested, the damage is doubled. Finally, the damage\ninflicted assumes that the Bane is common, such as\nwater, sunlight, steel, or wood. If it is less common, such\nas a holy symbol, Buddhist scripture, or rare element,\nthe damage is also doubled. If it is even more rare such\nas one particular artefact, the damage may be tripled or\nquadrupled as determined by the GM.\n\n-2 Points\nThe Bane causes the character minor\ndamage: 10 damage per round of\nexposure\n-4 Points\nThe Bane causes the character\nmoderate damage: 20 damage per\nround of exposure\n-6 Points\nThe Bane causes the character major\ndamage: 30 damage per round of\nexposure"
+    },
+    {
+      "key": "conditional-ownership",
+      "id": "conditional-ownership",
+      "name": "Conditional Ownership",
+      "sourcePage": 157,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "rulesText": "CONDITIONAL OWNERSHIP\n\nA Lesser Defect. This Defect can only be assigned\nto a Companion or Item, indicating that the person\nor object actually belongs to another individual or\norganisation instead of the creating character. The\nCompanions or Items may be issued to the character\nbut the organisation imposes mild, strict, or severe\nconditions on their use.\n\nBLIND FURY\n\nA Greater Defect. Under specific conditions selected\nby the player (and approved by the GM), the character\nwill enter a state of unbridled anger. While enraged,\nthe character will furiously attack the closest person,\nwhether that individual is a friend or foe. Once that\nperson is defeated or flees, the berserk character will\nattack the next closest “threat.” Examples of conditions\nthat might initiate Blind Fury include: receiving a certain\namount of damage, sight of blood, a specific sound or\nsmell, being outnumbered in combat, seeing a friend\nin danger, confrontation with a specific opponent, etc.\nThe character can only return to a normal emotional\nstate under another specific condition. This return\ncould involve a Soul Stat roll, or could be an automatic\nreversion over time. Examples of return conditions\ninclude: no targets in the vicinity, a specific calming\ntechnique performed by an ally, solitude, injection of a\nparticular drug, being knocked unconscious, etc.\n\nMILD CONDITIONS\n\nThe character can use the objects or allies for some\npersonal business (such as travelling or recreational\nuse), but if they are released from the organisation or\ndisobey direct orders, the objects can be taken away.\nThe character can also be assigned different objects\nat any time at the discretion of the organisation. For\nexample, a police detective might have conditional use\nof an unmarked police car.\n\nSTRICT CONDITIONS\n\nThe character is only permitted to use the objects or\nallies for activities as ordered by the organisation. This\nis the way most military and police equipment is issued.\nIf the character is caught using the objects for personal\nactivities, they will receive a severe reprimand.\n\nAWKWARD SIZE\n\nRank\nSize\nPoints\nHeight\nTypical Mass Range\n\n0\nMedium\n0\n1 - 2 metres\n50 - 150 kg\n1\nLarge\n-2\n3 - 4 metres\n200 - 1,200 kg\n2\nHuge\n-4\n5 - 8 metres\n1.5 - 8 tonnes\n3\nMammoth\n-6\n9 - 15 metres\n10 - 60 tonnes\n4\nGigantic\n-8\n16 - 30 metres\n75 - 500 tonnes\n5\nGargantuan\n-10\n31 - 60 metres\n550 - 4,000 tonnes\n6\nColossal\n-12\n61 - 125 metres\n4 k – 30 k tonnes\n7\nEnormous\n-14\n126 - 250 metres\n40 k – 250 k tonnes\n8\nMonstrous\n-16\n251 - 500 metres\n300 k – 2 M tonnes\n9\nTitanic\n-18\n501 - 1,000 metres\n2 M – 15 M tonnes\n10\nMonumental\n-20\n1,000 – 2,000 metres\n15 M – 125 M tonnes\n\n07: DEFECTS\n\nSEVERE CONDITIONS\n\nsame sex, wealth, food, movie stars, hobbies, gossip, hot\ncars, music, one’s own looks, books or scrolls of ancient\nlore, magical items, etc. A character with this Defect\nwill become enthralled with the trigger until it can no\nlonger influence them. Many characters have interests\nin a variety of triggers but do not possess this Defect\nbecause their interest is moderated by their sense of\njudgement and decorum.\n\nThe character can only use the objects or allies\nunder specific orders. A government-owned time travel\ndevice would probably fall under this category. Using\nthe objects at any other time results in incarceration,\nphysical punishment, or even death.\n\n-1 Point\nMild conditions are imposed on the\nobject’s ownership and usage\n-2 Points\nStrict conditions are imposed on the\nobject’s ownership and usage\n-3 Points\nSevere conditions are imposed on the\nobject’s ownership and usage\n\n-1 Point\nEasily Distracted by a trigger that is\nencountered infrequently\n-2 Points\nEasily Distracted by a trigger that is\nencountered frequently, or by a few\ninfrequent triggers\n-3 Points\nEasily Distracted by a trigger that\nis encountered constantly, or by a\nseveral infrequent triggers"
+    },
+    {
+      "key": "confined",
+      "id": "confined",
+      "name": "Confined",
+      "sourcePage": 158,
+      "category": "serious",
+      "pointsByRank": [
+        -3,
+        -6,
+        -9
+      ],
+      "rulesText": "CONFINED"
+    },
+    {
+      "key": "cursed",
+      "id": "cursed",
+      "name": "Cursed",
+      "sourcePage": 158,
+      "category": "greater",
+      "pointsByRank": [
+        -2,
+        -4,
+        -6
+      ],
+      "rulesText": "A Greater Defect. This Defect prevents the\ncharacter from leaving a narrowly defined area. This\nmay represent an undead villain that is cursed to haunt\na particular place, an android that is programmed to\nfollow a specific guard route, or someone under house\narrest or forbidden to leave the country.\n\nFRAGILE\n\nA Lesser Defect. The character is less durable than\ntheir Body and Soul Stats would otherwise suggest. This\nDefect is appropriate for characters with a “glass jaw” or\nthose who succumb to physical trauma easily.\n\n-3 Points\nConfined to a large area\n(100 km radius), such as a single\nkingdom, country, or large city\n-6 Points\nConfined to a moderate area\n(1 km radius), such as a small town or\nlarge, multi-structure complex\n-9 Points\nConfined to a small area\n(100 m radius), such as a tiny village\nor single building\n\n-1 Point\nHealth Points are decreased by 10\n-2 Points\nHealth Points are decreased by 20\n-3 Points\nHealth Points are decreased by 30\n\nHOUNDED\n\nA Greater Defect. The character is recognisable by\nmany people, and thus it is difficult for them to keep\nsecrets or maintain a private life. In a modern setting,\njournalists and photographers follow the character’s\nmovements regularly, and report their actions on\ntelevision, in newspapers, and on websites. Hounded is\na particularly significant disadvantage for someone who\nmaintains a secret identity.\n\nCURSED\n\nA Greater Defect. A Cursed character has likely\noffended a great being of power in their past or is the\ndirect descendent of someone who did (since Curses\noften pass through bloodlines). A Curse may also be\nassigned to an entire race of beings that have fallout\nout of disfavour with a god. The Curse can take a near\nlimitless number of forms but should not provide a\ncharacter with an obvious advantage (remember, it’s a\ncurse!). The exact nature, background, and limitations\nof the Curse should be discussed with the GM.\n\n-2 Points\nThe constant attention the character\nreceives is slightly inconvenient\n-4 Points\nThe constant attention the character\nreceives is moderately inconvenient\n-6 Points\nThe constant attention the character\nreceives is severely inconvenient\n\n-2 Points\nCurse imposes a slight disadvantage\non the character\n-4 Points\nCurse imposes a moderate\ndisadvantage on the character\n-6 Points\nCurse imposes a severe disadvantage\non the character\n\nIMPAIRED MANIPULATION\n\nA Serious Defect. The ability to manipulate objects\nwith hands or other appendages is one of the major\nadvantages that humans have over other species. If a\ncharacter lacks these abilities, due to natural design or\nan unfortunate accident, they will be at a significant\ndisadvantage."
+    },
+    {
+      "key": "easily-distracted",
+      "id": "easily-distracted",
+      "name": "Easily Distracted",
+      "sourcePage": 158,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "rulesText": "-1 Point\nEasily Distracted by a trigger that is\nencountered infrequently\n-2 Points\nEasily Distracted by a trigger that is\nencountered frequently, or by a few\ninfrequent triggers\n-3 Points\nEasily Distracted by a trigger that\nis encountered constantly, or by a\nseveral infrequent triggers\n\nCONFINED\n\nA Greater Defect. This Defect prevents the\ncharacter from leaving a narrowly defined area. This\nmay represent an undead villain that is cursed to haunt\na particular place, an android that is programmed to\nfollow a specific guard route, or someone under house\narrest or forbidden to leave the country."
+    },
+    {
+      "key": "fragile",
+      "id": "fragile",
+      "name": "Fragile",
+      "sourcePage": 158,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "automation": {
+        "healthPointsPerRank": -10
+      },
+      "rulesText": "FRAGILE\n\nA Lesser Defect. The character is less durable than\ntheir Body and Soul Stats would otherwise suggest. This\nDefect is appropriate for characters with a “glass jaw” or\nthose who succumb to physical trauma easily.\n\n-3 Points\nConfined to a large area\n(100 km radius), such as a single\nkingdom, country, or large city\n-6 Points\nConfined to a moderate area\n(1 km radius), such as a small town or\nlarge, multi-structure complex\n-9 Points\nConfined to a small area\n(100 m radius), such as a tiny village\nor single building\n\n-1 Point\nHealth Points are decreased by 10\n-2 Points\nHealth Points are decreased by 20\n-3 Points\nHealth Points are decreased by 30"
+    },
+    {
+      "key": "hounded",
+      "id": "hounded",
+      "name": "Hounded",
+      "sourcePage": 158,
+      "category": "greater",
+      "pointsByRank": [
+        -2,
+        -4,
+        -6
+      ],
+      "rulesText": "HOUNDED\n\nA Greater Defect. The character is recognisable by\nmany people, and thus it is difficult for them to keep\nsecrets or maintain a private life. In a modern setting,\njournalists and photographers follow the character’s\nmovements regularly, and report their actions on\ntelevision, in newspapers, and on websites. Hounded is\na particularly significant disadvantage for someone who\nmaintains a secret identity.\n\nCURSED\n\nA Greater Defect. A Cursed character has likely\noffended a great being of power in their past or is the\ndirect descendent of someone who did (since Curses\noften pass through bloodlines). A Curse may also be\nassigned to an entire race of beings that have fallout\nout of disfavour with a god. The Curse can take a near\nlimitless number of forms but should not provide a\ncharacter with an obvious advantage (remember, it’s a\ncurse!). The exact nature, background, and limitations\nof the Curse should be discussed with the GM.\n\n-2 Points\nThe constant attention the character\nreceives is slightly inconvenient\n-4 Points\nThe constant attention the character\nreceives is moderately inconvenient\n-6 Points\nThe constant attention the character\nreceives is severely inconvenient\n\n-2 Points\nCurse imposes a slight disadvantage\non the character\n-4 Points\nCurse imposes a moderate\ndisadvantage on the character\n-6 Points\nCurse imposes a severe disadvantage\non the character"
+    },
+    {
+      "key": "impaired-manipulation",
+      "id": "impaired-manipulation",
+      "name": "Impaired Manipulation",
+      "sourcePage": 158,
+      "category": "serious",
+      "pointsByRank": [
+        -3,
+        -6,
+        -9
+      ],
+      "rulesText": "IMPAIRED MANIPULATION\n\nA Serious Defect. The ability to manipulate objects\nwith hands or other appendages is one of the major\nadvantages that humans have over other species. If a\ncharacter lacks these abilities, due to natural design or\nan unfortunate accident, they will be at a significant\ndisadvantage.\n\nEASILY DISTRACTED\n\nA Lesser Defect. Some characters are Easily\nDistracted by events, objects, people, or ideas, which\nare collectively known as triggers. Notable examples of\ntriggers include attractive members of the opposite or\n\n-3 Points\nThe character only has one usable\narm. They cannot easily hold objects\nduring unarmed combat or while\nusing a held-held Weapon.\n\n07: DEFECTS\n\n-6 Points\nThe character has rudimentary\nmanipulative ability using paws or\ntalons, such as that possessed by a\nbear, octopus, dragon, or bird. The\ncharacter can grapple and lift things\nbut cannot perform tasks that require\nfine manipulation (such as use tools\nor hand-held Items, or fire a pistol).\n-9 Points\nThe character has no usable arms.\nThey cannot carry or grab objects,\nnor can they easily engage in physical\ncombat. This rank includes animals\nwith no manipulative ability, such as\nhorses, fish, and snakes.\n\nINEPT DEFENCE\n\nA Lesser Defect. This Defect reflects a character’s\npoor judgement or talent in defensive combat situations,\nwhich can often place them in precarious positions. The\ncharacter suffers a penalty to their Defence Combat\nValue. This penalty is doubled, though, if it only applies\nin certain types of combat situations (such as ranged\nattacks, melee attacks, or against a type of opponent).\nSee page 169 for more information on the Defence\nCombat Value.\n\n-1 Point\n-1 Defence Combat Value for all\ndefences; or -2 Defence Combat\nValue in certain situations only\n-2 Points\n-2 Defence Combat Value for all\ndefences; or -4 Defence Combat\nValue in certain situations only\n-3 Points\n-3 Defence Combat Value for all\ndefences; or -6 Defence Combat\nValue in certain situations only"
+    },
+    {
+      "key": "impaired-speech",
+      "id": "impaired-speech",
+      "name": "Impaired Speech",
+      "sourcePage": 160,
+      "category": "serious",
+      "pointsByRank": [
+        -3,
+        -6,
+        -9
+      ],
+      "rulesText": "IMPAIRED SPEECH\n\nA Serious Defect. The ability to communicate\nthrough language is a major advantage that humans\nhave over other animals. If a character lacks these\nabilities, due to natural design or serious injury, they\nwill be at a significant disadvantage. This ability does\nnot refer to comprehension of speech but the ability to\nproduce it. A hearing-impaired individual will instead\nhave the Sensory Impairment Defect (page 164).\n\nINVOLUNTARY CHANGE\n\nA Lesser Defect. This Defect is only available to\ncharacters who have the Alternate Form (page 78)\nAlternate Identity (page 80), or Merge (page 103)\nAttributes; assign it to their base form. The character\nmay accidentally change from their base form to their\nother form (or vice versa) or an external trigger (such\nas an opponent, ally, natural force, etc.) may induce\nthe change. This Defect may represent a character who:\ntransforms between identities upon hearing or uttering\na specific word; reverts to normal when a particular\nchemical in the body is in low quantities (such as sugar\nor salt); transforms when a button on an Item pushed;\ntransforms in times of stress; transforms when a substance\n(such as water or sunlight) touches the character; etc.\n\n-3 Points\nThe character either has a severe\nspeech impediment or speaks clearly\nwith their own species but on an\nunusual wavelength or mode that\nprevents easy communication with\nother races.\n-6 Points\nThe character can communicate\nwith a range of sounds that carry\nemotional content but which are not\na language, such as the sounds made\nby most normal animals\n-9 Points\nThe character is completely mute\nwith no way to verbally communicate"
+    },
+    {
+      "key": "inept-attack",
+      "id": "inept-attack",
+      "name": "Inept Attack",
+      "sourcePage": 160,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "automation": {
+        "attackCombatValuePerRank": -1
+      },
+      "rulesText": "INEPT ATTACK\n\n-1 Point\nDifficult to trigger the character’s\nInvoluntary Change\n-2 Points\nModerately easy to trigger the\ncharacter’s Involuntary Change\n-3 Points\nEasy to trigger the character’s\nInvoluntary Change\n\nA Lesser Defect. This Defect reflects a character’s\npoor judgement or talent in offensive combat situations,\nwhich makes it much more difficult to strike an\nopponent successfully. The character suffers a penalty\nto their Attack Combat Value. This penalty is doubled,\nthough, if it only applies in certain types of combat\nsituations (such as ranged attacks, melee attacks, or\nagainst a type of opponent). See page 169 for more\ninformation on the Attack Combat Value.\n\nISM\n\nA Greater Defect. Ism is discrimination based solely\non one particular aspect of a character. Examples of\nIsm include: ableism, ageism, classism, cisgenderism,\nethnocentrism, racism, or sexism, or discrimination\nbased on education, species, genetics, sexual preference,\noccupation, religion, physical features, etc. The players\nand GM are strongly encouraged to discuss any\ncontentious discrimination issues and their role in\nthe game before play begins to ensure no one will be\nuncomfortable role-playing a character subject to them.\n\n-1 Point\n-1 Attack Combat Value for all attacks;\nor -2 Attack Combat Value in certain\nsituations only\n-2 Points\n-2 Attack Combat Value for all attacks;\nor -4 Attack Combat Value in certain\nsituations only\n-3 Points\n-3 Attack Combat Value for all attacks;\nor -6 Attack Combat Value in certain\nsituations only"
+    },
+    {
+      "key": "inept-defence",
+      "id": "inept-defence",
+      "name": "Inept Defence",
+      "sourcePage": 160,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "automation": {
+        "defenceCombatValuePerRank": -1
+      },
+      "rulesText": "INEPT DEFENCE\n\nA Lesser Defect. This Defect reflects a character’s\npoor judgement or talent in defensive combat situations,\nwhich can often place them in precarious positions. The\ncharacter suffers a penalty to their Defence Combat\nValue. This penalty is doubled, though, if it only applies\nin certain types of combat situations (such as ranged\nattacks, melee attacks, or against a type of opponent).\nSee page 169 for more information on the Defence\nCombat Value.\n\n-1 Point\n-1 Defence Combat Value for all\ndefences; or -2 Defence Combat\nValue in certain situations only\n-2 Points\n-2 Defence Combat Value for all\ndefences; or -4 Defence Combat\nValue in certain situations only\n-3 Points\n-3 Defence Combat Value for all\ndefences; or -6 Defence Combat\nValue in certain situations only\n\nIMPAIRED SPEECH\n\nA Serious Defect. The ability to communicate\nthrough language is a major advantage that humans\nhave over other animals. If a character lacks these\nabilities, due to natural design or serious injury, they\nwill be at a significant disadvantage. This ability does\nnot refer to comprehension of speech but the ability to\nproduce it. A hearing-impaired individual will instead\nhave the Sensory Impairment Defect (page 164)."
+    },
+    {
+      "key": "involuntary-change",
+      "id": "involuntary-change",
+      "name": "Involuntary Change",
+      "sourcePage": 160,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "rulesText": "INVOLUNTARY CHANGE\n\nA Lesser Defect. This Defect is only available to\ncharacters who have the Alternate Form (page 78)\nAlternate Identity (page 80), or Merge (page 103)\nAttributes; assign it to their base form. The character\nmay accidentally change from their base form to their\nother form (or vice versa) or an external trigger (such\nas an opponent, ally, natural force, etc.) may induce\nthe change. This Defect may represent a character who:\ntransforms between identities upon hearing or uttering\na specific word; reverts to normal when a particular\nchemical in the body is in low quantities (such as sugar\nor salt); transforms when a button on an Item pushed;\ntransforms in times of stress; transforms when a substance\n(such as water or sunlight) touches the character; etc.\n\n-3 Points\nThe character either has a severe\nspeech impediment or speaks clearly\nwith their own species but on an\nunusual wavelength or mode that\nprevents easy communication with\nother races.\n-6 Points\nThe character can communicate\nwith a range of sounds that carry\nemotional content but which are not\na language, such as the sounds made\nby most normal animals\n-9 Points\nThe character is completely mute\nwith no way to verbally communicate\n\nINEPT ATTACK\n\n-1 Point\nDifficult to trigger the character’s\nInvoluntary Change\n-2 Points\nModerately easy to trigger the\ncharacter’s Involuntary Change\n-3 Points\nEasy to trigger the character’s\nInvoluntary Change\n\nA Lesser Defect. This Defect reflects a character’s\npoor judgement or talent in offensive combat situations,\nwhich makes it much more difficult to strike an\nopponent successfully. The character suffers a penalty\nto their Attack Combat Value. This penalty is doubled,\nthough, if it only applies in certain types of combat\nsituations (such as ranged attacks, melee attacks, or\nagainst a type of opponent). See page 169 for more\ninformation on the Attack Combat Value."
+    },
+    {
+      "key": "ism",
+      "id": "ism",
+      "name": "Ism",
+      "sourcePage": 160,
+      "category": "greater",
+      "pointsByRank": [
+        -2,
+        -4,
+        -6
+      ],
+      "rulesText": "ISM\n\nA Greater Defect. Ism is discrimination based solely\non one particular aspect of a character. Examples of\nIsm include: ableism, ageism, classism, cisgenderism,\nethnocentrism, racism, or sexism, or discrimination\nbased on education, species, genetics, sexual preference,\noccupation, religion, physical features, etc. The players\nand GM are strongly encouraged to discuss any\ncontentious discrimination issues and their role in\nthe game before play begins to ensure no one will be\nuncomfortable role-playing a character subject to them.\n\n-1 Point\n-1 Attack Combat Value for all attacks;\nor -2 Attack Combat Value in certain\nsituations only\n-2 Points\n-2 Attack Combat Value for all attacks;\nor -4 Attack Combat Value in certain\nsituations only\n-3 Points\n-3 Attack Combat Value for all attacks;\nor -6 Attack Combat Value in certain\nsituations only\n\n07: DEFECTS\n\n-2 Points\nExperiences slight discrimination\n-4 Points\nExperiences moderate discrimination\n-6 Points\nExperiences severe discrimination\n\n-1 Point\nMark is easily concealable because\nit is small or in an inconspicuous\nlocation\n-2 Points\nMark can be concealed with\nmoderate difficulty because it is large\nor in an obvious location\n-3 Points\nMark cannot be concealed in most\ncircumstances because it affects\nthe character’s entire body (or the\ncharacter’s species is the mark itself)"
+    },
+    {
+      "key": "magnet",
+      "id": "magnet",
+      "name": "Magnet",
+      "sourcePage": 161,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "rulesText": "MAGNET\n\nA Lesser Defect. The character attracts susceptible\ngirls or guys (or even both sexes) like bees to nectar.\nFor some reason, individuals are simply drawn to the\ncharacter, fall helplessly in love (or lust) with them, and\ncannot stop thinking of them. Even worse, they will fight\neach other over the character to keep one another from\nadvancing any relationship. This Defect should only\nbe assigned if the character would be bothered by such\nattention but lacks the will to take extreme measures\nto drive away the admirers. The Magnet Defect does\nnot represent some unusual charisma on the part of\nthe character but rather their fate to constantly meet\nobsessed people.\n\nNEMESIS\n\nA Lesser Defect. The character has someone in their\nlife that actively interferes with goal achievement on\na regular basis. This Nemesis can take several forms.\nThey could be a professional rival such as someone\ncompeting for the favour of the character’s boss. The\nNemesis could also be personal, such as a criminal that\nis pursued by a specific law enforcement officer who\ndevotes their existence to putting the character behind\nbars. The Nemesis may even be a romantic rival, such\nas someone chasing the same person the character is\ncurrently pursuing.\nThe Nemesis should be someone who makes the\ncharacter’s life difficult (and cannot easily be removed)\nbut the Nemesis does not need to be a mortal enemy.\nIt might be someone the character loves very much but\none whom they cannot avoid, such as an overbearing\nparent who lives at home with the character. If for\nany reason the Nemesis is defeated or goes away, the\nGM should create another Nemesis unless the player\nalso wishes to use Advancement Points (page 303) to\neliminate the Defect permanently.\n\n-1 Point\nAt any specific time, only a few\nadoring fans are actively chasing the\ncharacter\n-2 Points\nA handful of adoring fans are regularly\nchasing the character and new ones\nmay appear infrequently\n-3 Points\nSwarms of adoring fans are regularly\nchasing the character and new ones\ntypically appear frequently"
+    },
+    {
+      "key": "marked",
+      "id": "marked",
+      "name": "Marked",
+      "sourcePage": 161,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "rulesText": "MARKED\n\nA Lesser Defect. A character is considered Marked if\ntheir body hosts a permanent and distinguishing design\nthat may be difficult to conceal. The design may be a\nfamily symbol, an identifying birthmark, a permanent\nscar, or a unique tattoo. If the mark is not considered\nout of the ordinary (such as freckles or an unremarkable\ntattoo), this Defect does not apply. Characters who are\nobviously non-human (alternate race, robotic, demonic,\nalien, etc.) in a setting where most people are human (or\nvice versa) would also have the Marked Defect.\nWhen considering assigning the Marked Defect,\nconsider what would seem out of the ordinary and\nthe focus of attention. Most animals, for example,\nwould not have Marked since it’s normal for them to\nbe animals. A rare jade-green tiger would certainly\nqualify for Marked, though, since its colour is quite\nout of the ordinary. Similarly, a female monkey saving\nTokyo as a magical girl would also qualify, since heroism\nis not a normal calling for a monkey. In a traditional\nhigh-fantasy setting, most of the standard races (elves,\ndwarves, halflings, etc.) would also not have Marked\nsince these races are usually common enough to avoid\nattracting attention."
+    },
+    {
+      "key": "nemesis",
+      "id": "nemesis",
+      "name": "Nemesis",
+      "sourcePage": 161,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "rulesText": "NEMESIS\n\nA Lesser Defect. The character has someone in their\nlife that actively interferes with goal achievement on\na regular basis. This Nemesis can take several forms.\nThey could be a professional rival such as someone\ncompeting for the favour of the character’s boss. The\nNemesis could also be personal, such as a criminal that\nis pursued by a specific law enforcement officer who\ndevotes their existence to putting the character behind\nbars. The Nemesis may even be a romantic rival, such\nas someone chasing the same person the character is\ncurrently pursuing.\nThe Nemesis should be someone who makes the\ncharacter’s life difficult (and cannot easily be removed)\nbut the Nemesis does not need to be a mortal enemy.\nIt might be someone the character loves very much but\none whom they cannot avoid, such as an overbearing\nparent who lives at home with the character. If for\nany reason the Nemesis is defeated or goes away, the\nGM should create another Nemesis unless the player\nalso wishes to use Advancement Points (page 303) to\neliminate the Defect permanently.\n\n-1 Point\nAt any specific time, only a few\nadoring fans are actively chasing the\ncharacter\n-2 Points\nA handful of adoring fans are regularly\nchasing the character and new ones\nmay appear infrequently\n-3 Points\nSwarms of adoring fans are regularly\nchasing the character and new ones\ntypically appear frequently\n\nMARKED\n\nA Lesser Defect. A character is considered Marked if\ntheir body hosts a permanent and distinguishing design\nthat may be difficult to conceal. The design may be a\nfamily symbol, an identifying birthmark, a permanent\nscar, or a unique tattoo. If the mark is not considered\nout of the ordinary (such as freckles or an unremarkable\ntattoo), this Defect does not apply. Characters who are\nobviously non-human (alternate race, robotic, demonic,\nalien, etc.) in a setting where most people are human (or\nvice versa) would also have the Marked Defect.\nWhen considering assigning the Marked Defect,\nconsider what would seem out of the ordinary and\nthe focus of attention. Most animals, for example,\nwould not have Marked since it’s normal for them to\nbe animals. A rare jade-green tiger would certainly\nqualify for Marked, though, since its colour is quite\nout of the ordinary. Similarly, a female monkey saving\nTokyo as a magical girl would also qualify, since heroism\nis not a normal calling for a monkey. In a traditional\nhigh-fantasy setting, most of the standard races (elves,\ndwarves, halflings, etc.) would also not have Marked\nsince these races are usually common enough to avoid\nattracting attention.\n\n-1 Point\nThe Nemesis is merely annoying or\ninterferes infrequently\n-2 Points\nThe Nemesis occasionally tries to\nharm the character or interferes\nfrequently\n-3 Points\nThe Nemesis always tries to harm the\ncharacter or interferes constantly"
+    },
+    {
+      "key": "nightmares",
+      "id": "nightmares",
+      "name": "Nightmares",
+      "sourcePage": 161,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "rulesText": "NIGHTMARES\n\nA Lesser Defect. When the Nightmare Defect haunts\na character, they have trouble sleeping at night and\nfunctions at less-than-optimum performance during the\nday. The nightmare can be a memory of a tragic event or\ntraumatic experience or it might be something else such\nas a prophetic vision or warning. The nightmare may\nnot occur every night but it will haunt the character\nregularly. Additionally, the nightmares do not need to\nportray the exact same events repeatedly but the visions\nshould be related in some way. The details concerning\nthe subject matter of the nightmares and why they occur\nis the responsibility of the GM and the player to create.\n\n07: DEFECTS\n\n-1 Point\nNightmares occur infrequently and\nhave a slight effect on the character’s\ndaily life\n-2 Points\nNightmares occur frequently and\nhave a moderate effect on the\ncharacter’s daily life\n-3 Points\nNightmares occur constantly\nand have a severe effect on the\ncharacter’s daily life\n\nthat requires frequent repairs, etc. The player and GM\nshould discuss the problems and limitations associated\nwith the impairment. See also the more specific Impaired\nManipulation (page 158), Impaired Speech (page 160),\nand Sensory Impairment (page 164) Defects.\n\n-3 Points\nPhysical Impairment is a slight\ninconvenience to the character\n-6 Points\nPhysical Impairment is a moderate\ninconvenience to the character\n-9 Points\nPhysical Impairment is a severe\ninconvenience to the character"
+    },
+    {
+      "key": "obligated",
+      "id": "obligated",
+      "name": "Obligated",
+      "sourcePage": 163,
+      "category": "greater",
+      "pointsByRank": [
+        -2,
+        -4,
+        -6
+      ],
+      "rulesText": "OBLIGATED\n\nA Greater Defect. Free will has little meaning\nfor a character who is Obligated to a corporation,\ngovernment, crime ring, or other organisation or\nindividual. Control over the character can be exerted\nthrough a variety of methods including blackmail,\nbrainwashing, legal contract, technology, or just highly\neffective propaganda. Dire consequences await a\ncharacter whose actions conflict with the mandate of\nthe organisation. Obligated should not normally be\nassigned to Companions directly and is only applicable\nto Items if that Item itself impedes the freedom of the\ncharacter who possesses it.\n\nRED TAPE\n\nA Lesser Defect. The character must negotiate\ntheir way through a complicated bureaucracy in order\nto accomplish tasks. This Defect is often associated\nwith characters who are members of law enforcement\norganisations or similar government agencies that require\npaperwork. A large criminal organisation, however,\nmay also require a character to receive permission from\nseveral levels of bosses before undertaking certain high-\nprofile jobs.\nRed Tape also includes whatever measures the\ncharacter must take “after the fact” to appease the\norganisation to which they belong. For example, a cop\nmay need to fill out a report every time their weapon is\nfired or may have to follow a complicated series of steps\nto obtain a search warrant. A thug (or a medieval noble)\nmay be required to pay a percentage of their take to the\nregional boss or face some very strict penalties.\nThe Red Tape Defect is usually inappropriate for\nallies created with the Companion Attribute.\n\n-2 Points\nSmall obligation to the organisation\nand subject to slight punishment for\nopposing it\n-4 Points\nModerate obligation to the\norganisation and subject to moderate\npunishment for opposing it\n-6 Points\nLarge obligation to the organisation\nand subject to severe punishment for\nopposing it"
+    },
+    {
+      "key": "phobia",
+      "id": "phobia",
+      "name": "Phobia",
+      "sourcePage": 163,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "rulesText": "PHOBIA\n\n-1 Point\nRed Tape impedes the character\nbefore or after a major action (but not\nboth) and is generally easy to manage\n-2 Points\nRed Tape impedes the character\nbefore and after a major action and it\nis moderately difficult to manage\n-3 Points\nRed Tape impedes the character\nbefore, after, and during a major\naction and it is difficult to manage\n\nA Lesser Defect. A Phobia is a fear (often irrational)\nof an event, object, or person that can limit a character’s\nchoice of actions. Avoiding situations that could trigger\nthe phobia may take a high priority in the character’s\nlife. Note that a Phobia that effectively cripples the\ncharacter with fear does not add constructively to the\nrole-playing experience.\n\n-1 Point\nSlight Phobia or one that is\nencountered infrequently\n-2 Points\nModerate Phobia or one that is\nencountered frequently\n-3 Points\nSevere Phobia or one that is\nencountered constantly\n\nREDUCED DAMAGE\n\nA Serious Defect. The character inflicts reduced\ndamage in combat, possibly due to feebleness, lack of\ncombat experience, youth, etc. For more information\non combat and damage, see page 183."
+    },
+    {
+      "key": "physical-impairment",
+      "id": "physical-impairment",
+      "name": "Physical Impairment",
+      "sourcePage": 163,
+      "category": "serious",
+      "pointsByRank": [
+        -3,
+        -6,
+        -9
+      ],
+      "rulesText": "-3 Points\nPhysical Impairment is a slight\ninconvenience to the character\n-6 Points\nPhysical Impairment is a moderate\ninconvenience to the character\n-9 Points\nPhysical Impairment is a severe\ninconvenience to the character\n\nOBLIGATED\n\nA Greater Defect. Free will has little meaning\nfor a character who is Obligated to a corporation,\ngovernment, crime ring, or other organisation or\nindividual. Control over the character can be exerted\nthrough a variety of methods including blackmail,\nbrainwashing, legal contract, technology, or just highly\neffective propaganda. Dire consequences await a\ncharacter whose actions conflict with the mandate of\nthe organisation. Obligated should not normally be\nassigned to Companions directly and is only applicable\nto Items if that Item itself impedes the freedom of the\ncharacter who possesses it."
+    },
+    {
+      "key": "red-tape",
+      "id": "red-tape",
+      "name": "Red Tape",
+      "sourcePage": 163,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "rulesText": "RED TAPE\n\nA Lesser Defect. The character must negotiate\ntheir way through a complicated bureaucracy in order\nto accomplish tasks. This Defect is often associated\nwith characters who are members of law enforcement\norganisations or similar government agencies that require\npaperwork. A large criminal organisation, however,\nmay also require a character to receive permission from\nseveral levels of bosses before undertaking certain high-\nprofile jobs.\nRed Tape also includes whatever measures the\ncharacter must take “after the fact” to appease the\norganisation to which they belong. For example, a cop\nmay need to fill out a report every time their weapon is\nfired or may have to follow a complicated series of steps\nto obtain a search warrant. A thug (or a medieval noble)\nmay be required to pay a percentage of their take to the\nregional boss or face some very strict penalties.\nThe Red Tape Defect is usually inappropriate for\nallies created with the Companion Attribute.\n\n-2 Points\nSmall obligation to the organisation\nand subject to slight punishment for\nopposing it\n-4 Points\nModerate obligation to the\norganisation and subject to moderate\npunishment for opposing it\n-6 Points\nLarge obligation to the organisation\nand subject to severe punishment for\nopposing it\n\nPHOBIA\n\n-1 Point\nRed Tape impedes the character\nbefore or after a major action (but not\nboth) and is generally easy to manage\n-2 Points\nRed Tape impedes the character\nbefore and after a major action and it\nis moderately difficult to manage\n-3 Points\nRed Tape impedes the character\nbefore, after, and during a major\naction and it is difficult to manage\n\nA Lesser Defect. A Phobia is a fear (often irrational)\nof an event, object, or person that can limit a character’s\nchoice of actions. Avoiding situations that could trigger\nthe phobia may take a high priority in the character’s\nlife. Note that a Phobia that effectively cripples the\ncharacter with fear does not add constructively to the\nrole-playing experience.\n\n-1 Point\nSlight Phobia or one that is\nencountered infrequently\n-2 Points\nModerate Phobia or one that is\nencountered frequently\n-3 Points\nSevere Phobia or one that is\nencountered constantly"
+    },
+    {
+      "key": "reduced-damage",
+      "id": "reduced-damage",
+      "name": "Reduced Damage",
+      "sourcePage": 163,
+      "category": "serious",
+      "pointsByRank": [
+        -3,
+        -6,
+        -9
+      ],
+      "automation": {
+        "damageMultiplierPerRank": -1
+      },
+      "rulesText": "REDUCED DAMAGE\n\nA Serious Defect. The character inflicts reduced\ndamage in combat, possibly due to feebleness, lack of\ncombat experience, youth, etc. For more information\non combat and damage, see page 183.\n\nPHYSICAL IMPAIRMENT\n\n-3 Points\nDamage Multiplier is reduced by 1\n-6 Points\nDamage Multiplier is reduced by 2\n-9 Points\nDamage Multiplier is reduced by 3\n\nA Serious Defect. The character has a physical\nimpairment that makes aspects of daily life more\nchallenging. Possible impairments include: one or\nmore missing (or unusable) legs, amnesia, constant\nsickness, nagging injury, severe headaches, an android\n\n07: DEFECTS\n\nFor example, a bulky brawler might have a high\nstrength, excellence endurance, fast running speed,\ngood manual dexterity, and healthy immune system ...\nbut be rather clumsy. This would fit a character with a\nBody Stat of 8, with the Shortcoming (Agility) Defect\nat -3 Points. Similarly, a witty, perceptive, and insightful\nacademic genius that happens to have a surprisingly\nbad memory might have a Mind Stat of 9, with the\nShortcoming (Memory) Defect at -2 Points.\nEvery Stat has several aspects associated with it that\nare considered either Major Aspects (highly important\naspects that arise frequently in a game) or Minor\nAspects (less important aspects that arise infrequently).\nEach Stat usually has the three Major and three\nMinor Aspects listed below but players may\ncreate additional or alternative Aspects with\nthe Game Master’s input."
+    },
+    {
+      "key": "sensory-impairment",
+      "id": "sensory-impairment",
+      "name": "Sensory Impairment",
+      "sourcePage": 164,
+      "category": "serious",
+      "pointsByRank": [
+        -3,
+        -6,
+        -9
+      ],
+      "rulesText": "SENSORY IMPAIRMENT\n\nA Serious Defect. One or more of the character’s\nsenses (sight, hearing, taste, touch, smell) are either\ndiminished or lost. An example of a diminished sense\nis being near-sighted or hard of hearing; the GM\nshould take the impairment into consideration when\ndeciding what the character is able to perceive. An\nexample of a lost sense is blindness or deafness. Any\ndiminishment or loss is based on the character’s status\nafter benefiting from any technological aids such as\neyeglasses or hearing aids in the setting. For example, if\na character has a hearing aid but is still hard of hearing,\nthey have Sensory Impairment at -3 Points. In a\nsetting where a hearing aid was unavailable or\ncould not correct their particular impairment,\nthe character would have Sensory Impairment at\n-6 Points instead. Stat rolls that relate\nto a character’s Sensory Impairment\nreceive a minor obstacle (secondary\nsense) or major obstacle (primary sense)\non the roll.\n\n-3 Points\nDiminished primary\nsense (such as\nshort-sightedness\nor being hard of\nhearing) or a\nlost secondary\nsense (such as\ntaste or smell)\n-6 Points\nLost primary\nsense (sight\nor hearing) or\nmultiple lost\nsecondary\nsenses\n-9 Points\nLost primary\nsense (sight or\nhearing) and\nmultiple lost\nsecondary senses"
+    },
+    {
+      "key": "shortcoming",
+      "id": "shortcoming",
+      "name": "Shortcoming",
+      "sourcePage": 164,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "rulesText": "For example, a bulky brawler might have a high\nstrength, excellence endurance, fast running speed,\ngood manual dexterity, and healthy immune system ...\nbut be rather clumsy. This would fit a character with a\nBody Stat of 8, with the Shortcoming (Agility) Defect\nat -3 Points. Similarly, a witty, perceptive, and insightful\nacademic genius that happens to have a surprisingly\nbad memory might have a Mind Stat of 9, with the\nShortcoming (Memory) Defect at -2 Points.\nEvery Stat has several aspects associated with it that\nare considered either Major Aspects (highly important\naspects that arise frequently in a game) or Minor\nAspects (less important aspects that arise infrequently).\nEach Stat usually has the three Major and three\nMinor Aspects listed below but players may\ncreate additional or alternative Aspects with\nthe Game Master’s input.\n\nSENSORY IMPAIRMENT\n\nA Serious Defect. One or more of the character’s\nsenses (sight, hearing, taste, touch, smell) are either\ndiminished or lost. An example of a diminished sense\nis being near-sighted or hard of hearing; the GM\nshould take the impairment into consideration when\ndeciding what the character is able to perceive. An\nexample of a lost sense is blindness or deafness. Any\ndiminishment or loss is based on the character’s status\nafter benefiting from any technological aids such as\neyeglasses or hearing aids in the setting. For example, if\na character has a hearing aid but is still hard of hearing,\nthey have Sensory Impairment at -3 Points. In a\nsetting where a hearing aid was unavailable or\ncould not correct their particular impairment,\nthe character would have Sensory Impairment at\n-6 Points instead. Stat rolls that relate\nto a character’s Sensory Impairment\nreceive a minor obstacle (secondary\nsense) or major obstacle (primary sense)\non the roll.\n\n-3 Points\nDiminished primary\nsense (such as\nshort-sightedness\nor being hard of\nhearing) or a\nlost secondary\nsense (such as\ntaste or smell)\n-6 Points\nLost primary\nsense (sight\nor hearing) or\nmultiple lost\nsecondary\nsenses\n-9 Points\nLost primary\nsense (sight or\nhearing) and\nmultiple lost\nsecondary senses\n\nSHORTCOMING\n\nA Lesser Defect. The three game\nStats indicate the same level of ability\nor competency in all aspects of each\nStat: the Body Stat represents all\nphysical aspects, the Mind Stat\nrepresents all mental aspects,\nand the Soul Stat represents all\nspiritual and willpower aspects.\nSome characters may have one\nor more aspects of a Stat at a less\nproficient level than the rest of the\nStat aspects, however, and this is when\nyou can assign the Shortcoming Defect\nto provide more precision.\n\n07: DEFECTS\n\nBODY STAT\n\n-3 Points\nFor a Shortcoming Major Aspect, the\ncharacter suffers a -3 dice roll penalty\nto Stat and Skill rolls with a minor\nobstacle. For Minor Aspects, this\nincreases to a -6 dice roll penalty with\na major obstacle.\n\nMajor Aspects – Agility, Endurance, Strength\nMinor Aspects – Immune System, Manual\nDexterity, Running Speed\n\nMIND STAT"
+    },
+    {
+      "key": "significant-other",
+      "id": "significant-other",
+      "name": "Significant Other",
+      "sourcePage": 165,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "rulesText": "SIGNIFICANT OTHER\n\nMajor Aspects – Creativity, Perception, Reason\nMinor Aspects – Common Sense, Intuition,\nMemory\n\nA Lesser Defect. A character with this Defect has\nsomeone for whom they will go to any lengths to keep\nsafe from harm – even at the risk of their own life.\nThe S.O. should be a regular fixture in the campaign.\nA one-night stand or a cousin visiting for two weeks\nis a plot complication and not an appropriate S.O.\nThe character’s sense of obligation towards the S.O. is\nenough that the character will take great pains to ensure\ntheir safety and well-being. Examples include spouses\nand steady romantic partners, teammates, immediate\nrelatives (parents and grandparents, brothers and sisters,\nperhaps very close cousins), and close co-workers (such\nas a cop’s partner). It is acceptable for a character to\ntake another character as an S.O. provided the players\nrole-play this relationship appropriately. In this case,\nthe S.O. relationship is always worth just -1 Point but\nis treated as a -3 Points Defect by the GM in terms\nof the frequency with which it affects the game. The\nS.O. Defect is inappropriate for most Companions and\nalmost all Items.\n\nSOUL STAT\n\nMajor Aspects – Charisma, Luck, Willpower\nMinor Aspects – Composure, Empathy,\nSelf-Discipline\n\nNEW ASPECTS\n\nThese Aspects and their classification as Major or\nMinor are examples only. The GM can redefine or\nrename these Aspects, or create others that better reflect\nparticular character concepts or the nature of a setting,\nor what elements of achievement the GM wishes to\nemphasise. A few examples of alternate Aspects, which\ncould be Major or Minor depending on their emphasis\nand exact definition, may include: Co-ordination,\nLooks, Fitness, Lower-Body Strength, Muscle, Upper-\nBody Strength (for Body); Focus, Intellect, Judgement,\nMechanical Aptitude; Savvy, Wit, Wisdom (for Mind);\nArtistic Ability, Courage, Charm, Gravitas, Leadership,\nInspiration, Piety, Presence, Sanity (for Soul).\n\n-1 Point\nSignificant Other is rarely placed\nin great danger and appears\ninfrequently\n-2 Points\nSignificant Other is often placed in\ngreat danger and appears frequently\n-3 Points\nSignificant Other is regularly placed in\ngreat danger and appears constantly\n\nALL STAT ASPECTS\n\nSometimes a character needs the Shortcoming Defect\nto apply to all aspects of a specific Stat. This usually\napplies to characters that undergo a radical change from\none form to another, such as that induced by the Alternate\nForm Attribute (page 78). For example, a scientist\ncharacter with a Mind Stat of 11 who transforms into a\nhulking beast may need to reduce their Mind Stat to 3\nwith a Shortcoming Mind Defect. For this application\nonly, a -1 penalty is applied to all the character’s specific\nStat and Skill rolls for every -2 Points of the Shortcoming\nDefect assigned (ie. what could be considered negative\nLevels of the Augmented Attribute). All Derived Values\nmust be recalculated for this application of Shortcoming."
+    },
+    {
+      "key": "skeleton-in-the-closet",
+      "id": "skeleton-in-the-closet",
+      "name": "Skeleton in the Closet",
+      "sourcePage": 165,
+      "category": "greater",
+      "pointsByRank": [
+        -2,
+        -4,
+        -6
+      ],
+      "rulesText": "SKELETON IN THE CLOSET\n\nA Greater Defect. The character has a dark secret.\nExposure of this secret could cause harm to the character\nin the form of public humiliation, loss of a job, arrest,\ninjury, or even death. The Point Rank of this Defect is\nbased on the severity of the consequences if the secret\nis revealed. The secret must be important enough that\nthe character will actively take steps to keep others\nfrom learning of it. If the Skeleton is ever revealed, the\ncharacter will suffer the associated consequences and the\nGM should replace it with appropriate Defects worth at\nleast as many Points as Skeleton in the Closet.\nFor example, most criminals have a -2 Point Skeleton\nin the Closet – they have committed crimes that could\nsend them to jail or worse but usually there is no easily\navailable evidence. If their secret is discovered, they will\nusually have Skeleton in the Closet replaced by an equal\nor higher value of the Wanted Defect (page 167). A -6\nPoint Skeleton is usually reserved for characters who\n\n-1 Point\nFor a Shortcoming Major Aspect, the\ncharacter suffers a -1 dice roll penalty\nto Stat and Skill rolls with a minor\nobstacle. For Minor Aspects, this\nincreases to a -2 dice roll penalty with\na major obstacle.\n-2 Points\nFor a Shortcoming Major Aspect, the\ncharacter suffers a -2 dice roll penalty\nto Stat and Skill rolls with a minor\nobstacle. For Minor Aspects, this\nincreases to a -4 dice roll penalty with\na major obstacle.\n\n07: DEFECTS\n\nface destruction or death if their secret is discovered,\nsuch as a flesh-eating alien living among humans or an\nundercover special agent that has infiltrated a terrorist\norganisation.\nThe Skeleton in the Closet Defect also applies to\nsomeone who has a secret identity that they wish to\nconceal. The value depends on the consequences if\nthe secret is revealed and thus is heavily dependent on\nthe nature and actions of the character. For example,\nif an undercover agent’s identity is revealed, enemies\ncan target the character and their family more easily.\nWhether this is a -2, -4, or -6 Rank Defect depends on\nthe position of the character, popularity of the character,\nhow many enemies they have, how easily the character\ncan maintain a normal lifestyle, etc. When in doubt,\nassume that most characters who have secret identities\ngain the -4 Points Defect.\nSkeleton in the Closet is only appropriate for\nCompanions if their allied character is aware of the\nsecret and must strive to protect it, since its exposure\nwould be harmful to the character as well through\n“guilt by association” and the loss of an important ally\nor friend.\n\ninflexible, loquacious, narcissistic, nihilistic, obnoxious,\nobsessive, overconfident, overly sensitive, pacifistic,\npassive-aggressive, perfectionist, puritanical, sadistic, shy.\n\n-1 Point\nImposes a slight disadvantage on the\ncharacter and/or their allies\n-2 Points\nImposes a moderate disadvantage on\nthe character and/or their allies\n-3 Points\nImposes a severe disadvantage on the\ncharacter and/or their allies\n\nSPECIAL REQUIREMENT\n\nA Serious Defect. This Defect means the character\nhas a Special Requirement that must be fulfilled in\norder for them to continue to function normally. This\nmight include: a mechanical device that needs constant\nmaintenance for proper functioning, a cyborg’s need\nfor batteries, a vampire’s thirst for blood, a chronically\nill patient’s requirement for medicine, a god’s need for\nworship, a fairy’s need for belief in its existence, an\naddict’s need for a fix, or a baby’s need for constant\nattention. The Special Requirement may involve a\nphysical object, an event, an action, an environmental\ncondition, or even a state of mind. Everyday activities,\nsuch as eating and sleeping, are not considered to be\nSpecial Requirements unless they must be carried out\nunder unusual conditions or more frequently for some\nreason. For example, if a robot requires regular changes\nof batteries instead of (rather than as well as) food,\nthis is not a Special Requirement unless these batteries\nare rarer or more costly than ordinary food would be.\nThis Defect covers a wide range of possibilities and the\ndetails should be discussed with the GM.\n\n-2 Points\nSkeleton is difficult to discover and/\nor the consequences of discovery\nare slight and/or the character’s\nreputation will be impacted slightly\n-4 Points\nSkeleton is moderately easy to\ndiscover and/or the consequences\nof discovery are moderate and/or\nthe character’s reputation will be\nimpacted moderately\n-6 Points\nSkeleton is easy to discover and/\nor the consequences of discovery\nare severe and/or the character’s\nreputation will be impacted severely\n\n-3 Points\nEasy to obtain and/or is needed\ninfrequently\n-6 Points\nModerately difficult to obtain and/or\nis needed frequently\n-9 Points\nDifficult to obtain and/or is needed\nconstantly"
+    },
+    {
+      "key": "social-fault",
+      "id": "social-fault",
+      "name": "Social Fault",
+      "sourcePage": 166,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "rulesText": "SOCIAL FAULT\n\nA Lesser Defect. The character exhibits a Social Fault that produces hardship for either the character or their companions and allies (or both). Social Faults are primarily role-playing opportunities rather than strict mechanistic rules that provides a framework for character action based on a background story or plot hook, but they are not intended to cripple your character's participation. When a Stat or Skill roll is required in circumstances that touch upon the Social Fault, the GM can impose a major or minor obstacle (page 182) to the roll, raise the Target Number, or impose other penalties. For most characters, assigning more than two or three Social Faults is not recommended.\n\nA non-exhaustive list of Social Faults include: abusive, aimless, antisocial, anxious, arrogant, bigoted, borderline, boring, cowardly, demanding, depressed, envious, greedy, histrionic, honour code, impulsive, inflexible, loquacious, narcissistic, nihilistic, obnoxious, obsessive, overconfident, overly sensitive, pacifistic, passive-aggressive, perfectionist, puritanical, sadistic, shy.\n\n-1 Point\nImposes a slight disadvantage on the character and/or their allies\n-2 Points\nImposes a moderate disadvantage on the character and/or their allies\n-3 Points\nImposes a severe disadvantage on the character and/or their allies"
+    },
+    {
+      "key": "special-requirement",
+      "id": "special-requirement",
+      "name": "Special Requirement",
+      "sourcePage": 166,
+      "category": "serious",
+      "pointsByRank": [
+        -3,
+        -6,
+        -9
+      ],
+      "rulesText": "SPECIAL REQUIREMENT\n\nA Serious Defect. This Defect means the character has a Special Requirement that must be fulfilled in order for them to continue to function normally. This might include: a mechanical device that needs constant maintenance for proper functioning, a cyborg's need for batteries, a vampire's thirst for blood, a chronically ill patient's requirement for medicine, a god's need for worship, a fairy's need for belief in its existence, an addict's need for a fix, or a baby's need for constant attention. The Special Requirement may involve a physical object, an event, an action, an environmental condition, or even a state of mind. Everyday activities, such as eating and sleeping, are not considered to be Special Requirements unless they must be carried out under unusual conditions or more frequently for some reason. For example, if a robot requires regular changes of batteries instead of (rather than as well as) food, this is not a Special Requirement unless these batteries are rarer or more costly than ordinary food would be. This Defect covers a wide range of possibilities and the details should be discussed with the GM.\n\n-3 Points\nEasy to obtain and/or is needed infrequently\n-6 Points\nModerately difficult to obtain and/or is needed frequently\n-9 Points\nDifficult to obtain and/or is needed constantly"
+    },
+    {
+      "key": "unappealing",
+      "id": "unappealing",
+      "name": "Unappealing",
+      "sourcePage": 166,
+      "category": "lesser",
+      "pointsByRank": [
+        -1,
+        -2,
+        -3
+      ],
+      "rulesText": "UNAPPEALING\n\nA Lesser Defect. An Unappealing character may find it difficult to blend into a crowd because their appearance is distinctive. Alternatively, the term \"unappealing\" may not necessarily mean ugly, but can also refer to a bad smell, manner of speech, or even an unpleasant habit that provokes a consistently negative reaction. A monstrous, ugly creature is usually both Unappealing and Marked (page 161), while conversely a beautiful winged angel would be Marked (the presence of wings) but not Unappealing.\n\n-1 Point\nSlightly Unappealing\n-2 Points\nModerately Unappealing\n-3 Points\nSeverely Unappealing"
+    },
+    {
+      "key": "unique-defect",
+      "id": "unique-defect",
+      "name": "Unique Defect",
+      "costType": "special",
+      "sourcePage": 167,
+      "category": "special",
+      "rulesText": "UNIQUE DEFECT\n\nWEAK POINT\n\nThis section covers any and all possible Defects that\na character might possess but are not detailed in the\nrules. The boundaries and limitations of the Defect\nshould be discussed with the GM.\n\nA Greater Defect. Weak Point is usually applied\nto non-humans or vehicle Items but can represent a\ncharacter’s old injury or wound that an opponent can\nexploit. The Item possesses an abnormal weak point\nthat, if targetted and hit during combat (suffering\npenalties to the roll, at the GM’s discretion), it inflicts\ndouble damage. If the GM deems the attack has been\nwildly successful, the target is instead immediately\nreduced to 0 Health Points and falls unconscious or is\ndestroyed (again, at the GM’s option). The opponent,\nor even the character, may not be aware the Weak\nPoint exists, however, until its presence is discovered by\naccident or through careful study.\n\n-1 to -3 Point Unique Defect occurs infrequently\nand/or has a slight effect on the\ncharacter\n-2 to -6 Points Unique Defect occurs frequently\nand/or has a moderate effect on the\ncharacter\n-3 to -9 Points Unique Defect occurs constantly and/\nor has a severe effect on the character"
+    },
+    {
+      "key": "vulnerability",
+      "id": "vulnerability",
+      "name": "Vulnerability",
+      "sourcePage": 167,
+      "category": "greater",
+      "pointsByRank": [
+        -2,
+        -4,
+        -6
+      ],
+      "rulesText": "VULNERABILITY\n\n-2 Points\nWeak Point is tiny and difficult to hit\n-4 Points\nWeak Point is small and moderately\neasy to hit\n-6 Points\nWeak Point is large and easy to hit\n\nA Greater Defect. The character has a critical\nweakness to a specific object, environment, thought,\nactivity, or condition. When in close proximity to the\nVulnerability, it can temporarily strip the character of\ntheir Attributes that are derived from one particular\nsource (such as magic or technology or supernatural\nability; see page 258). The Vulnerability should only\naffect the character rarely, however, since it impacts\nthem so severely. This Defect is mostly applicable to\nnon-humans or superhumans.\n\n-2 Points\nThe character’s source-related\nAttribute Levels all drop by one-\nquarter (round up) when affected by\nthe Vulnerability\n-4 Points\nThe character’s source-related\nAttribute Levels all drop by one-half\n(round up) when affected by the\nVulnerability\n-6 Points\nThe character cannot use any source-\nrelated Attribute when affected by\nthe Vulnerability"
+    },
+    {
+      "key": "wanted",
+      "id": "wanted",
+      "name": "Wanted",
+      "sourcePage": 167,
+      "category": "greater",
+      "pointsByRank": [
+        -2,
+        -4,
+        -6
+      ],
+      "rulesText": "WANTED\n\nA Greater Defect. The character is Wanted by\nthe law, a powerful criminal, or private organisation\nthat has placed a price on their head. Being Wanted\nis different from having a Nemesis since there is no\nsingle person devoting their life to annoying or hunting\ndown the character but the character needs to conceal\ntheir identity or move around regularly to avoid having\nstrangers calling the police or pursuing the character\n(depending on the circumstances).\n\n-2 Points\nThe reward, contract, or other\nincentive offered is slight\n-4 Points\nThe reward, contract, or other\nincentive offered is moderate\n-6 Points\nThe reward, contract, or\nother incentive offered is\nextreme"
+    },
+    {
+      "key": "weak-point",
+      "id": "weak-point",
+      "name": "Weak Point",
+      "sourcePage": 167,
+      "category": "greater",
+      "pointsByRank": [
+        -2,
+        -4,
+        -6
+      ],
+      "rulesText": "WEAK POINT\n\nThis section covers any and all possible Defects that\na character might possess but are not detailed in the\nrules. The boundaries and limitations of the Defect\nshould be discussed with the GM.\n\nA Greater Defect. Weak Point is usually applied\nto non-humans or vehicle Items but can represent a\ncharacter’s old injury or wound that an opponent can\nexploit. The Item possesses an abnormal weak point\nthat, if targetted and hit during combat (suffering\npenalties to the roll, at the GM’s discretion), it inflicts\ndouble damage. If the GM deems the attack has been\nwildly successful, the target is instead immediately\nreduced to 0 Health Points and falls unconscious or is\ndestroyed (again, at the GM’s option). The opponent,\nor even the character, may not be aware the Weak\nPoint exists, however, until its presence is discovered by\naccident or through careful study.\n\n-1 to -3 Point Unique Defect occurs infrequently\nand/or has a slight effect on the\ncharacter\n-2 to -6 Points Unique Defect occurs frequently\nand/or has a moderate effect on the\ncharacter\n-3 to -9 Points Unique Defect occurs constantly and/\nor has a severe effect on the character\n\nVULNERABILITY\n\n-2 Points\nWeak Point is tiny and difficult to hit\n-4 Points\nWeak Point is small and moderately\neasy to hit\n-6 Points\nWeak Point is large and easy to hit\n\nA Greater Defect. The character has a critical\nweakness to a specific object, environment, thought,\nactivity, or condition. When in close proximity to the\nVulnerability, it can temporarily strip the character of\ntheir Attributes that are derived from one particular\nsource (such as magic or technology or supernatural\nability; see page 258). The Vulnerability should only\naffect the character rarely, however, since it impacts\nthem so severely. This Defect is mostly applicable to\nnon-humans or superhumans.\n\n-2 Points\nThe character’s source-related\nAttribute Levels all drop by one-\nquarter (round up) when affected by\nthe Vulnerability\n-4 Points\nThe character’s source-related\nAttribute Levels all drop by one-half\n(round up) when affected by the\nVulnerability\n-6 Points\nThe character cannot use any source-\nrelated Attribute when affected by\nthe Vulnerability\n\nWANTED\n\nA Greater Defect. The character is Wanted by\nthe law, a powerful criminal, or private organisation\nthat has placed a price on their head. Being Wanted\nis different from having a Nemesis since there is no\nsingle person devoting their life to annoying or hunting\ndown the character but the character needs to conceal\ntheir identity or move around regularly to avoid having\nstrangers calling the police or pursuing the character\n(depending on the circumstances).\n\n-2 Points\nThe reward, contract, or other\nincentive offered is slight\n-4 Points\nThe reward, contract, or other\nincentive offered is moderate\n-6 Points\nThe reward, contract, or\nother incentive offered is\nextreme"
+    }
+  ]
+}

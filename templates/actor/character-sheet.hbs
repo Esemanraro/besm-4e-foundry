@@ -1,0 +1,463 @@
+<form class="{{cssClass}} besm4e-sheet" autocomplete="off">
+  <header class="sheet-header">
+    <div class="identity-grid">
+      <label>
+        <span>Name</span>
+        <input type="text" name="name" value="{{actor.name}}" />
+      </label>
+      <label>
+        <span>Player</span>
+        <input type="text" name="system.playerName" value="{{system.playerName}}" />
+      </label>
+      <label>
+        <span>GM</span>
+        <input type="text" name="system.gmName" value="{{system.gmName}}" />
+      </label>
+      <label>
+        <span>Species</span>
+        <input type="text" name="system.species" value="{{system.species}}" />
+      </label>
+      <label>
+        <span>Occupation</span>
+        <input type="text" name="system.occupation" value="{{system.occupation}}" />
+      </label>
+      <label>
+        <span>Habitat</span>
+        <input type="text" name="system.habitat" value="{{system.habitat}}" />
+      </label>
+      <label>
+        <span>Power Level</span>
+        <select name="system.powerLevel">
+          {{#select system.powerLevel}}
+            {{#each powerLevels}}
+              <option value="{{this.id}}">{{this.name}}</option>
+            {{/each}}
+          {{/select}}
+        </select>
+      </label>
+      <label>
+        <span>Size Rank</span>
+        <input type="number" name="system.size.rank" value="{{system.size.rank}}" min="-10" max="10" />
+      </label>
+      <label>
+        <span>Target Points</span>
+        <input type="number" name="system.targetPoints" value="{{system.targetPoints}}" />
+      </label>
+    </div>
+  </header>
+
+  <nav class="builder-nav">
+    {{#each steps}}
+      <button type="button" class="{{#if this.active}}active{{/if}}" data-action="goto-step" data-step="{{this.id}}">{{this.label}}</button>
+    {{/each}}
+  </nav>
+
+  <section class="sheet-columns">
+    <div class="column wide">
+      {{#if stepFlags.scope}}
+        <section class="panel">
+          <div class="panel-title">Campaign Scope</div>
+          <div class="derived-grid">
+            <div><span>Power Level</span><strong>{{system.powerLevel}}</strong></div>
+            <div><span>Target Points</span><strong>{{system.targetPoints}}</strong></div>
+            <div><span>Power Range</span><strong>{{powerLevelEntry.minimum}}-{{#if powerLevelEntry.maximum}}{{powerLevelEntry.maximum}}{{else}}250+{{/if}}</strong></div>
+            <div><span>Size Rank</span><strong>{{system.size.rank}} / {{system.size.effectiveRank}}</strong></div>
+            <div><span>Size Label</span><strong>{{system.size.label}}</strong></div>
+            <div><span>Size Points</span><strong>{{system.creation.sizePoints}}</strong></div>
+          </div>
+          {{#if benchmark}}
+            <div class="hint-block">
+              Suggested maximum Stat: {{benchmark.maximumStat}}. Suggested Combat Value range: {{benchmark.combat.minimum}}-{{benchmark.combat.maximum}}.
+            </div>
+          {{/if}}
+        </section>
+      {{/if}}
+
+      {{#if stepFlags.templates}}
+        <section class="panel">
+          <div class="panel-title">Race Templates</div>
+          <table class="item-table">
+            <thead><tr><th>Name</th><th>Pts</th><th>Page</th><th></th></tr></thead>
+            <tbody>
+              {{#each content.templateIndex.race}}
+                <tr>
+                  <td>{{this.name}}</td>
+                  <td>{{this.points}}</td>
+                  <td>{{this.page}}</td>
+                  <td><button type="button" data-action="add-template" data-template-type="race" data-template-id="{{this.id}}">Add</button></td>
+                </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </section>
+        <section class="panel">
+          <div class="panel-title">Class Templates</div>
+          <table class="item-table">
+            <thead><tr><th>Name</th><th>Pts</th><th>Page</th><th></th></tr></thead>
+            <tbody>
+              {{#each content.templateIndex.class}}
+                <tr>
+                  <td>{{this.name}}</td>
+                  <td>{{this.points}}</td>
+                  <td>{{this.page}}</td>
+                  <td><button type="button" data-action="add-template" data-template-type="class" data-template-id="{{this.id}}">Add</button></td>
+                </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </section>
+        <section class="panel">
+          <div class="panel-title">Applied Templates</div>
+          <table class="item-table">
+            <thead><tr><th>Name</th><th>Type</th><th>Pts</th><th>Page</th><th></th></tr></thead>
+            <tbody>
+              {{#each templates}}
+                <tr>
+                  <td>{{this.name}}</td>
+                  <td>{{this.templateType}}</td>
+                  <td>{{this.points}}</td>
+                  <td>{{this.page}}</td>
+                  <td class="row-actions">
+                    <button type="button" data-action="library-open" data-category="templates" data-entry-id="{{this.item.system.templateId}}">Ref</button>
+                    <button type="button" data-action="edit-item" data-item-id="{{this.id}}">Edit</button>
+                    <button type="button" data-action="delete-item" data-item-id="{{this.id}}">X</button>
+                  </td>
+                </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </section>
+        {{#if pendingTemplateApplication}}
+          <section class="panel">
+            <div class="panel-title">Template Conflicts</div>
+            <div class="derived-grid">
+              <div><span>Template</span><strong>{{pendingTemplateApplication.name}}</strong></div>
+              <div><span>Type</span><strong>{{pendingTemplateApplication.type}}</strong></div>
+              <div><span>Page</span><strong>{{pendingTemplateApplication.page}}</strong></div>
+              <div><span>Components</span><strong>{{pendingTemplateApplication.totalComponents}}</strong></div>
+              <div><span>Included</span><strong>{{pendingTemplateApplication.includedCount}}</strong></div>
+              <div><span>Suppressed</span><strong>{{pendingTemplateApplication.suppressedCount}}</strong></div>
+            </div>
+            <div class="hint-block">
+              Overlapping components are listed here before the template is applied. Toggle each conflict to keep both entries or suppress the incoming duplicate.
+            </div>
+            <table class="item-table">
+              <thead><tr><th>Component</th><th>Existing Item</th><th>Decision</th><th></th></tr></thead>
+              <tbody>
+                {{#each pendingTemplateApplication.conflicts}}
+                  <tr>
+                    <td>{{this.name}}{{#if this.specialization}} ({{this.specialization}}){{/if}}</td>
+                    <td>{{this.existingItemName}}</td>
+                    <td>{{#if this.suppressed}}Suppress New Copy{{else}}Keep Both{{/if}}</td>
+                    <td><button type="button" data-action="template-conflict-toggle" data-key="{{this.key}}">Toggle</button></td>
+                  </tr>
+                {{/each}}
+              </tbody>
+            </table>
+            <div class="button-group review-actions">
+              <button type="button" data-action="template-conflict-apply">Apply Template</button>
+              <button type="button" data-action="template-conflict-cancel">Cancel</button>
+            </div>
+          </section>
+        {{/if}}
+      {{/if}}
+
+      {{#if stepFlags.stats}}
+        <section class="panel">
+          <div class="panel-title">Stats</div>
+          <table class="item-table">
+            <thead><tr><th>Stat</th><th>Assigned</th><th>Template</th><th>Attribute</th><th>Effective</th><th>Pts</th><th></th></tr></thead>
+            <tbody>
+              {{#each statRows}}
+                <tr>
+                  <td>{{this.label}}</td>
+                  <td><input type="number" name="system.stats.{{this.id}}" value="{{this.base}}" /></td>
+                  <td>{{this.templateBonus}}</td>
+                  <td>{{this.attributeBonus}}</td>
+                  <td>{{this.effective}}</td>
+                  <td>{{this.cost}}</td>
+                  <td><button type="button" data-action="roll-stat" data-stat="{{this.id}}">Roll</button></td>
+                </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </section>
+        <section class="panel">
+          <div class="panel-title">Size Math</div>
+          <div class="derived-grid">
+            <div><span>Base Rank</span><strong>{{system.size.rank}}</strong></div>
+            <div><span>Effective Rank</span><strong>{{system.size.effectiveRank}}</strong></div>
+            <div><span>Label</span><strong>{{system.size.label}}</strong></div>
+            <div><span>Strength Dmg</span><strong>{{system.size.strengthDamage}}</strong></div>
+            <div><span>Durability</span><strong>{{system.size.durability}}</strong></div>
+            <div><span>Ranged Attack</span><strong>{{system.size.attackRangedMod}}</strong></div>
+            <div><span>Ranged Defence</span><strong>{{system.size.defenceRangedMod}}</strong></div>
+            <div><span>Range/Speed x</span><strong>{{system.size.rangeSpeedMultiplier}}</strong></div>
+            <div><span>Lifting x</span><strong>{{system.size.liftingMultiplier}}</strong></div>
+          </div>
+        </section>
+      {{/if}}
+
+      {{#if stepFlags.attributes}}
+        <section class="panel">
+          <div class="panel-header">
+            <div class="panel-title">Attributes and Powers</div>
+            <div class="button-group">
+              <button type="button" data-action="create-item" data-type="attribute">Add Attribute</button>
+              <button type="button" data-action="create-item" data-type="attribute" data-catalog-id="weapon">Add Weapon</button>
+            </div>
+          </div>
+          <table class="item-table">
+            <thead><tr><th>Name</th><th>Spec</th><th>Lvl</th><th>Eff</th><th>Pts</th><th>Page</th><th></th></tr></thead>
+            <tbody>
+              {{#each attributes}}
+                <tr>
+                  <td>{{this.name}}</td>
+                  <td>{{this.specialization}}</td>
+                  <td>{{this.level}}</td>
+                  <td>{{this.effectiveLevel}}</td>
+                  <td>{{this.points}}</td>
+                  <td>{{this.page}}</td>
+                  <td class="row-actions">
+                    <button type="button" data-action="library-open" data-category="attributes" data-entry-id="{{this.item.system.catalogId}}">Ref</button>
+                    <button type="button" data-action="edit-item" data-item-id="{{this.id}}">Edit</button>
+                    <button type="button" data-action="delete-item" data-item-id="{{this.id}}">X</button>
+                  </td>
+                </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </section>
+      {{/if}}
+
+      {{#if stepFlags.defects}}
+        <section class="panel">
+          <div class="panel-header">
+            <div class="panel-title">Defects</div>
+            <button type="button" data-action="create-item" data-type="defect">Add Defect</button>
+          </div>
+          <table class="item-table">
+            <thead><tr><th>Name</th><th>Rank</th><th>Pts</th><th>Page</th><th></th></tr></thead>
+            <tbody>
+              {{#each defects}}
+                <tr>
+                  <td>{{this.name}}</td>
+                  <td>{{this.rank}}</td>
+                  <td>{{this.points}}</td>
+                  <td>{{this.page}}</td>
+                  <td class="row-actions">
+                    <button type="button" data-action="library-open" data-category="defects" data-entry-id="{{this.item.system.catalogId}}">Ref</button>
+                    <button type="button" data-action="edit-item" data-item-id="{{this.id}}">Edit</button>
+                    <button type="button" data-action="delete-item" data-item-id="{{this.id}}">X</button>
+                  </td>
+                </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </section>
+      {{/if}}
+
+      {{#if stepFlags.items}}
+        <section class="panel">
+          <div class="panel-header">
+            <div class="panel-title">Weapons</div>
+            <div class="button-group">
+              <button type="button" data-action="create-item" data-type="attribute" data-catalog-id="weapon">Add Weapon</button>
+              <button type="button" data-action="create-item" data-type="attribute" data-catalog-id="armour">Add Armour</button>
+              <button type="button" data-action="create-item" data-type="attribute" data-catalog-id="force-field">Add Force Field</button>
+            </div>
+          </div>
+          <table class="item-table">
+            <thead><tr><th>Name</th><th>Lvl</th><th>Eff</th><th>Mode</th><th>Atk</th><th>Dmg</th><th>Pts</th><th>Page</th><th></th></tr></thead>
+            <tbody>
+              {{#each attacks}}
+                <tr>
+                  <td>{{this.name}}</td>
+                  <td>{{this.level}}</td>
+                  <td>{{this.effectiveLevel}}</td>
+                  <td>{{this.mode}}</td>
+                  <td>{{this.attackBonus}}</td>
+                  <td>{{this.damage}}</td>
+                  <td>{{this.points}}</td>
+                  <td>{{this.page}}</td>
+                  <td class="row-actions">
+                    <button type="button" data-action="library-open" data-category="attributes" data-entry-id="{{this.item.system.catalogId}}">Ref</button>
+                    <button type="button" data-action="roll-attack" data-item-id="{{this.id}}">Atk</button>
+                    <button type="button" data-action="roll-damage" data-item-id="{{this.id}}">Dmg</button>
+                    <button type="button" data-action="edit-item" data-item-id="{{this.id}}">Edit</button>
+                    <button type="button" data-action="delete-item" data-item-id="{{this.id}}">X</button>
+                  </td>
+                </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </section>
+        <section class="panel">
+          <div class="panel-header">
+            <div class="panel-title">Gear and Misc. Items</div>
+            <button type="button" data-action="create-item" data-type="gear">Add Gear</button>
+          </div>
+          <table class="item-table">
+            <thead><tr><th>Name</th><th>Pts</th><th>Page</th><th></th></tr></thead>
+            <tbody>
+              {{#each gear}}
+                <tr>
+                  <td>{{this.name}}</td>
+                  <td>{{this.points}}</td>
+                  <td>{{this.page}}</td>
+                  <td class="row-actions">
+                    <button type="button" data-action="edit-item" data-item-id="{{this.id}}">Edit</button>
+                    <button type="button" data-action="delete-item" data-item-id="{{this.id}}">X</button>
+                  </td>
+                </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </section>
+      {{/if}}
+
+      {{#if stepFlags.review}}
+        <section class="panel">
+          <div class="panel-title">Derived Values</div>
+          <div class="derived-grid">
+            <div><span>Base CV</span><strong>{{system.combat.base}}</strong></div>
+            <div><span>Attack</span><strong>{{system.combat.attack}}</strong></div>
+            <div><span>Defence</span><strong>{{system.combat.defence}}</strong></div>
+            <div><span>Damage Mult.</span><strong>{{system.combat.damageMultiplier}}</strong></div>
+            <div><span>Muscle Mult.</span><strong>{{system.combat.muscleDamageMultiplier}}</strong></div>
+            <div><span>Unarmed Dmg</span><strong>{{system.combat.unarmedDamage}}</strong></div>
+            <div><span>Armour</span><strong>{{system.combat.armourRating}}</strong></div>
+            <div><span>Force Field</span><strong>{{system.combat.forceFieldRating}}</strong></div>
+            <div><span>Actions</span><strong>{{system.combat.actions}}</strong></div>
+          </div>
+        </section>
+        <section class="panel">
+          <div class="panel-title">Resources and Totals</div>
+          <div class="derived-grid">
+            <div><span>Health</span><strong>{{system.resources.health.value}} / {{system.resources.health.max}}</strong></div>
+            <div><span>Energy</span><strong>{{system.resources.energy.value}} / {{system.resources.energy.max}}</strong></div>
+            <div><span>Body</span><strong>{{system.effectiveStats.body}}</strong></div>
+            <div><span>Mind</span><strong>{{system.effectiveStats.mind}}</strong></div>
+            <div><span>Soul</span><strong>{{system.effectiveStats.soul}}</strong></div>
+            <div><span>Stats</span><strong>{{system.creation.statPoints}}</strong></div>
+            <div><span>Size</span><strong>{{system.creation.sizePoints}}</strong></div>
+            <div><span>Attributes</span><strong>{{system.creation.attributePoints}}</strong></div>
+            <div><span>Defects</span><strong>{{system.creation.defectPoints}}</strong></div>
+            <div><span>Templates</span><strong>{{system.creation.templatePoints}}</strong></div>
+            <div><span>Gear</span><strong>{{system.creation.gearPoints}}</strong></div>
+            <div><span>Total</span><strong>{{system.creation.totalSpent}}</strong></div>
+            <div><span>Unspent</span><strong>{{system.creation.unspent}}</strong></div>
+          </div>
+          <div class="button-group review-actions">
+            <button type="button" data-action="roll-initiative">Roll Initiative</button>
+          </div>
+        </section>
+        <section class="panel">
+          <div class="panel-title">Movement</div>
+          <div class="derived-grid">
+            <div><span>Walk</span><strong>{{system.movement.walk}}</strong></div>
+            <div><span>Jog</span><strong>{{system.movement.jog}}</strong></div>
+            <div><span>Run</span><strong>{{system.movement.run}}</strong></div>
+            <div><span>Sprint</span><strong>{{system.movement.sprint}}</strong></div>
+            <div><span>Crawl</span><strong>{{system.movement.crawl}}</strong></div>
+            <div><span>Swim</span><strong>{{system.movement.swim}}</strong></div>
+            <div><span>Ground Max</span><strong>{{system.movement.groundMax}} kph</strong></div>
+            <div><span>Water Max</span><strong>{{system.movement.waterMax}} kph</strong></div>
+            <div><span>Flight Max</span><strong>{{system.movement.flightMax}} kph</strong></div>
+            <div><span>Spaceflight</span><strong>{{#if system.movement.spaceflightLevel}}Lv {{system.movement.spaceflightLevel}} {{system.movement.spaceflightLabel}}{{else}}None{{/if}}</strong></div>
+          </div>
+        </section>
+        <section class="panel">
+          <div class="panel-title">Build Validation</div>
+          {{#if buildWarnings.length}}
+            <ul class="warning-list">
+              {{#each buildWarnings}}
+                <li>{{this}}</li>
+              {{/each}}
+            </ul>
+          {{else}}
+            <div class="hint-block">Passive character creation fields required by the current build are configured.</div>
+          {{/if}}
+        </section>
+        <section class="panel">
+          <div class="panel-title">Benchmark Review</div>
+          {{#if benchmarkWarnings.length}}
+            <ul class="warning-list">
+              {{#each benchmarkWarnings}}
+                <li>{{this}}</li>
+              {{/each}}
+            </ul>
+          {{else}}
+            <div class="hint-block">Current build is within the selected benchmark ranges.</div>
+          {{/if}}
+        </section>
+        <section class="panel">
+          <div class="panel-title">Notes</div>
+          {{editor system.notes target="system.notes" button=true owner=owner editable=editable}}
+        </section>
+      {{/if}}
+
+      {{#if stepFlags.library}}
+        <section class="panel">
+          <div class="panel-header">
+            <div class="panel-title">Rules Library</div>
+            <div class="button-group">
+              {{#each library.categories}}
+                <button type="button" class="{{#if this.active}}active{{/if}}" data-action="library-category" data-category="{{this.id}}">{{this.label}}</button>
+              {{/each}}
+            </div>
+          </div>
+          <div class="library-layout">
+            <div class="library-list">
+              <table class="item-table">
+                <thead><tr><th>Name</th><th>Cost</th><th>Page</th><th></th></tr></thead>
+                <tbody>
+                  {{#each library.entries}}
+                    <tr class="{{#if this.active}}active-row{{/if}}">
+                      <td>{{this.name}}</td>
+                      <td>{{this.cost}}</td>
+                      <td>{{this.page}}</td>
+                      <td class="row-actions">
+                        <button type="button" data-action="library-open" data-category="{{../library.activeCategory}}" data-entry-id="{{this.id}}">View</button>
+                      </td>
+                    </tr>
+                  {{/each}}
+                </tbody>
+              </table>
+            </div>
+            {{#if library.detail}}
+              <div class="library-detail">
+                <div class="derived-grid">
+                  <div><span>Name</span><strong>{{library.detail.name}}</strong></div>
+                  <div><span>Page</span><strong>{{library.detail.page}}</strong></div>
+                  <div><span>Cost</span><strong>{{library.detail.cost}}</strong></div>
+                </div>
+                {{#if library.detail.itemType}}
+                  <div class="button-group review-actions">
+                    <button type="button" data-action="library-create" data-item-type="{{library.detail.itemType}}" data-entry-id="{{library.detail.id}}">{{library.detail.buttonLabel}}</button>
+                  </div>
+                {{/if}}
+                {{#each library.detail.sections}}
+                  <div class="panel-title">{{this.title}}</div>
+                  <ul class="warning-list">
+                    {{#each this.lines}}
+                      <li>{{this}}</li>
+                    {{/each}}
+                  </ul>
+                {{/each}}
+                {{#if library.detail.entry.rulesText}}
+                  <pre class="rules-text">{{library.detail.entry.rulesText}}</pre>
+                {{/if}}
+              </div>
+            {{/if}}
+          </div>
+        </section>
+      {{/if}}
+    </div>
+  </section>
+
+  <footer class="builder-footer">
+    <button type="button" data-action="step-prev">Previous</button>
+    <button type="button" data-action="step-next">Next</button>
+  </footer>
+</form>

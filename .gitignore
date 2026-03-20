@@ -1,0 +1,16 @@
+# Large PDF files
+*.pdf
+
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Foundry cache
+foundrycache/
+
+# IDE files
+.vscode/
+.idea/

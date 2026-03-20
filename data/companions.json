@@ -1,0 +1,3664 @@
+{
+  "entries": [
+    {
+      "id": "cabbit-pet",
+      "name": "CABBIT - PET",
+      "sourcePage": 230,
+      "sizeRank": -2,
+      "stats": {
+        "body": 7,
+        "mind": 3,
+        "soul": 6
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 7,
+          "points": 14,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 6,
+          "points": 12,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 3,
+        "defence-combat-value": 5,
+        "health-points": 65,
+        "energy-points": 45,
+        "damage-multiplier": 4
+      },
+      "attributes": [
+        {
+          "label": "Features (Low-light Vision)",
+          "name": "Features (Low-light Vision)",
+          "catalogId": "features",
+          "specialization": "Low-light Vision",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Heightened Senses (Hearing, Smell)",
+          "name": "Heightened Senses (Hearing, Smell)",
+          "catalogId": "heightened-senses",
+          "specialization": "Hearing, Smell",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Special Movement (Fast)",
+          "name": "Special Movement (Fast)",
+          "catalogId": "special-movement",
+          "specialization": "Fast",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "name": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "catalogId": "unique-attribute",
+          "specialization": "Small, Light, and Unobtrusive",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Easily Distracted (Sadness)",
+          "name": "Easily Distracted (Sadness)",
+          "catalogId": "easily-distracted",
+          "specialization": "Sadness",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Inept Attack",
+          "name": "Inept Attack",
+          "catalogId": "inept-attack",
+          "specialization": "",
+          "points": -2,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Reduced Damage",
+          "name": "Reduced Damage",
+          "catalogId": "reduced-damage",
+          "specialization": "",
+          "points": -3,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (-20 Strength Damage)",
+          "name": "Unique Defect (-20 Strength Damage)",
+          "catalogId": "unique-defect",
+          "specialization": "-20 Strength Damage",
+          "points": -4,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Lifting Capacity ÷ 25)",
+          "name": "Unique Defect (Lifting Capacity ÷ 25)",
+          "catalogId": "unique-defect",
+          "specialization": "Lifting Capacity ÷ 25",
+          "points": -12,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "name": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "catalogId": "unique-defect",
+          "specialization": "Suffers 20 Extra Damage from all Attacks",
+          "points": -8,
+          "rank": 2,
+          "rankText": "2"
+        }
+      ],
+      "totalPoints": 10,
+      "rulesText": "CABBIT - PET\nCABBIT - PET\nSize Rank -2: Tiny (30 cm)\nVALUE\nPOINTS\nSTAT\n7\n14\nBody Stat\n3\n6\nMind Stat\n6\n12\nSoul Stat\nVALUE\nDERIVED VALUE\n3\nAttack Combat Value\n5\nDefence Combat Value\n65\nHealth Points\n45\nEnergy Points\n4\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n1\nFeatures (Low-light Vision)\n2\n2\nHeightened Senses\n(Hearing, Smell)\n1\n1\nSpecial Movement (Fast)\n2\n4\nUnique Attribute\n(Small, Light, and Unobtrusive)\nRANK\nPOINTS\nDEFECT\n1\n-1\nEasily Distracted (Sadness)\n2\n-2\nInept Attack\n1\n-3\nReduced Damage\n2\n-4\nUnique Defect\n(-20 Strength Damage)\n2\n-12\nUnique Defect\n(Lifting Capacity ÷ 25)\n2\n-8\nUnique Defect (Suffers 20\nExtra Damage from all Attacks)\n10\nTOTAL",
+      "notesText": "",
+      "variant": "pet"
+    },
+    {
+      "id": "cabbit-battle",
+      "name": "CABBIT - BATTLE",
+      "sourcePage": 230,
+      "sizeRank": -2,
+      "stats": {
+        "body": 7,
+        "mind": 3,
+        "soul": 6
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 7,
+          "points": 14,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 6,
+          "points": 12,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 5,
+        "defence-combat-value": 5,
+        "health-points": 65,
+        "energy-points": 45,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Features (Low-light Vision)",
+          "name": "Features (Low-light Vision)",
+          "catalogId": "features",
+          "specialization": "Low-light Vision",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Heightened Senses (Hearing, Smell)",
+          "name": "Heightened Senses (Hearing, Smell)",
+          "catalogId": "heightened-senses",
+          "specialization": "Hearing, Smell",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Jumping",
+          "name": "Jumping",
+          "catalogId": "jumping",
+          "specialization": "",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Ranged Attack (All)",
+          "name": "Ranged Attack (All)",
+          "catalogId": "ranged-attack",
+          "specialization": "All",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Ranged Defence (All)",
+          "name": "Ranged Defence (All)",
+          "catalogId": "ranged-defence",
+          "specialization": "All",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Special Movement (Fast)",
+          "name": "Special Movement (Fast)",
+          "catalogId": "special-movement",
+          "specialization": "Fast",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "name": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "catalogId": "unique-attribute",
+          "specialization": "Small, Light, and Unobtrusive",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Weapon: Sonic Meow (Drain: Soul -1; Penetrating -1; Spreading -2 Range +1)",
+          "name": "Weapon: Sonic Meow (Drain: Soul -1; Penetrating -1; Spreading -2 Range +1)",
+          "catalogId": "weapon",
+          "specialization": "Sonic Meow",
+          "points": 10,
+          "level": 5,
+          "levelText": "5 (2)"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Easily Distracted (Sadness)",
+          "name": "Easily Distracted (Sadness)",
+          "catalogId": "easily-distracted",
+          "specialization": "Sadness",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (-20 Strength Damage)",
+          "name": "Unique Defect (-20 Strength Damage)",
+          "catalogId": "unique-defect",
+          "specialization": "-20 Strength Damage",
+          "points": -4,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Lifting Capacity ÷ 25)",
+          "name": "Unique Defect (Lifting Capacity ÷ 25)",
+          "catalogId": "unique-defect",
+          "specialization": "Lifting Capacity ÷ 25",
+          "points": -12,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "name": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "catalogId": "unique-defect",
+          "specialization": "Suffers 20 Extra Damage from all Attacks",
+          "points": -8,
+          "rank": 2,
+          "rankText": "2"
+        }
+      ],
+      "totalPoints": 30,
+      "rulesText": "CABBIT - BATTLE\nCABBIT - BATTLE\nSize Rank -2: Tiny (30 cm)\nVALUE\nPOINTS\nSTAT\n7\n14\nBody Stat\n3\n6\nMind Stat\n6\n12\nSoul Stat\nVALUE\nDERIVED VALUE\n5\nAttack Combat Value (Ranged 9)\n5\nDefence Combat Value (Ranged 9)\n65\nHealth Points\n45\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n1\nFeatures (Low-light Vision)\n2\n2\nHeightened Senses\n(Hearing, Smell)\n1\n1\nJumping\n2\n2\nRanged Attack (All)\n2\n2\nRanged Defence (All)\n1\n1\nSpecial Movement (Fast)\n2\n4\nUnique Attribute\n(Small, Light, and Unobtrusive)\n5 (2)\n10\nWeapon: Sonic Meow\n(Drain: Soul -1; Penetrating -1;\nSpreading -2 Range +1)\nRANK\nPOINTS\nDEFECT\n1\n-1\nEasily Distracted (Sadness)\n2\n-4\nUnique Defect\n(-20 Strength Damage)\n2\n-12\nUnique Defect\n(Lifting Capacity ÷ 25)\n2\n-8\nUnique Defect (Suffers 20\nExtra Damage from all Attacks)\n30\nTOTAL",
+      "notesText": "",
+      "variant": "battle"
+    },
+    {
+      "id": "elephox-pet",
+      "name": "ELEPHOX - PET",
+      "sourcePage": 231,
+      "sizeRank": -1,
+      "stats": {
+        "body": 5,
+        "mind": 3,
+        "soul": 4
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 3,
+        "defence-combat-value": 4,
+        "health-points": 75,
+        "energy-points": 35,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Armour (AR 5)",
+          "name": "Armour (AR 5)",
+          "catalogId": "armour",
+          "specialization": "AR 5",
+          "points": 2,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Features (Low-light Vision)",
+          "name": "Features (Low-light Vision)",
+          "catalogId": "features",
+          "specialization": "Low-light Vision",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Heightened Senses (Hearing, Smell)",
+          "name": "Heightened Senses (Hearing, Smell)",
+          "catalogId": "heightened-senses",
+          "specialization": "Hearing, Smell",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Tough",
+          "name": "Tough",
+          "catalogId": "tough",
+          "specialization": "",
+          "points": 3,
+          "level": 3,
+          "levelText": "3"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Inept Attack",
+          "name": "Inept Attack",
+          "catalogId": "inept-attack",
+          "specialization": "",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (-10 Strength Damage)",
+          "name": "Unique Defect (-10 Strength Damage)",
+          "catalogId": "unique-defect",
+          "specialization": "-10 Strength Damage",
+          "points": -2,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (Suffers 10 Extra Damage from all Attacks)",
+          "name": "Unique Defect (Suffers 10 Extra Damage from all Attacks)",
+          "catalogId": "unique-defect",
+          "specialization": "Suffers 10 Extra Damage from all Attacks",
+          "points": -4,
+          "rank": 1,
+          "rankText": "1"
+        }
+      ],
+      "totalPoints": 25,
+      "rulesText": "ELEPHOX - PET\nELEPHOX - PET\nSize Rank -1: Small (90 cm)\nVALUE\nPOINTS\nSTAT\n5\n10\nBody Stat\n3\n6\nMind Stat\n4\n8\nSoul Stat\nVALUE\nDERIVED VALUE\n3\nAttack Combat Value\n4\nDefence Combat Value\n75\nHealth Points\n35\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n2\nArmour (AR 5)\n1\n1\nFeatures (Low-light Vision)\n2\n2\nHeightened Senses\n(Hearing, Smell)\n3\n3\nTough\nRANK\nPOINTS\nDEFECT\n1\n-1\nInept Attack\n1\n-2\nUnique Defect\n(-10 Strength Damage)\n1\n-4\nUnique Defect (Suffers 10\nExtra Damage from all Attacks)\n25\nTOTAL",
+      "notesText": "",
+      "variant": "pet"
+    },
+    {
+      "id": "elephox-battle",
+      "name": "ELEPHOX - BATTLE",
+      "sourcePage": 231,
+      "sizeRank": -1,
+      "stats": {
+        "body": 5,
+        "mind": 3,
+        "soul": 4
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 4,
+        "defence-combat-value": 4,
+        "health-points": 75,
+        "energy-points": 35,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Armour (AR 10)",
+          "name": "Armour (AR 10)",
+          "catalogId": "armour",
+          "specialization": "AR 10",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Features (Low-light Vision)",
+          "name": "Features (Low-light Vision)",
+          "catalogId": "features",
+          "specialization": "Low-light Vision",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Heightened Senses (Hearing, Smell)",
+          "name": "Heightened Senses (Hearing, Smell)",
+          "catalogId": "heightened-senses",
+          "specialization": "Hearing, Smell",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Tough",
+          "name": "Tough",
+          "catalogId": "tough",
+          "specialization": "",
+          "points": 3,
+          "level": 3,
+          "levelText": "3"
+        },
+        {
+          "label": "Weapon: Scamper Trample (Spreading -3; Stun -1)",
+          "name": "Weapon: Scamper Trample (Spreading -3; Stun -1)",
+          "catalogId": "weapon",
+          "specialization": "Scamper Trample",
+          "points": 12,
+          "level": 6,
+          "levelText": "6 (2)"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Unique Defect (-10 Strength Damage)",
+          "name": "Unique Defect (-10 Strength Damage)",
+          "catalogId": "unique-defect",
+          "specialization": "-10 Strength Damage",
+          "points": -2,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (Suffers 10 Extra Damage from all Attacks)",
+          "name": "Unique Defect (Suffers 10 Extra Damage from all Attacks)",
+          "catalogId": "unique-defect",
+          "specialization": "Suffers 10 Extra Damage from all Attacks",
+          "points": -4,
+          "rank": 1,
+          "rankText": "1"
+        }
+      ],
+      "totalPoints": 40,
+      "rulesText": "ELEPHOX - BATTLE\nELEPHOX - BATTLE\nSize Rank -1: Small (90 cm)\nVALUE\nPOINTS\nSTAT\n5\n10\nBody Stat\n3\n6\nMind Stat\n4\n8\nSoul Stat\nVALUE\nDERIVED VALUE\n4\nAttack Combat Value\n4\nDefence Combat Value\n75\nHealth Points\n35\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n2\n4\nArmour (AR 10)\n1\n1\nFeatures (Low-light Vision)\n2\n2\nHeightened Senses\n(Hearing, Smell)\n3\n3\nTough\n6 (2)\n12\nWeapon: Scamper Trample\n(Spreading -3; Stun -1)\nRANK\nPOINTS\nDEFECT\n1\n-2\nUnique Defect\n(-10 Strength Damage)\n1\n-4\nUnique Defect (Suffers 10\nExtra Damage from all Attacks)\n40\nTOTAL",
+      "notesText": "",
+      "variant": "battle"
+    },
+    {
+      "id": "gryphon-pet",
+      "name": "GRYPHON - PET",
+      "sourcePage": 232,
+      "sizeRank": -1,
+      "stats": {
+        "body": 5,
+        "mind": 3,
+        "soul": 7
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 7,
+          "points": 14,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 5,
+        "defence-combat-value": 5,
+        "health-points": 60,
+        "energy-points": 50,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Extra Arms",
+          "name": "Extra Arms",
+          "catalogId": "extra-arms",
+          "specialization": "",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Features (Mimic Sound)",
+          "name": "Features (Mimic Sound)",
+          "catalogId": "features",
+          "specialization": "Mimic Sound",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Flight (30 kph; Spread +1)",
+          "name": "Flight (30 kph; Spread +1)",
+          "catalogId": "flight",
+          "specialization": "30 kph; Spread +1",
+          "points": 3,
+          "level": 1,
+          "levelText": "1 (2)"
+        },
+        {
+          "label": "Heightened Senses (Sight 2)",
+          "name": "Heightened Senses (Sight 2)",
+          "catalogId": "heightened-senses",
+          "specialization": "Sight 2",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "name": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "catalogId": "unique-attribute",
+          "specialization": "Small, Light, and Unobtrusive",
+          "points": 2,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Weapon: Talons and Beak",
+          "name": "Weapon: Talons and Beak",
+          "catalogId": "weapon",
+          "specialization": "Talons and Beak",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Impaired Manipulation (Talons)",
+          "name": "Impaired Manipulation (Talons)",
+          "catalogId": "impaired-manipulation",
+          "specialization": "Talons",
+          "points": -6,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (-10 Strength Damage)",
+          "name": "Unique Defect (-10 Strength Damage)",
+          "catalogId": "unique-defect",
+          "specialization": "-10 Strength Damage",
+          "points": -2,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (Lifting Capacity ÷5)",
+          "name": "Unique Defect (Lifting Capacity ÷5)",
+          "catalogId": "unique-defect",
+          "specialization": "Lifting Capacity ÷5",
+          "points": -6,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (Running Speed ÷2)",
+          "name": "Unique Defect (Running Speed ÷2)",
+          "catalogId": "unique-defect",
+          "specialization": "Running Speed ÷2",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (Suffers 10 Extra Damage from all Attacks)",
+          "name": "Unique Defect (Suffers 10 Extra Damage from all Attacks)",
+          "catalogId": "unique-defect",
+          "specialization": "Suffers 10 Extra Damage from all Attacks",
+          "points": -4,
+          "rank": 1,
+          "rankText": "1"
+        }
+      ],
+      "totalPoints": 25,
+      "rulesText": "GRYPHON - PET\nGRYPHON - PET\nSize Rank -1: Small (90 cm)\nVALUE\nPOINTS\nSTAT\n5\n10\nBody Stat\n3\n6\nMind Stat\n7\n14\nSoul Stat\nVALUE\nDERIVED VALUE\n5\nAttack Combat Value\n5\nDefence Combat Value\n60\nHealth Points\n50\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n2\n2\nExtra Arms\n1\n1\nFeatures (Mimic Sound)\n1 (2)\n3\nFlight (30 kph; Spread +1)\n2\n2\nHeightened Senses (Sight 2)\n1\n2\nUnique Attribute\n(Small, Light, and Unobtrusive)\n2\n4\nWeapon: Talons and Beak\nRANK\nPOINTS\nDEFECT\n2\n-6\nImpaired Manipulation (Talons)\n1\n-2\nUnique Defect\n(-10 Strength Damage)\n1\n-6\nUnique Defect\n(Lifting Capacity ÷5)\n1\n-1\nUnique Defect\n(Running Speed ÷2)\n1\n-4\nUnique Defect (Suffers 10\nExtra Damage from all Attacks)\n25\nTOTAL",
+      "notesText": "",
+      "variant": "pet"
+    },
+    {
+      "id": "gryphon-battle",
+      "name": "GRYPHON - BATTLE",
+      "sourcePage": 232,
+      "sizeRank": -1,
+      "stats": {
+        "body": 5,
+        "mind": 3,
+        "soul": 7
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 7,
+          "points": 14,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 5,
+        "defence-combat-value": 5,
+        "health-points": 60,
+        "energy-points": 50,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Extra Arms",
+          "name": "Extra Arms",
+          "catalogId": "extra-arms",
+          "specialization": "",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Features (Mimic Sound)",
+          "name": "Features (Mimic Sound)",
+          "catalogId": "features",
+          "specialization": "Mimic Sound",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Flight (30 kph; Spread +1)",
+          "name": "Flight (30 kph; Spread +1)",
+          "catalogId": "flight",
+          "specialization": "30 kph; Spread +1",
+          "points": 3,
+          "level": 1,
+          "levelText": "1 (2)"
+        },
+        {
+          "label": "Heightened Senses (Sight 2)",
+          "name": "Heightened Senses (Sight 2)",
+          "catalogId": "heightened-senses",
+          "specialization": "Sight 2",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Ranged Attack (All)",
+          "name": "Ranged Attack (All)",
+          "catalogId": "ranged-attack",
+          "specialization": "All",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Ranged Defence (All)",
+          "name": "Ranged Defence (All)",
+          "catalogId": "ranged-defence",
+          "specialization": "All",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "name": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "catalogId": "unique-attribute",
+          "specialization": "Small, Light, and Unobtrusive",
+          "points": 2,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Weapon: Talons and Beak",
+          "name": "Weapon: Talons and Beak",
+          "catalogId": "weapon",
+          "specialization": "Talons and Beak",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Weapon: Wing Buffet (Enervation -1; Range -2; Spreading -3; Unique: Knockback -1; Inaccurate +1; Non-Penetrating -2)",
+          "name": "Weapon: Wing Buffet (Enervation -1; Range -2; Spreading -3; Unique: Knockback -1; Inaccurate +1; Non-Penetrating -2)",
+          "catalogId": "weapon",
+          "specialization": "Wing Buffet",
+          "points": 12,
+          "level": 6,
+          "levelText": "6 (2)"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Impaired Manipulation (Talons)",
+          "name": "Impaired Manipulation (Talons)",
+          "catalogId": "impaired-manipulation",
+          "specialization": "Talons",
+          "points": -6,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (-10 Strength Damage)",
+          "name": "Unique Defect (-10 Strength Damage)",
+          "catalogId": "unique-defect",
+          "specialization": "-10 Strength Damage",
+          "points": -2,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (Lifting Capacity ÷5)",
+          "name": "Unique Defect (Lifting Capacity ÷5)",
+          "catalogId": "unique-defect",
+          "specialization": "Lifting Capacity ÷5",
+          "points": -6,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (Running Speed ÷2)",
+          "name": "Unique Defect (Running Speed ÷2)",
+          "catalogId": "unique-defect",
+          "specialization": "Running Speed ÷2",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (Suffers 10 Extra Damage from all Attacks)",
+          "name": "Unique Defect (Suffers 10 Extra Damage from all Attacks)",
+          "catalogId": "unique-defect",
+          "specialization": "Suffers 10 Extra Damage from all Attacks",
+          "points": -4,
+          "rank": 1,
+          "rankText": "1"
+        }
+      ],
+      "totalPoints": 40,
+      "rulesText": "GRYPHON - BATTLE\nGRYPHON - BATTLE\nSize Rank -1: Small (90 cm)\nVALUE\nPOINTS\nSTAT\n5\n10\nBody Stat\n3\n6\nMind Stat\n7\n14\nSoul Stat\nVALUE\nDERIVED VALUE\n5\nAttack Combat Value (Ranged 9)\n5\nDefence Combat Value (Ranged 7)\n60\nHealth Points\n50\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n2\n2\nExtra Arms\n1\n1\nFeatures (Mimic Sound)\n1 (2)\n3\nFlight (30 kph; Spread +1)\n2\n2\nHeightened Senses (Sight 2)\n2\n2\nRanged Attack (All)\n1\n1\nRanged Defence (All)\n1\n2\nUnique Attribute\n(Small, Light, and Unobtrusive)\n2\n4\nWeapon: Talons and Beak\n6 (2)\n12\nWeapon: Wing Buffet\n(Enervation -1; Range -2;\nSpreading -3; Unique:\nKnockback -1; Inaccurate +1;\nNon-Penetrating -2)\nRANK\nPOINTS\nDEFECT\n2\n-6\nImpaired Manipulation (Talons)\n1\n-2\nUnique Defect\n(-10 Strength Damage)\n1\n-6\nUnique Defect\n(Lifting Capacity ÷5)\n1\n-1\nUnique Defect\n(Running Speed ÷2)\n1\n-4\nUnique Defect (Suffers 10\nExtra Damage from all Attacks)\n40\nTOTAL",
+      "notesText": "",
+      "variant": "battle"
+    },
+    {
+      "id": "jackalope-pet",
+      "name": "JACKALOPE - PET",
+      "sourcePage": 233,
+      "sizeRank": -2,
+      "stats": {
+        "body": 5,
+        "mind": 3,
+        "soul": 5
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 4,
+        "defence-combat-value": 4,
+        "health-points": 50,
+        "energy-points": 40,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Features (Vibration Detection)",
+          "name": "Features (Vibration Detection)",
+          "catalogId": "features",
+          "specialization": "Vibration Detection",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Jumping",
+          "name": "Jumping",
+          "catalogId": "jumping",
+          "specialization": "",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Sixth Sense (Danger)",
+          "name": "Sixth Sense (Danger)",
+          "catalogId": "sixth-sense",
+          "specialization": "Danger",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Special Movement (Fast)",
+          "name": "Special Movement (Fast)",
+          "catalogId": "special-movement",
+          "specialization": "Fast",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "name": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "catalogId": "unique-attribute",
+          "specialization": "Small, Light, and Unobtrusive",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Unique Defect (-20 Strength Damage)",
+          "name": "Unique Defect (-20 Strength Damage)",
+          "catalogId": "unique-defect",
+          "specialization": "-20 Strength Damage",
+          "points": -4,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Lifting Capacity ÷25)",
+          "name": "Unique Defect (Lifting Capacity ÷25)",
+          "catalogId": "unique-defect",
+          "specialization": "Lifting Capacity ÷25",
+          "points": -12,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "name": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "catalogId": "unique-defect",
+          "specialization": "Suffers 20 Extra Damage from all Attacks",
+          "points": -8,
+          "rank": 2,
+          "rankText": "2"
+        }
+      ],
+      "totalPoints": 10,
+      "rulesText": "JACKALOPE - PET\nJACKALOPE - PET\nSize Rank -2: Tiny (40 cm)\nVALUE\nPOINTS\nSTAT\n5\n10\nBody Stat\n3\n6\nMind Stat\n5\n10\nSoul Stat\nVALUE\nDERIVED VALUE\n4\nAttack Combat Value\n4\nDefence Combat Value\n50\nHealth Points\n40\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n1\nFeatures (Vibration Detection)\n1\n1\nJumping\n1\n1\nSixth Sense (Danger)\n1\n1\nSpecial Movement (Fast)\n2\n4\nUnique Attribute\n(Small, Light, and Unobtrusive)\nRANK\nPOINTS\nDEFECT\n2\n-4\nUnique Defect\n(-20 Strength Damage)\n2\n-12\nUnique Defect\n(Lifting Capacity ÷25)\n2\n-8\nUnique Defect (Suffers 20\nExtra Damage from all Attacks)\n10\nTOTAL",
+      "notesText": "",
+      "variant": "pet"
+    },
+    {
+      "id": "jackalope-battle",
+      "name": "JACKALOPE - BATTLE",
+      "sourcePage": 233,
+      "sizeRank": -2,
+      "stats": {
+        "body": 5,
+        "mind": 3,
+        "soul": 5
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 4,
+        "defence-combat-value": 4,
+        "health-points": 50,
+        "energy-points": 40,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Extra Actions",
+          "name": "Extra Actions",
+          "catalogId": "extra-actions",
+          "specialization": "",
+          "points": 4,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Features (Vibration Detection)",
+          "name": "Features (Vibration Detection)",
+          "catalogId": "features",
+          "specialization": "Vibration Detection",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Jumping",
+          "name": "Jumping",
+          "catalogId": "jumping",
+          "specialization": "",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Sixth Sense (Danger)",
+          "name": "Sixth Sense (Danger)",
+          "catalogId": "sixth-sense",
+          "specialization": "Danger",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Special Movement (Fast, Wall-Bouncing)",
+          "name": "Special Movement (Fast, Wall-Bouncing)",
+          "catalogId": "special-movement",
+          "specialization": "Fast, Wall-Bouncing",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "name": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "catalogId": "unique-attribute",
+          "specialization": "Small, Light, and Unobtrusive",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Weapon: Antler Slap",
+          "name": "Weapon: Antler Slap",
+          "catalogId": "weapon",
+          "specialization": "Antler Slap",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Unique Defect (-20 Strength Damage)",
+          "name": "Unique Defect (-20 Strength Damage)",
+          "catalogId": "unique-defect",
+          "specialization": "-20 Strength Damage",
+          "points": -4,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Lifting Capacity ÷25)",
+          "name": "Unique Defect (Lifting Capacity ÷25)",
+          "catalogId": "unique-defect",
+          "specialization": "Lifting Capacity ÷25",
+          "points": -12,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "name": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "catalogId": "unique-defect",
+          "specialization": "Suffers 20 Extra Damage from all Attacks",
+          "points": -8,
+          "rank": 2,
+          "rankText": "2"
+        }
+      ],
+      "totalPoints": 20,
+      "rulesText": "JACKALOPE - BATTLE\nJACKALOPE - BATTLE\nSize Rank -2: Tiny (40 cm)\nVALUE\nPOINTS\nSTAT\n5\n10\nBody Stat\n3\n6\nMind Stat\n5\n10\nSoul Stat\nVALUE\nDERIVED VALUE\n4\nAttack Combat Value\n4\nDefence Combat Value\n50\nHealth Points\n40\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n4\nExtra Actions\n1\n1\nFeatures (Vibration Detection)\n2\n2\nJumping\n1\n1\nSixth Sense (Danger)\n2\n2\nSpecial Movement\n(Fast, Wall-Bouncing)\n2\n4\nUnique Attribute\n(Small, Light, and Unobtrusive)\n2\n4\nWeapon: Antler Slap\nRANK\nPOINTS\nDEFECT\n2\n-4\nUnique Defect\n(-20 Strength Damage)\n2\n-12\nUnique Defect\n(Lifting Capacity ÷25)\n2\n-8\nUnique Defect (Suffers 20\nExtra Damage from all Attacks)\n20\nTOTAL",
+      "notesText": "",
+      "variant": "battle"
+    },
+    {
+      "id": "nue-pet",
+      "name": "NUE - PET",
+      "sourcePage": 234,
+      "sizeRank": -2,
+      "stats": {
+        "body": 7,
+        "mind": 5,
+        "soul": 6
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 7,
+          "points": 14,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 6,
+          "points": 12,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 6,
+        "defence-combat-value": 6,
+        "health-points": 65,
+        "energy-points": 55,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Special Movement (Wall-Crawling)",
+          "name": "Special Movement (Wall-Crawling)",
+          "catalogId": "special-movement",
+          "specialization": "Wall-Crawling",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "name": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "catalogId": "unique-attribute",
+          "specialization": "Small, Light, and Unobtrusive",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Unique Defect (-20 Strength Damage)",
+          "name": "Unique Defect (-20 Strength Damage)",
+          "catalogId": "unique-defect",
+          "specialization": "-20 Strength Damage",
+          "points": -4,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Lifting Capacity ÷25)",
+          "name": "Unique Defect (Lifting Capacity ÷25)",
+          "catalogId": "unique-defect",
+          "specialization": "Lifting Capacity ÷25",
+          "points": -12,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "name": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "catalogId": "unique-defect",
+          "specialization": "Suffers 20 Extra Damage from all Attacks",
+          "points": -8,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (÷4 Thrown Weapon Distance)",
+          "name": "Unique Defect (÷4 Thrown Weapon Distance)",
+          "catalogId": "unique-defect",
+          "specialization": "÷4 Thrown Weapon Distance",
+          "points": -2,
+          "rank": 2,
+          "rankText": "2"
+        }
+      ],
+      "totalPoints": 15,
+      "rulesText": "NUE - PET\nNUE - PET\nSize Rank -2: Tiny (40 cm)\nVALUE\nPOINTS\nSTAT\n7\n14\nBody Stat\n5\n10\nMind Stat\n6\n12\nSoul Stat\nVALUE\nDERIVED VALUE\n6\nAttack Combat Value\n6\nDefence Combat Value\n65\nHealth Points\n55\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n1\nSpecial Movement\n(Wall-Crawling)\n2\n4\nUnique Attribute\n(Small, Light, and Unobtrusive)\nRANK\nPOINTS\nDEFECT\n2\n-4\nUnique Defect\n(-20 Strength Damage)\n2\n-12\nUnique Defect\n(Lifting Capacity ÷25)\n2\n-8\nUnique Defect (Suffers 20\nExtra Damage from all Attacks)\n2\n-2\nUnique Defect\n(÷4 Thrown Weapon Distance)\n15\nTOTAL",
+      "notesText": "",
+      "variant": "pet"
+    },
+    {
+      "id": "nue-battle",
+      "name": "NUE - BATTLE",
+      "sourcePage": 234,
+      "sizeRank": -2,
+      "stats": {
+        "body": 7,
+        "mind": 5,
+        "soul": 6
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 7,
+          "points": 14,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 6,
+          "points": 12,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 6,
+        "defence-combat-value": 6,
+        "health-points": 65,
+        "energy-points": 55,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Melee Attack (Unarmed)",
+          "name": "Melee Attack (Unarmed)",
+          "catalogId": "melee-attack",
+          "specialization": "Unarmed",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Melee Attack (Unarmed)",
+          "name": "Melee Attack (Unarmed)",
+          "catalogId": "melee-attack",
+          "specialization": "Unarmed",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Special Movement (Light-Footed, Wall-Crawling)",
+          "name": "Special Movement (Light-Footed, Wall-Crawling)",
+          "catalogId": "special-movement",
+          "specialization": "Light-Footed, Wall-Crawling",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "name": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "catalogId": "unique-attribute",
+          "specialization": "Small, Light, and Unobtrusive",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Weapon: Tail Sting (Continuing -4; Vampiric -2; Non-Penetrating +2)",
+          "name": "Weapon: Tail Sting (Continuing -4; Vampiric -2; Non-Penetrating +2)",
+          "catalogId": "weapon",
+          "specialization": "Tail Sting",
+          "points": 12,
+          "level": 6,
+          "levelText": "6 (2)"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Unique Defect (-20 Strength Damage)",
+          "name": "Unique Defect (-20 Strength Damage)",
+          "catalogId": "unique-defect",
+          "specialization": "-20 Strength Damage",
+          "points": -4,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Lifting Capacity ÷25)",
+          "name": "Unique Defect (Lifting Capacity ÷25)",
+          "catalogId": "unique-defect",
+          "specialization": "Lifting Capacity ÷25",
+          "points": -12,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "name": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "catalogId": "unique-defect",
+          "specialization": "Suffers 20 Extra Damage from all Attacks",
+          "points": -8,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (÷4 Thrown Weapon Distance)",
+          "name": "Unique Defect (÷4 Thrown Weapon Distance)",
+          "catalogId": "unique-defect",
+          "specialization": "÷4 Thrown Weapon Distance",
+          "points": -2,
+          "rank": 2,
+          "rankText": "2"
+        }
+      ],
+      "totalPoints": 30,
+      "rulesText": "NUE - BATTLE\nNUE - BATTLE\nSize Rank -2: Tiny (40 cm)\nVALUE\nPOINTS\nSTAT\n7\n14\nBody Stat\n5\n10\nMind Stat\n6\n12\nSoul Stat\nVALUE\nDERIVED VALUE\n6\nAttack Combat Value (Unarmed 8)\n6\nDefence Combat Value (Unarmed 8)\n65\nHealth Points\n55\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n1\nMelee Attack (Unarmed)\n1\n1\nMelee Attack (Unarmed)\n2\n2\nSpecial Movement\n(Light-Footed, Wall-Crawling)\n2\n4\nUnique Attribute\n(Small, Light, and Unobtrusive)\n6 (2)\n12\nWeapon: Tail Sting\n(Continuing -4; Vampiric -2;\nNon-Penetrating +2)\nRANK\nPOINTS\nDEFECT\n2\n-4\nUnique Defect\n(-20 Strength Damage)\n2\n-12\nUnique Defect\n(Lifting Capacity ÷25)\n2\n-8\nUnique Defect (Suffers 20\nExtra Damage from all Attacks)\n2\n-2\nUnique Defect\n(÷4 Thrown Weapon Distance)\n30\nTOTAL",
+      "notesText": "",
+      "variant": "battle"
+    },
+    {
+      "id": "wolverpotamus-pet",
+      "name": "WOLVERPOTAMUS - PET",
+      "sourcePage": 235,
+      "sizeRank": -2,
+      "stats": {
+        "body": 4,
+        "mind": 3,
+        "soul": 5
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 7,
+        "defence-combat-value": 4,
+        "health-points": 75,
+        "energy-points": 40,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Armour (AR 5)",
+          "name": "Armour (AR 5)",
+          "catalogId": "armour",
+          "specialization": "AR 5",
+          "points": 2,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Attack Mastery",
+          "name": "Attack Mastery",
+          "catalogId": "attack-mastery",
+          "specialization": "",
+          "points": 3,
+          "level": 3,
+          "levelText": "3"
+        },
+        {
+          "label": "Features (Retractable Claws, Scent Glands)",
+          "name": "Features (Retractable Claws, Scent Glands)",
+          "catalogId": "features",
+          "specialization": "Retractable Claws, Scent Glands",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Heightened Senses (Smell, Taste)",
+          "name": "Heightened Senses (Smell, Taste)",
+          "catalogId": "heightened-senses",
+          "specialization": "Smell, Taste",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Tough",
+          "name": "Tough",
+          "catalogId": "tough",
+          "specialization": "",
+          "points": 3,
+          "level": 3,
+          "levelText": "3"
+        },
+        {
+          "label": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "name": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "catalogId": "unique-attribute",
+          "specialization": "Small, Light, and Unobtrusive",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Weapon: Claws and Fangs",
+          "name": "Weapon: Claws and Fangs",
+          "catalogId": "weapon",
+          "specialization": "Claws and Fangs",
+          "points": 2,
+          "level": 1,
+          "levelText": "1"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Unique Defect (-20 Strength Damage)",
+          "name": "Unique Defect (-20 Strength Damage)",
+          "catalogId": "unique-defect",
+          "specialization": "-20 Strength Damage",
+          "points": -4,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Lifting Capacity ÷25)",
+          "name": "Unique Defect (Lifting Capacity ÷25)",
+          "catalogId": "unique-defect",
+          "specialization": "Lifting Capacity ÷25",
+          "points": -12,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Running Speed ÷4)",
+          "name": "Unique Defect (Running Speed ÷4)",
+          "catalogId": "unique-defect",
+          "specialization": "Running Speed ÷4",
+          "points": -2,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "name": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "catalogId": "unique-defect",
+          "specialization": "Suffers 20 Extra Damage from all Attacks",
+          "points": -8,
+          "rank": 2,
+          "rankText": "2"
+        }
+      ],
+      "totalPoints": 15,
+      "rulesText": "WOLVERPOTAMUS - PET\nWOLVERPOTAMUS - PET\nSize Rank -2: Tiny (40 cm)\nVALUE\nPOINTS\nSTAT\n4\n8\nBody Stat\n3\n6\nMind Stat\n5\n10\nSoul Stat\nVALUE\nDERIVED VALUE\n7\nAttack Combat Value\n4\nDefence Combat Value\n75\nHealth Points\n40\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n2\nArmour (AR 5)\n3\n3\nAttack Mastery\n1\n1\nFeatures (Retractable Claws,\nScent Glands)\n2\n2\nHeightened Senses\n(Smell, Taste)\n3\n3\nTough\n2\n4\nUnique Attribute\n(Small, Light, and Unobtrusive)\n1\n2\nWeapon: Claws and Fangs\nRANK\nPOINTS\nDEFECT\n2\n-4\nUnique Defect\n(-20 Strength Damage)\n2\n-12\nUnique Defect\n(Lifting Capacity ÷25)\n2\n-2\nUnique Defect\n(Running Speed ÷4)\n2\n-8\nUnique Defect (Suffers 20\nExtra Damage from all Attacks)\n15\nTOTAL",
+      "notesText": "",
+      "variant": "pet"
+    },
+    {
+      "id": "wolverpotamus-battle",
+      "name": "WOLVERPOTAMUS - BATTLE",
+      "sourcePage": 235,
+      "sizeRank": -1,
+      "stats": {
+        "body": 4,
+        "mind": 3,
+        "soul": 5
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 7,
+        "defence-combat-value": 4,
+        "health-points": 85,
+        "energy-points": 40,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Armour (AR 5)",
+          "name": "Armour (AR 5)",
+          "catalogId": "armour",
+          "specialization": "AR 5",
+          "points": 2,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Attack Mastery",
+          "name": "Attack Mastery",
+          "catalogId": "attack-mastery",
+          "specialization": "",
+          "points": 3,
+          "level": 3,
+          "levelText": "3"
+        },
+        {
+          "label": "Features (Retractable Claws, Scent Glands)",
+          "name": "Features (Retractable Claws, Scent Glands)",
+          "catalogId": "features",
+          "specialization": "Retractable Claws, Scent Glands",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Heightened Senses (Smell, Taste)",
+          "name": "Heightened Senses (Smell, Taste)",
+          "catalogId": "heightened-senses",
+          "specialization": "Smell, Taste",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Ranged Attack (All)",
+          "name": "Ranged Attack (All)",
+          "catalogId": "ranged-attack",
+          "specialization": "All",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Ranged Defence (All)",
+          "name": "Ranged Defence (All)",
+          "catalogId": "ranged-defence",
+          "specialization": "All",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Tough",
+          "name": "Tough",
+          "catalogId": "tough",
+          "specialization": "",
+          "points": 4,
+          "level": 4,
+          "levelText": "4"
+        },
+        {
+          "label": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "name": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "catalogId": "unique-attribute",
+          "specialization": "Small, Light, and Unobtrusive",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Weapon: Claws and Fangs",
+          "name": "Weapon: Claws and Fangs",
+          "catalogId": "weapon",
+          "specialization": "Claws and Fangs",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Weapon: Musk Spray (Blight -2; Drain: Body -2; Irritant -1; Spreading -2; Range +1; Toxic +1)",
+          "name": "Weapon: Musk Spray (Blight -2; Drain: Body -2; Irritant -1; Spreading -2; Range +1; Toxic +1)",
+          "catalogId": "weapon",
+          "specialization": "Musk Spray",
+          "points": 8,
+          "level": 4,
+          "levelText": "4 (-1)"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Unique Defect (-20 Strength Damage)",
+          "name": "Unique Defect (-20 Strength Damage)",
+          "catalogId": "unique-defect",
+          "specialization": "-20 Strength Damage",
+          "points": -4,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Lifting Capacity ÷25)",
+          "name": "Unique Defect (Lifting Capacity ÷25)",
+          "catalogId": "unique-defect",
+          "specialization": "Lifting Capacity ÷25",
+          "points": -12,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Running Speed ÷4)",
+          "name": "Unique Defect (Running Speed ÷4)",
+          "catalogId": "unique-defect",
+          "specialization": "Running Speed ÷4",
+          "points": -2,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "name": "Unique Defect (Suffers 20 Extra Damage from all Attacks)",
+          "catalogId": "unique-defect",
+          "specialization": "Suffers 20 Extra Damage from all Attacks",
+          "points": -8,
+          "rank": 2,
+          "rankText": "2"
+        }
+      ],
+      "totalPoints": 30,
+      "rulesText": "WOLVERPOTAMUS - BATTLE\nWOLVERPOTAMUS - BATTLE\nSize Rank -1: Tiny (40 cm)\nVALUE\nPOINTS\nSTAT\n4\n8\nBody Stat\n3\n6\nMind Stat\n5\n10\nSoul Stat\nVALUE\nDERIVED VALUE\n7\nAttack Combat Value (Ranged 11)\n4\nDefence Combat Value (Ranged 8)\n85\nHealth Points\n40\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n2\nArmour (AR 5)\n3\n3\nAttack Mastery\n1\n1\nFeatures (Retractable Claws,\nScent Glands)\n2\n2\nHeightened Senses\n(Smell, Taste)\n2\n2\nRanged Attack (All)\n2\n2\nRanged Defence (All)\n4\n4\nTough\n2\n4\nUnique Attribute\n(Small, Light, and Unobtrusive)\n2\n4\nWeapon: Claws and Fangs\n4 (-1)\n8\nWeapon: Musk Spray\n(Blight -2; Drain: Body -2;\nIrritant -1; Spreading -2;\nRange +1; Toxic +1)\nRANK\nPOINTS\nDEFECT\n2\n-4\nUnique Defect\n(-20 Strength Damage)\n2\n-12\nUnique Defect\n(Lifting Capacity ÷25)\n2\n-2\nUnique Defect\n(Running Speed ÷4)\n2\n-8\nUnique Defect (Suffers 20\nExtra Damage from all Attacks)\n30\nTOTAL",
+      "notesText": "",
+      "variant": "battle"
+    },
+    {
+      "id": "apprentice",
+      "name": "APPRENTICE",
+      "sourcePage": 237,
+      "sizeRank": 0,
+      "stats": {
+        "body": 4,
+        "mind": 6,
+        "soul": 4
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 6,
+          "points": 12,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 4,
+        "defence-combat-value": 4,
+        "health-points": 40,
+        "energy-points": 50,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Dynamic Powers (Minor: Select One; Backlash +1)",
+          "name": "Dynamic Powers (Minor: Select One; Backlash +1)",
+          "catalogId": "dynamic-powers",
+          "specialization": "Minor: Select One; Backlash +1",
+          "points": 10,
+          "level": 1,
+          "levelText": "1 (2)"
+        },
+        {
+          "label": "Gear",
+          "name": "Gear",
+          "catalogId": "gear",
+          "specialization": "",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Skill Group (Academic)",
+          "name": "Skill Group (Academic)",
+          "catalogId": "skill-group",
+          "specialization": "Academic",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        }
+      ],
+      "defects": [],
+      "totalPoints": 40,
+      "rulesText": "APPRENTICE\nAPPRENTICE\nSize Rank 0: Medium\nVALUE\nPOINTS\nSTAT\n4\n8\nBody Stat\n6\n12\nMind Stat\n4\n8\nSoul Stat\nVALUE\nDERIVED VALUE\n4\nAttack Combat Value\n4\nDefence Combat Value\n40\nHealth Points\n50\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1 (2)\n10\nDynamic Powers (Minor:\nSelect One; Backlash +1)\n1\n1\nGear\n1\n1\nSkill Group (Academic)\n40\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "centaur",
+      "name": "CENTAUR",
+      "sourcePage": 238,
+      "sizeRank": 1,
+      "stats": {
+        "body": 7,
+        "mind": 4,
+        "soul": 4
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 7,
+          "points": 14,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 5,
+        "defence-combat-value": 5,
+        "health-points": 55,
+        "energy-points": 40,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Armour (AR 10)",
+          "name": "Armour (AR 10)",
+          "catalogId": "armour",
+          "specialization": "AR 10",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Special Movement (Fast)",
+          "name": "Special Movement (Fast)",
+          "catalogId": "special-movement",
+          "specialization": "Fast",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Superstrength",
+          "name": "Superstrength",
+          "catalogId": "superstrength",
+          "specialization": "",
+          "points": 8,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Unique Attribute (x2 Thrown Weapon Distance)",
+          "name": "Unique Attribute (x2 Thrown Weapon Distance)",
+          "catalogId": "unique-attribute",
+          "specialization": "x2 Thrown Weapon Distance",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Inept Attack (Ranged)",
+          "name": "Inept Attack (Ranged)",
+          "catalogId": "inept-attack",
+          "specialization": "Ranged",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Inept Defence (Ranged)",
+          "name": "Inept Defence (Ranged)",
+          "catalogId": "inept-defence",
+          "specialization": "Ranged",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (Big, Heavy, and Obvious)",
+          "name": "Unique Defect (Big, Heavy, and Obvious)",
+          "catalogId": "unique-defect",
+          "specialization": "Big, Heavy, and Obvious",
+          "points": -2,
+          "rank": 1,
+          "rankText": "1"
+        }
+      ],
+      "totalPoints": 40,
+      "rulesText": "CENTAUR\nCENTAUR\nSize Rank 1: Large (3 metres)\nVALUE\nPOINTS\nSTAT\n7\n14\nBody Stat\n4\n8\nMind Stat\n4\n8\nSoul Stat\nVALUE\nDERIVED VALUE\n5\nAttack Combat Value (Ranged 3)\n5\nDefence Combat Value (Ranged 3)\n55\nHealth Points\n40\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n2\n4\nArmour (AR 10)\n1\n1\nSpecial Movement (Fast)\n2\n8\nSuperstrength\n1\n1\nUnique Attribute\n(x2 Thrown Weapon Distance)\nRANK\nPOINTS\nDEFECT\n1\n-1\nInept Attack (Ranged)\n1\n-1\nInept Defence (Ranged)\n1\n-2\nUnique Defect\n(Big, Heavy, and Obvious)\n40\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "cultist",
+      "name": "CULTIST",
+      "sourcePage": 238,
+      "sizeRank": 0,
+      "stats": {
+        "body": 4,
+        "mind": 4,
+        "soul": 6
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 6,
+          "points": 12,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 4,
+        "defence-combat-value": 4,
+        "health-points": 50,
+        "energy-points": 50,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Skill Group (Social)",
+          "name": "Skill Group (Social)",
+          "catalogId": "skill-group",
+          "specialization": "Social",
+          "points": 2,
+          "level": 1,
+          "levelText": "1"
+        }
+      ],
+      "defects": [],
+      "totalPoints": 30,
+      "rulesText": "CULTIST\nCULTIST\nSize Rank 0: Medium\nVALUE\nPOINTS\nSTAT\n4\n8\nBody Stat\n4\n8\nMind Stat\n6\n12\nSoul Stat\nVALUE\nDERIVED VALUE\n4\nAttack Combat Value\n4\nDefence Combat Value\n50\nHealth Points\n50\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n2\nSkill Group (Social)\n30\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "demon",
+      "name": "DEMON",
+      "sourcePage": 240,
+      "sizeRank": 1,
+      "stats": {
+        "body": 6,
+        "mind": 6,
+        "soul": 3
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 6,
+          "points": 12,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 6,
+          "points": 12,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 8,
+        "defence-combat-value": 5,
+        "health-points": 45,
+        "energy-points": 45,
+        "damage-multiplier": 6
+      },
+      "attributes": [
+        {
+          "label": "Armour (AR 10)",
+          "name": "Armour (AR 10)",
+          "catalogId": "armour",
+          "specialization": "AR 10",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Attack Mastery",
+          "name": "Attack Mastery",
+          "catalogId": "attack-mastery",
+          "specialization": "",
+          "points": 6,
+          "level": 3,
+          "levelText": "3"
+        },
+        {
+          "label": "Combat Technique (Brutal, Lethal Blow)",
+          "name": "Combat Technique (Brutal, Lethal Blow)",
+          "catalogId": "combat-technique",
+          "specialization": "Brutal, Lethal Blow",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Massive Damage",
+          "name": "Massive Damage",
+          "catalogId": "massive-damage",
+          "specialization": "",
+          "points": 3,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Special Movement (Fast)",
+          "name": "Special Movement (Fast)",
+          "catalogId": "special-movement",
+          "specialization": "Fast",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Superstrength",
+          "name": "Superstrength",
+          "catalogId": "superstrength",
+          "specialization": "",
+          "points": 8,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Unique Attribute (x2 Thrown Weapon Distance)",
+          "name": "Unique Attribute (x2 Thrown Weapon Distance)",
+          "catalogId": "unique-attribute",
+          "specialization": "x2 Thrown Weapon Distance",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Inept Attack (Ranged)",
+          "name": "Inept Attack (Ranged)",
+          "catalogId": "inept-attack",
+          "specialization": "Ranged",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Inept Defence (Ranged)",
+          "name": "Inept Defence (Ranged)",
+          "catalogId": "inept-defence",
+          "specialization": "Ranged",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Social Fault (Select One)",
+          "name": "Social Fault (Select One)",
+          "catalogId": "social-fault",
+          "specialization": "Select One",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (Big, Heavy, and Obvious)",
+          "name": "Unique Defect (Big, Heavy, and Obvious)",
+          "catalogId": "unique-defect",
+          "specialization": "Big, Heavy, and Obvious",
+          "points": -2,
+          "rank": 1,
+          "rankText": "1"
+        }
+      ],
+      "totalPoints": 50,
+      "rulesText": "DEMON\nDEMON\nSize Rank 1: Large (3 metres)\nVALUE\nPOINTS\nSTAT\n6\n12\nBody Stat\n6\n12\nMind Stat\n3\n6\nSoul Stat\nVALUE\nDERIVED VALUE\n8\nAttack Combat Value (Ranged 6)\n5\nDefence Combat Value (Ranged 3)\n45\nHealth Points\n45\nEnergy Points\n6\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n2\n4\nArmour (AR 10)\n3\n6\nAttack Mastery\n2\n2\nCombat Technique\n(Brutal, Lethal Blow)\n1\n3\nMassive Damage\n1\n1\nSpecial Movement (Fast)\n2\n8\nSuperstrength\n1\n1\nUnique Attribute\n(x2 Thrown Weapon Distance)\nRANK\nPOINTS\nDEFECT\n1\n-1\nInept Attack (Ranged)\n1\n-1\nInept Defence (Ranged)\n1\n-1\nSocial Fault (Select One)\n1\n-2\nUnique Defect\n(Big, Heavy, and Obvious)\n50\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "elementalist",
+      "name": "ELEMENTALIST",
+      "sourcePage": 240,
+      "sizeRank": 0,
+      "stats": {
+        "body": 4,
+        "mind": 7,
+        "soul": 4
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 7,
+          "points": 14,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 5,
+        "defence-combat-value": 5,
+        "health-points": 40,
+        "energy-points": 55,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Dynamic Powers (Minor Category: One Element; Deplete +1)",
+          "name": "Dynamic Powers (Minor Category: One Element; Deplete +1)",
+          "catalogId": "dynamic-powers",
+          "specialization": "Minor Category: One Element; Deplete +1",
+          "points": 20,
+          "level": 2,
+          "levelText": "2 (3)"
+        }
+      ],
+      "defects": [],
+      "totalPoints": 50,
+      "rulesText": "ELEMENTALIST\nELEMENTALIST\nSize Rank 0: Medium\nVALUE\nPOINTS\nSTAT\n4\n8\nBody Stat\n7\n14\nMind Stat\n4\n8\nSoul Stat\nVALUE\nDERIVED VALUE\n5\nAttack Combat Value\n5\nDefence Combat Value\n40\nHealth Points\n55\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n2 (3)\n20\nDynamic Powers\n(Minor Category: One\nElement; Deplete +1)\n50\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "goblin",
+      "name": "GOBLIN",
+      "sourcePage": 241,
+      "sizeRank": -1,
+      "stats": {
+        "body": 5,
+        "mind": 2,
+        "soul": 2
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 2,
+          "points": 4,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 2,
+          "points": 4,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 3,
+        "defence-combat-value": 3,
+        "health-points": 45,
+        "energy-points": 20,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Features (Low-Light Vision)",
+          "name": "Features (Low-Light Vision)",
+          "catalogId": "features",
+          "specialization": "Low-Light Vision",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Melee Attack (Small Weapons)",
+          "name": "Melee Attack (Small Weapons)",
+          "catalogId": "melee-attack",
+          "specialization": "Small Weapons",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Ranged Attack (All)",
+          "name": "Ranged Attack (All)",
+          "catalogId": "ranged-attack",
+          "specialization": "All",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Ranged Defence (All)",
+          "name": "Ranged Defence (All)",
+          "catalogId": "ranged-defence",
+          "specialization": "All",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Tough",
+          "name": "Tough",
+          "catalogId": "tough",
+          "specialization": "",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "name": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "catalogId": "unique-attribute",
+          "specialization": "Small, Light, and Unobtrusive",
+          "points": 2,
+          "level": 1,
+          "levelText": "1"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Unappealing",
+          "name": "Unappealing",
+          "catalogId": "unappealing",
+          "specialization": "",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (-10 Strength Damage)",
+          "name": "Unique Defect (-10 Strength Damage)",
+          "catalogId": "unique-defect",
+          "specialization": "-10 Strength Damage",
+          "points": -2,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (Lifting Capacity ÷ 5)",
+          "name": "Unique Defect (Lifting Capacity ÷ 5)",
+          "catalogId": "unique-defect",
+          "specialization": "Lifting Capacity ÷ 5",
+          "points": -6,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (÷2 Running Speed)",
+          "name": "Unique Defect (÷2 Running Speed)",
+          "catalogId": "unique-defect",
+          "specialization": "÷2 Running Speed",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (Suffers 10 Extra Damage from all Attacks)",
+          "name": "Unique Defect (Suffers 10 Extra Damage from all Attacks)",
+          "catalogId": "unique-defect",
+          "specialization": "Suffers 10 Extra Damage from all Attacks",
+          "points": -4,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (÷2 Thrown Weapon Distance)",
+          "name": "Unique Defect (÷2 Thrown Weapon Distance)",
+          "catalogId": "unique-defect",
+          "specialization": "÷2 Thrown Weapon Distance",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        }
+      ],
+      "totalPoints": 10,
+      "rulesText": "GOBLIN\nGOBLIN\nSize Rank -1: Small (90 cm)\nVALUE\nPOINTS\nSTAT\n5\n10\nBody Stat\n2\n4\nMind Stat\n2\n4\nSoul Stat\nVALUE\nDERIVED VALUE\n3\nAttack Combat Value (Small 5; Ranged 5)\n3\nDefence Combat Value (Ranged 5)\n45\nHealth Points\n20\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n1\nFeatures (Low-Light Vision)\n1\n1\nMelee Attack (Small Weapons)\n1\n1\nRanged Attack (All)\n1\n1\nRanged Defence (All)\n1\n1\nTough\n1\n2\nUnique Attribute\n(Small, Light, and Unobtrusive)\nRANK\nPOINTS\nDEFECT\n1\n-1\nUnappealing\n1\n-2\nUnique Defect\n(-10 Strength Damage)\n1\n-6\nUnique Defect\n(Lifting Capacity ÷ 5)\n1\n-1\nUnique Defect\n(÷2 Running Speed)\n1\n-4\nUnique Defect (Suffers 10\nExtra Damage from all Attacks)\n1\n-1\nUnique Defect\n(÷2 Thrown Weapon Distance)\n10\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "golem",
+      "name": "GOLEM",
+      "sourcePage": 241,
+      "sizeRank": 1,
+      "stats": {
+        "body": 3,
+        "mind": 2,
+        "soul": 2
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 2,
+          "points": 4,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 2,
+          "points": 4,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 5,
+        "defence-combat-value": 4,
+        "health-points": 85,
+        "energy-points": 20,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Armour (AR 20)",
+          "name": "Armour (AR 20)",
+          "catalogId": "armour",
+          "specialization": "AR 20",
+          "points": 8,
+          "level": 4,
+          "levelText": "4"
+        },
+        {
+          "label": "Attack Mastery",
+          "name": "Attack Mastery",
+          "catalogId": "attack-mastery",
+          "specialization": "",
+          "points": 6,
+          "level": 3,
+          "levelText": "3"
+        },
+        {
+          "label": "Combat Technique (Brutal, Lethal Blow)",
+          "name": "Combat Technique (Brutal, Lethal Blow)",
+          "catalogId": "combat-technique",
+          "specialization": "Brutal, Lethal Blow",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Defence Mastery",
+          "name": "Defence Mastery",
+          "catalogId": "defence-mastery",
+          "specialization": "",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Resilient (Ageing, Airborne Toxins, Disease, Lack of Air, Poisons; All Complete -5)",
+          "name": "Resilient (Ageing, Airborne Toxins, Disease, Lack of Air, Poisons; All Complete -5)",
+          "catalogId": "resilient",
+          "specialization": "Ageing, Airborne Toxins, Disease, Lack of Air, Poisons; All Complete -5",
+          "points": 20,
+          "level": 10,
+          "levelText": "10 (5)"
+        },
+        {
+          "label": "Special Movement (Fast)",
+          "name": "Special Movement (Fast)",
+          "catalogId": "special-movement",
+          "specialization": "Fast",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Superstrength",
+          "name": "Superstrength",
+          "catalogId": "superstrength",
+          "specialization": "",
+          "points": 12,
+          "level": 3,
+          "levelText": "3"
+        },
+        {
+          "label": "Tough",
+          "name": "Tough",
+          "catalogId": "tough",
+          "specialization": "",
+          "points": 6,
+          "level": 6,
+          "levelText": "6"
+        },
+        {
+          "label": "Unique Attribute (x2 Thrown Weapon Distance)",
+          "name": "Unique Attribute (x2 Thrown Weapon Distance)",
+          "catalogId": "unique-attribute",
+          "specialization": "x2 Thrown Weapon Distance",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Inept Attack (Ranged)",
+          "name": "Inept Attack (Ranged)",
+          "catalogId": "inept-attack",
+          "specialization": "Ranged",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Inept Defence (Ranged)",
+          "name": "Inept Defence (Ranged)",
+          "catalogId": "inept-defence",
+          "specialization": "Ranged",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (Big, Heavy, and Obvious)",
+          "name": "Unique Defect (Big, Heavy, and Obvious)",
+          "catalogId": "unique-defect",
+          "specialization": "Big, Heavy, and Obvious",
+          "points": -2,
+          "rank": 1,
+          "rankText": "1"
+        }
+      ],
+      "totalPoints": 70,
+      "rulesText": "GOLEM\nGOLEM\nSize Rank 1: Large (4 metres)\nVALUE\nPOINTS\nSTAT\n3\n6\nBody Stat\n2\n4\nMind Stat\n2\n4\nSoul Stat\nVALUE\nDERIVED VALUE\n5\nAttack Combat Value (Ranged 3)\n4\nDefence Combat Value (Ranged 2)\n85\nHealth Points\n20\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n4\n8\nArmour (AR 20)\n3\n6\nAttack Mastery\n2\n2\nCombat Technique\n(Brutal, Lethal Blow)\n2\n4\nDefence Mastery\n10 (5)\n20\nResilient (Ageing, Airborne\nToxins, Disease, Lack of Air,\nPoisons; All Complete -5)\n1\n1\nSpecial Movement (Fast)\n3\n12\nSuperstrength\n6\n6\nTough\n1\n1\nUnique Attribute\n(x2 Thrown Weapon Distance)\nRANK\nPOINTS\nDEFECT\n1\n-1\nInept Attack (Ranged)\n1\n-1\nInept Defence (Ranged)\n1\n-2\nUnique Defect\n(Big, Heavy, and Obvious)\n70\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "high-school-delinquent",
+      "name": "HIGH SCHOOL DELINQUENT",
+      "sourcePage": 242,
+      "sizeRank": 0,
+      "stats": {
+        "body": 5,
+        "mind": 3,
+        "soul": 4
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 4,
+        "defence-combat-value": 4,
+        "health-points": 55,
+        "energy-points": 35,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Gear",
+          "name": "Gear",
+          "catalogId": "gear",
+          "specialization": "",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Melee Attack (Unarmed)",
+          "name": "Melee Attack (Unarmed)",
+          "catalogId": "melee-attack",
+          "specialization": "Unarmed",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Melee Defence (Unarmed)",
+          "name": "Melee Defence (Unarmed)",
+          "catalogId": "melee-defence",
+          "specialization": "Unarmed",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Skill Group (Street)",
+          "name": "Skill Group (Street)",
+          "catalogId": "skill-group",
+          "specialization": "Street",
+          "points": 2,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Tough",
+          "name": "Tough",
+          "catalogId": "tough",
+          "specialization": "",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        }
+      ],
+      "defects": [],
+      "totalPoints": 30,
+      "rulesText": "HIGH SCHOOL DELINQUENT\nHIGH SCHOOL DELINQUENT\nSize Rank 0: Medium\nVALUE\nPOINTS\nSTAT\n5\n10\nBody Stat\n3\n6\nMind Stat\n4\n8\nSoul Stat\nVALUE\nDERIVED VALUE\n4\nAttack Combat Value (Unarmed 6)\n4\nDefence Combat Value (Unarmed 6)\n55\nHealth Points\n35\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n1\nGear\n1\n1\nMelee Attack (Unarmed)\n1\n1\nMelee Defence (Unarmed)\n1\n2\nSkill Group (Street)\n1\n1\nTough\n30\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "highway-bandit",
+      "name": "HIGHWAY BANDIT",
+      "sourcePage": 242,
+      "sizeRank": 0,
+      "stats": {
+        "body": 6,
+        "mind": 4,
+        "soul": 4
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 6,
+          "points": 12,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 6,
+        "defence-combat-value": 6,
+        "health-points": 50,
+        "energy-points": 40,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Attack Mastery",
+          "name": "Attack Mastery",
+          "catalogId": "attack-mastery",
+          "specialization": "",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Defence Mastery",
+          "name": "Defence Mastery",
+          "catalogId": "defence-mastery",
+          "specialization": "",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Gear",
+          "name": "Gear",
+          "catalogId": "gear",
+          "specialization": "",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Skill Group (Adventuring)",
+          "name": "Skill Group (Adventuring)",
+          "catalogId": "skill-group",
+          "specialization": "Adventuring",
+          "points": 3,
+          "level": 1,
+          "levelText": "1"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Wanted",
+          "name": "Wanted",
+          "catalogId": "wanted",
+          "specialization": "",
+          "points": -4,
+          "rank": 2,
+          "rankText": "2"
+        }
+      ],
+      "totalPoints": 30,
+      "rulesText": "HIGHWAY BANDIT\nHIGHWAY BANDIT\nSize Rank 0: Medium\nVALUE\nPOINTS\nSTAT\n6\n12\nBody Stat\n4\n8\nMind Stat\n4\n8\nSoul Stat\nVALUE\nDERIVED VALUE\n6\nAttack Combat Value\n6\nDefence Combat Value\n50\nHealth Points\n40\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n1\nAttack Mastery\n1\n1\nDefence Mastery\n1\n1\nGear\n1\n3\nSkill Group (Adventuring)\nRANK\nPOINTS\nDEFECT\n2\n-4\nWanted\n30\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "hired-sword",
+      "name": "HIRED SWORD",
+      "sourcePage": 243,
+      "sizeRank": 0,
+      "stats": {
+        "body": 7,
+        "mind": 5,
+        "soul": 4
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 7,
+          "points": 14,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 5,
+        "defence-combat-value": 5,
+        "health-points": 55,
+        "energy-points": 45,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Gear",
+          "name": "Gear",
+          "catalogId": "gear",
+          "specialization": "",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Melee Attack (One Type)",
+          "name": "Melee Attack (One Type)",
+          "catalogId": "melee-attack",
+          "specialization": "One Type",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Melee Defence (One Type)",
+          "name": "Melee Defence (One Type)",
+          "catalogId": "melee-defence",
+          "specialization": "One Type",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Skill Group (Business)",
+          "name": "Skill Group (Business)",
+          "catalogId": "skill-group",
+          "specialization": "Business",
+          "points": 2,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Skill Group (Military)",
+          "name": "Skill Group (Military)",
+          "catalogId": "skill-group",
+          "specialization": "Military",
+          "points": 3,
+          "level": 1,
+          "levelText": "1"
+        }
+      ],
+      "defects": [],
+      "totalPoints": 40,
+      "rulesText": "HIRED SWORD\nHIRED SWORD\nSize Rank 0: Medium\nVALUE\nPOINTS\nSTAT\n7\n14\nBody Stat\n5\n10\nMind Stat\n4\n8\nSoul Stat\nVALUE\nDERIVED VALUE\n5\nAttack Combat Value (One Melee 7)\n5\nDefence Combat Value (One Melee 7)\n55\nHealth Points\n45\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n1\nGear\n1\n1\nMelee Attack (One Type)\n1\n1\nMelee Defence (One Type)\n1\n2\nSkill Group (Business)\n1\n3\nSkill Group (Military)\n40\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "imp",
+      "name": "IMP",
+      "sourcePage": 244,
+      "sizeRank": -1,
+      "stats": {
+        "body": 5,
+        "mind": 2,
+        "soul": 2
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 2,
+          "points": 4,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 2,
+          "points": 4,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 3,
+        "defence-combat-value": 3,
+        "health-points": 35,
+        "energy-points": 20,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Armour (AR 5)",
+          "name": "Armour (AR 5)",
+          "catalogId": "armour",
+          "specialization": "AR 5",
+          "points": 2,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Features (Low-Light Vision)",
+          "name": "Features (Low-Light Vision)",
+          "catalogId": "features",
+          "specialization": "Low-Light Vision",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Flight (30 kph)",
+          "name": "Flight (30 kph)",
+          "catalogId": "flight",
+          "specialization": "30 kph",
+          "points": 6,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Melee Attack (Unarmed)",
+          "name": "Melee Attack (Unarmed)",
+          "catalogId": "melee-attack",
+          "specialization": "Unarmed",
+          "points": 3,
+          "level": 3,
+          "levelText": "3"
+        },
+        {
+          "label": "Ranged Attack (All)",
+          "name": "Ranged Attack (All)",
+          "catalogId": "ranged-attack",
+          "specialization": "All",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Ranged Defence (All)",
+          "name": "Ranged Defence (All)",
+          "catalogId": "ranged-defence",
+          "specialization": "All",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Undetectable (Sight 2)",
+          "name": "Undetectable (Sight 2)",
+          "catalogId": "undetectable",
+          "specialization": "Sight 2",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "name": "Unique Attribute (Small, Light, and Unobtrusive)",
+          "catalogId": "unique-attribute",
+          "specialization": "Small, Light, and Unobtrusive",
+          "points": 2,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Weapon: Tail Sting (Piercing -1)",
+          "name": "Weapon: Tail Sting (Piercing -1)",
+          "catalogId": "weapon",
+          "specialization": "Tail Sting",
+          "points": 6,
+          "level": 3,
+          "levelText": "3 (2)"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Unique Defect (-10 Strength Damage)",
+          "name": "Unique Defect (-10 Strength Damage)",
+          "catalogId": "unique-defect",
+          "specialization": "-10 Strength Damage",
+          "points": -2,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (Lifting Capacity ÷ 5)",
+          "name": "Unique Defect (Lifting Capacity ÷ 5)",
+          "catalogId": "unique-defect",
+          "specialization": "Lifting Capacity ÷ 5",
+          "points": -6,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (÷2 Running Speed)",
+          "name": "Unique Defect (÷2 Running Speed)",
+          "catalogId": "unique-defect",
+          "specialization": "÷2 Running Speed",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (Suffers 10 Extra Damage from all Attacks)",
+          "name": "Unique Defect (Suffers 10 Extra Damage from all Attacks)",
+          "catalogId": "unique-defect",
+          "specialization": "Suffers 10 Extra Damage from all Attacks",
+          "points": -4,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Unique Defect (÷2 Thrown Weapon Distance)",
+          "name": "Unique Defect (÷2 Thrown Weapon Distance)",
+          "catalogId": "unique-defect",
+          "specialization": "÷2 Thrown Weapon Distance",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        }
+      ],
+      "totalPoints": 30,
+      "rulesText": "IMP\nIMP\nSize Rank -1: Small (70 cm)\nVALUE\nPOINTS\nSTAT\n5\n10\nBody Stat\n2\n4\nMind Stat\n2\n4\nSoul Stat\nVALUE\nDERIVED VALUE\n3\nAttack Combat Value (Melee 9; Ranged 5)\n3\nDefence Combat Value (Ranged 5)\n35\nHealth Points\n20\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n2\nArmour (AR 5)\n1\n1\nFeatures (Low-Light Vision)\n2\n6\nFlight (30 kph)\n3\n3\nMelee Attack (Unarmed)\n1\n1\nRanged Attack (All)\n1\n1\nRanged Defence (All)\n2\n4\nUndetectable (Sight 2)\n1\n2\nUnique Attribute\n(Small, Light, and Unobtrusive)\n3 (2)\n6\nWeapon: Tail Sting (Piercing -1)\nRANK\nPOINTS\nDEFECT\n1\n-2\nUnique Defect\n(-10 Strength Damage)\n1\n-6\nUnique Defect\n(Lifting Capacity ÷ 5)\n1\n-1\nUnique Defect\n(÷2 Running Speed)\n1\n-4\nUnique Defect (Suffers 10\nExtra Damage from all Attacks)\n1\n-1\nUnique Defect\n(÷2 Thrown Weapon Distance)\n30\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "informant",
+      "name": "INFORMANT",
+      "sourcePage": 244,
+      "sizeRank": 0,
+      "stats": {
+        "body": 4,
+        "mind": 6,
+        "soul": 5
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 6,
+          "points": 12,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 4,
+        "defence-combat-value": 4,
+        "health-points": 45,
+        "energy-points": 55,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Skill Group (Academic)",
+          "name": "Skill Group (Academic)",
+          "catalogId": "skill-group",
+          "specialization": "Academic",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Skill Group (Social)",
+          "name": "Skill Group (Social)",
+          "catalogId": "skill-group",
+          "specialization": "Social",
+          "points": 6,
+          "level": 3,
+          "levelText": "3"
+        },
+        {
+          "label": "Skill Group (Street)",
+          "name": "Skill Group (Street)",
+          "catalogId": "skill-group",
+          "specialization": "Street",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Inept Attack",
+          "name": "Inept Attack",
+          "catalogId": "inept-attack",
+          "specialization": "",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Inept Defence",
+          "name": "Inept Defence",
+          "catalogId": "inept-defence",
+          "specialization": "",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        }
+      ],
+      "totalPoints": 40,
+      "rulesText": "INFORMANT\nINFORMANT\nSize Rank 0: Medium\nVALUE\nPOINTS\nSTAT\n4\n8\nBody Stat\n6\n12\nMind Stat\n5\n10\nSoul Stat\nVALUE\nDERIVED VALUE\n4\nAttack Combat Value\n4\nDefence Combat Value\n45\nHealth Points\n55\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n2\n2\nSkill Group (Academic)\n3\n6\nSkill Group (Social)\n2\n4\nSkill Group (Street)\nRANK\nPOINTS\nDEFECT\n1\n-1\nInept Attack\n1\n-1\nInept Defence\n40\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "noble",
+      "name": "NOBLE",
+      "sourcePage": 245,
+      "sizeRank": 0,
+      "stats": {
+        "body": 5,
+        "mind": 5,
+        "soul": 5
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 5,
+        "defence-combat-value": 5,
+        "health-points": 50,
+        "energy-points": 50,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Connected (Nobility)",
+          "name": "Connected (Nobility)",
+          "catalogId": "connected",
+          "specialization": "Nobility",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Skill Group (Artistic)",
+          "name": "Skill Group (Artistic)",
+          "catalogId": "skill-group",
+          "specialization": "Artistic",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Skill Group (Social)",
+          "name": "Skill Group (Social)",
+          "catalogId": "skill-group",
+          "specialization": "Social",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Wealth",
+          "name": "Wealth",
+          "catalogId": "wealth",
+          "specialization": "",
+          "points": 3,
+          "level": 1,
+          "levelText": "1"
+        }
+      ],
+      "defects": [],
+      "totalPoints": 40,
+      "rulesText": "NOBLE\nNOBLE\nSize Rank 0: Medium\nVALUE\nPOINTS\nSTAT\n5\n10\nBody Stat\n5\n10\nMind Stat\n5\n10\nSoul Stat\nVALUE\nDERIVED VALUE\n5\nAttack Combat Value\n5\nDefence Combat Value\n50\nHealth Points\n50\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n2\n2\nConnected (Nobility)\n1\n1\nSkill Group (Artistic)\n2\n4\nSkill Group (Social)\n1\n3\nWealth\n40\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "shinobi",
+      "name": "SHINOBI",
+      "sourcePage": 247,
+      "sizeRank": 0,
+      "stats": {
+        "body": 8,
+        "mind": 6,
+        "soul": 6
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 8,
+          "points": 16,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 6,
+          "points": 12,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 6,
+          "points": 12,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 8,
+        "defence-combat-value": 8,
+        "health-points": 70,
+        "energy-points": 60,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Attack Mastery",
+          "name": "Attack Mastery",
+          "catalogId": "attack-mastery",
+          "specialization": "",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Defence Mastery",
+          "name": "Defence Mastery",
+          "catalogId": "defence-mastery",
+          "specialization": "",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Gear",
+          "name": "Gear",
+          "catalogId": "gear",
+          "specialization": "",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Skill Group (Street)",
+          "name": "Skill Group (Street)",
+          "catalogId": "skill-group",
+          "specialization": "Street",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Skill Group (Adventuring)",
+          "name": "Skill Group (Adventuring)",
+          "catalogId": "skill-group",
+          "specialization": "Adventuring",
+          "points": 6,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Skill Group (Military)",
+          "name": "Skill Group (Military)",
+          "catalogId": "skill-group",
+          "specialization": "Military",
+          "points": 3,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Special Movement (Select One)",
+          "name": "Special Movement (Select One)",
+          "catalogId": "special-movement",
+          "specialization": "Select One",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        }
+      ],
+      "defects": [],
+      "totalPoints": 60,
+      "rulesText": "SHINOBI\nSHINOBI\nSize Rank 0: Medium\nVALUE\nPOINTS\nSTAT\n8\n16\nBody Stat\n6\n12\nMind Stat\n6\n12\nSoul Stat\nVALUE\nDERIVED VALUE\n8\nAttack Combat Value\n8\nDefence Combat Value\n70\nHealth Points\n60\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n2\n2\nAttack Mastery\n2\n2\nDefence Mastery\n2\n2\nGear\n2\n4\nSkill Group (Street)\n2\n6\nSkill Group (Adventuring)\n1\n3\nSkill Group (Military)\n1\n1\nSpecial Movement (Select One)\n60\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "soldier",
+      "name": "SOLDIER",
+      "sourcePage": 247,
+      "sizeRank": 0,
+      "stats": {
+        "body": 6,
+        "mind": 4,
+        "soul": 5
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 6,
+          "points": 12,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 5,
+          "points": 10,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 5,
+        "defence-combat-value": 5,
+        "health-points": 55,
+        "energy-points": 45,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Gear",
+          "name": "Gear",
+          "catalogId": "gear",
+          "specialization": "",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Melee Attack (One Type)",
+          "name": "Melee Attack (One Type)",
+          "catalogId": "melee-attack",
+          "specialization": "One Type",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Melee Defence (One Type)",
+          "name": "Melee Defence (One Type)",
+          "catalogId": "melee-defence",
+          "specialization": "One Type",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Skill Group (Military)",
+          "name": "Skill Group (Military)",
+          "catalogId": "skill-group",
+          "specialization": "Military",
+          "points": 6,
+          "level": 2,
+          "levelText": "2"
+        }
+      ],
+      "defects": [],
+      "totalPoints": 40,
+      "rulesText": "SOLDIER\nSOLDIER\nSize Rank 0: Medium\nVALUE\nPOINTS\nSTAT\n6\n12\nBody Stat\n4\n8\nMind Stat\n5\n10\nSoul Stat\nVALUE\nDERIVED VALUE\n5\nAttack Combat Value (One Melee 9)\n5\nDefence Combat Value (One Melee 7)\n55\nHealth Points\n45\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n1\nGear\n2\n2\nMelee Attack (One Type)\n1\n1\nMelee Defence (One Type)\n2\n6\nSkill Group (Military)\n40\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "street-urchin",
+      "name": "STREET URCHIN",
+      "sourcePage": 248,
+      "sizeRank": 0,
+      "stats": {
+        "body": 3,
+        "mind": 3,
+        "soul": 3
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 3,
+        "defence-combat-value": 3,
+        "health-points": 30,
+        "energy-points": 30,
+        "damage-multiplier": 4
+      },
+      "attributes": [
+        {
+          "label": "Skill Group (Domestic)",
+          "name": "Skill Group (Domestic)",
+          "catalogId": "skill-group",
+          "specialization": "Domestic",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Skill Group (Street)",
+          "name": "Skill Group (Street)",
+          "catalogId": "skill-group",
+          "specialization": "Street",
+          "points": 6,
+          "level": 3,
+          "levelText": "3"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Ism (Classism)",
+          "name": "Ism (Classism)",
+          "catalogId": "ism",
+          "specialization": "Classism",
+          "points": -2,
+          "rank": 1,
+          "rankText": "1"
+        },
+        {
+          "label": "Reduced Damage",
+          "name": "Reduced Damage",
+          "catalogId": "reduced-damage",
+          "specialization": "",
+          "points": -3,
+          "rank": 1,
+          "rankText": "1"
+        }
+      ],
+      "totalPoints": 20,
+      "rulesText": "STREET URCHIN\nSTREET URCHIN\nSize Rank 0: Medium\nVALUE\nPOINTS\nSTAT\n3\n6\nBody Stat\n3\n6\nMind Stat\n3\n6\nSoul Stat\nVALUE\nDERIVED VALUE\n3\nAttack Combat Value\n3\nDefence Combat Value\n30\nHealth Points\n30\nEnergy Points\n4\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n1\nSkill Group (Domestic)\n3\n6\nSkill Group (Street)\nRANK\nPOINTS\nDEFECT\n1\n-2\nIsm (Classism)\n1\n-3\nReduced Damage\n20\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "swat-officer",
+      "name": "SWAT OFFICER",
+      "sourcePage": 248,
+      "sizeRank": 0,
+      "stats": {
+        "body": 7,
+        "mind": 6,
+        "soul": 6
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 7,
+          "points": 14,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 6,
+          "points": 12,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 6,
+          "points": 12,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 6,
+        "defence-combat-value": 6,
+        "health-points": 65,
+        "energy-points": 60,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Connected (Law Enforcement)",
+          "name": "Connected (Law Enforcement)",
+          "catalogId": "connected",
+          "specialization": "Law Enforcement",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Gear",
+          "name": "Gear",
+          "catalogId": "gear",
+          "specialization": "",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Melee Defence (Shield)",
+          "name": "Melee Defence (Shield)",
+          "catalogId": "melee-defence",
+          "specialization": "Shield",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Ranged Attack (Long Gun)",
+          "name": "Ranged Attack (Long Gun)",
+          "catalogId": "ranged-attack",
+          "specialization": "Long Gun",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Skill Group (Detective)",
+          "name": "Skill Group (Detective)",
+          "catalogId": "skill-group",
+          "specialization": "Detective",
+          "points": 3,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Skill Group (Military)",
+          "name": "Skill Group (Military)",
+          "catalogId": "skill-group",
+          "specialization": "Military",
+          "points": 3,
+          "level": 1,
+          "levelText": "1"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Red Tape",
+          "name": "Red Tape",
+          "catalogId": "red-tape",
+          "specialization": "",
+          "points": -1,
+          "rank": 1,
+          "rankText": "1"
+        }
+      ],
+      "totalPoints": 50,
+      "rulesText": "SWAT OFFICER\nSWAT OFFICER\nSize Rank 0: Medium\nVALUE\nPOINTS\nSTAT\n7\n14\nBody Stat\n6\n12\nMind Stat\n6\n12\nSoul Stat\nVALUE\nDERIVED VALUE\n6\nAttack Combat Value (Long Gun 10)\n6\nDefence Combat Value (Shield 8)\n65\nHealth Points\n60\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n2\n2\nConnected (Law Enforcement)\n2\n2\nGear\n1\n1\nMelee Defence (Shield)\n2\n2\nRanged Attack (Long Gun)\n1\n3\nSkill Group (Detective)\n1\n3\nSkill Group (Military)\nRANK\nPOINTS\nDEFECT\n1\n-1\nRed Tape\n50\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "techknight",
+      "name": "TECHKNIGHT",
+      "sourcePage": 250,
+      "sizeRank": 0,
+      "stats": {
+        "body": 7,
+        "mind": 7,
+        "soul": 7
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 7,
+          "points": 14,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 7,
+          "points": 14,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 7,
+          "points": 14,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 7,
+        "defence-combat-value": 7,
+        "health-points": 70,
+        "energy-points": 70,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Skill Group (Technical)",
+          "name": "Skill Group (Technical)",
+          "catalogId": "skill-group",
+          "specialization": "Technical",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Skill Group (Detective)",
+          "name": "Skill Group (Detective)",
+          "catalogId": "skill-group",
+          "specialization": "Detective",
+          "points": 6,
+          "level": 2,
+          "levelText": "2"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Wanted",
+          "name": "Wanted",
+          "catalogId": "wanted",
+          "specialization": "",
+          "points": -2,
+          "rank": 1,
+          "rankText": "1"
+        }
+      ],
+      "totalPoints": 80,
+      "rulesText": "TECHKNIGHT\nTECHKNIGHT\nSize Rank 0: Medium\nVALUE\nPOINTS\nSTAT\n7\n14\nBody Stat\n7\n14\nMind Stat\n7\n14\nSoul Stat\nVALUE\nDERIVED VALUE\n7\nAttack Combat Value\n7\nDefence Combat Value\n70\nHealth Points\n70\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n30\nItem (Tech Armour and\nWeapons and Equipment)\n2\n4\nSkill Group (Technical)\n2\n6\nSkill Group (Detective)\nRANK\nPOINTS\nDEFECT\n1\n-2\nWanted\n80\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "thug",
+      "name": "THUG",
+      "sourcePage": 251,
+      "sizeRank": 0,
+      "stats": {
+        "body": 4,
+        "mind": 3,
+        "soul": 3
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 4,
+          "points": 8,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 3,
+        "defence-combat-value": 3,
+        "health-points": 65,
+        "energy-points": 30,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Melee Attack (Unarmed)",
+          "name": "Melee Attack (Unarmed)",
+          "catalogId": "melee-attack",
+          "specialization": "Unarmed",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Melee Defence (Unarmed)",
+          "name": "Melee Defence (Unarmed)",
+          "catalogId": "melee-defence",
+          "specialization": "Unarmed",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Skill Group (Street)",
+          "name": "Skill Group (Street)",
+          "catalogId": "skill-group",
+          "specialization": "Street",
+          "points": 4,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Superstrength",
+          "name": "Superstrength",
+          "catalogId": "superstrength",
+          "specialization": "",
+          "points": 4,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Tough",
+          "name": "Tough",
+          "catalogId": "tough",
+          "specialization": "",
+          "points": 3,
+          "level": 3,
+          "levelText": "3"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Social Fault (Select Two)",
+          "name": "Social Fault (Select Two)",
+          "catalogId": "social-fault",
+          "specialization": "Select Two",
+          "points": -2,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Wanted",
+          "name": "Wanted",
+          "catalogId": "wanted",
+          "specialization": "",
+          "points": -2,
+          "rank": 1,
+          "rankText": "1"
+        }
+      ],
+      "totalPoints": 30,
+      "rulesText": "THUG\nTHUG\nSize Rank 0: Medium\nVALUE\nPOINTS\nSTAT\n4\n8\nBody Stat\n3\n6\nMind Stat\n3\n6\nSoul Stat\nVALUE\nDERIVED VALUE\n3\nAttack Combat Value (Unarmed 7)\n3\nDefence Combat Value (Unarmed 5)\n65\nHealth Points\n30\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n2\n2\nMelee Attack (Unarmed)\n1\n1\nMelee Defence (Unarmed)\n2\n4\nSkill Group (Street)\n1\n4\nSuperstrength\n3\n3\nTough\nRANK\nPOINTS\nDEFECT\n2\n-2\nSocial Fault (Select Two)\n1\n-2\nWanted\n30\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    },
+    {
+      "id": "zombie",
+      "name": "ZOMBIE",
+      "sourcePage": 251,
+      "sizeRank": 0,
+      "stats": {
+        "body": 3,
+        "mind": 1,
+        "soul": 1
+      },
+      "statTable": [
+        {
+          "name": "Body Stat",
+          "value": 3,
+          "points": 6,
+          "statId": "body"
+        },
+        {
+          "name": "Mind Stat",
+          "value": 1,
+          "points": 2,
+          "statId": "mind"
+        },
+        {
+          "name": "Soul Stat",
+          "value": 1,
+          "points": 2,
+          "statId": "soul"
+        }
+      ],
+      "derived": {
+        "attack-combat-value": 2,
+        "defence-combat-value": 2,
+        "health-points": 40,
+        "energy-points": 10,
+        "damage-multiplier": 5
+      },
+      "attributes": [
+        {
+          "label": "Features (No Pain)",
+          "name": "Features (No Pain)",
+          "catalogId": "features",
+          "specialization": "No Pain",
+          "points": 1,
+          "level": 1,
+          "levelText": "1"
+        },
+        {
+          "label": "Immutable",
+          "name": "Immutable",
+          "catalogId": "immutable",
+          "specialization": "",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        },
+        {
+          "label": "Resilient (Airborne Toxins, Disease, Lack of Air, Poisons; All Complete -4)",
+          "name": "Resilient (Airborne Toxins, Disease, Lack of Air, Poisons; All Complete -4)",
+          "catalogId": "resilient",
+          "specialization": "Airborne Toxins, Disease, Lack of Air, Poisons; All Complete -4",
+          "points": 16,
+          "level": 8,
+          "levelText": "8 (4)"
+        },
+        {
+          "label": "Tough",
+          "name": "Tough",
+          "catalogId": "tough",
+          "specialization": "",
+          "points": 2,
+          "level": 2,
+          "levelText": "2"
+        }
+      ],
+      "defects": [
+        {
+          "label": "Easily Distracted (Food)",
+          "name": "Easily Distracted (Food)",
+          "catalogId": "easily-distracted",
+          "specialization": "Food",
+          "points": -3,
+          "rank": 3,
+          "rankText": "3"
+        },
+        {
+          "label": "Impaired Speech",
+          "name": "Impaired Speech",
+          "catalogId": "impaired-speech",
+          "specialization": "",
+          "points": -6,
+          "rank": 2,
+          "rankText": "2"
+        },
+        {
+          "label": "Marked (Undead)",
+          "name": "Marked (Undead)",
+          "catalogId": "marked",
+          "specialization": "Undead",
+          "points": -3,
+          "rank": 3,
+          "rankText": "3"
+        },
+        {
+          "label": "Physical Impairment (Undead)",
+          "name": "Physical Impairment (Undead)",
+          "catalogId": "physical-impairment",
+          "specialization": "Undead",
+          "points": -9,
+          "rank": 3,
+          "rankText": "3"
+        }
+      ],
+      "totalPoints": 10,
+      "rulesText": "ZOMBIE\nZOMBIE\nSize Rank 0: Medium\nVALUE\nPOINTS\nSTAT\n3\n6\nBody Stat\n1\n2\nMind Stat\n1\n2\nSoul Stat\nVALUE\nDERIVED VALUE\n2\nAttack Combat Value\n2\nDefence Combat Value\n40\nHealth Points\n10\nEnergy Points\n5\nDamage Multiplier\nLEVEL\nPOINTS\nATTRIBUTE\n1\n1\nFeatures (No Pain)\n2\n2\nImmutable\n8 (4)\n16\nResilient (Airborne Toxins,\nDisease, Lack of Air, Poisons;\nAll Complete -4)\n2\n2\nTough\nRANK\nPOINTS\nDEFECT\n3\n-3\nEasily Distracted (Food)\n2\n-6\nImpaired Speech\n3\n-3\nMarked (Undead)\n3\n-9\nPhysical Impairment (Undead)\n10\nTOTAL",
+      "notesText": "",
+      "variant": "standard"
+    }
+  ]
+}

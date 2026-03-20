@@ -1,0 +1,5741 @@
+{
+  "entries": [
+    {
+      "id": "unarmed-attacks-normal-punch-or-kick",
+      "name": "Normal Punch or Kick",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Unarmed Attacks",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "0",
+      "level": 0,
+      "points": 0,
+      "itemCost": 0,
+      "enhancementsText": "Stun",
+      "limitersText": "Non-Penetrating",
+      "enhancements": [
+        {
+          "id": "stun",
+          "name": "Stun",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Stun Non-Penetrating",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Normal Punch or Kick\nLevel: 0\nEnhancements: Stun\nLimiters: Non-Penetrating\nPoints: 0\nItem Cost: 0"
+    },
+    {
+      "id": "unarmed-attacks-brass-knuckles",
+      "name": "+ Brass Knuckles",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Unarmed Attacks",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "1 (0)",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Potent 2",
+      "limitersText": "Non-Penetrating",
+      "enhancements": [
+        {
+          "id": "potent",
+          "name": "Potent",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Potent 2 Non-Penetrating",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "+ Brass Knuckles\nLevel: 1 (0)\nEnhancements: Potent 2\nLimiters: Non-Penetrating\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "unarmed-attacks-brutal-1-combat-technique",
+      "name": "+ Brutal 1 Combat Technique",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Unarmed Attacks",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "1",
+      "level": 1,
+      "points": 0,
+      "itemCost": 0,
+      "enhancementsText": "Stun",
+      "limitersText": "Non-Penetrating",
+      "enhancements": [
+        {
+          "id": "stun",
+          "name": "Stun",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Stun Non-Penetrating",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "+ Brutal 1 Combat Technique\nLevel: 1\nEnhancements: Stun\nLimiters: Non-Penetrating\nPoints: 0\nItem Cost: 0"
+    },
+    {
+      "id": "unarmed-attacks-spiked-gauntlet",
+      "name": "+ Spiked Gauntlet",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Unarmed Attacks",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "1",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Potent",
+      "limitersText": "Non-Penetrating",
+      "enhancements": [
+        {
+          "id": "potent",
+          "name": "Potent",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Potent Non-Penetrating",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "+ Spiked Gauntlet\nLevel: 1\nEnhancements: Potent\nLimiters: Non-Penetrating\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "splash-acid-flask",
+      "name": "Acid (Flask)",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Splash",
+      "sourcePage": 204,
+      "attackMode": "ranged",
+      "levelText": "5 (2)",
+      "level": 5,
+      "points": 10,
+      "itemCost": 5,
+      "enhancementsText": "Area 1, Contact 2, Continuing 3, Range 2",
+      "limitersText": "Ammo 4, Inaccurate",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "contact",
+          "name": "Contact",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "continuing",
+          "name": "Continuing",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 4
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Area 1, Contact 2, Continuing 3, Range 2 Ammo 4, Inaccurate",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Acid (Flask)\nLevel: 5 (2)\nEnhancements: Area 1, Contact 2, Continuing 3, Range 2\nLimiters: Ammo 4, Inaccurate\nPoints: 10\nItem Cost: 5"
+    },
+    {
+      "id": "splash-boiling-oil-barrel",
+      "name": "Boiling Oil (Barrel)",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Splash",
+      "sourcePage": 204,
+      "attackMode": "ranged",
+      "levelText": "3",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "Area 2, Contact 2, Continuing 5",
+      "limitersText": "Activation 2, Ammo 4, Assisted 1, Inaccurate, Hands",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "contact",
+          "name": "Contact",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "continuing",
+          "name": "Continuing",
+          "kind": "enhancement",
+          "assignments": 5
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 4
+        },
+        {
+          "id": "assisted",
+          "name": "Assisted",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Area 2, Contact 2, Continuing 5 Activation 2, Ammo 4, Assisted 1, Inaccurate, Hands",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Boiling Oil (Barrel)\nLevel: 3\nEnhancements: Area 2, Contact 2, Continuing 5\nLimiters: Activation 2, Ammo 4, Assisted 1, Inaccurate, Hands\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "splash-molotov-cocktail",
+      "name": "Molotov Cocktail",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Splash",
+      "sourcePage": 204,
+      "attackMode": "ranged",
+      "levelText": "2 (1)",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "Area 2, Continuing 3, Range 2",
+      "limitersText": "Activation 1, Ammo 4, Inaccurate",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "continuing",
+          "name": "Continuing",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 4
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Area 2, Continuing 3, Range 2 Activation 1, Ammo 4, Inaccurate",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Molotov Cocktail\nLevel: 2 (1)\nEnhancements: Area 2, Continuing 3, Range 2\nLimiters: Activation 1, Ammo 4, Inaccurate\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "archaic-melee-battleaxe",
+      "name": "Battleaxe",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "3",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Battleaxe\nLevel: 3\nEnhancements: -\nLimiters: -\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-melee-bastard-sword-one-hand",
+      "name": "Bastard Sword (One-Hand)",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "3",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Bastard Sword (One-Hand)\nLevel: 3\nEnhancements: -\nLimiters: -\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-melee-bastard-sword-two-hands",
+      "name": "Bastard Sword (Two-Hands)",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "3",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "Accurate",
+      "limitersText": "Hands",
+      "enhancements": [
+        {
+          "id": "accurate",
+          "name": "Accurate",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Accurate Hands",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Bastard Sword (Two-Hands)\nLevel: 3\nEnhancements: Accurate\nLimiters: Hands\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-melee-bokken-wooden-sword",
+      "name": "Bokken (Wooden Sword)",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "2",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Bokken (Wooden Sword)\nLevel: 2\nEnhancements: -\nLimiters: -\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "archaic-melee-caltrops-bag",
+      "name": "Caltrops (Bag)",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "1",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Area 1, Trap",
+      "limitersText": "Non-Penetrating 2",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "trap",
+          "name": "Trap",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Area 1, Trap Non-Penetrating 2",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Caltrops (Bag)\nLevel: 1\nEnhancements: Area 1, Trap\nLimiters: Non-Penetrating 2\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-melee-club",
+      "name": "Club",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "2",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Club\nLevel: 2\nEnhancements: -\nLimiters: -\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "archaic-melee-garrotte-wire",
+      "name": "Garrotte Wire",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "1 (5)",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "-",
+      "limitersText": "Hands, Non-Penetrating 3",
+      "enhancements": [],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 3
+        }
+      ],
+      "detailsText": "Hands, Non-Penetrating 3",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Garrotte Wire\nLevel: 1 (5)\nEnhancements: -\nLimiters: Hands, Non-Penetrating 3\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-melee-greatsword",
+      "name": "Greatsword",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "4 (5)",
+      "level": 4,
+      "points": 8,
+      "itemCost": 4,
+      "enhancementsText": "-",
+      "limitersText": "Hands",
+      "enhancements": [],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Hands",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Greatsword\nLevel: 4 (5)\nEnhancements: -\nLimiters: Hands\nPoints: 8\nItem Cost: 4"
+    },
+    {
+      "id": "archaic-melee-katana",
+      "name": "Katana",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "3",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Katana\nLevel: 3\nEnhancements: -\nLimiters: -\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-melee-knife-or-dagger",
+      "name": "Knife or Dagger",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "1",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Knife or Dagger\nLevel: 1\nEnhancements: -\nLimiters: -\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-melee-lance-tournament",
+      "name": "Lance, Tournament",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "1 (2)",
+      "level": 1,
+      "points": 2,
+      "itemCost": 4,
+      "enhancementsText": "Reach",
+      "limitersText": "Non-Penetrating, Unreliable",
+      "enhancements": [
+        {
+          "id": "reach",
+          "name": "Reach",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "unreliable",
+          "name": "Unreliable",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Reach Non-Penetrating, Unreliable",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Lance, Tournament\nLevel: 1 (2)\nEnhancements: Reach\nLimiters: Non-Penetrating, Unreliable\nPoints: 2\nItem Cost: 4"
+    },
+    {
+      "id": "archaic-melee-lance-war",
+      "name": "Lance, War",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "5 (3)",
+      "level": 5,
+      "points": 10,
+      "itemCost": 5,
+      "enhancementsText": "Penetrating, Reach",
+      "limitersText": "-",
+      "enhancements": [
+        {
+          "id": "penetrating",
+          "name": "Penetrating",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "reach",
+          "name": "Reach",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [],
+      "detailsText": "Penetrating, Reach",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Lance, War\nLevel: 5 (3)\nEnhancements: Penetrating, Reach\nLimiters: -\nPoints: 10\nItem Cost: 5"
+    },
+    {
+      "id": "archaic-melee-longaxe",
+      "name": "Longaxe",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "3 (4)",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "-",
+      "limitersText": "Hands",
+      "enhancements": [],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Hands",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Longaxe\nLevel: 3 (4)\nEnhancements: -\nLimiters: Hands\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-melee-longsword",
+      "name": "Longsword",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "3",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Longsword\nLevel: 3\nEnhancements: -\nLimiters: -\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-melee-mace-heavy",
+      "name": "Mace, Heavy",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "3",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Mace, Heavy\nLevel: 3\nEnhancements: -\nLimiters: -\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-melee-mace-light",
+      "name": "Mace, Light",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "2",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Mace, Light\nLevel: 2\nEnhancements: -\nLimiters: -\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "archaic-melee-maul",
+      "name": "Maul",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "3 (4)",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "-",
+      "limitersText": "Hands",
+      "enhancements": [],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Hands",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Maul\nLevel: 3 (4)\nEnhancements: -\nLimiters: Hands\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-melee-morningstar-flail",
+      "name": "Morningstar Flail",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "3",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Morningstar Flail\nLevel: 3\nEnhancements: -\nLimiters: -\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-melee-nunchaku",
+      "name": "Nunchaku",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "2 (1)",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "Flexible",
+      "limitersText": "-",
+      "enhancements": [
+        {
+          "id": "flexible",
+          "name": "Flexible",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [],
+      "detailsText": "Flexible",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Nunchaku\nLevel: 2 (1)\nEnhancements: Flexible\nLimiters: -\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "archaic-melee-polearm",
+      "name": "Polearm",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "3",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "Reach",
+      "limitersText": "Hands",
+      "enhancements": [
+        {
+          "id": "reach",
+          "name": "Reach",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Reach Hands",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Polearm\nLevel: 3\nEnhancements: Reach\nLimiters: Hands\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-melee-quarterstaff",
+      "name": "Quarterstaff",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "1 (3)",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "-",
+      "limitersText": "Hands, Non-Penetrating",
+      "enhancements": [],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Hands, Non-Penetrating",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Quarterstaff\nLevel: 1 (3)\nEnhancements: -\nLimiters: Hands, Non-Penetrating\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-melee-sap",
+      "name": "Sap",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "2",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "Stun",
+      "limitersText": "Non-Penetrating",
+      "enhancements": [
+        {
+          "id": "stun",
+          "name": "Stun",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Stun Non-Penetrating",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Sap\nLevel: 2\nEnhancements: Stun\nLimiters: Non-Penetrating\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "archaic-melee-scythe",
+      "name": "Scythe",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "3 (4)",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "-",
+      "limitersText": "Hands",
+      "enhancements": [],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Hands",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Scythe\nLevel: 3 (4)\nEnhancements: -\nLimiters: Hands\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-melee-shield-bash",
+      "name": "Shield (Bash)",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "1 (2)",
+      "level": 1,
+      "points": 0,
+      "itemCost": 0,
+      "enhancementsText": "-",
+      "limitersText": "Inaccurate",
+      "enhancements": [],
+      "limiters": [
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Inaccurate",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Shield (Bash)\nLevel: 1 (2)\nEnhancements: -\nLimiters: Inaccurate\nPoints: 0\nItem Cost: 0"
+    },
+    {
+      "id": "archaic-melee-shortsword",
+      "name": "Shortsword",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "2",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Shortsword\nLevel: 2\nEnhancements: -\nLimiters: -\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "archaic-melee-spear",
+      "name": "Spear",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "2",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Spear\nLevel: 2\nEnhancements: -\nLimiters: -\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "archaic-melee-wakizashi",
+      "name": "Wakizashi",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "2",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Wakizashi\nLevel: 2\nEnhancements: -\nLimiters: -\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "archaic-melee-warhammer",
+      "name": "Warhammer",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "3",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Warhammer\nLevel: 3\nEnhancements: -\nLimiters: -\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-melee-weighted-chain",
+      "name": "Weighted Chain",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "1 (2)",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Flexible",
+      "limitersText": "Backlash, Inaccurate",
+      "enhancements": [
+        {
+          "id": "flexible",
+          "name": "Flexible",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "backlash",
+          "name": "Backlash",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Flexible Backlash, Inaccurate",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Weighted Chain\nLevel: 1 (2)\nEnhancements: Flexible\nLimiters: Backlash, Inaccurate\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-melee-whip",
+      "name": "Whip",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "2 (1)",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "Flexible, Range 1",
+      "limitersText": "Non-Penetrating",
+      "enhancements": [
+        {
+          "id": "flexible",
+          "name": "Flexible",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Flexible, Range 1 Non-Penetrating",
+      "rangeRank": 1,
+      "musclePowered": false,
+      "rulesText": "Whip\nLevel: 2 (1)\nEnhancements: Flexible, Range 1\nLimiters: Non-Penetrating\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "archaic-melee-wooden-stake",
+      "name": "Wooden Stake",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Melee",
+      "sourcePage": 204,
+      "attackMode": "melee",
+      "levelText": "1",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Potent 1",
+      "limitersText": "Non-Penetrating",
+      "enhancements": [
+        {
+          "id": "potent",
+          "name": "Potent",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Potent 1 Non-Penetrating",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Wooden Stake\nLevel: 1\nEnhancements: Potent 1\nLimiters: Non-Penetrating\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-ranged-axe-throwing",
+      "name": "Axe, Throwing",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "1 (2)",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Potent 1, Range 2",
+      "limitersText": "Ammo 3, Inaccurate",
+      "enhancements": [
+        {
+          "id": "potent",
+          "name": "Potent",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 3
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Potent 1, Range 2 Ammo 3, Inaccurate",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Axe, Throwing\nLevel: 1 (2)\nEnhancements: Potent 1, Range 2\nLimiters: Ammo 3, Inaccurate\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-ranged-blowgun",
+      "name": "Blowgun",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "1",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Range 2",
+      "limitersText": "Non-Penetrating 2",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Range 2 Non-Penetrating 2",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Blowgun\nLevel: 1\nEnhancements: Range 2\nLimiters: Non-Penetrating 2\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-ranged-bolas",
+      "name": "Bolas",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "1 (0)",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Range 2, Tangle 2",
+      "limitersText": "Ammo 3, Non-Penetrating 2",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "tangle",
+          "name": "Tangle",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 3
+        },
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Range 2, Tangle 2 Ammo 3, Non-Penetrating 2",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Bolas\nLevel: 1 (0)\nEnhancements: Range 2, Tangle 2\nLimiters: Ammo 3, Non-Penetrating 2\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-ranged-crossbow-hand",
+      "name": "Crossbow, Hand",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "3 (1)",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "Range 2",
+      "limitersText": "-",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [],
+      "detailsText": "Range 2",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Crossbow, Hand\nLevel: 3 (1)\nEnhancements: Range 2\nLimiters: -\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-ranged-crossbow-heavy",
+      "name": "Crossbow, Heavy",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "6 (4)",
+      "level": 6,
+      "points": 12,
+      "itemCost": 6,
+      "enhancementsText": "Penetrating 2, Range 3",
+      "limitersText": "Activation 2, Hands",
+      "enhancements": [
+        {
+          "id": "penetrating",
+          "name": "Penetrating",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Penetrating 2, Range 3 Activation 2, Hands",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Crossbow, Heavy\nLevel: 6 (4)\nEnhancements: Penetrating 2, Range 3\nLimiters: Activation 2, Hands\nPoints: 12\nItem Cost: 6"
+    },
+    {
+      "id": "archaic-ranged-crossbow-light",
+      "name": "Crossbow, Light",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "3 (2)",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "Penetrating, Range 2",
+      "limitersText": "Activation 1, Hands",
+      "enhancements": [
+        {
+          "id": "penetrating",
+          "name": "Penetrating",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Penetrating, Range 2 Activation 1, Hands",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Crossbow, Light\nLevel: 3 (2)\nEnhancements: Penetrating, Range 2\nLimiters: Activation 1, Hands\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-ranged-knife-throwing",
+      "name": "Knife, Throwing",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "1",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Potent 1, Range 2",
+      "limitersText": "Ammo 3",
+      "enhancements": [
+        {
+          "id": "potent",
+          "name": "Potent",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 3
+        }
+      ],
+      "detailsText": "Potent 1, Range 2 Ammo 3",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Knife, Throwing\nLevel: 1\nEnhancements: Potent 1, Range 2\nLimiters: Ammo 3\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-ranged-lasso",
+      "name": "Lasso",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "1 (-1)",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Range 2, Tangle 2",
+      "limitersText": "Inaccurate 2",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "tangle",
+          "name": "Tangle",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Range 2, Tangle 2 Inaccurate 2",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Lasso\nLevel: 1 (-1)\nEnhancements: Range 2, Tangle 2\nLimiters: Inaccurate 2\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-ranged-longbow",
+      "name": "Longbow",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "5 (3)",
+      "level": 5,
+      "points": 10,
+      "itemCost": 5,
+      "enhancementsText": "Range 3",
+      "limitersText": "Hands",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Range 3 Hands",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Longbow\nLevel: 5 (3)\nEnhancements: Range 3\nLimiters: Hands\nPoints: 10\nItem Cost: 5"
+    },
+    {
+      "id": "archaic-ranged-longbow-double-curved",
+      "name": "Longbow, Double-Curved",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "6 (3)",
+      "level": 6,
+      "points": 12,
+      "itemCost": 6,
+      "enhancementsText": "Muscle, Range 3",
+      "limitersText": "Hands",
+      "enhancements": [
+        {
+          "id": "muscle",
+          "name": "Muscle",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Muscle, Range 3 Hands",
+      "rangeRank": 3,
+      "musclePowered": true,
+      "rulesText": "Longbow, Double-Curved\nLevel: 6 (3)\nEnhancements: Muscle, Range 3\nLimiters: Hands\nPoints: 12\nItem Cost: 6"
+    },
+    {
+      "id": "archaic-ranged-net",
+      "name": "Net",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "1 (-1)",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Range 0, Tangle 3",
+      "limitersText": "Inaccurate",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "tangle",
+          "name": "Tangle",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Range 0, Tangle 3 Inaccurate",
+      "rangeRank": 1,
+      "musclePowered": false,
+      "rulesText": "Net\nLevel: 1 (-1)\nEnhancements: Range 0, Tangle 3\nLimiters: Inaccurate\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-ranged-net-fighting",
+      "name": "Net, Fighting",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "1 (0)",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Range 0, Tangle 3",
+      "limitersText": "Inaccurate, Non-Penetrating",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "tangle",
+          "name": "Tangle",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Range 0, Tangle 3 Inaccurate, Non-Penetrating",
+      "rangeRank": 1,
+      "musclePowered": false,
+      "rulesText": "Net, Fighting\nLevel: 1 (0)\nEnhancements: Range 0, Tangle 3\nLimiters: Inaccurate, Non-Penetrating\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-ranged-rock-or-object-huge",
+      "name": "Rock or Object, Huge",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "7",
+      "level": 7,
+      "points": 14,
+      "itemCost": 7,
+      "enhancementsText": "Range 2",
+      "limitersText": "Inaccurate 2",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Range 2 Inaccurate 2",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Rock or Object, Huge\nLevel: 7\nEnhancements: Range 2\nLimiters: Inaccurate 2\nPoints: 14\nItem Cost: 7"
+    },
+    {
+      "id": "archaic-ranged-rock-or-object-large",
+      "name": "Rock or Object, Large",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "5",
+      "level": 5,
+      "points": 10,
+      "itemCost": 5,
+      "enhancementsText": "Range 2",
+      "limitersText": "Inaccurate 2",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Range 2 Inaccurate 2",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Rock or Object, Large\nLevel: 5\nEnhancements: Range 2\nLimiters: Inaccurate 2\nPoints: 10\nItem Cost: 5"
+    },
+    {
+      "id": "archaic-ranged-rock-or-object-medium",
+      "name": "Rock or Object, Medium",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "3",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "Range 2",
+      "limitersText": "Inaccurate 2",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Range 2 Inaccurate 2",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Rock or Object, Medium\nLevel: 3\nEnhancements: Range 2\nLimiters: Inaccurate 2\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-ranged-rock-or-object-small",
+      "name": "Rock or Object, Small",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "1",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Range 2",
+      "limitersText": "Inaccurate 2",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Range 2 Inaccurate 2",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Rock or Object, Small\nLevel: 1\nEnhancements: Range 2\nLimiters: Inaccurate 2\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-ranged-sling",
+      "name": "Sling",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "1",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Range 2",
+      "limitersText": "Inaccurate, Non-Penetrating",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Range 2 Inaccurate, Non-Penetrating",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Sling\nLevel: 1\nEnhancements: Range 2\nLimiters: Inaccurate, Non-Penetrating\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-ranged-shortbow",
+      "name": "Shortbow",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "4 (2)",
+      "level": 4,
+      "points": 8,
+      "itemCost": 4,
+      "enhancementsText": "Range 3",
+      "limitersText": "Hands",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Range 3 Hands",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Shortbow\nLevel: 4 (2)\nEnhancements: Range 3\nLimiters: Hands\nPoints: 8\nItem Cost: 4"
+    },
+    {
+      "id": "archaic-ranged-shuriken",
+      "name": "Shuriken",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "1",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Potent 1, Range 2",
+      "limitersText": "Ammo 2, Non-Penetrating",
+      "enhancements": [
+        {
+          "id": "potent",
+          "name": "Potent",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Potent 1, Range 2 Ammo 2, Non-Penetrating",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Shuriken\nLevel: 1\nEnhancements: Potent 1, Range 2\nLimiters: Ammo 2, Non-Penetrating\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-ranged-spear-throwing",
+      "name": "Spear, Throwing",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Ranged",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "1 (2)",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Range 2",
+      "limitersText": "Ammo 3",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 3
+        }
+      ],
+      "detailsText": "Range 2 Ammo 3",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Spear, Throwing\nLevel: 1 (2)\nEnhancements: Range 2\nLimiters: Ammo 3\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-siege-ballista-small",
+      "name": "Ballista, Small",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Siege",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "8 (10)",
+      "level": 8,
+      "points": 16,
+      "itemCost": 8,
+      "enhancementsText": "Range 3",
+      "limitersText": "Activation 3, Hands, Inaccurate",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 3
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Range 3 Activation 3, Hands, Inaccurate",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Ballista, Small\nLevel: 8 (10)\nEnhancements: Range 3\nLimiters: Activation 3, Hands, Inaccurate\nPoints: 16\nItem Cost: 8"
+    },
+    {
+      "id": "archaic-siege-ballista-medium",
+      "name": "Ballista, Medium",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Siege",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "10 (12)",
+      "level": 10,
+      "points": 20,
+      "itemCost": 10,
+      "enhancementsText": "Range 3",
+      "limitersText": "Activation 3, Hands, Inaccurate",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 3
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Range 3 Activation 3, Hands, Inaccurate",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Ballista, Medium\nLevel: 10 (12)\nEnhancements: Range 3\nLimiters: Activation 3, Hands, Inaccurate\nPoints: 20\nItem Cost: 10"
+    },
+    {
+      "id": "archaic-siege-ballista-large",
+      "name": "Ballista, Large",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Siege",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "12 (14)",
+      "level": 12,
+      "points": 24,
+      "itemCost": 12,
+      "enhancementsText": "Range 4",
+      "limitersText": "Activation 4, Hands, Inaccurate",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 4
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 4
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Range 4 Activation 4, Hands, Inaccurate",
+      "rangeRank": 4,
+      "musclePowered": false,
+      "rulesText": "Ballista, Large\nLevel: 12 (14)\nEnhancements: Range 4\nLimiters: Activation 4, Hands, Inaccurate\nPoints: 24\nItem Cost: 12"
+    },
+    {
+      "id": "archaic-siege-catapult-large",
+      "name": "Catapult, Large",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Siege",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "19 (20)",
+      "level": 19,
+      "points": 38,
+      "itemCost": 19,
+      "enhancementsText": "Area 2, Indirect, Range 4",
+      "limitersText": "Activation 2, Assisted 3, Hands, Inaccurate 2",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 4
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "assisted",
+          "name": "Assisted",
+          "kind": "limiter",
+          "assignments": 3
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Area 2, Indirect, Range 4 Activation 2, Assisted 3, Hands, Inaccurate 2",
+      "rangeRank": 4,
+      "musclePowered": false,
+      "rulesText": "Catapult, Large\nLevel: 19 (20)\nEnhancements: Area 2, Indirect, Range 4\nLimiters: Activation 2, Assisted 3, Hands, Inaccurate 2\nPoints: 38\nItem Cost: 19"
+    },
+    {
+      "id": "archaic-siege-catapult-medium",
+      "name": "Catapult, Medium",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Siege",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "16 (18)",
+      "level": 16,
+      "points": 32,
+      "itemCost": 16,
+      "enhancementsText": "Area 1, Indirect, Range 3",
+      "limitersText": "Activation 2, Assisted 2, Hands, Inaccurate 2",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "assisted",
+          "name": "Assisted",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Area 1, Indirect, Range 3 Activation 2, Assisted 2, Hands, Inaccurate 2",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Catapult, Medium\nLevel: 16 (18)\nEnhancements: Area 1, Indirect, Range 3\nLimiters: Activation 2, Assisted 2, Hands, Inaccurate 2\nPoints: 32\nItem Cost: 16"
+    },
+    {
+      "id": "archaic-siege-catapult-small",
+      "name": "Catapult, Small",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Siege",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "14 (16)",
+      "level": 14,
+      "points": 28,
+      "itemCost": 14,
+      "enhancementsText": "Indirect, Range 3",
+      "limitersText": "Activation 2, Assisted 2, Hands, Inaccurate 1",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "assisted",
+          "name": "Assisted",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Indirect, Range 3 Activation 2, Assisted 2, Hands, Inaccurate 1",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Catapult, Small\nLevel: 14 (16)\nEnhancements: Indirect, Range 3\nLimiters: Activation 2, Assisted 2, Hands, Inaccurate 1\nPoints: 28\nItem Cost: 14"
+    },
+    {
+      "id": "archaic-siege-ram-large",
+      "name": "Ram, Large",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Siege",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "6 (12)",
+      "level": 6,
+      "points": 12,
+      "itemCost": 6,
+      "enhancementsText": "-",
+      "limitersText": "Activation 2, Assisted 3, Hands",
+      "enhancements": [],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "assisted",
+          "name": "Assisted",
+          "kind": "limiter",
+          "assignments": 3
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Activation 2, Assisted 3, Hands",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Ram, Large\nLevel: 6 (12)\nEnhancements: -\nLimiters: Activation 2, Assisted 3, Hands\nPoints: 12\nItem Cost: 6"
+    },
+    {
+      "id": "archaic-siege-ram-medium",
+      "name": "Ram, Medium",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Siege",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "5 (10)",
+      "level": 5,
+      "points": 10,
+      "itemCost": 5,
+      "enhancementsText": "-",
+      "limitersText": "Activation 2, Assisted 2, Hands",
+      "enhancements": [],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "assisted",
+          "name": "Assisted",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Activation 2, Assisted 2, Hands",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Ram, Medium\nLevel: 5 (10)\nEnhancements: -\nLimiters: Activation 2, Assisted 2, Hands\nPoints: 10\nItem Cost: 5"
+    },
+    {
+      "id": "archaic-siege-ram-small",
+      "name": "Ram, Small",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Archaic Siege",
+      "sourcePage": 205,
+      "attackMode": "ranged",
+      "levelText": "3 (6)",
+      "level": 3,
+      "points": 6,
+      "itemCost": 3,
+      "enhancementsText": "-",
+      "limitersText": "Activation 1, Assisted 1, Hands",
+      "enhancements": [],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "assisted",
+          "name": "Assisted",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Activation 1, Assisted 1, Hands",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Ram, Small\nLevel: 3 (6)\nEnhancements: -\nLimiters: Activation 1, Assisted 1, Hands\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "modern-melee-battle-yo-yo",
+      "name": "Battle Yo-Yo",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Melee",
+      "sourcePage": 205,
+      "attackMode": "melee",
+      "levelText": "2",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "Flexible",
+      "limitersText": "Non-Penetrating",
+      "enhancements": [
+        {
+          "id": "flexible",
+          "name": "Flexible",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Flexible Non-Penetrating",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Battle Yo-Yo\nLevel: 2\nEnhancements: Flexible\nLimiters: Non-Penetrating\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "modern-melee-chainsaw",
+      "name": "Chainsaw",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Melee",
+      "sourcePage": 205,
+      "attackMode": "melee",
+      "levelText": "2",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "Penetrating",
+      "limitersText": "Hands",
+      "enhancements": [
+        {
+          "id": "penetrating",
+          "name": "Penetrating",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Penetrating Hands",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Chainsaw\nLevel: 2\nEnhancements: Penetrating\nLimiters: Hands\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "modern-melee-machete",
+      "name": "Machete",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Melee",
+      "sourcePage": 205,
+      "attackMode": "melee",
+      "levelText": "2",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Machete\nLevel: 2\nEnhancements: -\nLimiters: -\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "modern-melee-pepper-spray-or-mace",
+      "name": "Pepper Spray or Mace",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Melee",
+      "sourcePage": 205,
+      "attackMode": "melee",
+      "levelText": "2 (1)",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "Irritant 2, Range 1, Stun",
+      "limitersText": "Ammo 2, Toxic",
+      "enhancements": [
+        {
+          "id": "irritant",
+          "name": "Irritant",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "stun",
+          "name": "Stun",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "toxic",
+          "name": "Toxic",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Irritant 2, Range 1, Stun Ammo 2, Toxic",
+      "rangeRank": 1,
+      "musclePowered": false,
+      "rulesText": "Pepper Spray or Mace\nLevel: 2 (1)\nEnhancements: Irritant 2, Range 1, Stun\nLimiters: Ammo 2, Toxic\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "modern-melee-police-baton",
+      "name": "Police Baton",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Melee",
+      "sourcePage": 205,
+      "attackMode": "melee",
+      "levelText": "2",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "Stun",
+      "limitersText": "Non-Penetrating 4 2 Stunner 2 (-1) Incapacitating 4 Ammo 1",
+      "enhancements": [
+        {
+          "id": "stun",
+          "name": "Stun",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 4
+        }
+      ],
+      "detailsText": "Stun Non-Penetrating 4 2 Stunner 2 (-1) Incapacitating 4 Ammo 1",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Police Baton\nLevel: 2\nEnhancements: Stun\nLimiters: Non-Penetrating 4 2 Stunner 2 (-1) Incapacitating 4 Ammo 1\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "modern-melee-sword-cane",
+      "name": "Sword Cane",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Melee",
+      "sourcePage": 205,
+      "attackMode": "melee",
+      "levelText": "2",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Sword Cane\nLevel: 2\nEnhancements: -\nLimiters: -\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "modern-ranged-flame-thrower",
+      "name": "Flame Thrower",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "6 (2)",
+      "level": 6,
+      "points": 12,
+      "itemCost": 6,
+      "enhancementsText": "Continuing 3, Range 2, Spreading 2",
+      "limitersText": "Ammo 1, Hands, Inaccurate",
+      "enhancements": [
+        {
+          "id": "continuing",
+          "name": "Continuing",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "spreading",
+          "name": "Spreading",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Continuing 3, Range 2, Spreading 2 Ammo 1, Hands, Inaccurate",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Flame Thrower\nLevel: 6 (2)\nEnhancements: Continuing 3, Range 2, Spreading 2\nLimiters: Ammo 1, Hands, Inaccurate\nPoints: 12\nItem Cost: 6"
+    },
+    {
+      "id": "modern-ranged-gatling-gun",
+      "name": "Gatling Gun",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "5 (4)",
+      "level": 5,
+      "points": 10,
+      "itemCost": 5,
+      "enhancementsText": "Autofire 3, Range 3",
+      "limitersText": "Ammo 1, Assisted 2, Hands, Inaccurate",
+      "enhancements": [
+        {
+          "id": "autofire",
+          "name": "Autofire",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "assisted",
+          "name": "Assisted",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Autofire 3, Range 3 Ammo 1, Assisted 2, Hands, Inaccurate",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Gatling Gun\nLevel: 5 (4)\nEnhancements: Autofire 3, Range 3\nLimiters: Ammo 1, Assisted 2, Hands, Inaccurate\nPoints: 10\nItem Cost: 5"
+    },
+    {
+      "id": "modern-ranged-grenade-concussion",
+      "name": "Grenade, Concussion",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "6 (8)",
+      "level": 6,
+      "points": 12,
+      "itemCost": 6,
+      "enhancementsText": "Area 1, Range 2",
+      "limitersText": "Ammo 4, Inaccurate",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 4
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Area 1, Range 2 Ammo 4, Inaccurate",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Grenade, Concussion\nLevel: 6 (8)\nEnhancements: Area 1, Range 2\nLimiters: Ammo 4, Inaccurate\nPoints: 12\nItem Cost: 6"
+    },
+    {
+      "id": "modern-ranged-grenade-flash-bang",
+      "name": "Grenade, Flash-Bang",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "1 (-1)",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Area 2, Flare (Hearing) 2, Flare (Sight) 2, Range 2",
+      "limitersText": "Ammo 4, Toxic 2",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "flare",
+          "name": "Flare",
+          "kind": "enhancement",
+          "assignments": 4
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 4
+        },
+        {
+          "id": "toxic",
+          "name": "Toxic",
+          "kind": "limiter",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Area 2, Flare (Hearing) 2, Flare (Sight) 2, Range 2 Ammo 4, Toxic 2",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Grenade, Flash-Bang\nLevel: 1 (-1)\nEnhancements: Area 2, Flare (Hearing) 2, Flare (Sight) 2, Range 2\nLimiters: Ammo 4, Toxic 2\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "modern-ranged-grenade-fragmentation",
+      "name": "Grenade, Fragmentation",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "5 (6)",
+      "level": 5,
+      "points": 10,
+      "itemCost": 5,
+      "enhancementsText": "Area 2, Range 2",
+      "limitersText": "Ammo 4, Inaccurate",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 4
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Area 2, Range 2 Ammo 4, Inaccurate",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Grenade, Fragmentation\nLevel: 5 (6)\nEnhancements: Area 2, Range 2\nLimiters: Ammo 4, Inaccurate\nPoints: 10\nItem Cost: 5"
+    },
+    {
+      "id": "modern-ranged-grenade-smoke",
+      "name": "Grenade, Smoke",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "1 (-1)",
+      "level": 1,
+      "points": 0,
+      "itemCost": 0,
+      "enhancementsText": "Area 2, Duration 4, Range 2",
+      "limitersText": "Ammo 4, Toxic 2 + Sensory",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "duration",
+          "name": "Duration",
+          "kind": "enhancement",
+          "assignments": 4
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 4
+        },
+        {
+          "id": "toxic",
+          "name": "Toxic",
+          "kind": "limiter",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Area 2, Duration 4, Range 2 Ammo 4, Toxic 2 + Sensory",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Grenade, Smoke\nLevel: 1 (-1)\nEnhancements: Area 2, Duration 4, Range 2\nLimiters: Ammo 4, Toxic 2 + Sensory\nPoints: 0\nItem Cost: 0"
+    },
+    {
+      "id": "modern-ranged-block-sight-level-1",
+      "name": "Block (Sight) Level 1",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "3",
+      "level": 3,
+      "points": 1,
+      "itemCost": 0,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Block (Sight) Level 1\nLevel: 3\nEnhancements: -\nLimiters: -\nPoints: 1\nItem Cost: 0"
+    },
+    {
+      "id": "modern-ranged-grenade-tear-gas",
+      "name": "Grenade, Tear Gas",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "3 (-1)",
+      "level": 3,
+      "points": 0,
+      "itemCost": 0,
+      "enhancementsText": "Area 2, Duration 3, Irritant 3, Range 2",
+      "limitersText": "Ammo 4, Toxic 2 + Sensory",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "duration",
+          "name": "Duration",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "irritant",
+          "name": "Irritant",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 4
+        },
+        {
+          "id": "toxic",
+          "name": "Toxic",
+          "kind": "limiter",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Area 2, Duration 3, Irritant 3, Range 2 Ammo 4, Toxic 2 + Sensory",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Grenade, Tear Gas\nLevel: 3 (-1)\nEnhancements: Area 2, Duration 3, Irritant 3, Range 2\nLimiters: Ammo 4, Toxic 2 + Sensory\nPoints: 0\nItem Cost: 0"
+    },
+    {
+      "id": "modern-ranged-block-sight-level-1",
+      "name": "Block (Sight) Level 1",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "7",
+      "level": 7,
+      "points": 3,
+      "itemCost": 0,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Block (Sight) Level 1\nLevel: 7\nEnhancements: -\nLimiters: -\nPoints: 3\nItem Cost: 0"
+    },
+    {
+      "id": "modern-ranged-machine-gun-heavy",
+      "name": "Machine Gun, Heavy",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "12 (6)",
+      "level": 12,
+      "points": 24,
+      "itemCost": 12,
+      "enhancementsText": "Autofire 3, Penetrating 1, Range 4",
+      "limitersText": "Ammo 1, Hands",
+      "enhancements": [
+        {
+          "id": "autofire",
+          "name": "Autofire",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "penetrating",
+          "name": "Penetrating",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 4
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Autofire 3, Penetrating 1, Range 4 Ammo 1, Hands",
+      "rangeRank": 4,
+      "musclePowered": false,
+      "rulesText": "Machine Gun, Heavy\nLevel: 12 (6)\nEnhancements: Autofire 3, Penetrating 1, Range 4\nLimiters: Ammo 1, Hands\nPoints: 24\nItem Cost: 12"
+    },
+    {
+      "id": "modern-ranged-machine-gun-light",
+      "name": "Machine Gun, Light",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "10 (5)",
+      "level": 10,
+      "points": 20,
+      "itemCost": 10,
+      "enhancementsText": "Autofire 3, Range 4",
+      "limitersText": "Ammo 1, Hands",
+      "enhancements": [
+        {
+          "id": "autofire",
+          "name": "Autofire",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 4
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Autofire 3, Range 4 Ammo 1, Hands",
+      "rangeRank": 4,
+      "musclePowered": false,
+      "rulesText": "Machine Gun, Light\nLevel: 10 (5)\nEnhancements: Autofire 3, Range 4\nLimiters: Ammo 1, Hands\nPoints: 20\nItem Cost: 10"
+    },
+    {
+      "id": "modern-ranged-paintball-marker",
+      "name": "Paintball Marker",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "1 (-1)",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Range 2, Unique: Marks",
+      "limitersText": "Hands, Inaccurate 2, Unreliable 2",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "unique-weapon-enhancement",
+          "name": "Unique",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "unreliable",
+          "name": "Unreliable",
+          "kind": "limiter",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Range 2, Unique: Marks Hands, Inaccurate 2, Unreliable 2",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Paintball Marker\nLevel: 1 (-1)\nEnhancements: Range 2, Unique: Marks\nLimiters: Hands, Inaccurate 2, Unreliable 2\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "modern-ranged-pistol-heavy",
+      "name": "Pistol, Heavy",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "7 (4)",
+      "level": 7,
+      "points": 14,
+      "itemCost": 7,
+      "enhancementsText": "Range 3",
+      "limitersText": "-",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [],
+      "detailsText": "Range 3",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Pistol, Heavy\nLevel: 7 (4)\nEnhancements: Range 3\nLimiters: -\nPoints: 14\nItem Cost: 7"
+    },
+    {
+      "id": "modern-ranged-pistol-machine",
+      "name": "Pistol, Machine",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "7 (3)",
+      "level": 7,
+      "points": 14,
+      "itemCost": 7,
+      "enhancementsText": "Autofire 3, Range 3",
+      "limitersText": "Ammo 1, Inaccurate",
+      "enhancements": [
+        {
+          "id": "autofire",
+          "name": "Autofire",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Autofire 3, Range 3 Ammo 1, Inaccurate",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Pistol, Machine\nLevel: 7 (3)\nEnhancements: Autofire 3, Range 3\nLimiters: Ammo 1, Inaccurate\nPoints: 14\nItem Cost: 7"
+    },
+    {
+      "id": "modern-ranged-pistol-light",
+      "name": "Pistol, Light",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "5 (3)",
+      "level": 5,
+      "points": 10,
+      "itemCost": 5,
+      "enhancementsText": "Range 3",
+      "limitersText": "Inaccurate",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Range 3 Inaccurate",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Pistol, Light\nLevel: 5 (3)\nEnhancements: Range 3\nLimiters: Inaccurate\nPoints: 10\nItem Cost: 5"
+    },
+    {
+      "id": "modern-ranged-pistol-medium",
+      "name": "Pistol, Medium",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "6 (3)",
+      "level": 6,
+      "points": 12,
+      "itemCost": 6,
+      "enhancementsText": "Range 3",
+      "limitersText": "-",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [],
+      "detailsText": "Range 3",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Pistol, Medium\nLevel: 6 (3)\nEnhancements: Range 3\nLimiters: -\nPoints: 12\nItem Cost: 6"
+    },
+    {
+      "id": "modern-ranged-rifle-assault",
+      "name": "Rifle, Assault",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "9 (4)",
+      "level": 9,
+      "points": 18,
+      "itemCost": 9,
+      "enhancementsText": "Autofire 3, Range 4",
+      "limitersText": "Ammo 1, Hands",
+      "enhancements": [
+        {
+          "id": "autofire",
+          "name": "Autofire",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 4
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Autofire 3, Range 4 Ammo 1, Hands",
+      "rangeRank": 4,
+      "musclePowered": false,
+      "rulesText": "Rifle, Assault\nLevel: 9 (4)\nEnhancements: Autofire 3, Range 4\nLimiters: Ammo 1, Hands\nPoints: 18\nItem Cost: 9"
+    },
+    {
+      "id": "modern-ranged-rifle-high-powered",
+      "name": "Rifle, High-Powered",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "7 (4)",
+      "level": 7,
+      "points": 14,
+      "itemCost": 7,
+      "enhancementsText": "Range 4",
+      "limitersText": "Hands",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 4
+        }
+      ],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Range 4 Hands",
+      "rangeRank": 4,
+      "musclePowered": false,
+      "rulesText": "Rifle, High-Powered\nLevel: 7 (4)\nEnhancements: Range 4\nLimiters: Hands\nPoints: 14\nItem Cost: 7"
+    },
+    {
+      "id": "modern-ranged-rifle-sniper",
+      "name": "Rifle, Sniper",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "10 (5)",
+      "level": 10,
+      "points": 20,
+      "itemCost": 10,
+      "enhancementsText": "Accurate 2, Range 4",
+      "limitersText": "Hands",
+      "enhancements": [
+        {
+          "id": "accurate",
+          "name": "Accurate",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 4
+        }
+      ],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Accurate 2, Range 4 Hands",
+      "rangeRank": 4,
+      "musclePowered": false,
+      "rulesText": "Rifle, Sniper\nLevel: 10 (5)\nEnhancements: Accurate 2, Range 4\nLimiters: Hands\nPoints: 20\nItem Cost: 10"
+    },
+    {
+      "id": "modern-ranged-rotary-cannon",
+      "name": "Rotary Cannon",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "24 (10)",
+      "level": 24,
+      "points": 48,
+      "itemCost": 24,
+      "enhancementsText": "Autofire 3, Penetrating 4, Range 4, Spreading 3",
+      "limitersText": "-",
+      "enhancements": [
+        {
+          "id": "autofire",
+          "name": "Autofire",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "penetrating",
+          "name": "Penetrating",
+          "kind": "enhancement",
+          "assignments": 4
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 4
+        },
+        {
+          "id": "spreading",
+          "name": "Spreading",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [],
+      "detailsText": "Autofire 3, Penetrating 4, Range 4, Spreading 3",
+      "rangeRank": 4,
+      "musclePowered": false,
+      "rulesText": "Rotary Cannon\nLevel: 24 (10)\nEnhancements: Autofire 3, Penetrating 4, Range 4, Spreading 3\nLimiters: -\nPoints: 48\nItem Cost: 24"
+    },
+    {
+      "id": "modern-ranged-shotgun",
+      "name": "Shotgun",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "6 (5)",
+      "level": 6,
+      "points": 0,
+      "itemCost": 0,
+      "enhancementsText": "Range 3, Spreading",
+      "limitersText": "Ammo 1, Hands, Non-Penetrating 12 6 Shotgun, Double-Barrelled",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "spreading",
+          "name": "Spreading",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 12
+        }
+      ],
+      "detailsText": "Range 3, Spreading Ammo 1, Hands, Non-Penetrating 12 6 Shotgun, Double-Barrelled",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Shotgun\nLevel: 6 (5)\nEnhancements: Range 3, Spreading\nLimiters: Ammo 1, Hands, Non-Penetrating 12 6 Shotgun, Double-Barrelled\nPoints: 0\nItem Cost: 0"
+    },
+    {
+      "id": "modern-ranged-heavy",
+      "name": "Heavy",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "6",
+      "level": 6,
+      "points": 12,
+      "itemCost": 6,
+      "enhancementsText": "Range 3, Spreading",
+      "limitersText": "Ammo 2, Hands, Non-Penetrating",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "spreading",
+          "name": "Spreading",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Range 3, Spreading Ammo 2, Hands, Non-Penetrating",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Heavy\nLevel: 6\nEnhancements: Range 3, Spreading\nLimiters: Ammo 2, Hands, Non-Penetrating\nPoints: 12\nItem Cost: 6"
+    },
+    {
+      "id": "modern-ranged-slingshot",
+      "name": "Slingshot",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "1",
+      "level": 1,
+      "points": 2,
+      "itemCost": 1,
+      "enhancementsText": "Range 2",
+      "limitersText": "Inaccurate, Non-Penetrating",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "non-penetrating",
+          "name": "Non-Penetrating",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Range 2 Inaccurate, Non-Penetrating",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Slingshot\nLevel: 1\nEnhancements: Range 2\nLimiters: Inaccurate, Non-Penetrating\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "modern-ranged-submachine-gun",
+      "name": "Submachine Gun",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "7 (3)",
+      "level": 7,
+      "points": 14,
+      "itemCost": 7,
+      "enhancementsText": "Autofire 3, Range 3",
+      "limitersText": "Ammo 1, Hands",
+      "enhancements": [
+        {
+          "id": "autofire",
+          "name": "Autofire",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Autofire 3, Range 3 Ammo 1, Hands",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Submachine Gun\nLevel: 7 (3)\nEnhancements: Autofire 3, Range 3\nLimiters: Ammo 1, Hands\nPoints: 14\nItem Cost: 7"
+    },
+    {
+      "id": "modern-ranged-taser",
+      "name": "Taser",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "2 (-1)",
+      "level": 2,
+      "points": 4,
+      "itemCost": 2,
+      "enhancementsText": "Incapacitating 4, Range 2",
+      "limitersText": "Activation 1, Ammo 1, Inaccurate",
+      "enhancements": [
+        {
+          "id": "incapacitating",
+          "name": "Incapacitating",
+          "kind": "enhancement",
+          "assignments": 4
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Incapacitating 4, Range 2 Activation 1, Ammo 1, Inaccurate",
+      "rangeRank": 2,
+      "musclePowered": false,
+      "rulesText": "Taser\nLevel: 2 (-1)\nEnhancements: Incapacitating 4, Range 2\nLimiters: Activation 1, Ammo 1, Inaccurate\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "modern-ranged-water-cannon",
+      "name": "Water Cannon",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ranged",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "9 (4)",
+      "level": 9,
+      "points": 18,
+      "itemCost": 9,
+      "enhancementsText": "Range 3, Spreading 2, Stun",
+      "limitersText": "Hands",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "spreading",
+          "name": "Spreading",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "stun",
+          "name": "Stun",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Range 3, Spreading 2, Stun Hands",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Water Cannon\nLevel: 9 (4)\nEnhancements: Range 3, Spreading 2, Stun\nLimiters: Hands\nPoints: 18\nItem Cost: 9"
+    },
+    {
+      "id": "modern-ordnance-rocket-launcher",
+      "name": "Rocket Launcher",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ordnance",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "12",
+      "level": 12,
+      "points": 24,
+      "itemCost": 12,
+      "enhancementsText": "Area 2, Penetrating, Range 3",
+      "limitersText": "Activation 1, Backblast 1, Ammo 2, Hands, Inaccurate",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "penetrating",
+          "name": "Penetrating",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "backblast",
+          "name": "Backblast",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "inaccurate",
+          "name": "Inaccurate",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Area 2, Penetrating, Range 3 Activation 1, Backblast 1, Ammo 2, Hands, Inaccurate",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Rocket Launcher\nLevel: 12\nEnhancements: Area 2, Penetrating, Range 3\nLimiters: Activation 1, Backblast 1, Ammo 2, Hands, Inaccurate\nPoints: 24\nItem Cost: 12"
+    },
+    {
+      "id": "modern-ordnance-stinger-missile",
+      "name": "Stinger Missile",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ordnance",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "15",
+      "level": 15,
+      "points": 0,
+      "itemCost": 0,
+      "enhancementsText": "Area 2, Homing: Infrared, Penetrating, Range 5",
+      "limitersText": "Activation 2, Backblast, Ammo 4, Environmental 1",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "penetrating",
+          "name": "Penetrating",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 5
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "backblast",
+          "name": "Backblast",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 4
+        },
+        {
+          "id": "environmental",
+          "name": "Environmental",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Area 2, Homing: Infrared, Penetrating, Range 5 Activation 2, Backblast, Ammo 4, Environmental 1",
+      "rangeRank": 5,
+      "musclePowered": false,
+      "rulesText": "Stinger Missile\nLevel: 15\nEnhancements: Area 2, Homing: Infrared, Penetrating, Range 5\nLimiters: Activation 2, Backblast, Ammo 4, Environmental 1\nPoints: 0\nItem Cost: 0"
+    },
+    {
+      "id": "modern-ordnance-air-targets-stoppable-1",
+      "name": "(Air Targets), Stoppable 1",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ordnance",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "30",
+      "level": 30,
+      "points": 15,
+      "itemCost": 0,
+      "enhancementsText": "-",
+      "limitersText": "-",
+      "enhancements": [],
+      "limiters": [],
+      "detailsText": "",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "(Air Targets), Stoppable 1\nLevel: 30\nEnhancements: -\nLimiters: -\nPoints: 15\nItem Cost: 0"
+    },
+    {
+      "id": "modern-ordnance-tank-gun-120mm-heat",
+      "name": "Tank Gun, 120mm Heat",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ordnance",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "21 (12)",
+      "level": 21,
+      "points": 42,
+      "itemCost": 21,
+      "enhancementsText": "Area 2, Helper, Penetrating 4, Range 5",
+      "limitersText": "Activation 1, Assisted 1, Hands",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "penetrating",
+          "name": "Penetrating",
+          "kind": "enhancement",
+          "assignments": 4
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 5
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "assisted",
+          "name": "Assisted",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Area 2, Helper, Penetrating 4, Range 5 Activation 1, Assisted 1, Hands",
+      "rangeRank": 5,
+      "musclePowered": false,
+      "rulesText": "Tank Gun, 120mm Heat\nLevel: 21 (12)\nEnhancements: Area 2, Helper, Penetrating 4, Range 5\nLimiters: Activation 1, Assisted 1, Hands\nPoints: 42\nItem Cost: 21"
+    },
+    {
+      "id": "modern-ordnance-tank-gun-120mm-sabot",
+      "name": "Tank Gun, 120mm Sabot",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ordnance",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "22 (15)",
+      "level": 22,
+      "points": 44,
+      "itemCost": 22,
+      "enhancementsText": "Accurate, Helper, Penetrating 3, Range 5",
+      "limitersText": "Activation 1, Assisted 1, Hands",
+      "enhancements": [
+        {
+          "id": "accurate",
+          "name": "Accurate",
+          "kind": "enhancement",
+          "assignments": 1
+        },
+        {
+          "id": "penetrating",
+          "name": "Penetrating",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 5
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "assisted",
+          "name": "Assisted",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Accurate, Helper, Penetrating 3, Range 5 Activation 1, Assisted 1, Hands",
+      "rangeRank": 5,
+      "musclePowered": false,
+      "rulesText": "Tank Gun, 120mm Sabot\nLevel: 22 (15)\nEnhancements: Accurate, Helper, Penetrating 3, Range 5\nLimiters: Activation 1, Assisted 1, Hands\nPoints: 44\nItem Cost: 22"
+    },
+    {
+      "id": "modern-ordnance-tomahawk-missile",
+      "name": "Tomahawk Missile",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Modern Ordnance",
+      "sourcePage": 206,
+      "attackMode": "ranged",
+      "levelText": "35 (30)",
+      "level": 35,
+      "points": 70,
+      "itemCost": 35,
+      "enhancementsText": "Accurate 2, Area 4, Penetrating 6, Range 7",
+      "limitersText": "Activation 3, Assisted 2, Ammo 4, Stoppable 4, Unreliable",
+      "enhancements": [
+        {
+          "id": "accurate",
+          "name": "Accurate",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 4
+        },
+        {
+          "id": "penetrating",
+          "name": "Penetrating",
+          "kind": "enhancement",
+          "assignments": 6
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 7
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 3
+        },
+        {
+          "id": "assisted",
+          "name": "Assisted",
+          "kind": "limiter",
+          "assignments": 2
+        },
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 4
+        },
+        {
+          "id": "stoppable",
+          "name": "Stoppable",
+          "kind": "limiter",
+          "assignments": 4
+        },
+        {
+          "id": "unreliable",
+          "name": "Unreliable",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Accurate 2, Area 4, Penetrating 6, Range 7 Activation 3, Assisted 2, Ammo 4, Stoppable 4, Unreliable",
+      "rangeRank": 7,
+      "musclePowered": false,
+      "rulesText": "Tomahawk Missile\nLevel: 35 (30)\nEnhancements: Accurate 2, Area 4, Penetrating 6, Range 7\nLimiters: Activation 3, Assisted 2, Ammo 4, Stoppable 4, Unreliable\nPoints: 70\nItem Cost: 35"
+    },
+    {
+      "id": "futuristic-melee-energy-whip",
+      "name": "Energy Whip",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Futuristic Melee",
+      "sourcePage": 207,
+      "attackMode": "melee",
+      "levelText": "8 (4)",
+      "level": 8,
+      "points": 16,
+      "itemCost": 8,
+      "enhancementsText": "Flexible 2, Penetrating 2",
+      "limitersText": "-",
+      "enhancements": [
+        {
+          "id": "flexible",
+          "name": "Flexible",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "penetrating",
+          "name": "Penetrating",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "limiters": [],
+      "detailsText": "Flexible 2, Penetrating 2",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Energy Whip\nLevel: 8 (4)\nEnhancements: Flexible 2, Penetrating 2\nLimiters: -\nPoints: 16\nItem Cost: 8"
+    },
+    {
+      "id": "futuristic-melee-garrotte-monofilament",
+      "name": "Garrotte, Monofilament",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Futuristic Melee",
+      "sourcePage": 207,
+      "attackMode": "melee",
+      "levelText": "12 (10)",
+      "level": 12,
+      "points": 24,
+      "itemCost": 12,
+      "enhancementsText": "Insidious 3",
+      "limitersText": "Hands",
+      "enhancements": [
+        {
+          "id": "insidious",
+          "name": "Insidious",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Insidious 3 Hands",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Garrotte, Monofilament\nLevel: 12 (10)\nEnhancements: Insidious 3\nLimiters: Hands\nPoints: 24\nItem Cost: 12"
+    },
+    {
+      "id": "futuristic-melee-light-sword",
+      "name": "Light Sword",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Futuristic Melee",
+      "sourcePage": 207,
+      "attackMode": "melee",
+      "levelText": "10 (5)",
+      "level": 10,
+      "points": 20,
+      "itemCost": 10,
+      "enhancementsText": "Penetrating 5",
+      "limitersText": "-",
+      "enhancements": [
+        {
+          "id": "penetrating",
+          "name": "Penetrating",
+          "kind": "enhancement",
+          "assignments": 5
+        }
+      ],
+      "limiters": [],
+      "detailsText": "Penetrating 5",
+      "rangeRank": 0,
+      "musclePowered": false,
+      "rulesText": "Light Sword\nLevel: 10 (5)\nEnhancements: Penetrating 5\nLimiters: -\nPoints: 20\nItem Cost: 10"
+    },
+    {
+      "id": "futuristic-ranged-blaster-pistol",
+      "name": "Blaster Pistol",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Futuristic Ranged",
+      "sourcePage": 207,
+      "attackMode": "ranged",
+      "levelText": "7 (4)",
+      "level": 7,
+      "points": 14,
+      "itemCost": 7,
+      "enhancementsText": "Range 3",
+      "limitersText": "-",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [],
+      "detailsText": "Range 3",
+      "rangeRank": 3,
+      "musclePowered": false,
+      "rulesText": "Blaster Pistol\nLevel: 7 (4)\nEnhancements: Range 3\nLimiters: -\nPoints: 14\nItem Cost: 7"
+    },
+    {
+      "id": "futuristic-ranged-blaster-rifle",
+      "name": "Blaster Rifle",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Futuristic Ranged",
+      "sourcePage": 207,
+      "attackMode": "ranged",
+      "levelText": "10 (7)",
+      "level": 10,
+      "points": 20,
+      "itemCost": 10,
+      "enhancementsText": "Range 4",
+      "limitersText": "Hands",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 4
+        }
+      ],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Range 4 Hands",
+      "rangeRank": 4,
+      "musclePowered": false,
+      "rulesText": "Blaster Rifle\nLevel: 10 (7)\nEnhancements: Range 4\nLimiters: Hands\nPoints: 20\nItem Cost: 10"
+    },
+    {
+      "id": "futuristic-ranged-blaster-hand-cannon",
+      "name": "Blaster Hand Cannon",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Futuristic Ranged",
+      "sourcePage": 207,
+      "attackMode": "ranged",
+      "levelText": "15 (10)",
+      "level": 15,
+      "points": 30,
+      "itemCost": 15,
+      "enhancementsText": "Indirect, Range 5",
+      "limitersText": "Hands",
+      "enhancements": [
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 5
+        }
+      ],
+      "limiters": [
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Indirect, Range 5 Hands",
+      "rangeRank": 5,
+      "musclePowered": false,
+      "rulesText": "Blaster Hand Cannon\nLevel: 15 (10)\nEnhancements: Indirect, Range 5\nLimiters: Hands\nPoints: 30\nItem Cost: 15"
+    },
+    {
+      "id": "futuristic-ranged-mass-driver",
+      "name": "Mass Driver",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Futuristic Ranged",
+      "sourcePage": 207,
+      "attackMode": "ranged",
+      "levelText": "55 (40)",
+      "level": 55,
+      "points": 110,
+      "itemCost": 55,
+      "enhancementsText": "Area 10, Insidious 3, Quake 5, Range 7",
+      "limitersText": "Activation 4, Assisted 3, Stoppable 3",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 10
+        },
+        {
+          "id": "insidious",
+          "name": "Insidious",
+          "kind": "enhancement",
+          "assignments": 3
+        },
+        {
+          "id": "quake",
+          "name": "Quake",
+          "kind": "enhancement",
+          "assignments": 5
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 7
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 4
+        },
+        {
+          "id": "assisted",
+          "name": "Assisted",
+          "kind": "limiter",
+          "assignments": 3
+        },
+        {
+          "id": "stoppable",
+          "name": "Stoppable",
+          "kind": "limiter",
+          "assignments": 3
+        }
+      ],
+      "detailsText": "Area 10, Insidious 3, Quake 5, Range 7 Activation 4, Assisted 3, Stoppable 3",
+      "rangeRank": 7,
+      "musclePowered": false,
+      "rulesText": "Mass Driver\nLevel: 55 (40)\nEnhancements: Area 10, Insidious 3, Quake 5, Range 7\nLimiters: Activation 4, Assisted 3, Stoppable 3\nPoints: 110\nItem Cost: 55"
+    },
+    {
+      "id": "futuristic-ranged-mini-missile-launcher",
+      "name": "Mini-Missile Launcher",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Futuristic Ranged",
+      "sourcePage": 207,
+      "attackMode": "ranged",
+      "levelText": "12 (8)",
+      "level": 12,
+      "points": 24,
+      "itemCost": 12,
+      "enhancementsText": "Area 2, Homing: Infrared, Range 4",
+      "limitersText": "Activation 1, Ammo 1, Hands",
+      "enhancements": [
+        {
+          "id": "area",
+          "name": "Area",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 4
+        }
+      ],
+      "limiters": [
+        {
+          "id": "activation",
+          "name": "Activation",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Area 2, Homing: Infrared, Range 4 Activation 1, Ammo 1, Hands",
+      "rangeRank": 4,
+      "musclePowered": false,
+      "rulesText": "Mini-Missile Launcher\nLevel: 12 (8)\nEnhancements: Area 2, Homing: Infrared, Range 4\nLimiters: Activation 1, Ammo 1, Hands\nPoints: 24\nItem Cost: 12"
+    },
+    {
+      "id": "futuristic-ranged-sniper-laser",
+      "name": "Sniper Laser",
+      "kind": "weapon",
+      "itemType": "attribute",
+      "catalogId": "weapon",
+      "category": "Futuristic Ranged",
+      "sourcePage": 207,
+      "attackMode": "ranged",
+      "levelText": "15 (7)",
+      "level": 15,
+      "points": 30,
+      "itemCost": 15,
+      "enhancementsText": "Accurate 2, Range 5, Inconspicuous 3",
+      "limitersText": "Ammo 1, Hands",
+      "enhancements": [
+        {
+          "id": "accurate",
+          "name": "Accurate",
+          "kind": "enhancement",
+          "assignments": 2
+        },
+        {
+          "id": "range",
+          "name": "Range",
+          "kind": "enhancement",
+          "assignments": 5
+        },
+        {
+          "id": "inconspicuous",
+          "name": "Inconspicuous",
+          "kind": "enhancement",
+          "assignments": 3
+        }
+      ],
+      "limiters": [
+        {
+          "id": "ammo",
+          "name": "Ammo",
+          "kind": "limiter",
+          "assignments": 1
+        },
+        {
+          "id": "hands",
+          "name": "Hands",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Accurate 2, Range 5, Inconspicuous 3 Ammo 1, Hands",
+      "rangeRank": 5,
+      "musclePowered": false,
+      "rulesText": "Sniper Laser\nLevel: 15 (7)\nEnhancements: Accurate 2, Range 5, Inconspicuous 3\nLimiters: Ammo 1, Hands\nPoints: 30\nItem Cost: 15"
+    },
+    {
+      "id": "animal-armour-type-thick-fur",
+      "name": "Animal Armour Type: Thick Fur",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "features",
+      "category": "Animal Armour Type",
+      "sourcePage": 211,
+      "levelText": "1",
+      "level": 1,
+      "armourRating": 2,
+      "points": 1,
+      "itemCost": 0,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Thick Fur\nAttribute: Features\nLevel: 1\nArmour Rating: 2\nModifiers: -\nPoints: 1\nItem Cost: 0"
+    },
+    {
+      "id": "animal-armour-type-tough-hide",
+      "name": "Animal Armour Type: Tough Hide",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "features",
+      "category": "Animal Armour Type",
+      "sourcePage": 211,
+      "levelText": "1",
+      "level": 1,
+      "armourRating": 3,
+      "points": 1,
+      "itemCost": 0,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Tough Hide\nAttribute: Features\nLevel: 1\nArmour Rating: 3\nModifiers: -\nPoints: 1\nItem Cost: 0"
+    },
+    {
+      "id": "animal-armour-type-thick-hide",
+      "name": "Animal Armour Type: Thick Hide",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Animal Armour Type",
+      "sourcePage": 211,
+      "levelText": "1",
+      "level": 1,
+      "armourRating": 5,
+      "points": 2,
+      "itemCost": 0,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Thick Hide\nAttribute: Armour\nLevel: 1\nArmour Rating: 5\nModifiers: -\nPoints: 2\nItem Cost: 0"
+    },
+    {
+      "id": "animal-armour-type-thin-scales",
+      "name": "Animal Armour Type: Thin Scales",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Animal Armour Type",
+      "sourcePage": 211,
+      "levelText": "1",
+      "level": 1,
+      "armourRating": 5,
+      "points": 2,
+      "itemCost": 0,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Thin Scales\nAttribute: Armour\nLevel: 1\nArmour Rating: 5\nModifiers: -\nPoints: 2\nItem Cost: 0"
+    },
+    {
+      "id": "animal-armour-type-light-scales",
+      "name": "Animal Armour Type: Light Scales",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Animal Armour Type",
+      "sourcePage": 211,
+      "levelText": "2",
+      "level": 2,
+      "armourRating": 10,
+      "points": 4,
+      "itemCost": 0,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Light Scales\nAttribute: Armour\nLevel: 2\nArmour Rating: 10\nModifiers: -\nPoints: 4\nItem Cost: 0"
+    },
+    {
+      "id": "animal-armour-type-medium-scales",
+      "name": "Animal Armour Type: Medium Scales",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Animal Armour Type",
+      "sourcePage": 211,
+      "levelText": "3",
+      "level": 3,
+      "armourRating": 15,
+      "points": 6,
+      "itemCost": 0,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Medium Scales\nAttribute: Armour\nLevel: 3\nArmour Rating: 15\nModifiers: -\nPoints: 6\nItem Cost: 0"
+    },
+    {
+      "id": "animal-armour-type-heavy-scales",
+      "name": "Animal Armour Type: Heavy Scales",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Animal Armour Type",
+      "sourcePage": 211,
+      "levelText": "4",
+      "level": 4,
+      "armourRating": 20,
+      "points": 8,
+      "itemCost": 0,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Heavy Scales\nAttribute: Armour\nLevel: 4\nArmour Rating: 20\nModifiers: -\nPoints: 8\nItem Cost: 0"
+    },
+    {
+      "id": "archaic-armour-type-padded",
+      "name": "Archaic Armour Type: Padded",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Archaic Armour Type",
+      "sourcePage": 211,
+      "levelText": "1 (2)",
+      "level": 1,
+      "armourRating": 10,
+      "points": 2,
+      "itemCost": 1,
+      "modifiersText": "Localised 1",
+      "mods": [
+        {
+          "id": "localised",
+          "name": "Localised",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Localised 1",
+      "rulesText": "Padded\nAttribute: Armour\nLevel: 1 (2)\nArmour Rating: 10\nModifiers: Localised 1\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-armour-type-hide",
+      "name": "Archaic Armour Type: Hide",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Archaic Armour Type",
+      "sourcePage": 211,
+      "levelText": "1 (2)",
+      "level": 1,
+      "armourRating": 10,
+      "points": 2,
+      "itemCost": 1,
+      "modifiersText": "Localised 1",
+      "mods": [
+        {
+          "id": "localised",
+          "name": "Localised",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Localised 1",
+      "rulesText": "Hide\nAttribute: Armour\nLevel: 1 (2)\nArmour Rating: 10\nModifiers: Localised 1\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-armour-type-leather",
+      "name": "Archaic Armour Type: Leather",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Archaic Armour Type",
+      "sourcePage": 211,
+      "levelText": "2",
+      "level": 2,
+      "armourRating": 10,
+      "points": 4,
+      "itemCost": 2,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Leather\nAttribute: Armour\nLevel: 2\nArmour Rating: 10\nModifiers: -\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "archaic-armour-type-chain-shirt",
+      "name": "Archaic Armour Type: Chain Shirt",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Archaic Armour Type",
+      "sourcePage": 211,
+      "levelText": "1 (2)",
+      "level": 1,
+      "armourRating": 10,
+      "points": 2,
+      "itemCost": 1,
+      "modifiersText": "Localised 1",
+      "mods": [
+        {
+          "id": "localised",
+          "name": "Localised",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Localised 1",
+      "rulesText": "Chain Shirt\nAttribute: Armour\nLevel: 1 (2)\nArmour Rating: 10\nModifiers: Localised 1\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "archaic-armour-type-ringmail",
+      "name": "Archaic Armour Type: Ringmail",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Archaic Armour Type",
+      "sourcePage": 211,
+      "levelText": "2",
+      "level": 2,
+      "armourRating": 10,
+      "points": 4,
+      "itemCost": 2,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Ringmail\nAttribute: Armour\nLevel: 2\nArmour Rating: 10\nModifiers: -\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "archaic-armour-type-scale-armour",
+      "name": "Archaic Armour Type: Scale Armour",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Archaic Armour Type",
+      "sourcePage": 211,
+      "levelText": "2",
+      "level": 2,
+      "armourRating": 10,
+      "points": 4,
+      "itemCost": 2,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Scale Armour\nAttribute: Armour\nLevel: 2\nArmour Rating: 10\nModifiers: -\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "archaic-armour-type-chainmail",
+      "name": "Archaic Armour Type: Chainmail",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Archaic Armour Type",
+      "sourcePage": 211,
+      "levelText": "3",
+      "level": 3,
+      "armourRating": 15,
+      "points": 6,
+      "itemCost": 3,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Chainmail\nAttribute: Armour\nLevel: 3\nArmour Rating: 15\nModifiers: -\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-armour-type-splint-armour",
+      "name": "Archaic Armour Type: Splint Armour",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Archaic Armour Type",
+      "sourcePage": 211,
+      "levelText": "3",
+      "level": 3,
+      "armourRating": 15,
+      "points": 6,
+      "itemCost": 3,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Splint Armour\nAttribute: Armour\nLevel: 3\nArmour Rating: 15\nModifiers: -\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-armour-type-brigandine",
+      "name": "Archaic Armour Type: Brigandine",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Archaic Armour Type",
+      "sourcePage": 211,
+      "levelText": "3",
+      "level": 3,
+      "armourRating": 15,
+      "points": 6,
+      "itemCost": 3,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Brigandine\nAttribute: Armour\nLevel: 3\nArmour Rating: 15\nModifiers: -\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "archaic-armour-type-full-plate",
+      "name": "Archaic Armour Type: Full Plate",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Archaic Armour Type",
+      "sourcePage": 211,
+      "levelText": "4",
+      "level": 4,
+      "armourRating": 20,
+      "points": 8,
+      "itemCost": 4,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Full Plate\nAttribute: Armour\nLevel: 4\nArmour Rating: 20\nModifiers: -\nPoints: 8\nItem Cost: 4"
+    },
+    {
+      "id": "modern-armour-type-thick-leather-jacket",
+      "name": "Modern Armour Type: Thick Leather Jacket",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "features",
+      "category": "Modern Armour Type",
+      "sourcePage": 211,
+      "levelText": "1",
+      "level": 1,
+      "armourRating": 2,
+      "points": 1,
+      "itemCost": 0,
+      "modifiersText": "Localised 1",
+      "mods": [
+        {
+          "id": "localised",
+          "name": "Localised",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Localised 1",
+      "rulesText": "Thick Leather Jacket\nAttribute: Features\nLevel: 1\nArmour Rating: 2\nModifiers: Localised 1\nPoints: 1\nItem Cost: 0"
+    },
+    {
+      "id": "modern-armour-type-light-body-armour",
+      "name": "Modern Armour Type: Light Body Armour",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Modern Armour Type",
+      "sourcePage": 211,
+      "levelText": "3 (4)",
+      "level": 3,
+      "armourRating": 20,
+      "points": 6,
+      "itemCost": 3,
+      "modifiersText": "Localised 1",
+      "mods": [
+        {
+          "id": "localised",
+          "name": "Localised",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Localised 1",
+      "rulesText": "Light Body Armour\nAttribute: Armour\nLevel: 3 (4)\nArmour Rating: 20\nModifiers: Localised 1\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "modern-armour-type-medium-body-armour",
+      "name": "Modern Armour Type: Medium Body Armour",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Modern Armour Type",
+      "sourcePage": 211,
+      "levelText": "4 (5)",
+      "level": 4,
+      "armourRating": 25,
+      "points": 8,
+      "itemCost": 4,
+      "modifiersText": "Localised 1",
+      "mods": [
+        {
+          "id": "localised",
+          "name": "Localised",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Localised 1",
+      "rulesText": "Medium Body Armour\nAttribute: Armour\nLevel: 4 (5)\nArmour Rating: 25\nModifiers: Localised 1\nPoints: 8\nItem Cost: 4"
+    },
+    {
+      "id": "modern-armour-type-heavy-body-armour",
+      "name": "Modern Armour Type: Heavy Body Armour",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Modern Armour Type",
+      "sourcePage": 211,
+      "levelText": "6",
+      "level": 6,
+      "armourRating": 30,
+      "points": 12,
+      "itemCost": 6,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Heavy Body Armour\nAttribute: Armour\nLevel: 6\nArmour Rating: 30\nModifiers: -\nPoints: 12\nItem Cost: 6"
+    },
+    {
+      "id": "futuristic-armour-type-ceramic-armour",
+      "name": "Futuristic Armour Type: Ceramic Armour",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Futuristic Armour Type",
+      "sourcePage": 211,
+      "levelText": "6",
+      "level": 6,
+      "armourRating": 30,
+      "points": 12,
+      "itemCost": 6,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Ceramic Armour\nAttribute: Armour\nLevel: 6\nArmour Rating: 30\nModifiers: -\nPoints: 12\nItem Cost: 6"
+    },
+    {
+      "id": "futuristic-armour-type-light-force-armour",
+      "name": "Futuristic Armour Type: Light Force Armour",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "force-field",
+      "category": "Futuristic Armour Type",
+      "sourcePage": 211,
+      "levelText": "3",
+      "level": 3,
+      "armourRating": 30,
+      "points": 12,
+      "itemCost": 6,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Light Force Armour\nAttribute: Force Field\nLevel: 3\nArmour Rating: 30\nModifiers: -\nPoints: 12\nItem Cost: 6"
+    },
+    {
+      "id": "futuristic-armour-type-heavy-force-armour",
+      "name": "Futuristic Armour Type: Heavy Force Armour",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "force-field",
+      "category": "Futuristic Armour Type",
+      "sourcePage": 211,
+      "levelText": "5 (4)",
+      "level": 5,
+      "armourRating": 40,
+      "points": 20,
+      "itemCost": 10,
+      "modifiersText": "Regenerating",
+      "mods": [],
+      "detailsText": "Regenerating",
+      "rulesText": "Heavy Force Armour\nAttribute: Force Field\nLevel: 5 (4)\nArmour Rating: 40\nModifiers: Regenerating\nPoints: 20\nItem Cost: 10"
+    },
+    {
+      "id": "futuristic-armour-type-tactical-force-armour",
+      "name": "Futuristic Armour Type: Tactical Force Armour",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "force-field",
+      "category": "Futuristic Armour Type",
+      "sourcePage": 211,
+      "levelText": "6 (5)",
+      "level": 6,
+      "armourRating": 50,
+      "points": 24,
+      "itemCost": 12,
+      "modifiersText": "Regenerating",
+      "mods": [],
+      "detailsText": "Regenerating",
+      "rulesText": "Tactical Force Armour\nAttribute: Force Field\nLevel: 6 (5)\nArmour Rating: 50\nModifiers: Regenerating\nPoints: 24\nItem Cost: 12"
+    },
+    {
+      "id": "futuristic-armour-type-low-intensity-power-armour",
+      "name": "Futuristic Armour Type: Low-Intensity Power Armour",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Futuristic Armour Type",
+      "sourcePage": 211,
+      "levelText": "8",
+      "level": 8,
+      "armourRating": 40,
+      "points": 16,
+      "itemCost": 8,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Low-Intensity Power Armour\nAttribute: Armour\nLevel: 8\nArmour Rating: 40\nModifiers: -\nPoints: 16\nItem Cost: 8"
+    },
+    {
+      "id": "futuristic-armour-type-medium-intensity-power-armour",
+      "name": "Futuristic Armour Type: Medium-Intensity Power Armour",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Futuristic Armour Type",
+      "sourcePage": 211,
+      "levelText": "12",
+      "level": 12,
+      "armourRating": 60,
+      "points": 24,
+      "itemCost": 12,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Medium-Intensity Power Armour\nAttribute: Armour\nLevel: 12\nArmour Rating: 60\nModifiers: -\nPoints: 24\nItem Cost: 12"
+    },
+    {
+      "id": "futuristic-armour-type-high-intensity-power-armour",
+      "name": "Futuristic Armour Type: High-Intensity Power Armour",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Futuristic Armour Type",
+      "sourcePage": 211,
+      "levelText": "16",
+      "level": 16,
+      "armourRating": 80,
+      "points": 32,
+      "itemCost": 16,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "High-Intensity Power Armour\nAttribute: Armour\nLevel: 16\nArmour Rating: 80\nModifiers: -\nPoints: 32\nItem Cost: 16"
+    },
+    {
+      "id": "buckler-shield-plant",
+      "name": "Buckler Shield: Plant",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Buckler Shield",
+      "sourcePage": 213,
+      "levelText": "1 (2)",
+      "level": 1,
+      "armourRating": 10,
+      "points": 2,
+      "itemCost": 1,
+      "modifiersText": "Localised 1",
+      "mods": [
+        {
+          "id": "localised",
+          "name": "Localised",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Localised 1",
+      "rulesText": "Plant\nAttribute: Armour\nLevel: 1 (2)\nArmour Rating: 10\nModifiers: Localised 1\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "buckler-shield-leather",
+      "name": "Buckler Shield: Leather",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Buckler Shield",
+      "sourcePage": 213,
+      "levelText": "1 (2)",
+      "level": 1,
+      "armourRating": 10,
+      "points": 2,
+      "itemCost": 1,
+      "modifiersText": "Localised 1",
+      "mods": [
+        {
+          "id": "localised",
+          "name": "Localised",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Localised 1",
+      "rulesText": "Leather\nAttribute: Armour\nLevel: 1 (2)\nArmour Rating: 10\nModifiers: Localised 1\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "buckler-shield-animal-scales",
+      "name": "Buckler Shield: Animal Scales",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Buckler Shield",
+      "sourcePage": 213,
+      "levelText": "1 (2)",
+      "level": 1,
+      "armourRating": 10,
+      "points": 2,
+      "itemCost": 1,
+      "modifiersText": "Localised 1",
+      "mods": [
+        {
+          "id": "localised",
+          "name": "Localised",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Localised 1",
+      "rulesText": "Animal Scales\nAttribute: Armour\nLevel: 1 (2)\nArmour Rating: 10\nModifiers: Localised 1\nPoints: 2\nItem Cost: 1"
+    },
+    {
+      "id": "buckler-shield-wood",
+      "name": "Buckler Shield: Wood",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Buckler Shield",
+      "sourcePage": 213,
+      "levelText": "2 (3)",
+      "level": 2,
+      "armourRating": 15,
+      "points": 4,
+      "itemCost": 2,
+      "modifiersText": "Localised 1",
+      "mods": [
+        {
+          "id": "localised",
+          "name": "Localised",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Localised 1",
+      "rulesText": "Wood\nAttribute: Armour\nLevel: 2 (3)\nArmour Rating: 15\nModifiers: Localised 1\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "buckler-shield-metal",
+      "name": "Buckler Shield: Metal",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Buckler Shield",
+      "sourcePage": 213,
+      "levelText": "3 (4)",
+      "level": 3,
+      "armourRating": 20,
+      "points": 6,
+      "itemCost": 3,
+      "modifiersText": "Localised 1",
+      "mods": [
+        {
+          "id": "localised",
+          "name": "Localised",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Localised 1",
+      "rulesText": "Metal\nAttribute: Armour\nLevel: 3 (4)\nArmour Rating: 20\nModifiers: Localised 1\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "buckler-shield-composites",
+      "name": "Buckler Shield: Composites",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Buckler Shield",
+      "sourcePage": 213,
+      "levelText": "5 (6)",
+      "level": 5,
+      "armourRating": 30,
+      "points": 10,
+      "itemCost": 5,
+      "modifiersText": "Localised 1",
+      "mods": [
+        {
+          "id": "localised",
+          "name": "Localised",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Localised 1",
+      "rulesText": "Composites\nAttribute: Armour\nLevel: 5 (6)\nArmour Rating: 30\nModifiers: Localised 1\nPoints: 10\nItem Cost: 5"
+    },
+    {
+      "id": "buckler-shield-energy",
+      "name": "Buckler Shield: Energy",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "force-field",
+      "category": "Buckler Shield",
+      "sourcePage": 213,
+      "levelText": "3 (4)",
+      "level": 3,
+      "armourRating": 40,
+      "points": 12,
+      "itemCost": 6,
+      "modifiersText": "Localised 1",
+      "mods": [
+        {
+          "id": "localised",
+          "name": "Localised",
+          "kind": "limiter",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Localised 1",
+      "rulesText": "Energy\nAttribute: Force Field\nLevel: 3 (4)\nArmour Rating: 40\nModifiers: Localised 1\nPoints: 12\nItem Cost: 6"
+    },
+    {
+      "id": "small-shield-plant",
+      "name": "Small Shield: Plant",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Small Shield",
+      "sourcePage": 213,
+      "levelText": "2",
+      "level": 2,
+      "armourRating": 10,
+      "points": 4,
+      "itemCost": 2,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Plant\nAttribute: Armour\nLevel: 2\nArmour Rating: 10\nModifiers: -\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "small-shield-leather",
+      "name": "Small Shield: Leather",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Small Shield",
+      "sourcePage": 213,
+      "levelText": "2",
+      "level": 2,
+      "armourRating": 10,
+      "points": 4,
+      "itemCost": 2,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Leather\nAttribute: Armour\nLevel: 2\nArmour Rating: 10\nModifiers: -\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "small-shield-animal-scales",
+      "name": "Small Shield: Animal Scales",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Small Shield",
+      "sourcePage": 213,
+      "levelText": "2",
+      "level": 2,
+      "armourRating": 10,
+      "points": 4,
+      "itemCost": 2,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Animal Scales\nAttribute: Armour\nLevel: 2\nArmour Rating: 10\nModifiers: -\nPoints: 4\nItem Cost: 2"
+    },
+    {
+      "id": "small-shield-wood",
+      "name": "Small Shield: Wood",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Small Shield",
+      "sourcePage": 213,
+      "levelText": "3",
+      "level": 3,
+      "armourRating": 15,
+      "points": 6,
+      "itemCost": 3,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Wood\nAttribute: Armour\nLevel: 3\nArmour Rating: 15\nModifiers: -\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "small-shield-metal",
+      "name": "Small Shield: Metal",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Small Shield",
+      "sourcePage": 213,
+      "levelText": "4",
+      "level": 4,
+      "armourRating": 20,
+      "points": 8,
+      "itemCost": 4,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Metal\nAttribute: Armour\nLevel: 4\nArmour Rating: 20\nModifiers: -\nPoints: 8\nItem Cost: 4"
+    },
+    {
+      "id": "small-shield-composites",
+      "name": "Small Shield: Composites",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Small Shield",
+      "sourcePage": 213,
+      "levelText": "6",
+      "level": 6,
+      "armourRating": 30,
+      "points": 12,
+      "itemCost": 6,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Composites\nAttribute: Armour\nLevel: 6\nArmour Rating: 30\nModifiers: -\nPoints: 12\nItem Cost: 6"
+    },
+    {
+      "id": "small-shield-energy",
+      "name": "Small Shield: Energy",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "force-field",
+      "category": "Small Shield",
+      "sourcePage": 213,
+      "levelText": "4",
+      "level": 4,
+      "armourRating": 40,
+      "points": 16,
+      "itemCost": 8,
+      "modifiersText": "-",
+      "mods": [],
+      "detailsText": "-",
+      "rulesText": "Energy\nAttribute: Force Field\nLevel: 4\nArmour Rating: 40\nModifiers: -\nPoints: 16\nItem Cost: 8"
+    },
+    {
+      "id": "large-shield-plant",
+      "name": "Large Shield: Plant",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Large Shield",
+      "sourcePage": 213,
+      "levelText": "3 (2)",
+      "level": 3,
+      "armourRating": 10,
+      "points": 6,
+      "itemCost": 3,
+      "modifiersText": "Potent -1",
+      "mods": [
+        {
+          "id": "potent",
+          "name": "Potent",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Potent -1",
+      "rulesText": "Plant\nAttribute: Armour\nLevel: 3 (2)\nArmour Rating: 10\nModifiers: Potent -1\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "large-shield-leather",
+      "name": "Large Shield: Leather",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Large Shield",
+      "sourcePage": 213,
+      "levelText": "3 (2)",
+      "level": 3,
+      "armourRating": 10,
+      "points": 6,
+      "itemCost": 3,
+      "modifiersText": "Potent -1",
+      "mods": [
+        {
+          "id": "potent",
+          "name": "Potent",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Potent -1",
+      "rulesText": "Leather\nAttribute: Armour\nLevel: 3 (2)\nArmour Rating: 10\nModifiers: Potent -1\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "large-shield-animal-scales",
+      "name": "Large Shield: Animal Scales",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Large Shield",
+      "sourcePage": 213,
+      "levelText": "3 (2)",
+      "level": 3,
+      "armourRating": 10,
+      "points": 6,
+      "itemCost": 3,
+      "modifiersText": "Potent -1",
+      "mods": [
+        {
+          "id": "potent",
+          "name": "Potent",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Potent -1",
+      "rulesText": "Animal Scales\nAttribute: Armour\nLevel: 3 (2)\nArmour Rating: 10\nModifiers: Potent -1\nPoints: 6\nItem Cost: 3"
+    },
+    {
+      "id": "large-shield-wood",
+      "name": "Large Shield: Wood",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Large Shield",
+      "sourcePage": 213,
+      "levelText": "4 (3)",
+      "level": 4,
+      "armourRating": 15,
+      "points": 8,
+      "itemCost": 4,
+      "modifiersText": "Potent -1",
+      "mods": [
+        {
+          "id": "potent",
+          "name": "Potent",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Potent -1",
+      "rulesText": "Wood\nAttribute: Armour\nLevel: 4 (3)\nArmour Rating: 15\nModifiers: Potent -1\nPoints: 8\nItem Cost: 4"
+    },
+    {
+      "id": "large-shield-metal",
+      "name": "Large Shield: Metal",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Large Shield",
+      "sourcePage": 213,
+      "levelText": "5 (4)",
+      "level": 5,
+      "armourRating": 20,
+      "points": 10,
+      "itemCost": 5,
+      "modifiersText": "Potent -1",
+      "mods": [
+        {
+          "id": "potent",
+          "name": "Potent",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Potent -1",
+      "rulesText": "Metal\nAttribute: Armour\nLevel: 5 (4)\nArmour Rating: 20\nModifiers: Potent -1\nPoints: 10\nItem Cost: 5"
+    },
+    {
+      "id": "large-shield-composites",
+      "name": "Large Shield: Composites",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Large Shield",
+      "sourcePage": 213,
+      "levelText": "7 (6)",
+      "level": 7,
+      "armourRating": 30,
+      "points": 14,
+      "itemCost": 7,
+      "modifiersText": "Potent -1",
+      "mods": [
+        {
+          "id": "potent",
+          "name": "Potent",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Potent -1",
+      "rulesText": "Composites\nAttribute: Armour\nLevel: 7 (6)\nArmour Rating: 30\nModifiers: Potent -1\nPoints: 14\nItem Cost: 7"
+    },
+    {
+      "id": "large-shield-energy",
+      "name": "Large Shield: Energy",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "force-field",
+      "category": "Large Shield",
+      "sourcePage": 213,
+      "levelText": "5 (4)",
+      "level": 5,
+      "armourRating": 40,
+      "points": 20,
+      "itemCost": 10,
+      "modifiersText": "Potent -1",
+      "mods": [
+        {
+          "id": "potent",
+          "name": "Potent",
+          "kind": "enhancement",
+          "assignments": 1
+        }
+      ],
+      "detailsText": "Potent -1",
+      "rulesText": "Energy\nAttribute: Force Field\nLevel: 5 (4)\nArmour Rating: 40\nModifiers: Potent -1\nPoints: 20\nItem Cost: 10"
+    },
+    {
+      "id": "special-shield-tower-metal",
+      "name": "Special Shield: Tower - Metal",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Special Shield",
+      "sourcePage": 213,
+      "levelText": "7 (5)",
+      "level": 7,
+      "armourRating": 25,
+      "points": 14,
+      "itemCost": 7,
+      "modifiersText": "Potent -2",
+      "mods": [
+        {
+          "id": "potent",
+          "name": "Potent",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Potent -2",
+      "rulesText": "Tower - Metal\nAttribute: Armour\nLevel: 7 (5)\nArmour Rating: 25\nModifiers: Potent -2\nPoints: 14\nItem Cost: 7"
+    },
+    {
+      "id": "special-shield-tactical-composites",
+      "name": "Special Shield: Tactical - Composites",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "armour",
+      "category": "Special Shield",
+      "sourcePage": 213,
+      "levelText": "9 (7)",
+      "level": 9,
+      "armourRating": 35,
+      "points": 18,
+      "itemCost": 9,
+      "modifiersText": "Potent -2",
+      "mods": [
+        {
+          "id": "potent",
+          "name": "Potent",
+          "kind": "enhancement",
+          "assignments": 2
+        }
+      ],
+      "detailsText": "Potent -2",
+      "rulesText": "Tactical - Composites\nAttribute: Armour\nLevel: 9 (7)\nArmour Rating: 35\nModifiers: Potent -2\nPoints: 18\nItem Cost: 9"
+    },
+    {
+      "id": "special-shield-smart-shield-standard-energy",
+      "name": "Special Shield: Smart Shield, Standard - Energy",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "force-field",
+      "category": "Special Shield",
+      "sourcePage": 213,
+      "levelText": "5 (4)",
+      "level": 5,
+      "armourRating": 40,
+      "points": 20,
+      "itemCost": 10,
+      "modifiersText": "Regenerating",
+      "mods": [],
+      "detailsText": "Regenerating",
+      "rulesText": "Smart Shield, Standard - Energy\nAttribute: Force Field\nLevel: 5 (4)\nArmour Rating: 40\nModifiers: Regenerating\nPoints: 20\nItem Cost: 10"
+    },
+    {
+      "id": "special-shield-smart-shield-heavy-energy",
+      "name": "Special Shield: Smart Shield, Heavy - Energy",
+      "kind": "defence",
+      "itemType": "attribute",
+      "catalogId": "force-field",
+      "category": "Special Shield",
+      "sourcePage": 213,
+      "levelText": "7 (5)",
+      "level": 7,
+      "armourRating": 50,
+      "points": 28,
+      "itemCost": 14,
+      "modifiersText": "Offensive, Regenerating",
+      "mods": [],
+      "detailsText": "Offensive, Regenerating",
+      "rulesText": "Smart Shield, Heavy - Energy\nAttribute: Force Field\nLevel: 7 (5)\nArmour Rating: 50\nModifiers: Offensive, Regenerating\nPoints: 28\nItem Cost: 14"
+    }
+  ]
+}

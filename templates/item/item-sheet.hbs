@@ -1,0 +1,273 @@
+<form class="{{cssClass}} besm4e-sheet" autocomplete="off">
+  <header class="sheet-header">
+    <div class="identity-grid">
+      <label>
+        <span>Name</span>
+        <input type="text" name="name" value="{{item.name}}" />
+      </label>
+      {{#if isTemplate}}
+        <label>
+          <span>Template Type</span>
+          <select name="system.templateType">
+            {{#select system.templateType}}
+              <option value="race">Race</option>
+              <option value="class">Class</option>
+            {{/select}}
+          </select>
+        </label>
+        <label>
+          <span>Template Definition</span>
+          <select name="system.templateId">
+            {{#select system.templateId}}
+              <optgroup label="Race">
+                {{#each templateRaceOptions}}
+                  <option value="{{this.id}}">{{this.name}} ({{this.points}})</option>
+                {{/each}}
+              </optgroup>
+              <optgroup label="Class">
+                {{#each templateClassOptions}}
+                  <option value="{{this.id}}">{{this.name}} ({{this.points}})</option>
+                {{/each}}
+              </optgroup>
+            {{/select}}
+          </select>
+        </label>
+        <button type="button" data-action="apply-template-definition">Use Template</button>
+      {{else}}
+        {{#if isCatalogItem}}
+          <label>
+            <span>Catalog Entry</span>
+            <select name="system.catalogId">
+              {{#select system.catalogId}}
+                {{#each catalogEntries}}
+                  <option value="{{this.id}}">{{this.name}}</option>
+                {{/each}}
+              {{/select}}
+            </select>
+          </label>
+          <button type="button" data-action="apply-catalog-name">Use Catalog Name</button>
+        {{/if}}
+      {{/if}}
+    </div>
+  </header>
+
+  <section class="sheet-columns">
+    <div class="column">
+      <section class="panel">
+        <div class="panel-title">Configuration</div>
+        <div class="identity-grid">
+          {{#if isAttribute}}
+            <label>
+              <span>Level</span>
+              <input type="number" name="system.level" value="{{system.level}}" />
+            </label>
+            <label>
+              <span>Enh. Slots</span>
+              <input type="number" name="system.enhancementSlots" value="{{system.enhancementSlots}}" />
+            </label>
+            <label>
+              <span>Limiter Slots</span>
+              <input type="number" name="system.limiterSlots" value="{{system.limiterSlots}}" />
+            </label>
+            <label>
+              <span>Skill Group</span>
+              <select name="system.skillGroup">
+                {{#select system.skillGroup}}
+                  <option value=""></option>
+                  {{#each skillGroups}}
+                    <option value="{{this.id}}">{{this.name}} ({{this.costPerLevel}}/lvl)</option>
+                  {{/each}}
+                {{/select}}
+              </select>
+            </label>
+            <label>
+              <span>Selected Stat</span>
+              <select name="system.selectedStat">
+                {{#select system.selectedStat}}
+                  <option value=""></option>
+                  <option value="body">Body</option>
+                  <option value="mind">Mind</option>
+                  <option value="soul">Soul</option>
+                {{/select}}
+              </select>
+            </label>
+          {{else}}
+            <label>
+              <span>Rank</span>
+              <input type="number" name="system.rank" value="{{system.rank}}" min="1" max="3" />
+            </label>
+          {{/if}}
+
+          <label>
+            <span>Specialization</span>
+            <input type="text" name="system.specialization" value="{{system.specialization}}" />
+          </label>
+          <label>
+            <span>Manual Cost</span>
+            <input type="number" name="system.manualPointCost" value="{{system.manualPointCost}}" />
+          </label>
+          <label>
+            <span>Use Manual Cost</span>
+            <input type="checkbox" name="system.useManualPointCost" {{checked system.useManualPointCost}} />
+          </label>
+          <label>
+            <span>Shared Owners</span>
+            <input type="number" name="system.sharedOwners" value="{{system.sharedOwners}}" min="1" />
+          </label>
+          <label>
+            <span>Exclude From Totals</span>
+            <input type="checkbox" name="system.excludeFromTotals" {{checked system.excludeFromTotals}} />
+          </label>
+          <label>
+            <span>Source Page</span>
+            <input type="number" name="system.sourcePage" value="{{system.sourcePage}}" min="0" />
+          </label>
+        </div>
+      </section>
+
+      {{#if isAttribute}}
+      <section class="panel">
+        <div class="panel-header">
+          <div class="panel-title">Modifiers</div>
+          <div class="button-group">
+            <select name="besmModifierSelect">
+              <option value=""></option>
+              {{#each availableModifiers}}
+                <option value="{{this.id}}">{{this.name}} ({{this.kind}}, p.{{this.page}})</option>
+              {{/each}}
+            </select>
+            <button type="button" data-action="add-modifier">Add</button>
+          </div>
+        </div>
+        <table class="item-table">
+          <thead><tr><th>Name</th><th>Kind</th><th>Assign.</th><th>Page</th><th></th></tr></thead>
+          <tbody>
+            {{#each selectedModifiers}}
+              <tr>
+                <td>
+                  {{this.definition.name}}
+                  <input type="hidden" name="system.mods.{{this.index}}.id" value="{{this.id}}" />
+                </td>
+                <td>{{this.definition.kind}}</td>
+                <td><input type="number" name="system.mods.{{this.index}}.assignments" value="{{this.assignments}}" min="1" /></td>
+                <td>{{this.definition.page}}</td>
+                <td><button type="button" data-action="remove-modifier" data-index="{{this.index}}">X</button></td>
+              </tr>
+            {{/each}}
+          </tbody>
+        </table>
+      </section>
+
+      <section class="panel">
+        <div class="panel-title">Attack Options</div>
+        <div class="identity-grid">
+          <label>
+            <span>Mode</span>
+            <select name="system.attackMode">
+              {{#select system.attackMode}}
+                <option value="melee">Melee</option>
+                <option value="ranged">Ranged</option>
+              {{/select}}
+            </select>
+          </label>
+          <label>
+            <span>Weapon Group</span>
+            <input type="text" name="system.weaponGroup" value="{{system.weaponGroup}}" />
+          </label>
+          <label>
+            <span>Range Rank</span>
+            <input type="number" name="system.rangeRank" value="{{system.rangeRank}}" min="0" />
+          </label>
+          <label>
+            <span>Muscle Powered</span>
+            <input type="checkbox" name="system.musclePowered" {{checked system.musclePowered}} />
+          </label>
+          <label>
+            <span>Attack Bonus</span>
+            <input type="number" name="system.attackBonus" value="{{system.attackBonus}}" />
+          </label>
+          <label>
+            <span>Damage Bonus</span>
+            <input type="number" name="system.damageBonus" value="{{system.damageBonus}}" />
+          </label>
+        </div>
+      </section>
+      {{/if}}
+    </div>
+
+    <div class="column">
+      <section class="panel">
+        <div class="panel-title">Derived</div>
+        <div class="derived-grid">
+          <div><span>Effective Level</span><strong>{{system.effectiveLevel}}</strong></div>
+          <div><span>Point Cost</span><strong>{{system.pointCost}}</strong></div>
+          <div><span>Source Page</span><strong>{{catalogEntry.sourcePage}}</strong></div>
+          <div><span>Cost Type</span><strong>{{catalogEntry.costType}}</strong></div>
+        </div>
+      </section>
+
+      {{#if catalogEntry}}
+      <section class="panel">
+        <div class="panel-title">Book Entry</div>
+        <div class="derived-grid">
+          <div><span>Name</span><strong>{{catalogEntry.name}}</strong></div>
+          <div><span>Page</span><strong>{{catalogEntry.sourcePage}}</strong></div>
+          {{#if catalogEntry.costPerLevel}}
+            <div><span>Cost / Level</span><strong>{{catalogEntry.costPerLevel}}</strong></div>
+          {{/if}}
+          {{#if catalogEntry.points}}
+            <div><span>Template Points</span><strong>{{catalogEntry.points}}</strong></div>
+          {{/if}}
+        </div>
+        {{#if catalogEntry.rulesText}}
+          <pre class="rules-text">{{catalogEntry.rulesText}}</pre>
+        {{/if}}
+      </section>
+      {{/if}}
+
+      {{#if blueprintEntry}}
+      <section class="panel">
+        <div class="panel-title">Blueprint</div>
+        <div class="derived-grid">
+          <div><span>Name</span><strong>{{blueprintEntry.name}}</strong></div>
+          <div><span>Page</span><strong>{{blueprintEntry.sourcePage}}</strong></div>
+          <div><span>Cost</span><strong>{{blueprintEntry.itemCost}}</strong></div>
+          <div><span>Category</span><strong>{{blueprintEntry.category}}</strong></div>
+        </div>
+        {{#if blueprintEntry.enhancements}}
+          <div class="panel-title">Enhancements</div>
+          <ul class="warning-list">
+            {{#each blueprintEntry.enhancements}}
+              <li>{{this.name}} {{this.assignments}}</li>
+            {{/each}}
+          </ul>
+        {{/if}}
+        {{#if blueprintEntry.limiters}}
+          <div class="panel-title">Limiters</div>
+          <ul class="warning-list">
+            {{#each blueprintEntry.limiters}}
+              <li>{{this.name}} {{this.assignments}}</li>
+            {{/each}}
+          </ul>
+        {{/if}}
+        {{#if blueprintEntry.mods}}
+          <div class="panel-title">Modifiers</div>
+          <ul class="warning-list">
+            {{#each blueprintEntry.mods}}
+              <li>{{this.name}} {{this.assignments}}</li>
+            {{/each}}
+          </ul>
+        {{/if}}
+        {{#if blueprintEntry.rulesText}}
+          <pre class="rules-text">{{blueprintEntry.rulesText}}</pre>
+        {{/if}}
+      </section>
+      {{/if}}
+
+      <section class="panel">
+        <div class="panel-title">Notes</div>
+        {{editor system.notes target="system.notes" button=true owner=owner editable=editable}}
+      </section>
+    </div>
+  </section>
+</form>

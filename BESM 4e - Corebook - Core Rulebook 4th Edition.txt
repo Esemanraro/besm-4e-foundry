@@ -1,0 +1,782 @@
+CHAPTER 4
+CHAPTER 4
+STATS
+STATS
+STAT
+S
+STAT
+S
+ASSIGN STATS
+ASSIGN STATS
+Stats (short for Statistics) are numerical assignments that reflect your character’s basic capabilities, with higher Stat 
+Stats (short for Statistics) are numerical assignments that reflect your character’s basic capabilities, with higher Stat 
+values indicating an advanced level of accomplishment or achievement. More than any other values in BESM, Stats are 
+values indicating an advanced level of accomplishment or achievement. More than any other values in BESM, Stats are 
+a measure of your character’s core competencies and provide the foundation upon which everything else is built. Dice 
+a measure of your character’s core competencies and provide the foundation upon which everything else is built. Dice 
+rolls are compared to your Stats when you want your character to perform challenging tasks in BESM (page 176) to help 
+rolls are compared to your Stats when you want your character to perform challenging tasks in BESM (page 176) to help 
+determine if their attempt was successful or not.
+determine if their attempt was successful or not.
+BESM uses three Stats to represent your character’s abilities: Body, Mind, and Soul. You may use some or all of your 
+BESM uses three Stats to represent your character’s abilities: Body, Mind, and Soul. You may use some or all of your 
+remaining Character Points when assigning Stat values to your character, and then add these values to any that were 
+remaining Character Points when assigning Stat values to your character, and then add these values to any that were 
+included in their assigned Race or Class Templates (page 36).
+included in their assigned Race or Class Templates (page 36).
+BODY STAT
+BODY STAT
+The Body Stat measures the physical aspects of 
+your character. This includes overall health, strength, 
+endurance, quickness, rate of healing, manual dexterity, 
+and ability to withstand damage and trauma. A character 
+with a high Body is in good physical shape. 
+Body values of nonhumans or super-powered 
+humans may still centre on a human average (unless they 
+are also superhumanly fit). Superhuman or subhuman 
+strength, durability, and speed are all represented by 
+specific Attributes and Defects. For example, an out-
+of-shape giant might have a lower Body than an athletic 
+teenage boy but the giant’s size may be reflected by other 
+Attributes such as Armour (page 80), Superstrength 
+(page 124), and Tough (page 128).
+MIND STAT
+MIND STAT
+The Mind Stat represents your character’s mental 
+prowess and aptitude. High values indicate intelligent 
+and witty characters who are keen critical thinkers 
+and strategists. Your character’s Mind value does not 
+necessarily correlate with breadth of training and depth 
+of experience, though. Your character can be highly 
+skilled in a particular area, yet still have only an average 
+Mind Stat.
+SOUL STAT
+SOUL STAT
+The 
+Soul 
+Stat 
+represents 
+luck, 
+willpower, 
+determination, and spirit, and can also represent 
+psychic ability, empathy, and unity with nature. A high 
+rating in the Soul Stat helps your character focus their 
+personal energies or life force to go beyond their normal 
+limits and to fuel special abilities. High Soul values are 
+a good way to represent the many anime heroes whose 
+main trait is their strength of character, pure heart, or 
+innocence.
+BALANCED ABILITIES
+BALANCED ABILITIES
+Stats in BESM assume as a baseline that characters 
+are well-rounded, balanced individuals at their core. 
+For example, people who we would describe as athletic 
+would have Body Stats that reflects their physicality 
+across a wide range of Body aspects (strength, dexterity, 
+flexibility, toughness, etc.). Similarly, characters who 
+are pulled towards more academic pursuits would 
+have Mind Stats that reflect their brain power through 
+multiple avenues (intelligence, wit, critical thinking, 
+perception, etc.). Creating balanced anime and manga 
+characters in BESM is simplified by only having three 
+Stats that cover the physical, mental, and spiritual 
+aspects of your creation.
+If one or more of your character’s Stats result from 
+enhancements (sCHARACT
+ER BAS
+ICS
+CHARACT
+ER BAS
+ICS
+COLLECTIVE CREATION
+COLLECTIVE CREATION
+When preparing for the launch of a new role-playing 
+campaign, players typically create their characters in 
+isolation based on the setting information the GM 
+provides. This tendency may not produce the best 
+results for a strong start to the adventures, though, since 
+both the characters and the players lack cohesion for 
+this innately social activity.
+Consider the benefits that a group character creation 
+session provides to the team. Discussing the nature and 
+roles of everyone’s character ideas together ensures that 
+the group dynamic is balanced and that every character 
+has unique benefits that will allow them to shine during 
+the game. Establishing character connections is also 
+easier in this initial group meeting, since you can co-
+develop resonant backstories to provide friendship 
+contexts in the game setting. Finally, group character 
+creation reduces the chances of missed opportunities 
+when designing your team (ie. having a hole in your 
+party). In a traditional swords-and-sorcery RPG, 
+for example, adventures may be significantly more 
+challenging if your group is missing a spell caster, healer, 
+fighter, or thief!
+After scoping the game, spend the rest of session 
+zero talking about the ideal composition of your 
+character team and the strengths and individuality 
+that each character member can bring to the group. 
+Everyone should ideally be open to ideas they may not 
+have considered earlier and look at their character’s role 
+in the larger context of the game. Spending additional 
+time with the players and Game Master at this stage of 
+character creation will yield great benefits compared to 
+the typical isolated development tendency.
+POWER LEVEL
+POWER LEVEL
+Once the GM and players together have outlined the 
+general framework of the upcoming adventures, it’s time 
+to discuss your characters’ power level. The characters’ 
+relative capabilities and aptitudes determines the 
+Character Point total from which they are constructed 
+(covered in detail in Chapters 3-7). Consider which of 
+the eight power rankings described herein best align 
+with the vision your group created for your characters.
+SUB-HUMAN (0-24 POINTS)
+Role-playing underpowered characters can be a 
+highly rewarding experience, with the game typically 
+focusing more on drama and less on action. Such roles 
+may include younger teens and children, wee creatures 
+(such as pixies and sprites), or sentient small animals 
+(like bunnies and squirrels).
+HUMAN (25-49 POINTS)
+ This power level is suitable for games in which 
+most of the characters will play brave but low-powered 
+roles (such as those described above), with a few special 
+abilities or powerful items to aid in their quests. It can 
+also be used for games featuring normal humans like 
+detectives, high school students, scientists, and soldiers.
+ADVENTURER (50-74 POINTS)
+The adventurer power level is suitable for games in 
+which most of the characters are valiant and courageous 
+but otherwise normal humans or near-humans. They 
+may have some special abilities, but rarely exceed the 
+power of a typical action movie hero. It is also suitable 
+for games where the characters play low-powered 
+characters (for example, elementary school students) 
+who have some powerful abilities, such as pet monsters 
+or the knowledge to cast magical spells.
+HEROIC (75-99 POINTS)
+BESM players may find this power level the “sweet 
+spot” for a wide variety of adventures, since heroic 
+characters have a decent selection of moderate abilities 
+plus some nifty items and other resources. At the same 
+time, the power level and Character Point totals aren’t 
+so high that they might cause power balance issues or 
+difficulties presenting challenging adventures for every 
+character in the group. Heroic characters may reflect 
+humans at their peak performance with moderate 
+special abilities, or capable non-human characters with 
+significant technological or paranormal advantages.
+MYTHICAL (100-149 POINTS)
+The mythical power level is most suitable for games 
+where the characters are notably more impressive than 
+normal humans, but can still be challenged by ordinary 
+opponents (especially in large numbers). The characters 
+may still be human but are typically exceptionally 
+talented, such as a legendary martial arts master, the 
+CHARACTER 
+POWER LEVELS
+Power Level
+Character Points
+Sub-Human
+0-24
+Human
+25-49
+Adventurer
+50-74
+Heroic
+75-99
+Mythical
+100-149
+Superhuman
+150-199
+Superpowered
+200-249
+Godlike
+250+
+01
+02: CHARACTER BASICS
+PAGE
+PAGE
+22
+22
+CHARACT
+ER BAS
+ICS
+CHARACT
+ER BAS
+ICS
+toughest cop in the city, or an elite secret agent. They 
+could also be characters with significant supernatural or 
+psychic powers, such as a magical girl or an experienced 
+mage or psionic. Mythical level is ideally suited for 
+individuals with moderately powerful racial abilities: 
+a vampire, a ghost, a cyborg, a demon, etc. Finally, a 
+mythical game can also cover characters that are above 
+average in capabilities, but individually or collectively 
+have access to very powerful gear. Example character 
+types include a squad of giant robot mecha pilots or the 
+captain and crew of a starship.
+SUPERHUMAN (150-199 POINTS)
+ This power level enables the characters to possess 
+abilities far beyond the norm. A “human” individual 
+built at this power level will have legendary abilities – a 
+contender for the title of the world’s greatest thief or the 
+world’s best martial artist, for example. Alternatively, 
+the character may have true superhuman abilities, such 
+as an arch-mage sorcerer, a dragon, an elder vampire, 
+a powerful psychic, an advanced combat android, or 
+a magical girl that has fully awakened her abilities. A 
+superhuman character could also be a competent but 
+otherwise normal individual with a destiny and super 
+powerful items such as a towering robot mecha or a 
+mighty magical artefact.
+SUPERPOWERED (200-249 POINTS)
+ Similar to superhuman power level, but the 
+characters are so powerful that ordinary humans seem 
+like ants underfoot. As with superhuman power, the 
+character’s abilities might come from paranormal 
+powers, magic, racial abilities, or items ... or often a 
+combination of all of them. Such amazing characters will 
+not always be very experienced at wielding this power, 
+however. Anime is full of ordinary teenagers who were 
+granted the power of a demigod thanks to: suddenly 
+inheriting an ultra-powerful mecha, awakening psychic 
+powers, a scientific experiment gone awry, or some 
+other twist of fate. How the characters handle these 
+enhanced responsibilities – or spectacularly fail to 
+handle them, with tragic results for all concerned – can 
+be more important than the power itself.
+GODLIKE (250+ POINTS)
+ With this challenging power level, the character’s 
+abilities are potentially forceful enough to single-
+handedly change the world (or even worlds). Players 
+should be cautious about starting their adventures 
+at this level of ability, since with great power comes 
+great responsibility ... and also great complications. 
+Nevertheless, godlike does reflect the power levels of 
+some popular anime shows.
+02: CHARACTER BASICS
+PAGE
+PAGE
+23
+23
+CHARACT
+ER BAS
+ICS
+CHARACT
+ER BAS
+ICS
+CHARACTER 
+CHARACTER 
+BENCHMARKS
+BENCHMARKS
+BESM’s Tri-Stat System offers nearly endless 
+possibilities when spending Character Points on your 
+creation. Problems relating to balance and suitable 
+challenges could arise if players focus their Point 
+allocations in only a few options, when compared to 
+players that have created less-optimised characters. 
+For example, if all the characters in a fantasy story 
+have modest protective armour (such as chain mail), 
+but one character has an nigh-impenetrable force field, 
+it is difficult to confront the group with an opponent 
+that can threaten the highly protected character without 
+being a vastly overpowered enemy to the majority.
+Unlike a levelling-based RPG like Dungeons and 
+Dragons – in which character abilities are prescribed 
+with plenty of restrictions – BESM’s flexibility can 
+present challenges to players and GMs unfamiliar with 
+the game. In short, it’s possible to create “broken” 
+characters in BESM without helpful benchmarks.
+Table-02 presents a list of optional, but suggested, 
+minimums and maximums when creating your 
+character to avoid widely varying character abilities in 
+your group. As you build your character and progress 
+through Chapters 3-8 of the creation process, refer back 
+to this section to ensure you aren’t straying outside the 
+recommendations. Players and the GM can collectively 
+decide to modify or ignore these benchmarks, as desired.
+ u
+�
+ BENCHMARK EXCEPTIONS
+ENCHMARK EXCEPTIONS
+Although suggestions in Table-02 apply widely, 
+allowing some Attribute exceptions can still create 
+balanced characters. With group consensus, the 
+Maximum Attribute Level may be doubled (or even 
+eliminated) for the following Attributes: Alternate 
+Identity, Combat Technique, Energised, and Features.
+ESTABLISHING 
+ESTABLISHING 
+BOUNDARIES
+BOUNDARIES
+No, not character boundaries – real-life boundaries. 
+Although BESM is a wonderfully social game, it’s 
+incumbent upon us all to ensure that the sensitivities 
+of the GM, the players, and even bystanders and 
+passers-by, are all considered during the game. We 
+don’t know everyone’s real-life history and story, and 
+consequently the care and compassion we show to 
+each other during character creation and game play is 
+of paramount importance. Not everyone will share the 
+same perspective concerning sensitive concepts, and 
+thus having both advanced and ongoing conversations 
+with the entire group is the best approach.
+ u
+�
+ SOCIAL SENSITIVITY
+OCIAL SENSITIVITY
+It is impossible to create an exhaustive list of every 
+topic that might evoke sensitivities in your group. The 
+few topics listed below can serve as a reminder and 
+starting point for your considered thoughts and perhaps 
+might generate insightful conversations:
+	»
+The role of LGBTQ+ in your game and how the 
+tone (serious vs. comedy) impacts the participants
+	»
+Character gender identity and orientation
+	»
+Nudity, sexuality, violence, and consent
+	»
+Gender roles and associated power structures
+	»
+Race, minority rights, inequality and oppression, 
+and stereotypes – even in a make-believe setting
+	»
+Mental health and addiction, as well as differing 
+physical and mental abilities
+	»
+Religion, faith, spirituality, ideology, and dogma
+	»
+Politics across the entire left/right spectrum
+	»
+Law and order, and how it touches upon many of 
+the above topics both positively and negatively
+CHARACTER BENCHMARKS
+Power Level
+Maximum     
+Stat Values
+Maximum 
+Attribute Levels
+(Effective Level)
+Min/Max 
+Combat Values 
+(Modified Values)
+Min/Max 
+Health Points &
+Energy Points
+Min/Max 
+Damage 
+Multiplier
+Sub-Human
+5
+2
+1 / 6
+10 / 40
+2 / 4
+Human
+7
+3
+2 / 7
+30 / 60
+3 / 6
+Adventurer
+9
+4
+3 / 8
+40 / 80
+4 / 8
+Heroic
+10
+5
+4 / 9
+50 / 100
+4 / 9
+Mythical
+12
+6
+5 / 10
+60 / 120
+5 / 10
+Superhuman
+12+
+7-8
+6 / 12
+70 / 140
+5 / 11
+Superpowered
+12+
+8-9
+7 / 12+
+80 / 160
+6 / 12
+Godlike
+12+
+10+
+8 / 12+
+100 / 200+
+6 / 14+
+02
+02: CHARACTER BASICS
+PAGE
+PAGE
+24
+24
+CHARACT
+ER BAS
+ICS
+CHARACT
+ER BAS
+ICS
+YOUR 
+YOUR 
+CHARACTER’S 
+CHARACTER’S 
+FRAMEWORK
+FRAMEWORK
+A character outline is a broad concept that provides 
+you with a frame on which to build your character. 
+It is not fully detailed; there is no need to concern 
+yourself with the character’s specific skills, powers, or 
+background details at this stage. Use the game scope 
+established in your earlier discussions as the starting 
+point for your character, and build your outline on 
+that foundation. Continue discussing your character 
+ideas with your group to ensure your creation works 
+well with the concepts of the other players and with the 
+overall themes and focus of the upcoming game.
+ u
+�
+ HUMAN VS. NON-HUMAN
+UMAN VS. NON-HUMAN
+In many game settings – including the Anime 
+Multiverse (page 308) – non-human or part-human 
+characters may exist. Examples include: aliens, androids, 
+cyborgs, fantasy races (elves, ogres, or cat-people), 
+genetic constructs (clones, genetically-enhanced people, 
+or human- animal hybrids), ghosts and spirits, talking 
+animals, gods and goddesses, monsters (demons, 
+shapechangers, or vampires), and robots.
+ u
+�
+ CHARACTER STRENGTHS
+HARACTER STRENGTHS
+In some campaigns, the players may want to create 
+complementary characters with unique sets of abilities. 
+For example, a team fighting supernatural evil might 
+include a combat specialist or two for bashing monsters, 
+an exorcist for dealing with ghosts and spirits, a psychic 
+or sorcerer for handling magical opponents, and a 
+scholar or computer hacker for digging up background 
+information. A degree of specialisation helps players 
+enjoy their characters by giving them a unique identity.
+At the same time, it is equally important that the 
+characters not be too specialised, or the group will lack 
+cohesion and other players will sit around bored while 
+each specialist has their own little adventure within the 
+game. It is a good idea to identify a minimum set of 
+capabilities that everyone should have. For example, in 
+a martial arts campaign, everyone should be a fighter 
+but individual characters may possess different fighting 
+styles (karate, kick-boxing, ninjitsu, kendo, etc.) and 
+unique backgrounds (the cop, the street fighter, the 
+monk, the professional athlete). Similarly, in a game 
+centred on giant robot action, each character might 
+be a mecha pilot on the same team, but they and their 
+mecha may have different capabilities; one might be a 
+02: CHARACTER BASICS
+PAGE
+PAGE
+26
+26
+CHARACT
+ER BAS
+ICS
+CHARACT
+ER BAS
+ICS
+close-quarters fighter with heavy armour, another fast 
+and agile, a third may specialise in electronic warfare, 
+while the fourth may have the most powerful long-
+range attacks.
+In some games, the group of characters will be 
+independent operators. Examples include a detective 
+agency, a party of fantasy adventurers, the crew of a 
+pirate ship, or a team of magical girls who fight evil. 
+In other game concepts, the characters will be part of 
+a larger organisation and would logically have helpers 
+in supporting roles. An example of this scenario is a 
+squadron of mecha pilots in a military space force. A 
+base commander, communication officers, mechanics, 
+doctors, cooks, and other personnel all support the 
+pilots. A few of these roles may make worthwhile player 
+characters, but often this “supporting cast” is best filled 
+by background characters created and controlled by 
+the GM. These characters may become the group’s 
+friends, colleagues, love interests, or rivals as the game 
+progresses, but they also free the characters to take on 
+roles that let them share in the same story action.
+ u
+�
+ CHARACTER WEAKNESSES
+HARACTER WEAKNESSES
+Game characters may be larger than life – sometimes 
+even figures of myth and legend – but usually they still 
+have one or more weaknesses. Is the character vulnerable 
+to magic? Does it take a while for the character’s powers 
+to activate or can they be negated by a special substance? 
+Does the character struggle with an addiction? 
+Providing weaknesses to a character adds greater depth 
+and potential for role-playing opportunities, but be sure 
+to consider aspects of social discomfort concerning your 
+choices (page 156).
+ u
+�
+ DEFINING YOUR CHARACTER
+EFINING YOUR CHARACTER
+You should decide on your character’s age and sex or 
+gender, determine a broad archetype for their personality, 
+and sketch an idea of ethnic and social background. 
+Conversely, it is equally important that a character have 
+room to grow beyond your initial concept. A character 
+that you have spent hours perfecting and detailing may 
+quickly become stagnant and uninteresting once play 
+begins. A good character outline usually focuses on one 
+or two main personality traits and leaves plenty of room 
+for you to explore and develop the character into a fully 
+rounded personality over time. Although the starting 
+archetype should be an integral part of the character, it 
+should not rule all of their actions. At some point during 
+the game, your pacifistic martial artist may be driven to 
+an act of vengeance, or your angst-ridden vigilante may 
+finally discover a cause in which to believe. As long as 
+these developments proceed naturally from events in 
+the game, they should be a welcome part of the role-
+playing experience.
+ u
+�
+ BACKGROUND DETAILS
+ACKGROUND DETAILS
+One of the most effective ways to better visualise 
+your character is to provide detail through your creation 
+of a background history, a character story, a character 
+drawing, or other unique creation (perhaps using a 
+website, video camera, music collection, etc.). Spending 
+time to develop your character without a rule structure 
+will enhance your role-playing greatly, and can give the 
+GM a window into your character’s motivations.
+This step in character creation gives you a chance to 
+answer important character questions before game-play 
+begins. What formed their outlook on life? Where do 
+they live? Work? Earn money? What are your character’s 
+likes? Dislikes? What about family? Friends? Romantic 
+interests? Enemies? These details add depth to your 
+character, but you should not become obsessed with 
+them. Leaving room for growth can provide numerous 
+character development opportunities during the course 
+of the adventures.
+CHARACTER QUIZ
+To help spark creative inspiration for your character’s 
+background, answer the 30 questions listed on the 
+character quiz (page 29). If you have the time and desire, 
+write and answer your own additional questions, too.
+ u
+�
+ GROUP CONNECTIONS
+ROUP CONNECTIONS
+Work with the other players to establish background 
+connections between your characters before the game 
+adventures begin. Perhaps some of your team grew up 
+together and have been friends for their entire lives. Or 
+instead they could have worked together in the past 
+and have maintained a professional relationship (or 
+rivalry!) ever since. The characters can even be related 
+by blood or marriage, though this revelation might have 
+been a recent surprise rather than a long-established 
+situation. Furthermore, don’t neglect establishing group 
+connections with background organisations and cabals 
+as well, since they can provide excellent future hooks. 
+ u
+�
+ WHAT’S IN A NAME?
+HAT’S IN A NAME?
+You have the freedom to name your character 
+whatever you like, but the GM may have some ideas for 
+character names that fit a particular setting. Anime series 
+are often notorious for employing odd, but plausible, 
+fictional names for fantasy or science fiction characters. 
+Sometimes these are actually borrowed from Western 
+or Asian mythology or named after objects such as cars, 
+gemstones, motorcycles, or rock stars, making them 
+sound suitably exotic without being totally unfamiliar. 
+Unless your campaign is a comedy, however, avoid a 
+silly name since it may ruin the suspension of disbelief 
+for the other players.
+02: CHARACTER BASICS
+PAGE
+PAGE
+27
+27
+CHARACT
+ER BAS
+ICS
+CHARACT
+ER BAS
+ICS
+STRUCTURE 
+STRUCTURE 
+OF THE GAME 
+OF THE GAME 
+MECHANICS
+MECHANICS
+With the basics of character creation nearly 
+complete, you’ll soon move onto the construction of 
+your alter ego using the assigned Character Points. Of 
+course, it’s somewhat challenging to create a character 
+properly without understanding the context of the rules. 
+Although you could jump ahead to Chapter 9: Action 
+(page 172) to learn how the Tri-Stat System works, the 
+brief summary presented herein provides the essential 
+knowledge you need to understand the next steps.
+ u
+�
+ ROLLING DICE
+OLLING DICE
+When using dice to resolve the outcome of unknown 
+events, you usually roll two six-sided dice. Depending 
+on the task you are attempting, a game value is added to 
+your dice roll result (to generate a “total roll” value) and 
+then compared to a Target Number to determine if your 
+character was successful. If someone is opposing your 
+action, though – such as in the case of combat – you 
+instead compare your total roll to the opponent’s total 
+roll, with the higher result succeeding.
+TARGET NUMBER (TN) RANGE
+The Target Numbers against which the total rolls 
+are compared range from TN 6 (Very Easy) to TN 24 
+(Improbable). TN 12 is considered Average Difficulty.
+STAT ROLL
+A Stat roll is used when innate ability is more 
+important than any learned expertise or combat 
+capability to resolve the action.
+Total Roll = Dice Roll + Stat Value
+SKILL ROLL
+A Skill roll is similar to a Stat roll, except it is used 
+when the task is governed by both a Stat and a particular 
+Skill Group Attribute.
+Total Roll = Dice Roll + Stat Value + Skill Group Level
+INITIATIVE ROLL
+Made at the beginning of combat to determine the 
+order of character action
+Total Roll = Dice Roll + Attack Combat + any bonuses
+ATTACK/DEFENCE ROLL
+Used during an attack/defence action in combat.
+Total Roll = Dice Roll + Attack/Defence Combat 		
+                     Value + appropriate Attribute bonuses
+ u
+�
+ INFLICTING DAMAGE
+NFLICTING DAMAGE
+If an attack is successful (ie. the attack roll is greater 
+than or equal to the defence roll), damage is usually 
+delivered. Armour and Force Fields may reduce this 
+damage, with any remaining damage then deducted 
+from the target’s Health Points.
+DAMAGE MULTIPLIER
+A character’s base Damage Multiplier is 5, but it can 
+be increased by the Massive Damage Attribute.
+Damage Multiplier = 5 + Massive Damage Level
+ATTACK DAMAGE
+The amount of damage inflicted depends on the 
+character’s Damage Multiplier, the Weapon Level, and 
+the attacker’s Attack Combat Value.
+Damage = Damage Multiplier x Weapon Level +         	
+	
+     attacker’s Attack Combat Value
+ARMOUR RATING
+A character that is protected by the Armour Rating 
+(AR) of the Armour and Force Field Attributes receives 
+reduced damage from most attacks.
+Damage = Damage Multiplier x Weapon Level +         	
+	
+     attacker’s Attack Combat Value - AR
+REDUCING HEALTH POINTS
+The amount of damage inflicted is deducted from 
+the character’s current Health Point total
+Health Points = Current Health Points - Damage
+SIMPLICITY SCALE
+SIMPLICITY SCALE
+BESM Fourth Edition is not a complex game. 
+Character creation can become a little involved if 
+you greatly customise your character or if the game 
+adventures will be at the higher range of power levels, 
+but there are methods to keep the game simple.
+USE TEMPLATES
+Select a Race and one or more Class Templates from 
+Chapter 3 when building your character. These pre-
+constructed packages of Attributes and Defects speed 
+up the creation process greatly.
+KEEP CUSTOMISATION TO A MINIMUM
+If you keep the base functionality of your character’s 
+Attributes instead of customising them with options 
+presented in Chapter 6, you’ll simplify the process.
+STRIP DOWN WITH BESM NAKED
+If you want all the flexible benefits of BESM in an 
+even simpler and more streamlined presentation, check 
+out the alternative BESM Naked RPG as well (page 14).
+02: CHARACTER BASICS
+PAGE
+PAGE
+28
+28
+CHARACT
+ER BAS
+ICS
+CHARACT
+ER BAS
+ICS
+PAGE
+PAGE
+29
+29
+BESM CHARACTER QUIZ
+BESM CHARACTER QUIZ
+	» What are your character’s central strengths and weaknesses?
+	» What is your character’s primary emotional state?
+	» What role does your character fill in a group?
+	» Describe your character’s family or tribe.
+	» Who are your character’s three most valuable contacts?
+	» What personal values and beliefs does your character hold?
+	» To whom is your character closest and why?
+	» What does your character need the most?
+	» What are your character’s life goals?
+	» What does your character fear the most?
+	» Describe your character’s appearance.
+	» How does your character define “heroism”?
+	» Describe your character’s hobbies, interests, 
+desires, and likes.
+	» What would your character do if they accidentally killed 
+an innocent bystander?
+	» For what does your character have little patience 
+and tolerance?
+	» Does your character hide any emotions in public?
+	» How does your character view death and beyond?
+	» What does your character dislike about themselves?
+	» Describe your character’s bedroom or rest location.
+	» Describe a perfect date night or other enjoyable outing.
+	» Describe your character’s relationship with money.
+	» Describe your character’s views on authority and the law.
+	» Who has impacted your character’s life direction the most?
+	» How does your character view forgiveness and revenge?
+	» What are the origins of your character’s special abilities?
+	» What is the prime motivation behind your character’s actions?
+	» In which way does your character focus their personal growth?
+	» Describe the accomplishment of which your character is most proud.
+	» How does your character think they might die?
+	»
+How would your character describe themselves in a single sentence?
+02: CHARACTER BASICS
+

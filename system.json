@@ -1,0 +1,77 @@
+{
+  "id": "besm4e",
+  "title": "BESM Fourth Edition",
+  "description": "A Foundry VTT system scaffold for Big Eyes, Small Mouth Fourth Edition character creation and rules automation.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351"
+  },
+  "authors": [
+    {
+      "name": "OpenAI Codex"
+    }
+  ],
+  "esmodules": [
+    "besm4e.mjs"
+  ],
+  "styles": [
+    "styles/besm4e.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "character": {
+        "htmlFields": [
+          "notes"
+        ]
+      },
+      "npc": {
+        "htmlFields": [
+          "notes"
+        ]
+      },
+      "companion": {
+        "htmlFields": [
+          "notes"
+        ]
+      }
+    },
+    "Item": {
+      "attribute": {
+        "htmlFields": [
+          "notes"
+        ]
+      },
+      "defect": {
+        "htmlFields": [
+          "notes"
+        ]
+      },
+      "template": {
+        "htmlFields": [
+          "notes"
+        ]
+      },
+      "gear": {
+        "htmlFields": [
+          "notes"
+        ]
+      }
+    }
+  },
+  "primaryTokenAttribute": "resources.health",
+  "secondaryTokenAttribute": "resources.energy",
+  "grid": {
+    "distance": 2,
+    "units": "m"
+  },
+  "initiative": "@combat.attack",
+  "url": "https://foundryvtt.com/article/system-development/"
+}

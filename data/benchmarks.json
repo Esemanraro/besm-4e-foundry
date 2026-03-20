@@ -1,0 +1,66 @@
+{
+  "sub-human": {
+    "maximumStat": 5,
+    "maximumAttributeLevel": 2,
+    "combat": { "minimum": 1, "maximum": 6 },
+    "resources": { "minimum": 10, "maximum": 40 },
+    "damageMultiplier": { "minimum": 2, "maximum": 4 },
+    "sourcePage": 24
+  },
+  "human": {
+    "maximumStat": 7,
+    "maximumAttributeLevel": 3,
+    "combat": { "minimum": 2, "maximum": 7 },
+    "resources": { "minimum": 30, "maximum": 60 },
+    "damageMultiplier": { "minimum": 3, "maximum": 6 },
+    "sourcePage": 24
+  },
+  "adventurer": {
+    "maximumStat": 9,
+    "maximumAttributeLevel": 4,
+    "combat": { "minimum": 3, "maximum": 8 },
+    "resources": { "minimum": 40, "maximum": 80 },
+    "damageMultiplier": { "minimum": 4, "maximum": 8 },
+    "sourcePage": 24
+  },
+  "heroic": {
+    "maximumStat": 10,
+    "maximumAttributeLevel": 5,
+    "combat": { "minimum": 4, "maximum": 9 },
+    "resources": { "minimum": 50, "maximum": 100 },
+    "damageMultiplier": { "minimum": 4, "maximum": 9 },
+    "sourcePage": 24
+  },
+  "mythical": {
+    "maximumStat": 12,
+    "maximumAttributeLevel": 6,
+    "combat": { "minimum": 5, "maximum": 10 },
+    "resources": { "minimum": 60, "maximum": 120 },
+    "damageMultiplier": { "minimum": 5, "maximum": 10 },
+    "sourcePage": 24
+  },
+  "superhuman": {
+    "maximumStat": 12,
+    "maximumAttributeLevel": 8,
+    "combat": { "minimum": 6, "maximum": 12 },
+    "resources": { "minimum": 70, "maximum": 140 },
+    "damageMultiplier": { "minimum": 5, "maximum": 11 },
+    "sourcePage": 24
+  },
+  "superpowered": {
+    "maximumStat": 12,
+    "maximumAttributeLevel": 9,
+    "combat": { "minimum": 7, "maximum": 12 },
+    "resources": { "minimum": 80, "maximum": 160 },
+    "damageMultiplier": { "minimum": 6, "maximum": 12 },
+    "sourcePage": 24
+  },
+  "godlike": {
+    "maximumStat": 12,
+    "maximumAttributeLevel": 10,
+    "combat": { "minimum": 8, "maximum": 12 },
+    "resources": { "minimum": 100, "maximum": 200 },
+    "damageMultiplier": { "minimum": 6, "maximum": 14 },
+    "sourcePage": 24
+  }
+}

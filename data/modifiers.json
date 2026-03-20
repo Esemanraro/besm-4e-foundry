@@ -1,0 +1,721 @@
+{
+  "standardEnhancements": [
+    {
+      "id": "area",
+      "name": "Area",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 146,
+      "maxAssignments": 10,
+      "rulesText": "If Duration is applied to the Weapon Attribute,\nit is usually assigned in conjunction with the Area\nEnhancement. This means the Weapon attack remains\nactive within the affected area for a prolonged period.\nExamples of this type of attack include chemical clouds,\nsheets of fire, electrical charges, or freezing vapours.\nIf someone enters the Area while the Duration is still\nongoing, they suffer damage or other effects as if they\nhave been struck by the attack and will continue to suffer\nthe effects each round until they leave the vicinity. The\nstarting time for Duration when assigned to Weapons is\ndifferent than for other Attributes as noted.\n\nON\n\nISATI\n\nAttribute Name\nEnhancements",
+      "sourcePage": 146
+    },
+    {
+      "id": "duration",
+      "name": "Duration",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 147,
+      "maxAssignments": 10,
+      "rulesText": "",
+      "sourcePage": 147
+    },
+    {
+      "id": "potent",
+      "name": "Potent",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 147,
+      "maxAssignments": 6,
+      "rulesText": "of this Limiter is why you usually only assign Potent\nto Level 1 Attributes (unless the GM decides otherwise\nto reflect a specific function, as is the case with some\nshields, page 212).\nFor details about minor and major edges, as well as\nStat and Skill rolls, see Chapter 9: Action (page 172).\n\nTARGETS\n\nTargets refers to the maximum number of people\n(or mass of objects, as relevant) that the Attribute can\naffect. If Targets is not assigned, the Attribute usually\nonly affects the character directly or one other person as\nindicated in the Attribute description.\n\n0 Assignments\nFunctions as indicated in the\nAttribute description\n1 Assignment\nThe character receives a minor\nedge on Stat and Skill rolls in\ncircumstances involving the\nAttribute’s use\n2 Assignments\nThe character receives a major\nedge on Stat and Skill rolls in\ncircumstances involving the\nAttribute’s use\n3 Assignments\nSimilar to 1 Assignment, plus the\ncharacter can also re-roll their\ndice once for each circumstance\ninvolving the Attribute’s use\n(retaining the minor edge on the\nre-roll and keeping the best of\nthe two rolls)\n4 Assignments\nSimilar to 2 Assignment, plus the\ncharacter can also re-roll their\ndice once for each circumstance\ninvolving the Attribute’s use\n(retaining the major edge on the\nre-roll and keeping the best of\nthe two rolls)\n5 Assignments\nSimilar to 4 Assignments, but\nwith the character gaining two\nre-rolls for each circumstance\n6 Assignments\nSimilar to 4 Assignments, but\nwith the character gaining three\nre-rolls for each circumstance\n\n0 Assignments\nAffects the character directly or\none target (as appropriate)\n1 Assignment\nAffect up to 2 Targets at once\n2 Assignments\nAffect up to 5 Targets at once\n3 Assignments\nAffect up to 10 Targets at once\n4 Assignments\nAffect up to 25 Targets at once\n5 Assignments\nAffect up to 50 Targets at once\n6 Assignments\nAffect up to 100 Targets at once",
+      "sourcePage": 147
+    },
+    {
+      "id": "range",
+      "name": "Range",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 147,
+      "maxAssignments": 6,
+      "rulesText": "RANGE\n\nRange is a measure of how far away from the\ncharacter the centre of an Attribute can be manifested\n(or fired, in the case of Weapons) and should not be\nconfused with the Area Enhancement. If the Attribute\nalso has Area assigned, characters may centre the\nArea effect on any location within the Range.\nWithout assigning the Range Enhancement, an\nAttribute can only be used on the character directly or\nwhen touching a target.\n\nCUSTOM\n\n0 Assignments\nActivated through touch\n1 Assignment\nShort Range (3 metres)\n2 Assignments\nModerate Range (10 metres)\n3 Assignments\nBuilding-sized Range\n(100 metres)\n4 Assignments\nNeighbourhood-sized Range\n(1 km)\n5 Assignments\nCity-sized Range (10 km)\n6 Assignments\nCounty-sized Range (100 km)\n\nISATI\n\nON",
+      "sourcePage": 147
+    },
+    {
+      "id": "targets",
+      "name": "Targets",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 147,
+      "maxAssignments": 6,
+      "rulesText": "TARGETS\n\nTargets refers to the maximum number of people\n(or mass of objects, as relevant) that the Attribute can\naffect. If Targets is not assigned, the Attribute usually\nonly affects the character directly or one other person as\nindicated in the Attribute description.\n\n0 Assignments\nFunctions as indicated in the\nAttribute description\n1 Assignment\nThe character receives a minor\nedge on Stat and Skill rolls in\ncircumstances involving the\nAttribute’s use\n2 Assignments\nThe character receives a major\nedge on Stat and Skill rolls in\ncircumstances involving the\nAttribute’s use\n3 Assignments\nSimilar to 1 Assignment, plus the\ncharacter can also re-roll their\ndice once for each circumstance\ninvolving the Attribute’s use\n(retaining the minor edge on the\nre-roll and keeping the best of\nthe two rolls)\n4 Assignments\nSimilar to 2 Assignment, plus the\ncharacter can also re-roll their\ndice once for each circumstance\ninvolving the Attribute’s use\n(retaining the major edge on the\nre-roll and keeping the best of\nthe two rolls)\n5 Assignments\nSimilar to 4 Assignments, but\nwith the character gaining two\nre-rolls for each circumstance\n6 Assignments\nSimilar to 4 Assignments, but\nwith the character gaining three\nre-rolls for each circumstance\n\n0 Assignments\nAffects the character directly or\none target (as appropriate)\n1 Assignment\nAffect up to 2 Targets at once\n2 Assignments\nAffect up to 5 Targets at once\n3 Assignments\nAffect up to 10 Targets at once\n4 Assignments\nAffect up to 25 Targets at once\n5 Assignments\nAffect up to 50 Targets at once\n6 Assignments\nAffect up to 100 Targets at once\n\nRANGE\n\nRange is a measure of how far away from the\ncharacter the centre of an Attribute can be manifested\n(or fired, in the case of Weapons) and should not be\nconfused with the Area Enhancement. If the Attribute\nalso has Area assigned, characters may centre the\nArea effect on any location within the Range.\nWithout assigning the Range Enhancement, an\nAttribute can only be used on the character directly or\nwhen touching a target.\n\nCUSTOM\n\n0 Assignments\nActivated through touch\n1 Assignment\nShort Range (3 metres)\n2 Assignments\nModerate Range (10 metres)\n3 Assignments\nBuilding-sized Range\n(100 metres)\n4 Assignments\nNeighbourhood-sized Range\n(1 km)\n5 Assignments\nCity-sized Range (10 km)\n6 Assignments\nCounty-sized Range (100 km)\n\nISATI\n\nON\n\n12\n06: CUSTOMISATION\n\nASSISTED\n\nLIMITERS\n\nThe Attribute requires supporting individuals who\nmust be present for its ongoing function or activation.\nThese assistants cannot be just anyone nearby since they\nmust fulfil some sort of special requirement appropriate\nto the Attribute. This could be assigned to represent a\nmajor magical ritual that requires an entire congregation\nof chanting acolytes or true believers or an Attribute\nbuilt into an Item that requires human or animal power\n(such as Water Speed requiring rowers or a carriage\nrequiring a horse).\n\nON\n\nActivation\nDeplete\nMaximum\nAssisted\nDetectable\nObject\nBacklash\nEmotional\nPermanent\nCharges\nEnvironmental\nRecovery\nConcentration\nEquipment\nSemi-Permanent\nConsumable\nImbue\nUnique\nDelay\nIrreversible\nUnpredictable\nDependent\nLocalised\n\nISATI\n\nCUSTOM\n\n1 Assignment\nA single assistant is required for\nthe Attribute to function\n2 Assignments\nA small group of assistants (2-10)\nis required for the Attribute to\nfunction\n3 Assignments\nA large group of assistants\n(11-100) is required for the\nAttribute to function\n\nLimiters are restrictions on the scope of an Attribute\nthat reduces its functionality or make it more difficult to\nuse, while increasing the Attribute’s effective Level. For\nexample, if your Mind Control Attribute is a magical\nspell that requires several seconds worth of chanting to\ncast, this is a Limiter. You do not usually apply Limiters\ndirectly to the Companion (page 84) or Item (page 101)\nAttributes, but you can apply Limiters to individual\nAttributes that are assigned to the Companion or Item.\n\nBACKLASH\n\nThe character suffers an unfortunate side effect\nwhenever the Attribute fails to work. If the character\nfails their appropriate Stat roll when using the Attribute\nor badly misses their target when attacking with a\nWeapon, the character is hit with the energy or essence\nthat would have powered the Attribute’s use. The\nBacklash could be physical damage, memory loss, Stat\ndrain, disorientation, or many other effects that make\nthe character’s life more difficult. The player and GM\nshould determine the game effect of the Backlash.\n\nACTIVATION\n\nThe\nAttribute\nrequires\na\nhigh\ndegree\nof\nconcentration, such as chanting an incantation,\nfocussing personal energies, loading individual shots,\npreparing ingredients, or programming a computer.\nThe character cannot move or make defence rolls on the\nsame round that they used or activated the Attribute.\nActivation is appropriate for Attributes that produce\ninstantaneous effects, such as Healing or Weapon, and\nis also appropriate for ongoing Attributes like Armour\nor Flight – but only if they were assigned the Deplete,\nDetectable, Irreversible, or Recovery Limiters as well.\nActivation is not usually assigned to Attributes that can\nbe kept on indefinitely without inconveniencing the\nuser. Wearable Items are normally assumed to take an\nappropriate time to put on or remove, so do not assign\nActivation to Attributes embodied in such Items unless\nthe individual Attributes requires further Activation\nonce the Item is ready to use.\n\n1 Assignment\nThe Backlash occurs if the\ncharacter fails their roll by an\nextreme margin (6 or more)\n2 Assignments\nThe Backlash occurs if the\ncharacter fails their roll by a\nsignificant margin (3 or more)\n3 Assignments\nThe Backlash occurs if the\ncharacter fails their roll\n\nCHARGES\n\nThe character can only use the specific Attribute\noccasionally. This may result from a need to recharge\nthe Attribute (or a device), an incredible drain on the\ncharacter’s internal reserves, a depletion of fuel for a\nmecha, or a different form of limitation. Charges are\nnormally applied to Attributes with instantaneous\neffects, such as Jumping or Teleport, or those that have\na finite duration per use. The Recovery Limiter (page\n152) is usually assigned to Attributes with an ongoing\neffect, such as Armour or Flight.\n\n1 Assignment\nSpend one round preparing the\nAttribute before it is used\n2 Assignments\nSpend one minute preparing the\nAttribute before it is used\n3 Assignments\nSpend one hour preparing the\nAttribute before it is used\n\n06: CUSTOMISATION\n\n1 Assignment\nOnly use the Attribute four to\nsix times a day (or session)\n2 Assignments\nOnly use the Attribute two or\nthree times a day (or session)\n3 Assignments\nOnly use the Attribute once a day\n(or session)\n\n1 Assignment\nDelay of a few minutes before it\ntakes full effect\n2 Assignments\nDelay of a few hours before it\ntakes full effect\n3 Assignments\nDelay of a few days before it\ntakes full effect\n\nCONCENTRATION\n\nDEPENDENT\n\nThe character must concentrate while using the\nongoing Attribute (it does not apply to Attributes with\nan instantaneous effect). If the character’s concentration\nis interrupted voluntarily or by an outside event, the\nAttribute ceases to function.\n\nThe character cannot use this Attribute unless one\nor more other Attributes are used at the same time.\nDependent is only a Limiter if this use is a significant\ndisadvantage. For example, a character might have\nArmour that is Dependent upon Flight (the Armour\nceases to function when the character is on the ground)\nbut not Flight that is Dependent on Armour (since\nthere is rarely a compelling reason to turn off the\nArmour Attribute). Dependent is also a valid if one\nAttribute requires the other to succeed, provided that\na roll is required. For example, Mind Control might be\nDependent on Metamorphosis – the character can only\ntake control of people after they have transformed the\ntargets. The player must justify the Dependent Limiter\nto the GM to avoid inappropriate combinations.\n\n1 Assignment\nRequires slight Concentration.\nThe character can still perform\nother general actions but\ncannot perform any combat-\nrelated actions or use other\nAttributes that also require\nConcentration.\n2 Assignments\nRequires intense Concentration.\nThe character can move at slow\nspeeds and talk with others while\nusing the Attribute but cannot\nperform any complex actions\n(including combat) or use any\nother Attribute.\n3 Assignments\nRequires full Concentration. The\ncharacter cannot do anything\nelse while using the Attribute and\nmust remain still to devote their\nfull attention to the Attribute.\n\n1 Assignment\nDependent Attribute does\nnot take effect until one other\nAttribute is activated\n2 Assignments\nDependent Attribute does\nnot take effect until two other\nAttributes are activated\n3 Assignments\nDependent Attribute does not\ntake effect until three other\nAttributes are activated\n\nCONSUMABLE\n\nDEPLETE\n\nThe Attribute requires some form of focus to use\nproperly, which is destroyed when the Attribute is\nactivated. This focus could be anything from candles\nand incense to a rocket launch gantry.\n\nThe character’s Energy Points are used to power\na particular Attribute. The Energy Points will either\nbe reduced after the Attributes use (for Attributes for\nimmediate effects, such as Teleport and Weapon), or\nwhile the Attribute is being used (for Attributes that are\nongoing, such as Flight and Undetectable). For more\ninformation on Energy Points and their use, see page 195.\n\n1 Assignment\nFocus is easy to replace\n2 Assignments\nFocus is hard to replace\n3 Assignments\nFocus is very difficult to replace\n\nDELAY\n\n1 Assignment\nAttributes with immediate\neffects burn 10 Energy Points\nfor each use (or attempted use);\nongoing Attributes burn 10\nEnergy Point each minute of use\n2 Assignments\nAttributes with immediate effects\nburn 20 Energy Points for each\nuse (or attempted use); ongoing\nAttributes burn 5 Energy Point\neach round of use\n3 Assignments\nAttributes with immediate effects\nburn 30 Energy Points for each\nuse (or attempted use); ongoing\nAttributes burn 20 Energy Point\neach round of use\n\nThe Attribute does not take effect immediately after\nits use but rather activates some time later. This latency\nperiod may provide the targets or other characters time\nto nullify or otherwise avoid the Attribute’s effect (GM’s\ndiscretion). For example, if a young boy is bitten by a\nvampire and will soon join the ranks of the undead (ie.\nthe vampire used the Metamorphosis Attribute, page\n106, with the Delay Limiter), his parents may still have\ntime to take him to a local shrine to exorcise the evil (and\nthus countering the Metamorphosis before activation).\n\nCUSTOM\n\nISATI\n\nON",
+      "sourcePage": 147
+    }
+  ],
+  "standardLimiters": [
+    {
+      "id": "activation",
+      "name": "Activation",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 148,
+      "maxAssignments": 3,
+      "rulesText": "The Attribute requires supporting individuals who\nmust be present for its ongoing function or activation.\nThese assistants cannot be just anyone nearby since they\nmust fulfil some sort of special requirement appropriate\nto the Attribute. This could be assigned to represent a\nmajor magical ritual that requires an entire congregation\nof chanting acolytes or true believers or an Attribute\nbuilt into an Item that requires human or animal power\n(such as Water Speed requiring rowers or a carriage\nrequiring a horse).\n\nON",
+      "sourcePage": 148
+    },
+    {
+      "id": "assisted",
+      "name": "Assisted",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 148,
+      "maxAssignments": 3,
+      "rulesText": "ASSISTED\n\nLIMITERS\n\nThe Attribute requires supporting individuals who\nmust be present for its ongoing function or activation.\nThese assistants cannot be just anyone nearby since they\nmust fulfil some sort of special requirement appropriate\nto the Attribute. This could be assigned to represent a\nmajor magical ritual that requires an entire congregation\nof chanting acolytes or true believers or an Attribute\nbuilt into an Item that requires human or animal power\n(such as Water Speed requiring rowers or a carriage\nrequiring a horse).\n\nON",
+      "sourcePage": 148
+    },
+    {
+      "id": "backlash",
+      "name": "Backlash",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 148,
+      "maxAssignments": 3,
+      "rulesText": "Activation\nDeplete\nMaximum\nAssisted\nDetectable\nObject\nBacklash\nEmotional\nPermanent\nCharges\nEnvironmental\nRecovery\nConcentration\nEquipment\nSemi-Permanent\nConsumable\nImbue\nUnique\nDelay\nIrreversible\nUnpredictable\nDependent\nLocalised\n\nISATI\n\nCUSTOM\n\n1 Assignment\nA single assistant is required for\nthe Attribute to function\n2 Assignments\nA small group of assistants (2-10)\nis required for the Attribute to\nfunction\n3 Assignments\nA large group of assistants\n(11-100) is required for the\nAttribute to function\n\nLimiters are restrictions on the scope of an Attribute\nthat reduces its functionality or make it more difficult to\nuse, while increasing the Attribute’s effective Level. For\nexample, if your Mind Control Attribute is a magical\nspell that requires several seconds worth of chanting to\ncast, this is a Limiter. You do not usually apply Limiters\ndirectly to the Companion (page 84) or Item (page 101)\nAttributes, but you can apply Limiters to individual\nAttributes that are assigned to the Companion or Item.\n\nBACKLASH\n\nThe character suffers an unfortunate side effect\nwhenever the Attribute fails to work. If the character\nfails their appropriate Stat roll when using the Attribute\nor badly misses their target when attacking with a\nWeapon, the character is hit with the energy or essence\nthat would have powered the Attribute’s use. The\nBacklash could be physical damage, memory loss, Stat\ndrain, disorientation, or many other effects that make\nthe character’s life more difficult. The player and GM\nshould determine the game effect of the Backlash.\n\nACTIVATION\n\nThe\nAttribute\nrequires\na\nhigh\ndegree\nof\nconcentration, such as chanting an incantation,\nfocussing personal energies, loading individual shots,\npreparing ingredients, or programming a computer.\nThe character cannot move or make defence rolls on the\nsame round that they used or activated the Attribute.\nActivation is appropriate for Attributes that produce\ninstantaneous effects, such as Healing or Weapon, and\nis also appropriate for ongoing Attributes like Armour\nor Flight – but only if they were assigned the Deplete,\nDetectable, Irreversible, or Recovery Limiters as well.\nActivation is not usually assigned to Attributes that can\nbe kept on indefinitely without inconveniencing the\nuser. Wearable Items are normally assumed to take an\nappropriate time to put on or remove, so do not assign\nActivation to Attributes embodied in such Items unless\nthe individual Attributes requires further Activation\nonce the Item is ready to use.\n\n1 Assignment\nThe Backlash occurs if the\ncharacter fails their roll by an\nextreme margin (6 or more)\n2 Assignments\nThe Backlash occurs if the\ncharacter fails their roll by a\nsignificant margin (3 or more)\n3 Assignments\nThe Backlash occurs if the\ncharacter fails their roll",
+      "sourcePage": 148
+    },
+    {
+      "id": "charges",
+      "name": "Charges",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 148,
+      "maxAssignments": 3,
+      "rulesText": "Activation\nDeplete\nMaximum\nAssisted\nDetectable\nObject\nBacklash\nEmotional\nPermanent\nCharges\nEnvironmental\nRecovery\nConcentration\nEquipment\nSemi-Permanent\nConsumable\nImbue\nUnique\nDelay\nIrreversible\nUnpredictable\nDependent\nLocalised\n\nISATI\n\nCUSTOM\n\n1 Assignment\nA single assistant is required for\nthe Attribute to function\n2 Assignments\nA small group of assistants (2-10)\nis required for the Attribute to\nfunction\n3 Assignments\nA large group of assistants\n(11-100) is required for the\nAttribute to function\n\nLimiters are restrictions on the scope of an Attribute\nthat reduces its functionality or make it more difficult to\nuse, while increasing the Attribute’s effective Level. For\nexample, if your Mind Control Attribute is a magical\nspell that requires several seconds worth of chanting to\ncast, this is a Limiter. You do not usually apply Limiters\ndirectly to the Companion (page 84) or Item (page 101)\nAttributes, but you can apply Limiters to individual\nAttributes that are assigned to the Companion or Item.\n\nBACKLASH\n\nThe character suffers an unfortunate side effect\nwhenever the Attribute fails to work. If the character\nfails their appropriate Stat roll when using the Attribute\nor badly misses their target when attacking with a\nWeapon, the character is hit with the energy or essence\nthat would have powered the Attribute’s use. The\nBacklash could be physical damage, memory loss, Stat\ndrain, disorientation, or many other effects that make\nthe character’s life more difficult. The player and GM\nshould determine the game effect of the Backlash.\n\nACTIVATION",
+      "sourcePage": 148
+    },
+    {
+      "id": "concentration",
+      "name": "Concentration",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 149,
+      "maxAssignments": 3,
+      "rulesText": "CONCENTRATION\n\nDEPENDENT\n\nThe character must concentrate while using the\nongoing Attribute (it does not apply to Attributes with\nan instantaneous effect). If the character’s concentration\nis interrupted voluntarily or by an outside event, the\nAttribute ceases to function.\n\nThe character cannot use this Attribute unless one\nor more other Attributes are used at the same time.\nDependent is only a Limiter if this use is a significant\ndisadvantage. For example, a character might have\nArmour that is Dependent upon Flight (the Armour\nceases to function when the character is on the ground)\nbut not Flight that is Dependent on Armour (since\nthere is rarely a compelling reason to turn off the\nArmour Attribute). Dependent is also a valid if one\nAttribute requires the other to succeed, provided that\na roll is required. For example, Mind Control might be\nDependent on Metamorphosis – the character can only\ntake control of people after they have transformed the\ntargets. The player must justify the Dependent Limiter\nto the GM to avoid inappropriate combinations.\n\n1 Assignment\nRequires slight Concentration.\nThe character can still perform\nother general actions but\ncannot perform any combat-\nrelated actions or use other\nAttributes that also require\nConcentration.\n2 Assignments\nRequires intense Concentration.\nThe character can move at slow\nspeeds and talk with others while\nusing the Attribute but cannot\nperform any complex actions\n(including combat) or use any\nother Attribute.\n3 Assignments\nRequires full Concentration. The\ncharacter cannot do anything\nelse while using the Attribute and\nmust remain still to devote their\nfull attention to the Attribute.\n\n1 Assignment\nDependent Attribute does\nnot take effect until one other\nAttribute is activated\n2 Assignments\nDependent Attribute does\nnot take effect until two other\nAttributes are activated\n3 Assignments\nDependent Attribute does not\ntake effect until three other\nAttributes are activated",
+      "sourcePage": 149
+    },
+    {
+      "id": "consumable",
+      "name": "Consumable",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 149,
+      "maxAssignments": 3,
+      "rulesText": "CONSUMABLE\n\nDEPLETE\n\nThe Attribute requires some form of focus to use\nproperly, which is destroyed when the Attribute is\nactivated. This focus could be anything from candles\nand incense to a rocket launch gantry.\n\nThe character’s Energy Points are used to power\na particular Attribute. The Energy Points will either\nbe reduced after the Attributes use (for Attributes for\nimmediate effects, such as Teleport and Weapon), or\nwhile the Attribute is being used (for Attributes that are\nongoing, such as Flight and Undetectable). For more\ninformation on Energy Points and their use, see page 195.\n\n1 Assignment\nFocus is easy to replace\n2 Assignments\nFocus is hard to replace\n3 Assignments\nFocus is very difficult to replace",
+      "sourcePage": 149
+    },
+    {
+      "id": "delay",
+      "name": "Delay",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 149,
+      "maxAssignments": 3,
+      "rulesText": "1 Assignment\nDelay of a few minutes before it\ntakes full effect\n2 Assignments\nDelay of a few hours before it\ntakes full effect\n3 Assignments\nDelay of a few days before it\ntakes full effect\n\nCONCENTRATION",
+      "sourcePage": 149
+    },
+    {
+      "id": "dependent",
+      "name": "Dependent",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 149,
+      "maxAssignments": 3,
+      "rulesText": "DEPENDENT\n\nThe character must concentrate while using the\nongoing Attribute (it does not apply to Attributes with\nan instantaneous effect). If the character’s concentration\nis interrupted voluntarily or by an outside event, the\nAttribute ceases to function.\n\nThe character cannot use this Attribute unless one\nor more other Attributes are used at the same time.\nDependent is only a Limiter if this use is a significant\ndisadvantage. For example, a character might have\nArmour that is Dependent upon Flight (the Armour\nceases to function when the character is on the ground)\nbut not Flight that is Dependent on Armour (since\nthere is rarely a compelling reason to turn off the\nArmour Attribute). Dependent is also a valid if one\nAttribute requires the other to succeed, provided that\na roll is required. For example, Mind Control might be\nDependent on Metamorphosis – the character can only\ntake control of people after they have transformed the\ntargets. The player must justify the Dependent Limiter\nto the GM to avoid inappropriate combinations.\n\n1 Assignment\nRequires slight Concentration.\nThe character can still perform\nother general actions but\ncannot perform any combat-\nrelated actions or use other\nAttributes that also require\nConcentration.\n2 Assignments\nRequires intense Concentration.\nThe character can move at slow\nspeeds and talk with others while\nusing the Attribute but cannot\nperform any complex actions\n(including combat) or use any\nother Attribute.\n3 Assignments\nRequires full Concentration. The\ncharacter cannot do anything\nelse while using the Attribute and\nmust remain still to devote their\nfull attention to the Attribute.\n\n1 Assignment\nDependent Attribute does\nnot take effect until one other\nAttribute is activated\n2 Assignments\nDependent Attribute does\nnot take effect until two other\nAttributes are activated\n3 Assignments\nDependent Attribute does not\ntake effect until three other\nAttributes are activated\n\nCONSUMABLE",
+      "sourcePage": 149
+    },
+    {
+      "id": "deplete",
+      "name": "Deplete",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 149,
+      "maxAssignments": 3,
+      "rulesText": "DEPLETE\n\nThe Attribute requires some form of focus to use\nproperly, which is destroyed when the Attribute is\nactivated. This focus could be anything from candles\nand incense to a rocket launch gantry.",
+      "sourcePage": 149
+    },
+    {
+      "id": "detectable",
+      "name": "Detectable",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 150,
+      "maxAssignments": 3,
+      "rulesText": "DETECTABLE\n\nWhile using the Attribute, the character can be\npinpointed and possibly identified by others who\nhave specific detection techniques. For example, the\nAttribute’s use may create a loud noise or a bright\nflash, send vibrations through the ground, or emanate\nmental shock waves. Detection techniques that can\npinpoint the Attribute’s use include: astral, ethereal,\nhuman sight/hearing/smell, infrared, mental, radar,\nradiation, sonar, spiritual, ultraviolet, vibration, and\nothers. The Weapon Attribute, which is Detectable by\ndefault, is an exception to this Limiter – characters must\nacquire the Inconspicuous Enhancement (page 138) to\nmake the attack undetectable. Detectable only applies\nif the Attribute calls attention to itself in an especially\nnoticeable fashion and thus is usually not appropriate\nfor Items (which can normally be seen and identified).\n\nON\n\n1 Assignment\nAdventures often take place in\nor near the specific environment\n2 Assignments\nAdventures occasionally take\nplace in or near the specific\nenvironment\n3 Assignments\nAdventures rarely take place in or\nnear the specific environment\n\nISATI\n\nCUSTOM\n\n1 Assignment\nDetectable using 1-2 methods\n2 Assignments\nDetectable using 3-5 methods\n3 Assignments\nDetectable using 6-10 methods",
+      "sourcePage": 150
+    },
+    {
+      "id": "emotional",
+      "name": "Emotional",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 150,
+      "maxAssignments": 3,
+      "rulesText": "EMOTIONAL\n\nThe Attribute only manifests in situations where the\ncharacter is experiencing a very strong emotional trigger\nthat calls for the use of the Attribute. For example, a\ncleric with this Limiter might only be able to use the\nHealing Attribute on someone with whom the character\nhad a strong emotional tie (such as a friend or family\nmember). Similarly, a Weapon may only function if the\ncharacter was striking to avenge a loved one, reverse a\nhumiliation, or save the world.\n\n1 Assignment\nUse requires significant\nEmotional investment\n2 Assignments\nUse requires strong Emotional\ninvestment\n3 Assignments\nUse requires extreme Emotional\ninvestment",
+      "sourcePage": 150
+    },
+    {
+      "id": "environmental",
+      "name": "Environmental",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 150,
+      "maxAssignments": 3,
+      "rulesText": "through liquids. Environmental is useful for creating an\ninternal Attribute such as a Weapon or Sixth Sense that\nare only usable within a specific structure or inside a\nlarge Item such as a starship.\n\nDETECTABLE\n\nWhile using the Attribute, the character can be\npinpointed and possibly identified by others who\nhave specific detection techniques. For example, the\nAttribute’s use may create a loud noise or a bright\nflash, send vibrations through the ground, or emanate\nmental shock waves. Detection techniques that can\npinpoint the Attribute’s use include: astral, ethereal,\nhuman sight/hearing/smell, infrared, mental, radar,\nradiation, sonar, spiritual, ultraviolet, vibration, and\nothers. The Weapon Attribute, which is Detectable by\ndefault, is an exception to this Limiter – characters must\nacquire the Inconspicuous Enhancement (page 138) to\nmake the attack undetectable. Detectable only applies\nif the Attribute calls attention to itself in an especially\nnoticeable fashion and thus is usually not appropriate\nfor Items (which can normally be seen and identified).\n\nON\n\n1 Assignment\nAdventures often take place in\nor near the specific environment\n2 Assignments\nAdventures occasionally take\nplace in or near the specific\nenvironment\n3 Assignments\nAdventures rarely take place in or\nnear the specific environment\n\nISATI\n\nCUSTOM\n\n1 Assignment\nDetectable using 1-2 methods\n2 Assignments\nDetectable using 3-5 methods\n3 Assignments\nDetectable using 6-10 methods\n\nEMOTIONAL\n\nThe Attribute only manifests in situations where the\ncharacter is experiencing a very strong emotional trigger\nthat calls for the use of the Attribute. For example, a\ncleric with this Limiter might only be able to use the\nHealing Attribute on someone with whom the character\nhad a strong emotional tie (such as a friend or family\nmember). Similarly, a Weapon may only function if the\ncharacter was striking to avenge a loved one, reverse a\nhumiliation, or save the world.\n\n1 Assignment\nUse requires significant\nEmotional investment\n2 Assignments\nUse requires strong Emotional\ninvestment\n3 Assignments\nUse requires extreme Emotional\ninvestment\n\nENVIRONMENTAL\n\nThe Attribute only functions in a particular\nlimited setting or condition. For example Weapon\n(Environmental: Water) can represent a torpedo, while\nAlternate Form (Environmental: Virtual Reality) could\nrepresent an avatar of the character whose existence is\nlimited to a lifelike cyberspace realm. The environment\ncan be common (one assignment), but should not\nbe one characters will always encounter during the\ncampaign. For example, “only in atmosphere” is not\na valid setting unless much of the game action takes\nplace in airless environments. This Limiter is also\ninappropriate if a limited environment is implicit in the\nAttribute, such as Water Speed being limited to travel\n\n06: CUSTOMISATION",
+      "sourcePage": 150
+    },
+    {
+      "id": "equipment",
+      "name": "Equipment",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 151,
+      "maxAssignments": 3,
+      "rulesText": "EQUIPMENT\n\nLOCALISED\n\nThe Attribute requires specific materials, machinery,\nfurnishings, or accessories to properly use. Unlike an\nItem, the required Equipment does not embody the\nAttribute but rather helps the character activate effects.\n\nOnly part of the character’s body is affected by a\nspecific Attribute. Localised is most commonly used\nfor the following Attributes: Absorption, Alternate\nForm, Armour, Change State, Conversion, Resilient,\nSuperstrength, and Undetectable. For example, a\ncharacter might only receive Armour benefits against\nabdominal attacks, or possess the ability to turn\ntheir left arm invisible only, or have bionic legs with\nSuperstrength, etc.\n\n1 Assignment\nEquipment is easily portable,\nsuch as a smartphone, wagon,\nor spell book\n2 Assignments\nEquipment is awkward to move,\nsuch as a statue, portable altar, or\nlarge furniture\n3 Assignments\nEquipment is static, such as\nworkshop, laboratory, or shrine\n\nLOCALISED ITEM ARMOUR\n\nCreating a vehicle Item that has Armour with one\nassignment of the Localised Limiter usually indicates\nthat the character rides on top of the vehicle rather\nthan inside it (which is contrary to the normal use of\nmost vehicles), and consequently it does not provide\nfull Armour protection. For example, motorcycles,\nsmall motorboats, ultralight aircraft, etc. all have one\nassignment of the Localised Limiter on their Armour.",
+      "sourcePage": 151
+    },
+    {
+      "id": "imbue",
+      "name": "Imbue",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 151,
+      "maxAssignments": 3,
+      "rulesText": "IMBUE\n\nImbue is usually assigned with the Charges Limiter.\nThe character does not use the Attribute themselves\ndirectly but instead grants its use to others for the\nduration of one dramatic scene. Imbue can represent\nblessings performed by the character for protection,\ninspirational speeches that encourage others, a special\nwish-granting ability, technical upgrades performed by\nthe character, etc. This Limiter is often assigned to one\nof the following Attributes, though the GM may expand\nthis list as desired: Armour, Augmented, Heightened\nAwareness, Immutable, Massive Damage, Melee Attack,\nMelee Defence, Mulligan, Ranged Attack, Ranged\nDefence, Resilient, and Special Movement.\n\n1 Assignment\nAffects a large part of the body\n(torso, both legs or arms, etc.)\n2 Assignments\nAffects a small part of the body\n(one leg or arm, abdomen, chest,\nhead, etc.)\n3 Assignments\nAffects a tiny part of the body\n(one hand or foot, face, groin,\nknee, etc.)\n\nMAXIMUM\n\n1 Assignment\nImbue 4-5 people\n2 Assignments\nImbue 2-3 people\n3 Assignments\nImbue 1 person\n\nThe character cannot use the specific Attribute at\nthe lower end of its power range and always functions\nat its Maximum strength (consider effective Level, not\nactual Level). This could represent a character who is too\ntalented for their own good, an Item that only functions\nwithin certain maximum parameters, a powerful\ncharacter who pushes the Attribute’s limits so often that\nthey have forgotten how to use it at a lower Levels, etc.\nThis Limiter is usually only appropriate for the\nfollowing Attributes: Change State, Dynamic Powers,\nElasticity, Flight, Ground Speed, Illusion, Jumping,\nPlant Control, Projection, Spaceflight, Superspeed,\nTeleport, Transmute, and Water Speed. The GM must\napprove its exact application to ensure the Attribute is\nsufficiently limited.",
+      "sourcePage": 151
+    },
+    {
+      "id": "irreversible",
+      "name": "Irreversible",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 151,
+      "maxAssignments": 3,
+      "rulesText": "IRREVERSIBLE\n\nThis Limiter can only be taken in conjunction\nwith Attributes that change the physical appearance\nor structure of the character, such as Alternate Form,\nAlternate Identity, Change State, Elasticity, or\nUndetectable. Once the character has transformed\nfrom their normal state, they cannot transform back\nto a prior form without meeting certain conditions.\nThis might include a magical ritual, work by mechanics\nor lab technicians, consuming a specific substance, or\nsimply the passage of time.\n\nCUSTOM\n\n1 Assignment\nIt takes several hours of work or\nspecial circumstances to enable\nthe character to transform back\nto an earlier form\n2 Assignments\nAs above, but the process also\nrequires expensive or rare\nreplacement components,\ningredients, or prerequisites\n3 Assignments\nAs above, but the process takes\nseveral days\n\n1 Assignment\nThe character’s Attribute is at\nLevel 2 and always functions at\nits Maximum effectiveness\n2 Assignments\nThe character’s Attribute is at\nLevel 3 or 4 and always functions\nat its Maximum effectiveness\n3 Assignments\nThe character’s Attribute is at\nLevel 5+ and always functions at\nits Maximum effectiveness\n\nISATI\n\nON",
+      "sourcePage": 151
+    },
+    {
+      "id": "localised",
+      "name": "Localised",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 151,
+      "maxAssignments": 3,
+      "rulesText": "LOCALISED\n\nThe Attribute requires specific materials, machinery,\nfurnishings, or accessories to properly use. Unlike an\nItem, the required Equipment does not embody the\nAttribute but rather helps the character activate effects.\n\nOnly part of the character’s body is affected by a\nspecific Attribute. Localised is most commonly used\nfor the following Attributes: Absorption, Alternate\nForm, Armour, Change State, Conversion, Resilient,\nSuperstrength, and Undetectable. For example, a\ncharacter might only receive Armour benefits against\nabdominal attacks, or possess the ability to turn\ntheir left arm invisible only, or have bionic legs with\nSuperstrength, etc.\n\n1 Assignment\nEquipment is easily portable,\nsuch as a smartphone, wagon,\nor spell book\n2 Assignments\nEquipment is awkward to move,\nsuch as a statue, portable altar, or\nlarge furniture\n3 Assignments\nEquipment is static, such as\nworkshop, laboratory, or shrine\n\nLOCALISED ITEM ARMOUR\n\nCreating a vehicle Item that has Armour with one\nassignment of the Localised Limiter usually indicates\nthat the character rides on top of the vehicle rather\nthan inside it (which is contrary to the normal use of\nmost vehicles), and consequently it does not provide\nfull Armour protection. For example, motorcycles,\nsmall motorboats, ultralight aircraft, etc. all have one\nassignment of the Localised Limiter on their Armour.\n\nIMBUE\n\nImbue is usually assigned with the Charges Limiter.\nThe character does not use the Attribute themselves\ndirectly but instead grants its use to others for the\nduration of one dramatic scene. Imbue can represent\nblessings performed by the character for protection,\ninspirational speeches that encourage others, a special\nwish-granting ability, technical upgrades performed by\nthe character, etc. This Limiter is often assigned to one\nof the following Attributes, though the GM may expand\nthis list as desired: Armour, Augmented, Heightened\nAwareness, Immutable, Massive Damage, Melee Attack,\nMelee Defence, Mulligan, Ranged Attack, Ranged\nDefence, Resilient, and Special Movement.\n\n1 Assignment\nAffects a large part of the body\n(torso, both legs or arms, etc.)\n2 Assignments\nAffects a small part of the body\n(one leg or arm, abdomen, chest,\nhead, etc.)\n3 Assignments\nAffects a tiny part of the body\n(one hand or foot, face, groin,\nknee, etc.)",
+      "sourcePage": 151
+    },
+    {
+      "id": "maximum",
+      "name": "Maximum",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 151,
+      "maxAssignments": 3,
+      "rulesText": "MAXIMUM\n\n1 Assignment\nImbue 4-5 people\n2 Assignments\nImbue 2-3 people\n3 Assignments\nImbue 1 person\n\nThe character cannot use the specific Attribute at\nthe lower end of its power range and always functions\nat its Maximum strength (consider effective Level, not\nactual Level). This could represent a character who is too\ntalented for their own good, an Item that only functions\nwithin certain maximum parameters, a powerful\ncharacter who pushes the Attribute’s limits so often that\nthey have forgotten how to use it at a lower Levels, etc.\nThis Limiter is usually only appropriate for the\nfollowing Attributes: Change State, Dynamic Powers,\nElasticity, Flight, Ground Speed, Illusion, Jumping,\nPlant Control, Projection, Spaceflight, Superspeed,\nTeleport, Transmute, and Water Speed. The GM must\napprove its exact application to ensure the Attribute is\nsufficiently limited.\n\nIRREVERSIBLE\n\nThis Limiter can only be taken in conjunction\nwith Attributes that change the physical appearance\nor structure of the character, such as Alternate Form,\nAlternate Identity, Change State, Elasticity, or\nUndetectable. Once the character has transformed\nfrom their normal state, they cannot transform back\nto a prior form without meeting certain conditions.\nThis might include a magical ritual, work by mechanics\nor lab technicians, consuming a specific substance, or\nsimply the passage of time.\n\nCUSTOM\n\n1 Assignment\nIt takes several hours of work or\nspecial circumstances to enable\nthe character to transform back\nto an earlier form\n2 Assignments\nAs above, but the process also\nrequires expensive or rare\nreplacement components,\ningredients, or prerequisites\n3 Assignments\nAs above, but the process takes\nseveral days\n\n1 Assignment\nThe character’s Attribute is at\nLevel 2 and always functions at\nits Maximum effectiveness\n2 Assignments\nThe character’s Attribute is at\nLevel 3 or 4 and always functions\nat its Maximum effectiveness\n3 Assignments\nThe character’s Attribute is at\nLevel 5+ and always functions at\nits Maximum effectiveness\n\nISATI\n\nON\n\n06: CUSTOMISATION\n\n1 Assignment\nFor every 1 minute the\ncharacter uses the Attribute,\nthe Recovery time is 1 minute\nbefore the Attribute functions\nagain. The Attribute can be used\nfor a maximum of 12 hours.\n2 Assignments\nFor every 1 minute the character\nuses the Attribute, the Recovery\ntime is 10 minutes before the\nAttribute functions again. The\nAttribute can be used for a\nmaximum of 4 hours.\n3 Assignments\nFor every 1 minute the character\nuses the Attribute, the Recovery\ntime is 1 hour before the\nAttribute functions again. The\nAttribute can be used for a\nmaximum of 1 hour.",
+      "sourcePage": 151
+    },
+    {
+      "id": "object",
+      "name": "Object",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 152,
+      "maxAssignments": 3,
+      "rulesText": "OBJECT\n\nObject is usually assigned to Attributes contained\nwithin Items that are contrary to the Item’s “normal use”\nand are only useful for the benefit of the Item itself and\nnot the character who uses it. For example, a magic ring\nwith Armour and the Object Limiter would be harder\nto destroy because it has Armour but would not give\nthe wearing character any Armour (which would be the\nnormal use of an Item with Armour). Similarly, a cloak\nwith Flight and the Object Limiter might be able to fly\nto the wearer upon command but the character could\nnot actually fly while wearing it (which would be the\nnormal use of an Item with Flight). When in doubt what\n“normal use” for an Item is, consult the Game Master.\n\nON\n\nISATI\n\nCUSTOM\n\n1 Assignment\nThe Item’s Attribute still\nprovides moderate benefit to\nthe character\n2 Assignments\nThe Item’s Attribute still provides\nslight benefit to the character\n3 Assignments\nThe Item’s Attribute hardly\nprovides any benefit to the\ncharacter",
+      "sourcePage": 152
+    },
+    {
+      "id": "permanent",
+      "name": "Permanent",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 152,
+      "maxAssignments": 3,
+      "rulesText": "SEMI-PERMANENT\n\nThe Attribute is always functioning, though the\ncharacter can turn it off for short periods by expending\nEnergy Points (and thus enjoy a normal life for brief\nperiods). This Limiter only applies to Attributes that\nwould inconvenience the character if the Attribute\nis always active, such as Change State, Force Field,\nNullify, Undetectable, etc. The player and GM should\ndiscuss the problems and limitations associated with an\neternally active Attribute.\n\nPERMANENT\n\nThe Attribute is always functioning and the\ncharacter cannot turn it off. This Limiter only applies to\nAttributes that would inconvenience the character if the\nAttribute is always active, such as Change State, Force\nField, Nullify, Undetectable, etc. The player and GM\nshould discuss the problems and limitations associated\nwith an eternally active Attribute.\n\n1 Assignment\nSemi-Permanent Attribute is\na minor inconvenience to the\ncharacter; can be turned off at a\ncost of 1 Energy Points/minute\n2 Assignments\nSemi-Permanent Attribute is a\nmoderate inconvenience to the\ncharacter; can be turned off at a\ncost of 10 Energy Points/minute\n3 Assignments\nSemi-Permanent Attribute is\na major inconvenience to the\ncharacter; can be turned off at a\ncost of 10 Energy Points/round\n\n1 Assignment\nPermanent Attribute is a slight\ninconvenience\n2 Assignments\nPermanent Attribute is a minor\ninconvenience\n3 Assignments\nPermanent Attribute is a\nmoderate inconvenience",
+      "sourcePage": 152
+    },
+    {
+      "id": "recovery",
+      "name": "Recovery",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 152,
+      "maxAssignments": 3,
+      "rulesText": "1 Assignment\nFor every 1 minute the\ncharacter uses the Attribute,\nthe Recovery time is 1 minute\nbefore the Attribute functions\nagain. The Attribute can be used\nfor a maximum of 12 hours.\n2 Assignments\nFor every 1 minute the character\nuses the Attribute, the Recovery\ntime is 10 minutes before the\nAttribute functions again. The\nAttribute can be used for a\nmaximum of 4 hours.\n3 Assignments\nFor every 1 minute the character\nuses the Attribute, the Recovery\ntime is 1 hour before the\nAttribute functions again. The\nAttribute can be used for a\nmaximum of 1 hour.\n\nOBJECT\n\nObject is usually assigned to Attributes contained\nwithin Items that are contrary to the Item’s “normal use”\nand are only useful for the benefit of the Item itself and\nnot the character who uses it. For example, a magic ring\nwith Armour and the Object Limiter would be harder\nto destroy because it has Armour but would not give\nthe wearing character any Armour (which would be the\nnormal use of an Item with Armour). Similarly, a cloak\nwith Flight and the Object Limiter might be able to fly\nto the wearer upon command but the character could\nnot actually fly while wearing it (which would be the\nnormal use of an Item with Flight). When in doubt what\n“normal use” for an Item is, consult the Game Master.\n\nON\n\nISATI\n\nCUSTOM\n\n1 Assignment\nThe Item’s Attribute still\nprovides moderate benefit to\nthe character\n2 Assignments\nThe Item’s Attribute still provides\nslight benefit to the character\n3 Assignments\nThe Item’s Attribute hardly\nprovides any benefit to the\ncharacter",
+      "sourcePage": 152
+    },
+    {
+      "id": "semi-permanent",
+      "name": "Semi-Permanent",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 152,
+      "maxAssignments": 3,
+      "rulesText": "SEMI-PERMANENT\n\nThe Attribute is always functioning, though the\ncharacter can turn it off for short periods by expending\nEnergy Points (and thus enjoy a normal life for brief\nperiods). This Limiter only applies to Attributes that\nwould inconvenience the character if the Attribute\nis always active, such as Change State, Force Field,\nNullify, Undetectable, etc. The player and GM should\ndiscuss the problems and limitations associated with an\neternally active Attribute.\n\nPERMANENT\n\nThe Attribute is always functioning and the\ncharacter cannot turn it off. This Limiter only applies to\nAttributes that would inconvenience the character if the\nAttribute is always active, such as Change State, Force\nField, Nullify, Undetectable, etc. The player and GM\nshould discuss the problems and limitations associated\nwith an eternally active Attribute.\n\n1 Assignment\nSemi-Permanent Attribute is\na minor inconvenience to the\ncharacter; can be turned off at a\ncost of 1 Energy Points/minute\n2 Assignments\nSemi-Permanent Attribute is a\nmoderate inconvenience to the\ncharacter; can be turned off at a\ncost of 10 Energy Points/minute\n3 Assignments\nSemi-Permanent Attribute is\na major inconvenience to the\ncharacter; can be turned off at a\ncost of 10 Energy Points/round\n\n1 Assignment\nPermanent Attribute is a slight\ninconvenience\n2 Assignments\nPermanent Attribute is a minor\ninconvenience\n3 Assignments\nPermanent Attribute is a\nmoderate inconvenience\n\nRECOVERY",
+      "sourcePage": 152
+    },
+    {
+      "id": "unique-limiter",
+      "name": "Unique Limiter",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 152,
+      "maxAssignments": 3,
+      "rulesText": "UNIQUE LIMITER\n\nAfter the character uses the ongoing Attribute, they\ncannot use it again for a specific period of time. The\nlonger the Attribute is used, the longer the rest period\nmust be. For example, the muscles of a character with\nSuperstrength may need time to recuperate after use,\nor an Item that grants Flight may need to be recharged\nbetween uses. Only under exceptional circumstances\n(and at a great sacrifice, as determined by the GM) can\nthe character use the Attribute again before the waiting\nperiod has elapsed. This Limiter is usually incompatible\nwith the Deplete and Charges Limiter.\n\nThis covers any and all possible Limiters that an\nAttribute might possess but are not detailed in the rules.\nThis offers a near-endless number of restrictions and\nconsequently the player and GM should discuss the\nramifications of the Unique Limiter.\n\n1 Assignment\nUnique Limiter imposes minor\nrestrictions on the Attribute\n2 Assignments\nUnique Limiter imposes\nmoderate restrictions on the\nAttribute\n3 Assignments\nUnique Limiter imposes major\nrestrictions on the Attribute\n\n13\n06: CUSTOMISATION",
+      "sourcePage": 152
+    },
+    {
+      "id": "unpredictable",
+      "name": "Unpredictable",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 153,
+      "maxAssignments": 3,
+      "rulesText": "UNPREDICTABLE\n\nSAMPLE UNIQUE\nLIMITERS\n\nThe character’s Attribute frequently does not\nfunction when desired and requires a successful Stat roll\nto use. If the Attribute does not have a “Relevant Stat”\nentry, use the character’s Soul Stat. At the GM’s and\nplayer’s discretion, Unpredictable can also represent an\nAttribute that does not always function in the manner\ndesired. For example, a character with Plant Control\nmight control the wrong plants, or a Force Field\nmight not always appear in the correct place. For this\nalternative, the Stat roll determines if the Attribute\noperates properly with a failed roll indicating that it\nactivates in an unexpected manner.\n\nRoll to maintain control\nNaked form only\nEasy to counteract\nRestricts movement\nFlawed results\nTime limit\nInitiative penalty to use\nUnder conditions\nLimited functioning\nUsage inflicts pain\nMust remain still\nUse weakens character\n\n1 Assignment\nThe character must make a\nsuccessful average Stat roll\n(TN 12) to use the Attribute\n2 Assignments\nThe character must make a\nsuccessful difficult Stat roll\n(TN 15) to use the Attribute\n3 Assignments\nThe character must make a\nsuccessful challenging Stat roll\n(TN 18) to use the Attribute\n\nCUSTOM\n\nISATI\n\nON\n\nDEFECTS\n\n07: DEFECTS\n\nSELECT DEFECTS\n\nDefects are disadvantages through which your character must suffer in order to overcome the hardships of day-to-\nday life. Defects serve as an excellent (and sometimes comical) role-playing opportunity and offer interesting plot hooks\nfor your GM to use during adventures. They should only impede your character to a limited extent, though, and are\nnot intended to totally negate their many abilities. If assigned to Items (see page 101), Defects indicate built-in flaws or\ndrawbacks that make it more difficult to use or render it less effective than ideal.\n\nCarefully consider the number of Defects that burden your character. One to five Defects is normally appropriate since\nyour focus should be the capabilities of your character rather than their disadvantages. Additionally, it should be rare to\nassign a multitude of Defects above one Rank due to their restrictive nature (Size Templates excluded, page 32).\n\nu\nX\nDEFECT RANKS\nEFECT RANKS\n\nDEFECTS\n\nDefects have a negative Point cost that give back\nCharacter Points to your character, depending on how\nseverely the Defect will impact their life. Defects that do\nnot inflict a significant disadvantage (such as a weakness\nto bullets made from the ice of dwarf planet Pluto) are\nnot worth any negative Points. It’s easy to think of\nDefects as negative Attribute Levels that hinder rather\nthan help the character.\nDefects are therefore categorised into three groups,\ndepending on how much they reduce the final Point\ncost of the character:\nLesser – Lesser Defects reduce the final cost of your\ncharacter by 1, 2, or 3 Points (-1 Point/Rank).\nGreater – Greater Defects reduce the final cost of\nyour character by 2, 4, or 6 Points (-2 Points/Rank).\nSerious – Serious Defects reduce the final cost of\nyour character by 3, 6, or 9 Points (-3 Points/Rank).\n\nDefect Name\nCategory Points\nPage\n\nAchilles Heel\nGreater\n-2/-4/-6\n156\nAwkward Size\nGreater\nSpecial\n156\nBane\nGreater\n-2/-4/-6\n156\nBlind Fury\nGreater\n-2/-4/-6\n157\nConditional Ownership\nLesser\n-1/-2/-3\n157\nConfined\nSerious\n-3/-6/-9\n158\nCursed\nGreater\n-2/-4/-6\n158\nEasily Distracted\nLesser\n-1/-2/-3\n158\nFragile\nLesser\n-1/-2/-3\n158\nHounded\nGreater\n-2/-4/-6\n158\nImpaired Manipulation\nSerious\n-3/-6/-9\n158\nImpaired Speech\nSerious\n-3/-6/-9\n160\nInept Attack\nLesser\n-1/-2/-3\n160\nInept Defence\nLesser\n-1/-2/-3\n160\nInvoluntary Change\nLesser\n-1/-2/-3\n160\nIsm\nGreater\n-2/-4/-6\n160\nMagnet\nLesser\n-1/-2/-3\n161\nMarked\nLesser\n-1/-2/-3\n161\nNemesis\nLesser\n-1/-2/-3\n161\nNightmares\nLesser\n-1/-2/-3\n161\nObligated\nGreater\n-2/-4/-6\n163\nPhobia\nLesser\n-1/-2/-3\n163\nPhysical Impairment\nSerious\n-3/-6/-9\n163\nRed Tape\nLesser\n-1/-2/-3\n163\nReduced Damage\nSerious\n-3/-6/-9\n163\nSensory Impairment\nSerious\n-3/-6/-9\n164\nShortcoming\nLesser\n-1/-2/-3\n164\nSignificant Other\nLesser\n-1/-2/-3\n165\nSkeleton in the Closet\nGreater\n-2/-4/-6\n165\nSocial Fault\nLesser\n-1/-2/-3\n166\nSpecial Requirement\nSerious\n-3/-6/-9\n166\nUnappealing\nLesser\n-1/-2/-3\n166\nUnique Defect\nSpecial\n167\nVulnerability\nGreater\n-2/-4/-6\n167\nWanted\nGreater\n-2/-4/-6\n167\nWeak Point\nGreater\n-2/-4/-6\n167\n\nu\nX\nUNUSED POINTS\nNUSED POINTS\n\nIf after assigning a few Defects your character’s total\nCharacter Point cost is now less than the number of\nCharacter Points you were assigned by the GM, you\nhave three options:\n\nINCREASE YOUR BENEFITS\n\nYou can return to previous character creation steps\nand assign additional Stats, Templates, or Attributes,\nwhich increases your Character Point cost up to your\ncorrect starting total.\n\nADD UNKNOWN ELEMENTS\n\nYou can assign the unused Points to the Unknown\nPower Attribute (page 123), which allows the GM to\nassign hidden abilities to you that are appropriate for\nyour role in the game’s storyline.\n\nBANK FOR THE FUTURE\n\nYou can save the unused Character Points for future\nconsideration and allocate them at an appropriate time.",
+      "sourcePage": 153
+    }
+  ],
+  "weaponEnhancements": [
+    {
+      "id": "accurate",
+      "name": "Accurate",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 134,
+      "maxAssignments": 2,
+      "rulesText": "",
+      "sourcePage": 134
+    },
+    {
+      "id": "aura",
+      "name": "Aura",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 134,
+      "maxAssignments": 1,
+      "rulesText": "",
+      "sourcePage": 134
+    },
+    {
+      "id": "autofire",
+      "name": "Autofire",
+      "kind": "enhancement",
+      "slotCost": 3,
+      "page": 134,
+      "maxAssignments": 1,
+      "rulesText": "",
+      "sourcePage": 134
+    },
+    {
+      "id": "blight",
+      "name": "Blight",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 134,
+      "maxAssignments": 3,
+      "rulesText": "",
+      "sourcePage": 134
+    },
+    {
+      "id": "contact",
+      "name": "Contact",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 134,
+      "maxAssignments": 2,
+      "rulesText": "",
+      "sourcePage": 134
+    },
+    {
+      "id": "contagious",
+      "name": "Contagious",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 134,
+      "maxAssignments": 3,
+      "rulesText": "",
+      "sourcePage": 134
+    },
+    {
+      "id": "continuing",
+      "name": "Continuing",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 134,
+      "maxAssignments": 6,
+      "rulesText": "Accurate\n1-2\nInsidious\n3\nAura\n1\nLinked\n1\nAutofire\n3\nMultidimensional\n1\nBlight\n1-3\nMuscle\n1\nContact\n1-2\nPenetrating\n1+\nContagious\n1-3\nPiercing\n1+\nContinuing\n1+\nPsychic\n4\nDrain\n1-3\nQuake\n1-4\nEnervation\n1+\nReach\n1\nFlare\n1-3\nSelective\n1\nFlexible\n1-3\nSpreading\n1+\nHelper\n1\nStun\n1\nHoming\n1-2\nTangle\n1+\nIncapacitating\n2 or 4\nTargetted\n1-3\nIncurable\n1-3\nTrap\n1\nIndirect\n1\nUnique\n1+\nIrritant\n1-3\nVampiric\n2 or 4\nInconspicuous\n3\n\nBLIGHT\n\nThe target will suffer double damage (or double\neffect, when relevant) from a Blight attack if they do\nnot make a successful Body Stat roll to resist its effects.\nIf the roll is successful, the target only suffers one-fifth\ndamage. This Enhancement represents Weapons that\nmight not fully affect the target even when the attack\nis successful, such as a poisonous attack to which the\ntarget could exhibit resistance.\nThe Target Number for the Body Stat roll depends on\nthe number of times Blight is assigned: Average (TN 12)\nfor 1 assignments; Difficult (TN 15) for 2 assignments;\nand Challenging (TN 18) for 3 assignments. A target’s\nImmutable Attribute (page 99) adds a bonus to resist\nthe effects of Blight.\n\nCONTACT",
+      "sourcePage": 134
+    },
+    {
+      "id": "drain",
+      "name": "Drain",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 135,
+      "maxAssignments": 6,
+      "rulesText": "Accurate\n1-2\nInsidious\n3\nAura\n1\nLinked\n1\nAutofire\n3\nMultidimensional\n1\nBlight\n1-3\nMuscle\n1\nContact\n1-2\nPenetrating\n1+\nContagious\n1-3\nPiercing\n1+\nContinuing\n1+\nPsychic\n4\nDrain\n1-3\nQuake\n1-4\nEnervation\n1+\nReach\n1\nFlare\n1-3\nSelective\n1\nFlexible\n1-3\nSpreading\n1+\nHelper\n1\nStun\n1\nHoming\n1-2\nTangle\n1+\nIncapacitating\n2 or 4\nTargetted\n1-3\nIncurable\n1-3\nTrap\n1\nIndirect\n1\nUnique\n1+\nIrritant\n1-3\nVampiric\n2 or 4\nInconspicuous\n3\n\nBLIGHT\n\nThe target will suffer double damage (or double\neffect, when relevant) from a Blight attack if they do\nnot make a successful Body Stat roll to resist its effects.\nIf the roll is successful, the target only suffers one-fifth\ndamage. This Enhancement represents Weapons that\nmight not fully affect the target even when the attack\nis successful, such as a poisonous attack to which the\ntarget could exhibit resistance.\nThe Target Number for the Body Stat roll depends on\nthe number of times Blight is assigned: Average (TN 12)\nfor 1 assignments; Difficult (TN 15) for 2 assignments;\nand Challenging (TN 18) for 3 assignments. A target’s\nImmutable Attribute (page 99) adds a bonus to resist\nthe effects of Blight.\n\nCONTACT\n\nThe Weapon – usually a poisonous liquid or plant\n– delivers damage through mere contact with the skin\nthat can sometimes even affect animals with thick skin\nor hide (ie. skin that provides an Armour Rating). One\nassignment indicates that the target must have extended\ncontact of several minutes with the substance; two\nassignments delivers its effect with only brief contact.\nThis Enhancement is often associated with the Blight or\nDrain Enhancements, or the Toxic Limiter.\n\nu\nX\nENHANCEMENTS\nNHANCEMENTS\n\nACCURATE\n\nThe Weapon is extremely accurate and gives the\ncharacter a minor edge (1 assignment) or major edge (2\nassignments) on attack rolls (see page 189). Normally\nonly assigned to Items.\n\nCONTAGIOUS\n\nAURA\n\nThe attack’s damage or other effects will be passed\non to others who touch or otherwise contact the target.\nAnyone affected by the Contagious Weapon may negate\nthe contagion and stop them from spreading it to others\nby making a successful Average Stat roll (Target Number\n12), with no modifier (one assignment), a minor obstacle\n(two assignments) or major obstacle (three assignments)\non the roll. The Stat roll is normally checked against\nthe Body Stat but magical or cybernetic contagion may\nuse Mind or Soul as appropriate. Contagious is often\ncombined with the Toxic Limiter.\n\nThe Weapon automatically affects anyone who\nmerely touches the character’s body. An example might\nbe a character that is sheathed in flame or electrified. Aura\nmay not be combined with the Range Enhancement.\n\nAUTOFIRE\n\nCounts as 3 Enhancements (Attribute effectiveness\nreduced by 3 Levels). The attack consists of a burst of\nmultiple shots like a machine gun or rapid sequence of\nenergy bolts. This allows multiple hits to be scored on a\nsuccessful attack roll.\nThe character scores a number of hits depending\non how successful the attack is: one hit if the attack\nroll total exceeds the target’s defence roll total by 0-3;\ntwo hits when exceeding the defence roll by 4-6; three\nhits when exceeding the defence roll by 7-9; etc. Each\nhit delivers separate damage, which is important when\nconsidering Armour Ratings.\n\nCONTINUING\n\nThis represents poison, pools of acid, flaming liquid,\nor similar sticky attacks that deliver lingering damage\nover several rounds. If the initial attack damage penetrates\nthe opponent’s Armour Rating, the target will take extra\ndamage over time. At the end of each subsequent round\nfollowing the attack, the character will suffer a loss of\nHealth Points equal to one-fifth the original damage",
+      "sourcePage": 135
+    },
+    {
+      "id": "enervation",
+      "name": "Enervation",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 135,
+      "maxAssignments": 6,
+      "rulesText": "Accurate\n1-2\nInsidious\n3\nAura\n1\nLinked\n1\nAutofire\n3\nMultidimensional\n1\nBlight\n1-3\nMuscle\n1\nContact\n1-2\nPenetrating\n1+\nContagious\n1-3\nPiercing\n1+\nContinuing\n1+\nPsychic\n4\nDrain\n1-3\nQuake\n1-4\nEnervation\n1+\nReach\n1\nFlare\n1-3\nSelective\n1\nFlexible\n1-3\nSpreading\n1+\nHelper\n1\nStun\n1\nHoming\n1-2\nTangle\n1+\nIncapacitating\n2 or 4\nTargetted\n1-3\nIncurable\n1-3\nTrap\n1\nIndirect\n1\nUnique\n1+\nIrritant\n1-3\nVampiric\n2 or 4\nInconspicuous\n3\n\nBLIGHT\n\nThe target will suffer double damage (or double\neffect, when relevant) from a Blight attack if they do\nnot make a successful Body Stat roll to resist its effects.\nIf the roll is successful, the target only suffers one-fifth\ndamage. This Enhancement represents Weapons that\nmight not fully affect the target even when the attack\nis successful, such as a poisonous attack to which the\ntarget could exhibit resistance.\nThe Target Number for the Body Stat roll depends on\nthe number of times Blight is assigned: Average (TN 12)\nfor 1 assignments; Difficult (TN 15) for 2 assignments;\nand Challenging (TN 18) for 3 assignments. A target’s\nImmutable Attribute (page 99) adds a bonus to resist\nthe effects of Blight.\n\nCONTACT\n\nThe Weapon – usually a poisonous liquid or plant\n– delivers damage through mere contact with the skin\nthat can sometimes even affect animals with thick skin\nor hide (ie. skin that provides an Armour Rating). One\nassignment indicates that the target must have extended\ncontact of several minutes with the substance; two\nassignments delivers its effect with only brief contact.\nThis Enhancement is often associated with the Blight or\nDrain Enhancements, or the Toxic Limiter.\n\nu\nX\nENHANCEMENTS\nNHANCEMENTS\n\nACCURATE\n\nThe Weapon is extremely accurate and gives the\ncharacter a minor edge (1 assignment) or major edge (2\nassignments) on attack rolls (see page 189). Normally\nonly assigned to Items.\n\nCONTAGIOUS\n\nAURA\n\nThe attack’s damage or other effects will be passed\non to others who touch or otherwise contact the target.\nAnyone affected by the Contagious Weapon may negate\nthe contagion and stop them from spreading it to others\nby making a successful Average Stat roll (Target Number\n12), with no modifier (one assignment), a minor obstacle\n(two assignments) or major obstacle (three assignments)\non the roll. The Stat roll is normally checked against\nthe Body Stat but magical or cybernetic contagion may\nuse Mind or Soul as appropriate. Contagious is often\ncombined with the Toxic Limiter.\n\nThe Weapon automatically affects anyone who\nmerely touches the character’s body. An example might\nbe a character that is sheathed in flame or electrified. Aura\nmay not be combined with the Range Enhancement.\n\nAUTOFIRE\n\nCounts as 3 Enhancements (Attribute effectiveness\nreduced by 3 Levels). The attack consists of a burst of\nmultiple shots like a machine gun or rapid sequence of\nenergy bolts. This allows multiple hits to be scored on a\nsuccessful attack roll.\nThe character scores a number of hits depending\non how successful the attack is: one hit if the attack\nroll total exceeds the target’s defence roll total by 0-3;\ntwo hits when exceeding the defence roll by 4-6; three\nhits when exceeding the defence roll by 7-9; etc. Each\nhit delivers separate damage, which is important when\nconsidering Armour Ratings.\n\nCONTINUING\n\nThis represents poison, pools of acid, flaming liquid,\nor similar sticky attacks that deliver lingering damage\nover several rounds. If the initial attack damage penetrates\nthe opponent’s Armour Rating, the target will take extra\ndamage over time. At the end of each subsequent round\nfollowing the attack, the character will suffer a loss of\nHealth Points equal to one-fifth the original damage",
+      "sourcePage": 135
+    },
+    {
+      "id": "flare",
+      "name": "Flare",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 135,
+      "maxAssignments": 6,
+      "rulesText": "Accurate\n1-2\nInsidious\n3\nAura\n1\nLinked\n1\nAutofire\n3\nMultidimensional\n1\nBlight\n1-3\nMuscle\n1\nContact\n1-2\nPenetrating\n1+\nContagious\n1-3\nPiercing\n1+\nContinuing\n1+\nPsychic\n4\nDrain\n1-3\nQuake\n1-4\nEnervation\n1+\nReach\n1\nFlare\n1-3\nSelective\n1\nFlexible\n1-3\nSpreading\n1+\nHelper\n1\nStun\n1\nHoming\n1-2\nTangle\n1+\nIncapacitating\n2 or 4\nTargetted\n1-3\nIncurable\n1-3\nTrap\n1\nIndirect\n1\nUnique\n1+\nIrritant\n1-3\nVampiric\n2 or 4\nInconspicuous\n3\n\nBLIGHT\n\nThe target will suffer double damage (or double\neffect, when relevant) from a Blight attack if they do\nnot make a successful Body Stat roll to resist its effects.\nIf the roll is successful, the target only suffers one-fifth\ndamage. This Enhancement represents Weapons that\nmight not fully affect the target even when the attack\nis successful, such as a poisonous attack to which the\ntarget could exhibit resistance.\nThe Target Number for the Body Stat roll depends on\nthe number of times Blight is assigned: Average (TN 12)\nfor 1 assignments; Difficult (TN 15) for 2 assignments;\nand Challenging (TN 18) for 3 assignments. A target’s\nImmutable Attribute (page 99) adds a bonus to resist\nthe effects of Blight.\n\nCONTACT\n\nThe Weapon – usually a poisonous liquid or plant\n– delivers damage through mere contact with the skin\nthat can sometimes even affect animals with thick skin\nor hide (ie. skin that provides an Armour Rating). One\nassignment indicates that the target must have extended\ncontact of several minutes with the substance; two\nassignments delivers its effect with only brief contact.\nThis Enhancement is often associated with the Blight or\nDrain Enhancements, or the Toxic Limiter.\n\nu\nX\nENHANCEMENTS\nNHANCEMENTS\n\nACCURATE\n\nThe Weapon is extremely accurate and gives the\ncharacter a minor edge (1 assignment) or major edge (2\nassignments) on attack rolls (see page 189). Normally\nonly assigned to Items.\n\nCONTAGIOUS\n\nAURA\n\nThe attack’s damage or other effects will be passed\non to others who touch or otherwise contact the target.\nAnyone affected by the Contagious Weapon may negate\nthe contagion and stop them from spreading it to others\nby making a successful Average Stat roll (Target Number\n12), with no modifier (one assignment), a minor obstacle\n(two assignments) or major obstacle (three assignments)\non the roll. The Stat roll is normally checked against\nthe Body Stat but magical or cybernetic contagion may\nuse Mind or Soul as appropriate. Contagious is often\ncombined with the Toxic Limiter.\n\nThe Weapon automatically affects anyone who\nmerely touches the character’s body. An example might\nbe a character that is sheathed in flame or electrified. Aura\nmay not be combined with the Range Enhancement.\n\nAUTOFIRE\n\nCounts as 3 Enhancements (Attribute effectiveness\nreduced by 3 Levels). The attack consists of a burst of\nmultiple shots like a machine gun or rapid sequence of\nenergy bolts. This allows multiple hits to be scored on a\nsuccessful attack roll.\nThe character scores a number of hits depending\non how successful the attack is: one hit if the attack\nroll total exceeds the target’s defence roll total by 0-3;\ntwo hits when exceeding the defence roll by 4-6; three\nhits when exceeding the defence roll by 7-9; etc. Each\nhit delivers separate damage, which is important when\nconsidering Armour Ratings.\n\nCONTINUING\n\nThis represents poison, pools of acid, flaming liquid,\nor similar sticky attacks that deliver lingering damage\nover several rounds. If the initial attack damage penetrates\nthe opponent’s Armour Rating, the target will take extra\ndamage over time. At the end of each subsequent round\nfollowing the attack, the character will suffer a loss of\nHealth Points equal to one-fifth the original damage\n\n05: ATTRIBUTES\n\ninflicted. Armour Rating does not protect against this.\nThis continues for one round for each assignment of the\nContinuing Enhancement until the effect is somehow\nneutralised (GM’s discretion; it should depend on the\ntype of attack and may require several rounds for full\nneutralisation). This type of Continuing effect only\napplies to the Weapon’s damage and not to the special\nabilities from other Enhancements.\nAlternatively, Continuing can be\ndefined as an hourly effect which\ninflicts the same damage as\nthe original attack every\nhour after the attack, or a\ndaily effect which inflicts\nthe same damage every\nday. This variation is only\never one assignment\nand\nmay\nbest\nrepresent\na\ndisease or a\nslow poison\nattack.\n\nUnlike a regular Continuing attack, the hourly and\ndaily damage will continue until the victim is dead or\nmakes a successful Difficult (TN 15) Body Stat roll. The\ncheck is made with a major obstacle (page 182) on the\nStat roll every hour (for hourly effects) or a minor obstacle\nevery day (for daily effects). This type of Continuing\nattack applies to both damage and the special effects\nfrom other Enhancements such as Drain, Enervation,\netc. Until the victim is cured of the Continuing attack,\nthey normally cannot heal the damage related to this\nattack using any method (GM’s discretion).\n\nDRAIN\n\nThe Weapon causes the victim to lose Points from\none Stat (specify Body, Mind, or Soul when designing\nthe attack). A loss of Body may represent decrepitude,\ndisease, rot, poison, or rapid ageing; a loss of Mind\ncan represent insanity, a tranquilliser, or psionic blast;\na loss of Soul can represent despair, fear, torment, or\ncorruption. In addition to any Health Points lost, the\nspecified Stat is reduced by 1 for every assignment of the\nDrain Enhancement (maximum of 3 assignments total).\nFor example, Weapon (Drain 2: Mind) would reduce\nthe victim’s Mind Stat by 2 with a successful attack\nin addition to the normal attack damage. Defences\nthat reduce the damage delivered by a Weapon with\nDrain (such as Armour and Force Fields) offer limited\nprotection against the Drain effect as well: for every\n5 damage the protection provides against the attack,\none Enhancement assignment is negated. To design an\nattack that only reduces Stats values without physical\ninjury, create an effective Level -1 Weapon. The drained\nPoints return at the rate of one every hour. Losing Stat\nvalues will require the Combat Value to be recalculated\nappropriately but not other Derived Values (page 168).\nA character reduced to 0 Body is paralysed and\ncannot move. A character with a 0 Mind is “mindless”\nand will act in an illogical, primal, or animalistic\nmanner. A character reduced to 0 Soul is “broken” and\nlacks all drive or volition.\n\nENERVATION\n\nThe Weapon drains away the victim’s personal energy\nsupply, causing them to become fatigued or despondent.\nThe attack results in a loss of 5 Energy Points every\nassignment of the Enervation Enhancement, which is in\naddition to the normal attack damage. Armour, Force\nFields, and related Attributes offer protection against\nEnervation, reducing the Energy Points lost the same\nway they reduce damage inflicted to Health Points. To\nignore ordinary Armour and Force Fields, also assign\nthe Insidious or Psychic Enhancements. To design an\nattack that only reduces Energy Points without physical\ninjury, create an effective Level -1 Weapon.",
+      "sourcePage": 135
+    },
+    {
+      "id": "flexible",
+      "name": "Flexible",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 136,
+      "maxAssignments": 1,
+      "rulesText": "",
+      "sourcePage": 136
+    },
+    {
+      "id": "incapacitating",
+      "name": "Incapacitating",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 136,
+      "maxAssignments": 6,
+      "rulesText": "",
+      "sourcePage": 136
+    },
+    {
+      "id": "inconspicuous",
+      "name": "Inconspicuous",
+      "kind": "enhancement",
+      "slotCost": 3,
+      "page": 136,
+      "maxAssignments": 1,
+      "rulesText": "",
+      "sourcePage": 136
+    },
+    {
+      "id": "insidious",
+      "name": "Insidious",
+      "kind": "enhancement",
+      "slotCost": 3,
+      "page": 136,
+      "maxAssignments": 1,
+      "rulesText": "The Weapon drains away the victim’s personal energy\nsupply, causing them to become fatigued or despondent.\nThe attack results in a loss of 5 Energy Points every\nassignment of the Enervation Enhancement, which is in\naddition to the normal attack damage. Armour, Force\nFields, and related Attributes offer protection against\nEnervation, reducing the Energy Points lost the same\nway they reduce damage inflicted to Health Points. To\nignore ordinary Armour and Force Fields, also assign\nthe Insidious or Psychic Enhancements. To design an\nattack that only reduces Energy Points without physical\ninjury, create an effective Level -1 Weapon.",
+      "sourcePage": 136
+    },
+    {
+      "id": "irritant",
+      "name": "Irritant",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 136,
+      "maxAssignments": 6,
+      "rulesText": "",
+      "sourcePage": 136
+    },
+    {
+      "id": "linked",
+      "name": "Linked",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 136,
+      "maxAssignments": 1,
+      "rulesText": "",
+      "sourcePage": 136
+    },
+    {
+      "id": "multidimensional",
+      "name": "Multidimensional",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 137,
+      "maxAssignments": 1,
+      "rulesText": "",
+      "sourcePage": 137
+    },
+    {
+      "id": "muscle",
+      "name": "Muscle",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 137,
+      "maxAssignments": 1,
+      "rulesText": "MUSCLE\n\nThe Muscle Weapon gains the Damage Multiplier\nbenefit of Superstrength (page 124). Typical melee and\nthrown ranged Weapons also normally gain that benefit\nwithout the need to assign the Muscle Enhancement.\nCharacters do not gain the Superstrength Damage\nMultiplier bonus when using Weapons at Level 0 or\n-1, or those with the following Enhancements, unless\nthe Muscle Enhancement is also assigned: Contagious,\nFlare, Indirect, Irritant, Insidious, Psychic, Range,\nTangle, and Trap.",
+      "sourcePage": 137
+    },
+    {
+      "id": "penetrating",
+      "name": "Penetrating",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 140,
+      "maxAssignments": 6,
+      "rulesText": "PENETRATING\n\nThe Quake “fault” will only be large enough for one\nperson to fall into unless it is combined with the Area\nEnhancement as well, though nearby non-targetted\npeople can avoid falling into the fissure with a successful\nBody Stat check. The depth of the fissure depends on the\nnumber of Quake assignments: up to 2 metres for one\nassignment; 5 metres for two assignments; 10 metres for\nthree assignments, 30 metres for four assignments; and\ncontinuing upwards.\n\nThe Armour Attribute does not stop damage from\nPenetrating attacks as efficiently. The Armour Rating\nof Armour is reduced by 10 against such Weapons (to a\nminimum of 0) each time Penetrating is assigned. For\nexample, two assignments of Penetrating reduces the\namount of damage the target’s Armour stops by 20.",
+      "sourcePage": 140
+    },
+    {
+      "id": "piercing",
+      "name": "Piercing",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 140,
+      "maxAssignments": 6,
+      "rulesText": "PIERCING\n\nThe Force Field Attribute does not stop\ndamage from Piercing attacks as efficiently.\nThe Armour Rating of Force Fields is\nreduced by 10 against such Weapons (to a\nminimum of 0) each time Piercing is assigned.\nFor example, three assignments of Piercing\nreduces the amount of damage the target’s\nForce Field stops by 30.\n\nREACH\n\nIf a long melee\nWeapon\ncan\nstrike\nopponents\nwho\nare\nbeyond\nthe\nreach\nof\nnormal attacks such a sword\nswings or spear jabs, it can offer\nsignificant advantages in combat\n– especially when charging.\nExamples\nof\nReach\nWeapons (with a reach\nof three to five metres)\ninclude: tourney or\nwar lance, pike or\npoleaxe,\nlongspear,\nwhip,\netc.\nIf\na\ncharacter with a Reach\nWeapon is confronting an\nopponent with a shorter\nmelee Weapon, the character\nwith the longer Weapon\nwill\nalways\nattack\nfirst, regardless of the\ncombatants’ Initiatives.\nIf both opponents have a\nReach Weapon, Initiative\nis resolved as normal. If an\nopponent ever gets past the\nend of a Reach Weapon and moves\ncloser to the wielding character,\nthough, the Reach Weapon cannot\nbe used against that opponent. When\nappropriate, keeping the opponent at\na distance (so the Reach Weapon can\nbe used) requires the character to make\nsuccessful attack rolls with a minor or\nmajor obstacle, as appropriate (page 182).",
+      "sourcePage": 140
+    },
+    {
+      "id": "psychic",
+      "name": "Psychic",
+      "kind": "enhancement",
+      "slotCost": 4,
+      "page": 140,
+      "maxAssignments": 1,
+      "rulesText": "PSYCHIC\n\nCounts as 4 Enhancements (Attribute\neffectiveness reduced by 4 Levels). A\nWeapon with the powerful Psychic\nEnhancement is a mental or spiritual\nassault rather than a physical attack.\nThe attack ignores the Armour\nRatings of Armour and Force Fields and\nit affects individuals as normal who are\nin an incorporeal or energy state (see the\nChange State Attribute, page 82). If the\nWeapon also has the Flare, Incapacitating,\nor Irritant Enhancements, the target’s\nMind Shield Attribute – rather than the\nusual Immutable Attribute – provides\nsome protection against the Weapon’s\neffects (5 Point of “Mental Armour”\nfor each Level of Mind Shield).",
+      "sourcePage": 140
+    },
+    {
+      "id": "quake",
+      "name": "Quake",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 140,
+      "maxAssignments": 6,
+      "rulesText": "The Quake “fault” will only be large enough for one\nperson to fall into unless it is combined with the Area\nEnhancement as well, though nearby non-targetted\npeople can avoid falling into the fissure with a successful\nBody Stat check. The depth of the fissure depends on the\nnumber of Quake assignments: up to 2 metres for one\nassignment; 5 metres for two assignments; 10 metres for\nthree assignments, 30 metres for four assignments; and\ncontinuing upwards.\n\nThe Armour Attribute does not stop damage from\nPenetrating attacks as efficiently. The Armour Rating\nof Armour is reduced by 10 against such Weapons (to a\nminimum of 0) each time Penetrating is assigned. For\nexample, two assignments of Penetrating reduces the\namount of damage the target’s Armour stops by 20.\n\nPIERCING\n\nThe Force Field Attribute does not stop\ndamage from Piercing attacks as efficiently.\nThe Armour Rating of Force Fields is\nreduced by 10 against such Weapons (to a\nminimum of 0) each time Piercing is assigned.\nFor example, three assignments of Piercing\nreduces the amount of damage the target’s\nForce Field stops by 30.",
+      "sourcePage": 140
+    },
+    {
+      "id": "reach",
+      "name": "Reach",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 140,
+      "maxAssignments": 1,
+      "rulesText": "REACH\n\nIf a long melee\nWeapon\ncan\nstrike\nopponents\nwho\nare\nbeyond\nthe\nreach\nof\nnormal attacks such a sword\nswings or spear jabs, it can offer\nsignificant advantages in combat\n– especially when charging.\nExamples\nof\nReach\nWeapons (with a reach\nof three to five metres)\ninclude: tourney or\nwar lance, pike or\npoleaxe,\nlongspear,\nwhip,\netc.\nIf\na\ncharacter with a Reach\nWeapon is confronting an\nopponent with a shorter\nmelee Weapon, the character\nwith the longer Weapon\nwill\nalways\nattack\nfirst, regardless of the\ncombatants’ Initiatives.\nIf both opponents have a\nReach Weapon, Initiative\nis resolved as normal. If an\nopponent ever gets past the\nend of a Reach Weapon and moves\ncloser to the wielding character,\nthough, the Reach Weapon cannot\nbe used against that opponent. When\nappropriate, keeping the opponent at\na distance (so the Reach Weapon can\nbe used) requires the character to make\nsuccessful attack rolls with a minor or\nmajor obstacle, as appropriate (page 182).\n\nPSYCHIC\n\nCounts as 4 Enhancements (Attribute\neffectiveness reduced by 4 Levels). A\nWeapon with the powerful Psychic\nEnhancement is a mental or spiritual\nassault rather than a physical attack.\nThe attack ignores the Armour\nRatings of Armour and Force Fields and\nit affects individuals as normal who are\nin an incorporeal or energy state (see the\nChange State Attribute, page 82). If the\nWeapon also has the Flare, Incapacitating,\nor Irritant Enhancements, the target’s\nMind Shield Attribute – rather than the\nusual Immutable Attribute – provides\nsome protection against the Weapon’s\neffects (5 Point of “Mental Armour”\nfor each Level of Mind Shield).\n\nQUAKE\n\nA Quake Weapon creates a linear\nshock wave in the ground that causes\nrumbling and fractures as it heads\ntowards the target. Quake can\nonly be used on a solid surface\n(which may be earth, sand,\ncement, or asphalt), and isn’t\nusually combined with\nthe Aura Enhancement.\nSince this type of\nattack is difficult to\nexecute precisely,\nthe target gains\na major edge\n(page 182)\non their\ndefence\nr o l l .",
+      "sourcePage": 140
+    },
+    {
+      "id": "selective",
+      "name": "Selective",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 140,
+      "maxAssignments": 1,
+      "rulesText": "SELECTIVE",
+      "sourcePage": 140
+    },
+    {
+      "id": "spreading",
+      "name": "Spreading",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 141,
+      "maxAssignments": 6,
+      "rulesText": "SPREADING\n\nAgainst the Targetted opponent type, the damage the\nWeapon inflicts is doubled as are the additional effects\nof Enhancements such as Drain, Flare, Incapacitating,\nIrritant, and Tangle. Targetted is assigned once if it\naffects only a single individual (such as the red dragon\nEmberfang) or a specific title-holder (perhaps “the\nDemon King”), twice if it affects a specific group or\nrelatively uncommon race (for instance, all dragons\nor all members of the royal army of Ikaris), or three\ntimes if it affects a common race or condition (such as\nall elves, all robots and cyborgs, all evil creatures). The\nGM may forbid Targetted Enhancements that affect\nan extremely common race or condition (for example,\nall humans or anyone with eyes). Add the Exclusive\nLimiter for a targetted attack that only affects a small\nset of opponents, with no damage delivered to other\nopponents.\n\nThis type of attack spreads to cover an expanding\narea, such as a cone of energy or a spray of energy bolts\nor projectiles (such as a shotgun blast). The target suffers\na major obstacle (page 182) on their defence roll due\nto the wide attack spread. Additional nearby targets in\nthe Weapon’s attack spread may also receive damage if\nthey are lined up or in a dense formation. The number\nof additional nearby targets that may be hit equals the\nnumber of Spreading assignments.",
+      "sourcePage": 141
+    },
+    {
+      "id": "stun",
+      "name": "Stun",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 141,
+      "maxAssignments": 1,
+      "rulesText": "STUN\n\nA Weapon with this Enhancement inflicts only\ntemporary damage such as an unarmed melee attack or\nan electric shock. Lost Health Points from the Weapon\nattack are recovered at a rate equal to the character’s\nBody Stat every hour. Stun damage cannot kill.\nAlthough it may seem odd that a nonlethal attack is an\nEnhancement and not a Limiter, such Weapons have\nthe advantage that they may be used to incapacitate\nfoes without the risk of killing them. Stun is not often\nassigned to Weapons with an effective Level 0, but can\nbe in some instances (such as with normal unarmed\nattacks).\n\nTRAP\n\nThe Weapon lays a mine, booby trap, or some\nother similar device that “sits and waits” until someone\ntriggers it. The Weapon cannot be reused until it has\nbeen triggered. If someone blunders into a Trap, no\nattack roll is needed, but a successful difficult Mind\nStat roll (Target Number 15) will reveal the trap’s\npresence to the target before it activates and give the\ntarget time to avoid it. Trap is usually assigned without\nthe Range Enhancement to simulate a device that must\nbe carefully planted. If Range was added as well, the\nWeapon can be deployed to attack anyone nearby, with\na successful attack roll indicating that the Trap was fired\nor tossed into the correct area. The Area Enhancement\nis commonly added to enable a Trap to affect multiple\nfoes.",
+      "sourcePage": 141
+    },
+    {
+      "id": "tangle",
+      "name": "Tangle",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 141,
+      "maxAssignments": 6,
+      "rulesText": "Against the Targetted opponent type, the damage the\nWeapon inflicts is doubled as are the additional effects\nof Enhancements such as Drain, Flare, Incapacitating,\nIrritant, and Tangle. Targetted is assigned once if it\naffects only a single individual (such as the red dragon\nEmberfang) or a specific title-holder (perhaps “the\nDemon King”), twice if it affects a specific group or\nrelatively uncommon race (for instance, all dragons\nor all members of the royal army of Ikaris), or three\ntimes if it affects a common race or condition (such as\nall elves, all robots and cyborgs, all evil creatures). The\nGM may forbid Targetted Enhancements that affect\nan extremely common race or condition (for example,\nall humans or anyone with eyes). Add the Exclusive\nLimiter for a targetted attack that only affects a small\nset of opponents, with no damage delivered to other\nopponents.\n\nThis type of attack spreads to cover an expanding\narea, such as a cone of energy or a spray of energy bolts\nor projectiles (such as a shotgun blast). The target suffers\na major obstacle (page 182) on their defence roll due\nto the wide attack spread. Additional nearby targets in\nthe Weapon’s attack spread may also receive damage if\nthey are lined up or in a dense formation. The number\nof additional nearby targets that may be hit equals the\nnumber of Spreading assignments.\n\nSTUN\n\nA Weapon with this Enhancement inflicts only\ntemporary damage such as an unarmed melee attack or\nan electric shock. Lost Health Points from the Weapon\nattack are recovered at a rate equal to the character’s\nBody Stat every hour. Stun damage cannot kill.\nAlthough it may seem odd that a nonlethal attack is an\nEnhancement and not a Limiter, such Weapons have\nthe advantage that they may be used to incapacitate\nfoes without the risk of killing them. Stun is not often\nassigned to Weapons with an effective Level 0, but can\nbe in some instances (such as with normal unarmed\nattacks).\n\nTRAP\n\nThe Weapon lays a mine, booby trap, or some\nother similar device that “sits and waits” until someone\ntriggers it. The Weapon cannot be reused until it has\nbeen triggered. If someone blunders into a Trap, no\nattack roll is needed, but a successful difficult Mind\nStat roll (Target Number 15) will reveal the trap’s\npresence to the target before it activates and give the\ntarget time to avoid it. Trap is usually assigned without\nthe Range Enhancement to simulate a device that must\nbe carefully planted. If Range was added as well, the\nWeapon can be deployed to attack anyone nearby, with\na successful attack roll indicating that the Trap was fired\nor tossed into the correct area. The Area Enhancement\nis commonly added to enable a Trap to affect multiple\nfoes.\n\nTANGLE\n\nWeapons that can Tangle the victim may include an\nassault that freezes the target in ice or traps them in\nthe branches of an animated plant, or simple webbing\nthat immobilises the target. The physical entanglements\nproduced by these Weapons have 5 Health Points for\neach assignment of the Tangle Enhancement. If a target\ndoes not successfully defend against a Tangle attack,\nthey are trapped until sufficient damage is delivered to\nthe entanglement to reduce its Health Points to zero\nand destroy it. An entangled character has restricted\nmovement and performs any movement-related activities\n(such as attacking, defending, gesturing, etc.) with a\nmajor obstacle (page 182) on the appropriate dice roll.\nA victim who has partially destroyed an entanglement\nmay regain some body movement (GM’s discretion),\nreducing the major obstacle to a minor obstacle on dice\nrolls. A Tangle attack also inflicts damage as normal\nunless the Weapon Level was reduced to 0. To design an\nattack that Tangles the target without inflicting other\ntypes of damage, create an effective Level -1 Weapon.\n\nUNIQUE\n\nThe Weapon has some other unspecified ability that\nis not listed and is subject to GM approval. Examples\ncan include an attack that alters the target’s memories,\none that affects the appearance of the target, and\nmany more. The number of Unique Enhancement\nassignments required is determined by the GM based\non the benefit the Unique Weapon provides.\n\nVAMPIRIC\n\nUpon a successful Vampiric attack, the lost Health\nPoints, Energy Points, or Stat values (as appropriate) are\ntransferred to the attacker. Any values or Points in excess\nof the user’s normal Level fade at a rate of 10 Health or\nEnergy Points or one Stat Level per minute. Vampiric\nis not usually combined with the Area, Autofire, or\nSpreading Enhancements. Vampiric must be assigned\ntwo times if it can only restore lost Health/Energy\nPoints or Stat values to their normal level, or four times\nif it can increase such Points or values even higher (to a\nmaximum of twice their normal level).",
+      "sourcePage": 141
+    },
+    {
+      "id": "targetted",
+      "name": "Targetted",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 141,
+      "maxAssignments": 3,
+      "rulesText": "Against the Targetted opponent type, the damage the\nWeapon inflicts is doubled as are the additional effects\nof Enhancements such as Drain, Flare, Incapacitating,\nIrritant, and Tangle. Targetted is assigned once if it\naffects only a single individual (such as the red dragon\nEmberfang) or a specific title-holder (perhaps “the\nDemon King”), twice if it affects a specific group or\nrelatively uncommon race (for instance, all dragons\nor all members of the royal army of Ikaris), or three\ntimes if it affects a common race or condition (such as\nall elves, all robots and cyborgs, all evil creatures). The\nGM may forbid Targetted Enhancements that affect\nan extremely common race or condition (for example,\nall humans or anyone with eyes). Add the Exclusive\nLimiter for a targetted attack that only affects a small\nset of opponents, with no damage delivered to other\nopponents.\n\nThis type of attack spreads to cover an expanding\narea, such as a cone of energy or a spray of energy bolts\nor projectiles (such as a shotgun blast). The target suffers\na major obstacle (page 182) on their defence roll due\nto the wide attack spread. Additional nearby targets in\nthe Weapon’s attack spread may also receive damage if\nthey are lined up or in a dense formation. The number\nof additional nearby targets that may be hit equals the\nnumber of Spreading assignments.\n\nSTUN\n\nA Weapon with this Enhancement inflicts only\ntemporary damage such as an unarmed melee attack or\nan electric shock. Lost Health Points from the Weapon\nattack are recovered at a rate equal to the character’s\nBody Stat every hour. Stun damage cannot kill.\nAlthough it may seem odd that a nonlethal attack is an\nEnhancement and not a Limiter, such Weapons have\nthe advantage that they may be used to incapacitate\nfoes without the risk of killing them. Stun is not often\nassigned to Weapons with an effective Level 0, but can\nbe in some instances (such as with normal unarmed\nattacks).",
+      "sourcePage": 141
+    },
+    {
+      "id": "trap",
+      "name": "Trap",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 141,
+      "maxAssignments": 1,
+      "rulesText": "TRAP\n\nThe Weapon lays a mine, booby trap, or some\nother similar device that “sits and waits” until someone\ntriggers it. The Weapon cannot be reused until it has\nbeen triggered. If someone blunders into a Trap, no\nattack roll is needed, but a successful difficult Mind\nStat roll (Target Number 15) will reveal the trap’s\npresence to the target before it activates and give the\ntarget time to avoid it. Trap is usually assigned without\nthe Range Enhancement to simulate a device that must\nbe carefully planted. If Range was added as well, the\nWeapon can be deployed to attack anyone nearby, with\na successful attack roll indicating that the Trap was fired\nor tossed into the correct area. The Area Enhancement\nis commonly added to enable a Trap to affect multiple\nfoes.\n\nTANGLE\n\nWeapons that can Tangle the victim may include an\nassault that freezes the target in ice or traps them in\nthe branches of an animated plant, or simple webbing\nthat immobilises the target. The physical entanglements\nproduced by these Weapons have 5 Health Points for\neach assignment of the Tangle Enhancement. If a target\ndoes not successfully defend against a Tangle attack,\nthey are trapped until sufficient damage is delivered to\nthe entanglement to reduce its Health Points to zero\nand destroy it. An entangled character has restricted\nmovement and performs any movement-related activities\n(such as attacking, defending, gesturing, etc.) with a\nmajor obstacle (page 182) on the appropriate dice roll.\nA victim who has partially destroyed an entanglement\nmay regain some body movement (GM’s discretion),\nreducing the major obstacle to a minor obstacle on dice\nrolls. A Tangle attack also inflicts damage as normal\nunless the Weapon Level was reduced to 0. To design an\nattack that Tangles the target without inflicting other\ntypes of damage, create an effective Level -1 Weapon.",
+      "sourcePage": 141
+    },
+    {
+      "id": "unique-weapon-enhancement",
+      "name": "Unique",
+      "kind": "enhancement",
+      "slotCost": 1,
+      "page": 141,
+      "maxAssignments": 6,
+      "rulesText": "UNIQUE\n\nThe Weapon has some other unspecified ability that\nis not listed and is subject to GM approval. Examples\ncan include an attack that alters the target’s memories,\none that affects the appearance of the target, and\nmany more. The number of Unique Enhancement\nassignments required is determined by the GM based\non the benefit the Unique Weapon provides.\n\nVAMPIRIC\n\nUpon a successful Vampiric attack, the lost Health\nPoints, Energy Points, or Stat values (as appropriate) are\ntransferred to the attacker. Any values or Points in excess\nof the user’s normal Level fade at a rate of 10 Health or\nEnergy Points or one Stat Level per minute. Vampiric\nis not usually combined with the Area, Autofire, or\nSpreading Enhancements. Vampiric must be assigned\ntwo times if it can only restore lost Health/Energy\nPoints or Stat values to their normal level, or four times\nif it can increase such Points or values even higher (to a\nmaximum of twice their normal level).\n\nTARGETTED\n\nThe Weapon must be specified when it is designed\nas being Targetted against a specific individual or group.\nFor example, the Weapon might use good energy (extra\ndamage to evil creatures) or life energy (extra damage to\nundead creatures), or have a “trollslayer” enchantment\n(extra damage against trolls), or be an electromagnetic\npulse (extra damage against robots and cyborgs).\n\n05: ATTRIBUTES\n\nbe reloaded easily to allow continued use. If a Weapon\nsuch as a crossbow or cannon has plenty of ammunition\navailable but requires time to reload between shots,\nassign the Activation Limiter instead. One assignment\nof Ammo means the Weapon can fire 4-6 shots before\nammunition runs out; two assignment means 2-3\nshots; and three assignments means only 1 shot. Four\nassignments of Ammo represents a Weapon that is\ndestroyed after a single use, such as a grenade or mine.\n\nWEAPON\nLIMITERS\n\nLimiter\nRanks\nLimiter\nRanks\n\nAlt-Munition\nSpecial\nIngest\n1\nAmmo\n1-4\nNon-Penetrating\n1+\nBackblast\n1-2\nStoppable\n1-4\nExclusive\n1-3\nToxic\n1-2\nFieldless\n1\nUnique\n1+\nHands\n1\nUnreliable\n1-3\nInaccurate\n1-2\n\nBACKBLAST\n\nThe Weapon produces some sort of Backblast or\nother side effect that affects people and objects directly\nbehind the attacker (within 1-2 metres). An example is\na rocket launcher that produces a hazardous backblast\nto anyone standing behind the gunner, with some spells\nor supernatural abilities potentially having similar risks.\nWith one assignment, such Weapons inflict one-fifth\ntheir normal damage (round up) to people or objects\ncaught in the Backblast. With a two assignments, the\nattacking character is also unavoidably caught in their\nown Weapon Backblast. Backblast cannot normally be\ncombined with a Weapon that has both the Area and\nAura Enhancements.\n\nu\nX\nLIMITERS\nIMITERS\n\nALT-MUNITION\n\nThis special type of Limiter is usually only assigned\nto Items. Some Weapons are designed to fire different\ntypes of ammunition for different purposes, such as a\ntank firing different types of shells from its single main\ngun. Since Weapon attacks are usually assigned Levels,\nEnhancements, and Limiters based on their ammunition\ntype, each alternative ammo (which must have a lower\nWeapon Level than the primary ammunition type)\nis assigned the Alt-Munition Limiter. Rather than\nassignments like regular Limiters, tagging a Weapon\nammunition type with Alt-Munition instead halves the\nWeapon Character Point cost.\nFor example, a heavy tank (page 218) uses both\nsabot and HEAT ammo. Sabot shells are a Level 22\nWeapon and HEAT shells are a Level 21 Weapon;\nconsequently HEAT is designated as the Alt-Munition\n(since the Weapon Level is lower). Normally, a Level\n21 Weapon costs 42 Character Points, but the Alt-\nMunition designation halves the HEAT ammo cost\nto only 21 Points instead. The Level 22 Weapon sabot\nstill costs the regular 44 Character Points since it is the\nprimary ammunition type.\n\nEXCLUSIVE\n\nThe Weapon has no effect on anyone beyond a small\nclass of targets specified during character creation. One\nassignment limits the effect to a large target group (such\nas a common race or ethos), two assignments limits\nthe effect to a small target group (such as a rare race or\norganisation) and three assignments limits the effect to\na single individual (or to a singular position, such as the\nKing of a specific country).\n\nFIELDLESS\n\nThis Limiter can only be assigned if the character\nor Item also has the Force Field Attribute. The Weapon\ncannot be used unless all Force Fields are turned off\nbefore using the attack. The Force Fields remain off\nuntil the character’s first opportunity to act in the\nfollowing combat round.\n\nHANDS\n\nAMMO\n\nThe Weapon requires two appropriately sized hands\nor equivalent appendages/devices to operate and wield\nproperly and is typically not usable with only one hand\n(either due to extreme weight, size, awkwardness, or\ndesign).\n\nThe Ammo Limiter – which is often assigned in\nconjunction with the Range Enhancement – represents\nthe total ammunition typically carried by the character\nrelative to the Weapon’s rate of fire. When the Ammo\nis depleted, the character cannot use the Weapon again\nuntil the Ammo is replaced (which usually cannot occur\nuntil the current combat or dramatic scene is completed).\nNote that Ammo does not refer to the number of shots\na Weapon can fire with a loaded projectile (which is one\nfor a longbow, six for a revolver pistol, etc.) if additional\nammunition is readily available and the Weapon can\n\nINACCURATE\n\nThe Weapon is extremely inaccurate and gives the\ncharacter a minor obstacle (1 assignment) or major\nobstacle (2 assignments) on attack rolls (see page 189).\nNormally only assigned to Items.\n\n05: ATTRIBUTES\n\nINGEST\n\nAttacking the Stoppable projectile requires a\nsuccessful attack with a major obstacle (page 182) on\nthe attack roll. Furthermore, the defending Weapon\nattack must deliver at least 10 damage to the Stoppable\nprojectile for each Level of the Stoppable Weapon or\nthe projectile is not intercepted. For example, an attack\nmust inflict at least 60 damage to a Level 6 Weapon\nwith the Stoppable Enhancement in order to block/\nintercept/destroy it.\n\nThe Weapon – usually a poisonous liquid, powder,\nor plant – must actually be ingested by the target in\norder to have an effect. This Limiter is often associated\nwith the Blight and Drain Enhancements, as well as the\nToxic Limiter. The nature of the Weapon usually makes\nit incompatible with the Trap Enhancement.\n\nNON-PENETRATING\n\nThe Weapon has an inferior ability to penetrate\nexisting Armour and Force Fields (with Armour Ratings\nof at least 5 AR) to inflict damage. Examples include\nunarmed attacks, shotgun blasts, hollow-point bullets,\nunbated swords, caltrops, a storm of icicles, etc. The\nArmour Rating of Armour and Force Fields is increased\nby 10 against such Weapons each time Non-Penetrating\nis assigned. For example, two assignments of Non-\nPenetrating increase the target’s chainmail Armour Rating\nby 20. This Limiter can only be assigned to Weapons\nthat are somehow reduced in effectiveness by a target’s\nArmour Rating, and consequently cannot be assigned to\nthose with Enhancements such as Insidious and Quake.\n\nTOXIC\n\nThe Weapon is a gas, toxin, biological agent, sound,\nradiation, or other harmful effect that only damages\nliving things. One assignment means that targets who\nhave the appropriate Resilient Attribute is completely\nimmune to its effects. Two assignments means that\na target who is expecting the attack can also render\nthemselves immune for at least one round (usually\nenough time to escape) if they had prepared for the\nattack by taking a simple precaution such as holding\none’s breath or using a wet rag to resist a toxic gas.\n\nUNIQUE\n\nSTOPPABLE\n\nThe attack has some other unspecified limitation,\nwhich is subject to GM approval. Examples could\ninclude a weapon that fires in a random direction, one\nthat is extremely costly to operate, an attack that drains\nHeath Points from the user, etc. The number of Unique\nLimiter assignments required is determined by the GM\nbased on the ineffectiveness of the Unique Weapon.\n\nStoppable is only assigned to Weapons that also\nhave the Range Enhancement. These Weapons fire\nprojectiles or energy bolts that are sufficiently massive\nand slow enough to be shot down since the attack does\nnot reach the target quickly. One assignment means\nthe attack takes one round to reach its destination;\n\nUNRELIABLE\n\nAny time an Unreliable Weapon is used\nand the attack roll results in an unmodified\n(or “natural”) 2, the attack fails to take\nplace and the Weapon burns out, jams,\noverheats, or otherwise malfunctions. For\ntwo assignments, an unmodified roll of 2 or\n3 produces the same results and for\nthree assignments, unmodified rolls\nof 2, 3, or 4 also trigger the\nmalfunction. The Weapon\nwill not work again until\nsome condition is fulfilled\nas determined by the GM.\nFor example, repairing\na technological weapon\nmay require a skilled\nindividual to make a successful\naverage Mind Stat roll (Target\nNumber 12). Other remedies\nmight be appropriate for recovering different\nattacks, such as a supernatural monster\nwhose breath weapon has “burned out”\nmight have to eat a hearty meal first.\n\ntwo assignments means\nthe attack takes 5 rounds; three\nassignments means the attack\ntakes one minute; four assignments\nmeans the attack takes one hour. Thus,\na cannon shell, bullet, or lightning bolt\nwould usually not qualify since the\nprojectiles travel incredibly quickly over\na short distance, but a guided missile (fast,\nbut travels a long distance) or fireball (short\ndistance, but may travel slowly) might have\nStoppable.",
+      "sourcePage": 141
+    }
+  ],
+  "weaponLimiters": [
+    {
+      "id": "alt-munition",
+      "name": "Alt-Munition",
+      "kind": "limiter",
+      "slotCost": 0,
+      "page": 142,
+      "maxAssignments": 1,
+      "specialCostMode": "half-cost",
+      "rulesText": "Alt-Munition\nSpecial\nIngest\n1\nAmmo\n1-4\nNon-Penetrating\n1+\nBackblast\n1-2\nStoppable\n1-4\nExclusive\n1-3\nToxic\n1-2\nFieldless\n1\nUnique\n1+\nHands\n1\nUnreliable\n1-3\nInaccurate\n1-2\n\nBACKBLAST\n\nThe Weapon produces some sort of Backblast or\nother side effect that affects people and objects directly\nbehind the attacker (within 1-2 metres). An example is\na rocket launcher that produces a hazardous backblast\nto anyone standing behind the gunner, with some spells\nor supernatural abilities potentially having similar risks.\nWith one assignment, such Weapons inflict one-fifth\ntheir normal damage (round up) to people or objects\ncaught in the Backblast. With a two assignments, the\nattacking character is also unavoidably caught in their\nown Weapon Backblast. Backblast cannot normally be\ncombined with a Weapon that has both the Area and\nAura Enhancements.\n\nu\nX\nLIMITERS\nIMITERS\n\nALT-MUNITION",
+      "sourcePage": 142
+    },
+    {
+      "id": "ammo",
+      "name": "Ammo",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 142,
+      "maxAssignments": 4,
+      "rulesText": "be reloaded easily to allow continued use. If a Weapon\nsuch as a crossbow or cannon has plenty of ammunition\navailable but requires time to reload between shots,\nassign the Activation Limiter instead. One assignment\nof Ammo means the Weapon can fire 4-6 shots before\nammunition runs out; two assignment means 2-3\nshots; and three assignments means only 1 shot. Four\nassignments of Ammo represents a Weapon that is\ndestroyed after a single use, such as a grenade or mine.\n\nWEAPON\nLIMITERS\n\nLimiter\nRanks\nLimiter\nRanks",
+      "sourcePage": 142
+    },
+    {
+      "id": "backblast",
+      "name": "Backblast",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 142,
+      "maxAssignments": 2,
+      "rulesText": "Alt-Munition\nSpecial\nIngest\n1\nAmmo\n1-4\nNon-Penetrating\n1+\nBackblast\n1-2\nStoppable\n1-4\nExclusive\n1-3\nToxic\n1-2\nFieldless\n1\nUnique\n1+\nHands\n1\nUnreliable\n1-3\nInaccurate\n1-2\n\nBACKBLAST\n\nThe Weapon produces some sort of Backblast or\nother side effect that affects people and objects directly\nbehind the attacker (within 1-2 metres). An example is\na rocket launcher that produces a hazardous backblast\nto anyone standing behind the gunner, with some spells\nor supernatural abilities potentially having similar risks.\nWith one assignment, such Weapons inflict one-fifth\ntheir normal damage (round up) to people or objects\ncaught in the Backblast. With a two assignments, the\nattacking character is also unavoidably caught in their\nown Weapon Backblast. Backblast cannot normally be\ncombined with a Weapon that has both the Area and\nAura Enhancements.\n\nu\nX\nLIMITERS\nIMITERS\n\nALT-MUNITION\n\nThis special type of Limiter is usually only assigned\nto Items. Some Weapons are designed to fire different\ntypes of ammunition for different purposes, such as a\ntank firing different types of shells from its single main\ngun. Since Weapon attacks are usually assigned Levels,\nEnhancements, and Limiters based on their ammunition\ntype, each alternative ammo (which must have a lower\nWeapon Level than the primary ammunition type)\nis assigned the Alt-Munition Limiter. Rather than\nassignments like regular Limiters, tagging a Weapon\nammunition type with Alt-Munition instead halves the\nWeapon Character Point cost.\nFor example, a heavy tank (page 218) uses both\nsabot and HEAT ammo. Sabot shells are a Level 22\nWeapon and HEAT shells are a Level 21 Weapon;\nconsequently HEAT is designated as the Alt-Munition\n(since the Weapon Level is lower). Normally, a Level\n21 Weapon costs 42 Character Points, but the Alt-\nMunition designation halves the HEAT ammo cost\nto only 21 Points instead. The Level 22 Weapon sabot\nstill costs the regular 44 Character Points since it is the\nprimary ammunition type.",
+      "sourcePage": 142
+    },
+    {
+      "id": "exclusive",
+      "name": "Exclusive",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 142,
+      "maxAssignments": 3,
+      "rulesText": "Alt-Munition\nSpecial\nIngest\n1\nAmmo\n1-4\nNon-Penetrating\n1+\nBackblast\n1-2\nStoppable\n1-4\nExclusive\n1-3\nToxic\n1-2\nFieldless\n1\nUnique\n1+\nHands\n1\nUnreliable\n1-3\nInaccurate\n1-2\n\nBACKBLAST\n\nThe Weapon produces some sort of Backblast or\nother side effect that affects people and objects directly\nbehind the attacker (within 1-2 metres). An example is\na rocket launcher that produces a hazardous backblast\nto anyone standing behind the gunner, with some spells\nor supernatural abilities potentially having similar risks.\nWith one assignment, such Weapons inflict one-fifth\ntheir normal damage (round up) to people or objects\ncaught in the Backblast. With a two assignments, the\nattacking character is also unavoidably caught in their\nown Weapon Backblast. Backblast cannot normally be\ncombined with a Weapon that has both the Area and\nAura Enhancements.\n\nu\nX\nLIMITERS\nIMITERS\n\nALT-MUNITION\n\nThis special type of Limiter is usually only assigned\nto Items. Some Weapons are designed to fire different\ntypes of ammunition for different purposes, such as a\ntank firing different types of shells from its single main\ngun. Since Weapon attacks are usually assigned Levels,\nEnhancements, and Limiters based on their ammunition\ntype, each alternative ammo (which must have a lower\nWeapon Level than the primary ammunition type)\nis assigned the Alt-Munition Limiter. Rather than\nassignments like regular Limiters, tagging a Weapon\nammunition type with Alt-Munition instead halves the\nWeapon Character Point cost.\nFor example, a heavy tank (page 218) uses both\nsabot and HEAT ammo. Sabot shells are a Level 22\nWeapon and HEAT shells are a Level 21 Weapon;\nconsequently HEAT is designated as the Alt-Munition\n(since the Weapon Level is lower). Normally, a Level\n21 Weapon costs 42 Character Points, but the Alt-\nMunition designation halves the HEAT ammo cost\nto only 21 Points instead. The Level 22 Weapon sabot\nstill costs the regular 44 Character Points since it is the\nprimary ammunition type.\n\nEXCLUSIVE\n\nThe Weapon has no effect on anyone beyond a small\nclass of targets specified during character creation. One\nassignment limits the effect to a large target group (such\nas a common race or ethos), two assignments limits\nthe effect to a small target group (such as a rare race or\norganisation) and three assignments limits the effect to\na single individual (or to a singular position, such as the\nKing of a specific country).",
+      "sourcePage": 142
+    },
+    {
+      "id": "fieldless",
+      "name": "Fieldless",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 142,
+      "maxAssignments": 1,
+      "rulesText": "Alt-Munition\nSpecial\nIngest\n1\nAmmo\n1-4\nNon-Penetrating\n1+\nBackblast\n1-2\nStoppable\n1-4\nExclusive\n1-3\nToxic\n1-2\nFieldless\n1\nUnique\n1+\nHands\n1\nUnreliable\n1-3\nInaccurate\n1-2\n\nBACKBLAST\n\nThe Weapon produces some sort of Backblast or\nother side effect that affects people and objects directly\nbehind the attacker (within 1-2 metres). An example is\na rocket launcher that produces a hazardous backblast\nto anyone standing behind the gunner, with some spells\nor supernatural abilities potentially having similar risks.\nWith one assignment, such Weapons inflict one-fifth\ntheir normal damage (round up) to people or objects\ncaught in the Backblast. With a two assignments, the\nattacking character is also unavoidably caught in their\nown Weapon Backblast. Backblast cannot normally be\ncombined with a Weapon that has both the Area and\nAura Enhancements.\n\nu\nX\nLIMITERS\nIMITERS\n\nALT-MUNITION\n\nThis special type of Limiter is usually only assigned\nto Items. Some Weapons are designed to fire different\ntypes of ammunition for different purposes, such as a\ntank firing different types of shells from its single main\ngun. Since Weapon attacks are usually assigned Levels,\nEnhancements, and Limiters based on their ammunition\ntype, each alternative ammo (which must have a lower\nWeapon Level than the primary ammunition type)\nis assigned the Alt-Munition Limiter. Rather than\nassignments like regular Limiters, tagging a Weapon\nammunition type with Alt-Munition instead halves the\nWeapon Character Point cost.\nFor example, a heavy tank (page 218) uses both\nsabot and HEAT ammo. Sabot shells are a Level 22\nWeapon and HEAT shells are a Level 21 Weapon;\nconsequently HEAT is designated as the Alt-Munition\n(since the Weapon Level is lower). Normally, a Level\n21 Weapon costs 42 Character Points, but the Alt-\nMunition designation halves the HEAT ammo cost\nto only 21 Points instead. The Level 22 Weapon sabot\nstill costs the regular 44 Character Points since it is the\nprimary ammunition type.\n\nEXCLUSIVE\n\nThe Weapon has no effect on anyone beyond a small\nclass of targets specified during character creation. One\nassignment limits the effect to a large target group (such\nas a common race or ethos), two assignments limits\nthe effect to a small target group (such as a rare race or\norganisation) and three assignments limits the effect to\na single individual (or to a singular position, such as the\nKing of a specific country).\n\nFIELDLESS\n\nThis Limiter can only be assigned if the character\nor Item also has the Force Field Attribute. The Weapon\ncannot be used unless all Force Fields are turned off\nbefore using the attack. The Force Fields remain off\nuntil the character’s first opportunity to act in the\nfollowing combat round.",
+      "sourcePage": 142
+    },
+    {
+      "id": "hands",
+      "name": "Hands",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 142,
+      "maxAssignments": 1,
+      "rulesText": "Alt-Munition\nSpecial\nIngest\n1\nAmmo\n1-4\nNon-Penetrating\n1+\nBackblast\n1-2\nStoppable\n1-4\nExclusive\n1-3\nToxic\n1-2\nFieldless\n1\nUnique\n1+\nHands\n1\nUnreliable\n1-3\nInaccurate\n1-2\n\nBACKBLAST\n\nThe Weapon produces some sort of Backblast or\nother side effect that affects people and objects directly\nbehind the attacker (within 1-2 metres). An example is\na rocket launcher that produces a hazardous backblast\nto anyone standing behind the gunner, with some spells\nor supernatural abilities potentially having similar risks.\nWith one assignment, such Weapons inflict one-fifth\ntheir normal damage (round up) to people or objects\ncaught in the Backblast. With a two assignments, the\nattacking character is also unavoidably caught in their\nown Weapon Backblast. Backblast cannot normally be\ncombined with a Weapon that has both the Area and\nAura Enhancements.\n\nu\nX\nLIMITERS\nIMITERS\n\nALT-MUNITION\n\nThis special type of Limiter is usually only assigned\nto Items. Some Weapons are designed to fire different\ntypes of ammunition for different purposes, such as a\ntank firing different types of shells from its single main\ngun. Since Weapon attacks are usually assigned Levels,\nEnhancements, and Limiters based on their ammunition\ntype, each alternative ammo (which must have a lower\nWeapon Level than the primary ammunition type)\nis assigned the Alt-Munition Limiter. Rather than\nassignments like regular Limiters, tagging a Weapon\nammunition type with Alt-Munition instead halves the\nWeapon Character Point cost.\nFor example, a heavy tank (page 218) uses both\nsabot and HEAT ammo. Sabot shells are a Level 22\nWeapon and HEAT shells are a Level 21 Weapon;\nconsequently HEAT is designated as the Alt-Munition\n(since the Weapon Level is lower). Normally, a Level\n21 Weapon costs 42 Character Points, but the Alt-\nMunition designation halves the HEAT ammo cost\nto only 21 Points instead. The Level 22 Weapon sabot\nstill costs the regular 44 Character Points since it is the\nprimary ammunition type.\n\nEXCLUSIVE\n\nThe Weapon has no effect on anyone beyond a small\nclass of targets specified during character creation. One\nassignment limits the effect to a large target group (such\nas a common race or ethos), two assignments limits\nthe effect to a small target group (such as a rare race or\norganisation) and three assignments limits the effect to\na single individual (or to a singular position, such as the\nKing of a specific country).\n\nFIELDLESS\n\nThis Limiter can only be assigned if the character\nor Item also has the Force Field Attribute. The Weapon\ncannot be used unless all Force Fields are turned off\nbefore using the attack. The Force Fields remain off\nuntil the character’s first opportunity to act in the\nfollowing combat round.\n\nHANDS\n\nAMMO\n\nThe Weapon requires two appropriately sized hands\nor equivalent appendages/devices to operate and wield\nproperly and is typically not usable with only one hand\n(either due to extreme weight, size, awkwardness, or\ndesign).\n\nThe Ammo Limiter – which is often assigned in\nconjunction with the Range Enhancement – represents\nthe total ammunition typically carried by the character\nrelative to the Weapon’s rate of fire. When the Ammo\nis depleted, the character cannot use the Weapon again\nuntil the Ammo is replaced (which usually cannot occur\nuntil the current combat or dramatic scene is completed).\nNote that Ammo does not refer to the number of shots\na Weapon can fire with a loaded projectile (which is one\nfor a longbow, six for a revolver pistol, etc.) if additional\nammunition is readily available and the Weapon can",
+      "sourcePage": 142
+    },
+    {
+      "id": "inaccurate",
+      "name": "Inaccurate",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 142,
+      "maxAssignments": 2,
+      "rulesText": "Alt-Munition\nSpecial\nIngest\n1\nAmmo\n1-4\nNon-Penetrating\n1+\nBackblast\n1-2\nStoppable\n1-4\nExclusive\n1-3\nToxic\n1-2\nFieldless\n1\nUnique\n1+\nHands\n1\nUnreliable\n1-3\nInaccurate\n1-2\n\nBACKBLAST\n\nThe Weapon produces some sort of Backblast or\nother side effect that affects people and objects directly\nbehind the attacker (within 1-2 metres). An example is\na rocket launcher that produces a hazardous backblast\nto anyone standing behind the gunner, with some spells\nor supernatural abilities potentially having similar risks.\nWith one assignment, such Weapons inflict one-fifth\ntheir normal damage (round up) to people or objects\ncaught in the Backblast. With a two assignments, the\nattacking character is also unavoidably caught in their\nown Weapon Backblast. Backblast cannot normally be\ncombined with a Weapon that has both the Area and\nAura Enhancements.\n\nu\nX\nLIMITERS\nIMITERS\n\nALT-MUNITION\n\nThis special type of Limiter is usually only assigned\nto Items. Some Weapons are designed to fire different\ntypes of ammunition for different purposes, such as a\ntank firing different types of shells from its single main\ngun. Since Weapon attacks are usually assigned Levels,\nEnhancements, and Limiters based on their ammunition\ntype, each alternative ammo (which must have a lower\nWeapon Level than the primary ammunition type)\nis assigned the Alt-Munition Limiter. Rather than\nassignments like regular Limiters, tagging a Weapon\nammunition type with Alt-Munition instead halves the\nWeapon Character Point cost.\nFor example, a heavy tank (page 218) uses both\nsabot and HEAT ammo. Sabot shells are a Level 22\nWeapon and HEAT shells are a Level 21 Weapon;\nconsequently HEAT is designated as the Alt-Munition\n(since the Weapon Level is lower). Normally, a Level\n21 Weapon costs 42 Character Points, but the Alt-\nMunition designation halves the HEAT ammo cost\nto only 21 Points instead. The Level 22 Weapon sabot\nstill costs the regular 44 Character Points since it is the\nprimary ammunition type.\n\nEXCLUSIVE\n\nThe Weapon has no effect on anyone beyond a small\nclass of targets specified during character creation. One\nassignment limits the effect to a large target group (such\nas a common race or ethos), two assignments limits\nthe effect to a small target group (such as a rare race or\norganisation) and three assignments limits the effect to\na single individual (or to a singular position, such as the\nKing of a specific country).\n\nFIELDLESS\n\nThis Limiter can only be assigned if the character\nor Item also has the Force Field Attribute. The Weapon\ncannot be used unless all Force Fields are turned off\nbefore using the attack. The Force Fields remain off\nuntil the character’s first opportunity to act in the\nfollowing combat round.\n\nHANDS\n\nAMMO\n\nThe Weapon requires two appropriately sized hands\nor equivalent appendages/devices to operate and wield\nproperly and is typically not usable with only one hand\n(either due to extreme weight, size, awkwardness, or\ndesign).\n\nThe Ammo Limiter – which is often assigned in\nconjunction with the Range Enhancement – represents\nthe total ammunition typically carried by the character\nrelative to the Weapon’s rate of fire. When the Ammo\nis depleted, the character cannot use the Weapon again\nuntil the Ammo is replaced (which usually cannot occur\nuntil the current combat or dramatic scene is completed).\nNote that Ammo does not refer to the number of shots\na Weapon can fire with a loaded projectile (which is one\nfor a longbow, six for a revolver pistol, etc.) if additional\nammunition is readily available and the Weapon can\n\nINACCURATE\n\nThe Weapon is extremely inaccurate and gives the\ncharacter a minor obstacle (1 assignment) or major\nobstacle (2 assignments) on attack rolls (see page 189).\nNormally only assigned to Items.\n\n05: ATTRIBUTES",
+      "sourcePage": 142
+    },
+    {
+      "id": "ingest",
+      "name": "Ingest",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 143,
+      "maxAssignments": 1,
+      "rulesText": "INGEST\n\nAttacking the Stoppable projectile requires a\nsuccessful attack with a major obstacle (page 182) on\nthe attack roll. Furthermore, the defending Weapon\nattack must deliver at least 10 damage to the Stoppable\nprojectile for each Level of the Stoppable Weapon or\nthe projectile is not intercepted. For example, an attack\nmust inflict at least 60 damage to a Level 6 Weapon\nwith the Stoppable Enhancement in order to block/\nintercept/destroy it.\n\nThe Weapon – usually a poisonous liquid, powder,\nor plant – must actually be ingested by the target in\norder to have an effect. This Limiter is often associated\nwith the Blight and Drain Enhancements, as well as the\nToxic Limiter. The nature of the Weapon usually makes\nit incompatible with the Trap Enhancement.",
+      "sourcePage": 143
+    },
+    {
+      "id": "non-penetrating",
+      "name": "Non-Penetrating",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 143,
+      "maxAssignments": 6,
+      "rulesText": "NON-PENETRATING\n\nThe Weapon has an inferior ability to penetrate\nexisting Armour and Force Fields (with Armour Ratings\nof at least 5 AR) to inflict damage. Examples include\nunarmed attacks, shotgun blasts, hollow-point bullets,\nunbated swords, caltrops, a storm of icicles, etc. The\nArmour Rating of Armour and Force Fields is increased\nby 10 against such Weapons each time Non-Penetrating\nis assigned. For example, two assignments of Non-\nPenetrating increase the target’s chainmail Armour Rating\nby 20. This Limiter can only be assigned to Weapons\nthat are somehow reduced in effectiveness by a target’s\nArmour Rating, and consequently cannot be assigned to\nthose with Enhancements such as Insidious and Quake.\n\nTOXIC\n\nThe Weapon is a gas, toxin, biological agent, sound,\nradiation, or other harmful effect that only damages\nliving things. One assignment means that targets who\nhave the appropriate Resilient Attribute is completely\nimmune to its effects. Two assignments means that\na target who is expecting the attack can also render\nthemselves immune for at least one round (usually\nenough time to escape) if they had prepared for the\nattack by taking a simple precaution such as holding\none’s breath or using a wet rag to resist a toxic gas.\n\nUNIQUE",
+      "sourcePage": 143
+    },
+    {
+      "id": "stoppable",
+      "name": "Stoppable",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 143,
+      "maxAssignments": 4,
+      "rulesText": "Attacking the Stoppable projectile requires a\nsuccessful attack with a major obstacle (page 182) on\nthe attack roll. Furthermore, the defending Weapon\nattack must deliver at least 10 damage to the Stoppable\nprojectile for each Level of the Stoppable Weapon or\nthe projectile is not intercepted. For example, an attack\nmust inflict at least 60 damage to a Level 6 Weapon\nwith the Stoppable Enhancement in order to block/\nintercept/destroy it.",
+      "sourcePage": 143
+    },
+    {
+      "id": "toxic",
+      "name": "Toxic",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 143,
+      "maxAssignments": 2,
+      "rulesText": "The Weapon – usually a poisonous liquid, powder,\nor plant – must actually be ingested by the target in\norder to have an effect. This Limiter is often associated\nwith the Blight and Drain Enhancements, as well as the\nToxic Limiter. The nature of the Weapon usually makes\nit incompatible with the Trap Enhancement.\n\nNON-PENETRATING\n\nThe Weapon has an inferior ability to penetrate\nexisting Armour and Force Fields (with Armour Ratings\nof at least 5 AR) to inflict damage. Examples include\nunarmed attacks, shotgun blasts, hollow-point bullets,\nunbated swords, caltrops, a storm of icicles, etc. The\nArmour Rating of Armour and Force Fields is increased\nby 10 against such Weapons each time Non-Penetrating\nis assigned. For example, two assignments of Non-\nPenetrating increase the target’s chainmail Armour Rating\nby 20. This Limiter can only be assigned to Weapons\nthat are somehow reduced in effectiveness by a target’s\nArmour Rating, and consequently cannot be assigned to\nthose with Enhancements such as Insidious and Quake.\n\nTOXIC\n\nThe Weapon is a gas, toxin, biological agent, sound,\nradiation, or other harmful effect that only damages\nliving things. One assignment means that targets who\nhave the appropriate Resilient Attribute is completely\nimmune to its effects. Two assignments means that\na target who is expecting the attack can also render\nthemselves immune for at least one round (usually\nenough time to escape) if they had prepared for the\nattack by taking a simple precaution such as holding\none’s breath or using a wet rag to resist a toxic gas.",
+      "sourcePage": 143
+    },
+    {
+      "id": "unique-weapon-limiter",
+      "name": "Unique",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 143,
+      "maxAssignments": 6,
+      "rulesText": "UNIQUE\n\nSTOPPABLE\n\nThe attack has some other unspecified limitation,\nwhich is subject to GM approval. Examples could\ninclude a weapon that fires in a random direction, one\nthat is extremely costly to operate, an attack that drains\nHeath Points from the user, etc. The number of Unique\nLimiter assignments required is determined by the GM\nbased on the ineffectiveness of the Unique Weapon.\n\nStoppable is only assigned to Weapons that also\nhave the Range Enhancement. These Weapons fire\nprojectiles or energy bolts that are sufficiently massive\nand slow enough to be shot down since the attack does\nnot reach the target quickly. One assignment means\nthe attack takes one round to reach its destination;",
+      "sourcePage": 143
+    },
+    {
+      "id": "unreliable",
+      "name": "Unreliable",
+      "kind": "limiter",
+      "slotCost": 1,
+      "page": 143,
+      "maxAssignments": 3,
+      "rulesText": "UNRELIABLE\n\nAny time an Unreliable Weapon is used\nand the attack roll results in an unmodified\n(or “natural”) 2, the attack fails to take\nplace and the Weapon burns out, jams,\noverheats, or otherwise malfunctions. For\ntwo assignments, an unmodified roll of 2 or\n3 produces the same results and for\nthree assignments, unmodified rolls\nof 2, 3, or 4 also trigger the\nmalfunction. The Weapon\nwill not work again until\nsome condition is fulfilled\nas determined by the GM.\nFor example, repairing\na technological weapon\nmay require a skilled\nindividual to make a successful\naverage Mind Stat roll (Target\nNumber 12). Other remedies\nmight be appropriate for recovering different\nattacks, such as a supernatural monster\nwhose breath weapon has “burned out”\nmight have to eat a hearty meal first.\n\ntwo assignments means\nthe attack takes 5 rounds; three\nassignments means the attack\ntakes one minute; four assignments\nmeans the attack takes one hour. Thus,\na cannon shell, bullet, or lightning bolt\nwould usually not qualify since the\nprojectiles travel incredibly quickly over\na short distance, but a guided missile (fast,\nbut travels a long distance) or fireball (short\ndistance, but may travel slowly) might have\nStoppable.\n\nCUSTOMISATION\n\n06: CUSTOMISATION\n\nCUSTOMISE ATTRIBUTES\n\nAs you design your character, you may find that some Attributes don’t function exactly the way you envision them.\nPerhaps they’re too limited in scope – not offering enough options or alternatives – or maybe they’re too broad and need\nto be scaled back. Fortunately, BESM Attributes are easy to customise using Enhancements and Limiters to increase or\ndecrease an Attribute’s effect. You may have already assigned some Attribute-specific customisations detailed in Chapter\n5 (particularly for the Weapon Attribute, for which there are many options), but there are also Enhancements and Limiters\ndescribed in this chapter that have broader application across a wide range of Attributes.\n\nChanging the way Attributes function from their baseline abilities can have unintended consequences on the game\nand therefore adding additional Enhancements and Limiters is only allowed with your Game Master’s approval.\n\nThere is an additional fifth standard Enhancement\navailable called Potent, which helps balance a character\nthat has so many Limiters assigned to one of their\nAttributes that it functions at a Level higher than what\nbest fits the player’s specific vision.\nNote that characters can typically use the Attribute\nEnhancements at less than their maximum effectiveness\n– anywhere up to the Assignment value – even if the\nAttribute also has the Maximum Limiter (page 151).\n\nEFFECTIVE ATTRIBUTE\nLEVEL\n\nAs mentioned briefly at the beginning of the previous\nChapter 5 (page 74), adding an Enhancement or Limiter\nto an Attribute does not change its Character Point\ncost but it does decrease (Enhancement) or increase\n(Limiter) the effective functioning Level of the Attribute\nby 1 Level for each assignment. With the exception of\nthe circumstances detailed under the Weapon Attribute\n(page 132), additional Enhancements cannot be added\nif the effective Level of the Attribute would drop below\nLevel 1.\n\nAREA\n\nArea defines the radius of influence of the Attribute,\nwhich is usually centred on the character. If the Area\nEnhancement is not assigned to an Attribute, it usually\nmeans the Attribute can affect only a single individual\nperson or object.\n\nENHANCEMENTS\n\nThe four standard Enhancements described herein\n– Area, Duration, Range, and Targets – offer creative\nways to make your Attributes unique and function\ndifferently from those of the other characters. Not\nevery Attribute can have all four of these Enhancements\nassigned to them, however, and some Attributes cannot\ntake any Enhancements at all. Even if a particular\nEnhancement can be assigned to an Attribute, give\nserious consideration to the story and game balance if\nyou plan to make more than one or two assignments of\nan Enhancement. Table-11: Allowable Enhancements\nlists which of these four Enhancements are appropriate\nfor the Attributes your character may have (which,\nof course, may be modified or ignored with GM\npermission).\nIf the effect of an Attribute already exceeds one\nAssignment of an Enhancement, you’ll need to assign\nthe Enhancement enough times to improve the\nAttribute’s function or there will be no effective change.\nFor example, the baseline Sixth Sense Attribute (page\n119) already functions within a 10-metre proximity to\nthe character – equivalent to two assignments of the\nArea Enhancement. To improve this Attribute further\nand widen the Area, you must make a minimum of\nthree assignments of the Area Enhancement to extend\nthe effectiveness to 100 metres.\n\nAREA AND WEAPONS\n\nIf Area is assigned to the Weapon Attribute, the\nattacking character only makes one attack roll, but\neveryone in the Area of effect makes their own defence\nroll. Consequently, some targets in the Area may be\naffected by the Weapon while others may defend\nsuccessfully. Furthermore, the GM may decide that\na successful defence roll is not enough to escape the\nattack completely if there is no nearby cover to move\nbehind that would completely block the effects of the\nAttribute. In these situations, instead of negating the\nArea Weapon effect completely, a successful defence roll\nreduces damage by half.\n\n0 Assignments\nSingle individual person/object\n1 Assignment\nAffects a small Area within quick\nreach (3 metres radius)\n2 Assignments\nAffects a moderate Area within a\nshort sprinting distance\n(10 metres radius)\n3 Assignments\nAffects a building-sized Area\n(100 metres radius)\n4 Assignments\nAffects a neighbourhood-sized\nArea (1 km radius)\n5 Assignments\nAffects a city-sized Area\n(10 km radius)\n6 Assignments\nAffects a county-sized Area\n(100 km radius)\n\nCUSTOM\n\nISATI\n\nON",
+      "sourcePage": 143
+    }
+  ]
+}
